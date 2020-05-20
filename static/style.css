@@ -1,0 +1,1318 @@
+.transition {
+    transition-property: all;
+    transition-delay: 0.5s;
+    transition-duration: 0.6s;
+  }
+  .transition-faster {
+    transition-property: all;
+    transition-delay: 0.5s;
+    transition-duration: 0.6s;
+    transition-delay: 0s;
+  }
+  .rainbow-bottom {
+    border-radius: 2px;
+    background-color: #fff;
+    background-position: center bottom;
+    background-size: 100% 3px;
+    background-repeat: repeat-x;
+    background-image: linear-gradient(to right, #e91e63 1%, #e91e63 14%, #ff5722 14%, #ff5722 28%, #ffc107 28%, #ffc107 42%, #8bc34a 42%, #8bc34a 57%, #00bcd4 57%, #00bcd4 71%, #9c27b0 71%, #9c27b0 86%, #3f51b5 86%, #3f51b5 100%);
+  }
+  .round-image {
+    align-self: center;
+    margin-right: 1em;
+    min-width: 113px;
+    min-height: 113px;
+    border-radius: 60px;
+    border: solid 3px #999;
+    background-color: #d0d0d0;
+  }
+  .unstyle-ul ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+  }
+  .unstyle-ul ul li,
+  .unstyle-ul ul li a {
+    margin-right: 1em;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  @media (max-width: 1060px) {
+    .unstyle-ul ul {
+      transition-property: all;
+      transition-delay: 0.5s;
+      transition-duration: 0.6s;
+      flex-wrap: wrap;
+    }
+  }
+  .colors .developers {
+    border: solid 3px #E91E63;
+  }
+  .colors .biologists {
+    border: solid 3px #03A9F4;
+  }
+  .colors .bioinformaticians {
+    border: solid 3px #673AB7;
+  }
+  .colors .contact {
+    border: solid 3px #bed73b;
+  }
+  .colors .resources {
+    border: solid 3px #FFC107;
+  }
+  .colors .affiliations {
+    border: solid 3px #FF5722;
+  }
+  .colors-hover-border .developers li a:hover {
+    border-bottom: solid 3px #E91E63;
+  }
+  .colors-hover-border .biologists li a:hover {
+    border-bottom: solid 3px #03A9F4;
+  }
+  .colors-hover-border .bioinformaticians li a:hover {
+    border-bottom: solid 3px #673AB7;
+  }
+  .colors-hover-border .contact li a:hover {
+    border-bottom: solid 3px #bed73b;
+  }
+  .colors-hover-border .resources li a:hover {
+    border-bottom: solid 3px #FFC107;
+  }
+  .colors-hover-border .affiliations footer li a:hover {
+    border-bottom: solid 3px #FF5722;
+  }
+  .colors-body h4:focus,
+  .colors-body h4:hover {
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-out;
+  }
+  .colors-body h4:focus.developers,
+  .colors-body h4:hover.developers {
+    background-color: #E91E63;
+    color: #fff;
+    border-bottom: solid 3px #c1134e;
+  }
+  .colors-body h4:focus.bioinformaticians,
+  .colors-body h4:hover.bioinformaticians {
+    background-color: #673AB7;
+    border-bottom: solid 3px #512e90;
+    color: #fff;
+  }
+  .colors-body h4:focus.biologists,
+  .colors-body h4:hover.biologists {
+    background-color: #03A9F4;
+    border-bottom: solid 3px #0286c2;
+    color: #fff;
+  }
+  .colors-body h4:focus.contact,
+  .colors-body h4:hover.contact {
+    border-bottom: solid 3px #a2b926;
+    background-color: #bed73b;
+  }
+  .colors-body h4:focus.resources,
+  .colors-body h4:hover.resources {
+    border-bottom: solid 3px #d39e00;
+    background-color: #FFC107;
+  }
+  .colors-body h4:focus.affiliations,
+  .colors-body h4:hover.affiliations {
+    background-color: #FF5722;
+    border-bottom: solid 3px #ee3900;
+  }
+  .border-radius {
+    border-radius: 2px;
+  }
+  .polaroid {
+    border: solid 10px #fff;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.075);
+  }
+  html {
+    min-height: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'pt sans', 'open sans', arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    color: #111;
+    background-color: rgba(0, 0, 0, 0.04);
+  }
+  a {
+    color: #03A9F4;
+    transition-property: all;
+    transition-delay: 0.5s;
+    transition-duration: 0.6s;
+    transition-delay: 0s;
+  }
+  a:hover {
+    color: #02638f;
+    transition-property: all;
+    transition-delay: 0.5s;
+    transition-duration: 0.6s;
+    transition-delay: 0s;
+  }
+  a:visited {
+    color: #673AB7;
+    transition-property: all;
+    transition-delay: 0.5s;
+    transition-duration: 0.6s;
+    transition-delay: 0s;
+  }
+  header {
+    padding-left: 1em;
+    display: flex;
+    width: 100%;
+    height: 4em;
+    justify-content: space-between;
+    align-items: stretch;
+    border-bottom: solid #dcdcdc 1px;
+    background-color: #e9e9e9;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.075);
+  }
+  header .logo {
+    display: flex;
+    align-items: center;
+  }
+  header .logo .icon-homepage {
+    display: none;
+  }
+  header .developers {
+    border: solid 3px #E91E63;
+  }
+  header .biologists {
+    border: solid 3px #03A9F4;
+  }
+  header .bioinformaticians {
+    border: solid 3px #673AB7;
+  }
+  header .contact {
+    border: solid 3px #bed73b;
+  }
+  header .resources {
+    border: solid 3px #FFC107;
+  }
+  header .affiliations {
+    border: solid 3px #FF5722;
+  }
+  header nav ul {
+    display: flex;
+    list-style-type: none;
+    color: #bed73b;
+    background-color: #e9e9e9;
+    flex-grow: 1;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    align-items: stretch;
+    box-sizing: border-box;
+  }
+  header nav ul a {
+    text-decoration: none;
+  }
+  header nav ul li {
+    margin: 0;
+    padding: 0;
+  }
+  header nav ul .categories {
+    box-sizing: border-box;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    padding: 1.2em 2em;
+    display: block;
+    border-right: solid #dcdcdc 1px;
+    border-left: 0;
+    border-top: 0;
+    text-decoration: none;
+    color: #333;
+  }
+  header nav ul ul {
+    position: relative;
+    right: 0;
+  }
+  header nav ul ul.show {
+    display: flex;
+  }
+  header nav ul h4:focus,
+  header nav ul h4:hover {
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-out;
+  }
+  header nav ul h4:focus.developers,
+  header nav ul h4:hover.developers {
+    background-color: #E91E63;
+    color: #fff;
+    border-bottom: solid 3px #c1134e;
+  }
+  header nav ul h4:focus.bioinformaticians,
+  header nav ul h4:hover.bioinformaticians {
+    background-color: #673AB7;
+    border-bottom: solid 3px #512e90;
+    color: #fff;
+  }
+  header nav ul h4:focus.biologists,
+  header nav ul h4:hover.biologists {
+    background-color: #03A9F4;
+    border-bottom: solid 3px #0286c2;
+    color: #fff;
+  }
+  header nav ul h4:focus.contact,
+  header nav ul h4:hover.contact {
+    border-bottom: solid 3px #a2b926;
+    background-color: #bed73b;
+  }
+  header nav ul h4:focus.resources,
+  header nav ul h4:hover.resources {
+    border-bottom: solid 3px #d39e00;
+    background-color: #FFC107;
+  }
+  header nav ul h4:focus.affiliations,
+  header nav ul h4:hover.affiliations {
+    background-color: #FF5722;
+    border-bottom: solid 3px #ee3900;
+  }
+  header #closeNav,
+  header .navigation-menu-link {
+    display: none;
+  }
+  @media (max-width: 1060px) {
+    header {
+      transition-property: all;
+      transition-delay: 0.5s;
+      transition-duration: 0.6s;
+      height: 2em;
+    }
+    header .logo img {
+      transition-property: all;
+      transition-delay: 0.5s;
+      transition-duration: 0.6s;
+      height: 18px;
+      width: 150px;
+    }
+    header nav ul .categories {
+      transition-property: all;
+      transition-delay: 0.5s;
+      transition-duration: 0.6s;
+      height: 2em;
+      padding: 0.25em 1em;
+    }
+  }
+  @media (max-width: 760px) {
+    header .icon {
+      width: 1.5em;
+      height: 1.5em;
+    }
+    header .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    header nav {
+      z-index: 1;
+      width: 5em;
+    }
+    header nav ul {
+      transition-property: all;
+      transition-delay: 0.5s;
+      transition-duration: 0.6s;
+      transition-delay: 0s;
+      flex-direction: column;
+      align-items: stretch;
+      flex-grow: 1;
+    }
+    header nav ul .categories {
+      width: 10vw;
+      overflow: hide;
+      display: none;
+    }
+    header nav ul .categories.show {
+      display: flex;
+    }
+    header nav li {
+      align-self: flex-end;
+    }
+    header nav .navigation-menu-link {
+      display: block;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 3em;
+    }
+    header nav:focus ul .categories {
+      background-color: #e9e9e9;
+    }
+    header.menu-open {
+      padding-left: 0;
+    }
+    header.menu-open h4:focus,
+    header.menu-open h4:hover {
+      transition-property: all;
+      transition-duration: 0.6s;
+      transition-timing-function: ease-out;
+    }
+    header.menu-open h4:focus.developers,
+    header.menu-open h4:hover.developers {
+      background-color: #E91E63;
+      color: #fff;
+      border-bottom: solid 3px #c1134e;
+    }
+    header.menu-open h4:focus.bioinformaticians,
+    header.menu-open h4:hover.bioinformaticians {
+      background-color: #673AB7;
+      border-bottom: solid 3px #512e90;
+      color: #fff;
+    }
+    header.menu-open h4:focus.biologists,
+    header.menu-open h4:hover.biologists {
+      background-color: #03A9F4;
+      border-bottom: solid 3px #0286c2;
+      color: #fff;
+    }
+    header.menu-open h4:focus.contact,
+    header.menu-open h4:hover.contact {
+      border-bottom: solid 3px #a2b926;
+      background-color: #bed73b;
+    }
+    header.menu-open h4:focus.resources,
+    header.menu-open h4:hover.resources {
+      border-bottom: solid 3px #d39e00;
+      background-color: #FFC107;
+    }
+    header.menu-open h4:focus.affiliations,
+    header.menu-open h4:hover.affiliations {
+      background-color: #FF5722;
+      border-bottom: solid 3px #ee3900;
+    }
+    header.menu-open nav {
+      width: 100vw;
+    }
+    header.menu-open nav ul .categories,
+    header.menu-open nav ul #close-nav-container {
+      width: 100vw;
+      background-color: #e9e9e9;
+      padding: 1.5em 2em;
+      border-top: solid 1px #ccc;
+    }
+    header.menu-open nav ul #closeNav {
+      position: absolute;
+      right: 0.25em;
+      top: 0.25em;
+      width: 1.5em;
+      height: 1.5em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #9d9d9d;
+      color: #e9e9e9;
+      border: 0;
+      border-radius: 2px;
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+    header.menu-open #closeNav {
+      display: flex;
+      position: relative;
+      top: -1em;
+    }
+    header.menu-open .logo {
+      display: none;
+    }
+    header.menu-open h4 {
+      font-weight: bold;
+    }
+    header.menu-open .header-collapsible-nav ul {
+      position: static;
+    }
+    header.menu-open .header-collapsible-nav ul li a {
+      width: 100vw;
+      box-sizing: border-box;
+      padding-left: 2em;
+      text-decoration: none;
+      background-color: #ffffff;
+    }
+    header.menu-open .header-collapsible-nav .open ul {
+      display: flex;
+    }
+  }
+  main {
+    padding: 0 1em;
+    margin: auto;
+    flex-grow: 1;
+    box-sizing: border-box;
+    max-width: 1400px;
+    align-self: center;
+    width: 100%;
+    overflow: auto;
+  }
+  @media (max-width: 760px) {
+    main {
+      margin: 0;
+    }
+  }
+  main > h2 {
+    margin: 0.25em;
+  }
+  main > p {
+    margin: 0.5em;
+  }
+  .tagline {
+    margin: 0 -1em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid #d0d0d0 1px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.075);
+  }
+  @media (max-width: 1060px) {
+    .tagline {
+      margin: 0.5em;
+    }
+  }
+  .tagline:nth-child(2) {
+    background-color: #dcdcdc;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.075);
+    border-top: solid #d0d0d0 1px;
+    border-bottom: solid #d0d0d0 1px;
+  }
+  .tagline .details {
+    display: flex;
+    font-size: 1.8em;
+    max-width: 1200px;
+    padding: 0;
+    align-self: center;
+  }
+  .tagline .details .main-text {
+    margin: 0;
+  }
+  .tagline .details .explanation {
+    margin: 0 1em 0 0;
+  }
+  .tagline .details .supporting-text {
+    font-size: 0.6em;
+    color: #2b2b2b;
+  }
+  @media (max-width: 1060px) {
+    .tagline .details {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .tagline .details img {
+      max-width: 90vw;
+    }
+    .tagline .details .explanation {
+      margin: 0;
+    }
+  }
+  .intermine-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .intermine-links a.intermine-link {
+    flex-grow: 1;
+    border-radius: 2px;
+    text-decoration: none;
+    background-color: #e9e9e9;
+    margin: 0.25em;
+    display: block;
+    color: #111;
+    padding: 0.25em 0.5em;
+    border: solid 1px #d0d0d0;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.075);
+  }
+  .intermine-links a.intermine-link:nth-of-type(n) {
+    border-bottom: solid 1px #03A9F4;
+  }
+  .intermine-links a.intermine-link:nth-of-type(2n) {
+    border-bottom: solid 1px #673AB7;
+  }
+  .intermine-links a.intermine-link:nth-of-type(3n) {
+    border-bottom: solid 1px #E91E63;
+  }
+  .intermine-links a.intermine-link:nth-of-type(4n) {
+    border-bottom: solid 1px #bed73b;
+  }
+  .intermine-links a.intermine-link:nth-of-type(5n) {
+    border-bottom: solid 1px #FF5722;
+  }
+  .intermine-links a.intermine-link:nth-of-type(6n) {
+    border-bottom: solid 1px #FFC107;
+  }
+  @media (max-width: 760px) {
+    .intermine-links a.intermine-link:nth-of-type(n+7) {
+      display: none;
+    }
+  }
+  .intermine-links a.intermine-link .minename {
+    color: #2b2b2b;
+  }
+  .intermine-links a.intermine-link:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.075);
+    background-color: #ffffff;
+  }
+  .contributing {
+    border-radius: 2px;
+    background-color: #fff;
+    background-position: center bottom;
+    background-size: 100% 3px;
+    background-repeat: repeat-x;
+    background-image: linear-gradient(to right, #e91e63 1%, #e91e63 14%, #ff5722 14%, #ff5722 28%, #ffc107 28%, #ffc107 42%, #8bc34a 42%, #8bc34a 57%, #00bcd4 57%, #00bcd4 71%, #9c27b0 71%, #9c27b0 86%, #3f51b5 86%, #3f51b5 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.075);
+    align-self: center;
+    border: solid #e9e9e9 1px;
+    margin: 1em;
+  }
+  .contributing p {
+    margin: 1em;
+  }
+  @media (max-width: 1060px) {
+    .contributing {
+      width: 90%;
+      padding: 0.5em;
+    }
+  }
+  .contributing .icon {
+    color: #00bcd4;
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0.25em;
+  }
+  @media (max-width: 760px) {
+    .contributing .info {
+      font-size: 1em;
+      justify-content: center;
+    }
+  }
+  .showcase {
+    display: flex;
+    flex-direction: column;
+  }
+  .showcase > div {
+    border-bottom: solid 1px #ccc;
+  }
+  .showcase .demo-imtable {
+    flex-grow: 7;
+  }
+  .showcase .demo-imtable .loading {
+    max-width: 70vw;
+    min-height: 400px;
+    border: solid #e9e9e9 1px;
+  }
+  .showcase .mine-showcase,
+  .showcase .table-showcase {
+    display: flex;
+  }
+  .showcase .mine-showcase .descriptor,
+  .showcase .table-showcase .descriptor {
+    font-style: oblique;
+  }
+  .showcase .mine-showcase .explanation,
+  .showcase .table-showcase .explanation {
+    flex-grow: 3;
+    margin-left: 1em;
+  }
+  .showcase .mine-showcase .explanation h3,
+  .showcase .table-showcase .explanation h3 {
+    border-bottom: solid 3px #03A9F4;
+  }
+  .showcase .mine-showcase .explanation h4,
+  .showcase .table-showcase .explanation h4 {
+    border-bottom: solid 3px #673AB7;
+  }
+  .showcase .mine-showcase .explanation h4:nth-of-type(2),
+  .showcase .table-showcase .explanation h4:nth-of-type(2) {
+    border-bottom: solid 3px #E91E63;
+  }
+  @media (max-width: 1060px) {
+    .showcase .mine-showcase,
+    .showcase .table-showcase {
+      flex-direction: column;
+    }
+    .showcase .mine-showcase .explanation,
+    .showcase .table-showcase .explanation {
+      order: 1;
+      margin: 0;
+    }
+    .showcase .mine-showcase .demo-imtable,
+    .showcase .table-showcase .demo-imtable {
+      transition-property: all;
+      transition-delay: 0.5s;
+      transition-duration: 0.6s;
+      order: 2;
+      align-self: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .showcase .mine-showcase .demo-imtable .loading,
+    .showcase .table-showcase .demo-imtable .loading {
+      max-width: 100%;
+    }
+  }
+  .showcase .mine-showcase {
+    padding: 1em 0;
+  }
+  .showcase .mine-showcase h2 {
+    margin-top: 0;
+  }
+  .showcase .mine-showcase .explanation {
+    min-width: 30vw;
+  }
+  .showcase .cross-intermine-search {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+    padding: 0 1em 1em;
+    border: solid 1px #ccc;
+    align-self: center;
+    margin-top: 1em;
+  }
+  @media (max-width: 1060px) {
+    .showcase .cross-intermine-search {
+      width: 90%;
+    }
+    .showcase .cross-intermine-search form {
+      flex-direction: column;
+    }
+    .showcase .cross-intermine-search form input {
+      margin: 0.5em 0;
+    }
+    .showcase .cross-intermine-search form button {
+      height: 2.5em;
+    }
+  }
+  .showcase .cross-intermine-search input {
+    flex-grow: 1;
+    height: 2em;
+    padding-left: 0.5em;
+    margin: 0 1em 0 0;
+  }
+  .showcase .cross-intermine-search p {
+    margin-top: 0;
+  }
+  .showcase .cross-intermine-search p.quicklink-results {
+    margin: 0;
+  }
+  .showcase .cross-intermine-search form {
+    display: flex;
+    margin-bottom: 1em;
+  }
+  .showcase .cross-intermine-search button {
+    color: #fff;
+    border: 0;
+    border-radius: 2px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: #00bcd4;
+    border-bottom: solid 3px #00838F;
+    border-right: solid 2px #0097A7;
+    transition-property: all;
+    transition-delay: 0.5s;
+    transition-duration: 0.6s;
+    transition-delay: 0s;
+  }
+  .showcase .cross-intermine-search button:hover {
+    transition-property: all;
+    transition-delay: 0.5s;
+    transition-duration: 0.6s;
+    transition-delay: 0s;
+    background-color: #26C6DA;
+    border-bottom: solid 3px #00838F;
+    border-right: solid 2px #00ACC1;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+  .more-details-links {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .more-details {
+    border-radius: 2px;
+    text-align: right;
+    display: block;
+    padding: 0.5em;
+  }
+  .more-details:after {
+    content: ">>";
+  }
+  .back:before {
+    content: "<<";
+  }
+  .registry img {
+    border: solid 10px #fff;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.075);
+  }
+  .showcase-content {
+    display: flex;
+    justify-content: space-around;
+  }
+  @media (max-width: 760px) {
+    .showcase-content {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  .showcase-details {
+    display: flex;
+  }
+  .showcase-details p {
+    max-width: 10em;
+  }
+  .showcase-details img {
+    margin-right: 1em;
+  }
+  .showcase-details .googleplay {
+    max-width: 200px;
+    margin-left: -10px;
+  }
+  footer {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #e9e9e9;
+    justify-content: space-around;
+    margin-top: 1em;
+  }
+  footer .developers {
+    border: solid 3px #E91E63;
+  }
+  footer .biologists {
+    border: solid 3px #03A9F4;
+  }
+  footer .bioinformaticians {
+    border: solid 3px #673AB7;
+  }
+  footer .contact {
+    border: solid 3px #bed73b;
+  }
+  footer .resources {
+    border: solid 3px #FFC107;
+  }
+  footer .affiliations {
+    border: solid 3px #FF5722;
+  }
+  footer .sitemap-link-group {
+    box-sizing: border-box;
+    padding: 0 1em;
+    flex-grow: 1;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: 1px;
+  }
+  footer .sitemap-link-group h4.categories {
+    border: 0;
+    margin-bottom: 0.5em;
+  }
+  footer .sitemap-link-group .subheading {
+    margin: 0;
+    padding: 0;
+  }
+  footer .sitemap-link-group ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  footer .sitemap-link-group li a {
+    text-decoration: none;
+    color: #2b2b2b;
+    display: flex;
+    align-items: center;
+    background-color: #e9e9e9;
+    border-bottom: solid #e9e9e9 3px;
+  }
+  footer .sitemap-link-group li a .icon {
+    margin-right: 0.5em;
+  }
+  footer .sitemap-link-group li a:visited {
+    color: #111;
+  }
+  footer .sitemap-link-group li a:hover {
+    background-color: #ffffff;
+  }
+  footer .developers li a:hover {
+    border-bottom: solid 3px #E91E63;
+  }
+  footer .biologists li a:hover {
+    border-bottom: solid 3px #03A9F4;
+  }
+  footer .bioinformaticians li a:hover {
+    border-bottom: solid 3px #673AB7;
+  }
+  footer .contact li a:hover {
+    border-bottom: solid 3px #bed73b;
+  }
+  footer .resources li a:hover {
+    border-bottom: solid 3px #FFC107;
+  }
+  footer .affiliations footer li a:hover {
+    border-bottom: solid 3px #FF5722;
+  }
+  footer .affiliation-logos,
+  footer .funders {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  footer .affiliation-logos a,
+  footer .funders a {
+    flex-grow: 1;
+  }
+  footer .affiliation-logos img,
+  footer .funders img {
+    opacity: 0.8;
+  }
+  @media (max-width: 1060px) {
+    footer {
+      transition-property: all;
+      transition-delay: 0.5s;
+      transition-duration: 0.6s;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+    }
+  }
+  .icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+  .icon.icon-linkout {
+    fill: rgba(0, 0, 0, 0.3);
+    margin-left: 0.2em;
+    min-width: 1em;
+  }
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .team-member {
+    display: flex;
+    padding-right: 1em;
+    box-sizing: border-box;
+  }
+  @media (max-width: 760px) {
+    .team-member {
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 0.5em;
+    }
+    .team-member img {
+      margin: 1em 0;
+    }
+  }
+  .team-member:nth-of-type(2n) {
+    background-color: #e9e9e9;
+  }
+  .team-member .placeholder,
+  .team-member img {
+    align-self: center;
+    margin-right: 1em;
+    min-width: 113px;
+    min-height: 113px;
+    border-radius: 60px;
+    border: solid 3px #999;
+    background-color: #d0d0d0;
+  }
+  .team-member .icon {
+    margin-right: 0.5em;
+  }
+  .team-member ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+  }
+  .team-member ul li,
+  .team-member ul li a {
+    margin-right: 1em;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  @media (max-width: 1060px) {
+    .team-member ul {
+      transition-property: all;
+      transition-delay: 0.5s;
+      transition-duration: 0.6s;
+      flex-wrap: wrap;
+    }
+  }
+  .community-member-list ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+  }
+  .community-member-list ul li,
+  .community-member-list ul li a {
+    margin-right: 1em;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  @media (max-width: 1060px) {
+    .community-member-list ul {
+      transition-property: all;
+      transition-delay: 0.5s;
+      transition-duration: 0.6s;
+      flex-wrap: wrap;
+    }
+  }
+  .community-member-list ul {
+    flex-wrap: wrap;
+  }
+  .community-member-list ul a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #111;
+    margin: 0.5em;
+  }
+  .community-member-list ul a img {
+    align-self: center;
+    margin-right: 1em;
+    min-width: 113px;
+    min-height: 113px;
+    border-radius: 60px;
+    border: solid 3px #999;
+    background-color: #d0d0d0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .resource-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .resource-list .resource-link {
+    width: 25vw;
+    max-width: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+    min-width: 250px;
+    transition-property: all;
+    transition-delay: 0.5s;
+    transition-duration: 0.6s;
+    transition-delay: 0s;
+  }
+  .resource-list .resource-link.large {
+    max-width: 580px;
+    flex-grow: 2;
+    min-width: 430px;
+  }
+  @media (max-width: 760px) {
+    .resource-list .resource-link {
+      width: 100%;
+      max-width: 100%;
+    }
+    .resource-list .resource-link:nth-of-type(even) {
+      background-color: #e9e9e9;
+      padding: 1em;
+      margin: 0;
+    }
+  }
+  .resource-list .resource-link a {
+    color: #111;
+  }
+  .resource-list .resource-link h4 {
+    margin: 0;
+  }
+  .resource-list .resource-link p {
+    text-align: justify;
+    font-size: 90%;
+    margin: 0.25em 0 0;
+  }
+  .resource-list .resource-link .more-details {
+    align-self: flex-end;
+    transition-property: all;
+    transition-delay: 0.5s;
+    transition-duration: 0.6s;
+    transition-delay: 0s;
+  }
+  .resource-list .resource-link .more-details:hover {
+    background-color: #e9e9e9;
+  }
+  .resource-list .resource-link.inline-links a {
+    text-decoration: underline;
+  }
+  .resource-list .resource-link .dynamicimage {
+    margin: 0 1em 1em;
+  }
+  .single-resource {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+  }
+  .single-resource .developers {
+    border: solid 3px #E91E63;
+  }
+  .single-resource .biologists {
+    border: solid 3px #03A9F4;
+  }
+  .single-resource .bioinformaticians {
+    border: solid 3px #673AB7;
+  }
+  .single-resource .contact {
+    border: solid 3px #bed73b;
+  }
+  .single-resource .resources {
+    border: solid 3px #FFC107;
+  }
+  .single-resource .affiliations {
+    border: solid 3px #FF5722;
+  }
+  .single-resource h2.colors {
+    border-width: 0 0 3px 0;
+  }
+  .single-resource img {
+    width: 20vw;
+    height: 20vw;
+    margin-right: 2em;
+  }
+  .main-articles {
+    display: flex;
+  }
+  .main-articles .feature-col {
+    max-width: 60vw;
+    flex-grow: 3;
+    min-width: 430px;
+  }
+  .main-articles .secondary-col {
+    min-width: 250px;
+    max-width: 40vw;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .main-articles .secondary-col.resource-list .resource-link {
+    background-color: #CFD8DC;
+    margin: 2em 0 0;
+    padding-bottom: 1em;
+  }
+  .main-articles .secondary-col.resource-list .resource-link p {
+    padding: 0.5em 1em;
+  }
+  .main-articles .secondary-col.resource-list .resource-link p:last-child {
+    padding-bottom: 1em;
+  }
+  .main-articles .secondary-col.resource-list .resource-link ol,
+  .main-articles .secondary-col.resource-list .resource-link ul {
+    margin: 1em;
+  }
+  .main-articles .secondary-col.resource-list .resource-link h2 {
+    background-color: #607D8B;
+    width: 100%;
+    padding: 0.25em 0.5em;
+    box-sizing: border-box;
+    margin-top: -1em;
+    margin-bottom: 0;
+  }
+  .main-articles .secondary-col.resource-list .resource-link h2 a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .main-articles .secondary-col.resource-list .resource-link h3,
+  .main-articles .secondary-col.resource-list .resource-link h4,
+  .main-articles .secondary-col.resource-list .resource-link h5 {
+    margin-left: 1em;
+  }
+  .main-articles .resource-list .resource-link {
+    align-items: flex-start;
+    margin-top: 0;
+    max-width: 100%;
+    width: auto;
+    flex-grow: 0;
+  }
+  .main-articles .resource-list .resource-link p {
+    font-size: 100%;
+  }
+  @media (max-width: 1060px) {
+    .main-articles {
+      flex-direction: column;
+      align-items: center;
+    }
+    .main-articles .secondary-col {
+      order: 1;
+      width: 100%;
+      max-width: 100%;
+    }
+    .main-articles .feature-col {
+      order: 2;
+      width: 100%;
+      max-width: 100%;
+    }
+    .main-articles .resource-list .resource-link {
+      max-width: 100%;
+    }
+    .main-articles .resource-list .resource-link.large {
+      max-width: 100%;
+    }
+  }
+  @media (max-width: 760px) {
+    .main-articles .feature-col {
+      order: 2;
+      width: 100%;
+      max-width: 200px;
+      min-width: 100%;
+    }
+    .main-articles .resource-list .resource-link {
+      max-width: 100%;
+    }
+    .main-articles .resource-list .resource-link.large {
+      max-width: 100%;
+      min-width: 100%;
+    }
+  }
+  .header-collapsible-nav h4 {
+    margin: 0;
+    font-weight: normal;
+  }
+  .header-collapsible-nav > li {
+    position: relative;
+  }
+  .header-collapsible-nav ul {
+    transition-property: all;
+    transition-delay: 0.5s;
+    transition-duration: 0.6s;
+    transition-delay: 0s;
+    display: none;
+    position: absolute;
+    flex-direction: column;
+  }
+  .header-collapsible-nav ul li a {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.075);
+    transition-property: all;
+    transition-delay: 0.5s;
+    transition-duration: 0.6s;
+    transition-delay: 0s;
+    background-color: #e9e9e9;
+    padding: 0.75em;
+    min-width: 20vw;
+    display: block;
+    color: #111;
+  }
+  .header-collapsible-nav ul li a:hover {
+    background-color: #d0d0d0;
+  }
+  .publication-list h3 {
+    margin-left: 1em;
+  }
+  .publication-list .publication-section {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .publication-list .publication-section li {
+    border-bottom: solid 1px #ccc;
+    border-top: solid 1px #eee;
+    padding: 0.5em 1em;
+    display: flex;
+  }
+  .publication-list .publication-section li > a {
+    align-self: center;
+    margin-right: 1em;
+  }
+  .publication-list .publication-section li:nth-of-type(even) {
+    background-color: #e9e9e9;
+  }
+  .publication-list .publication-section li p {
+    margin: 0.5em 0;
+  }
+  .publication-list .visit-pubmed svg {
+    fill: #03A9F4;
+    width: 2em;
+    height: 2em;
+  }
+  .contactpage li {
+    list-style-type: none;
+    background-color: #e5e5e5;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    display: flex;
+    margin: 0.5em;
+    flex-grow: 1;
+    transition-property: all;
+    transition-delay: 0.5s;
+    transition-duration: 0.6s;
+  }
+  .contactpage li:hover {
+    transition-property: all;
+    transition-delay: 0.5s;
+    transition-duration: 0.6s;
+    background-color: #03A9F4;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  .contactpage li:hover a {
+    color: #fff;
+  }
+  .contactpage li a {
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 1em 1em 1em 2em;
+  }
+  .contactpage li .icon-linkout {
+    display: none;
+  }
+  .contactpage ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+  }
+  .photo-with-caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #d0d0d0;
+    background-color: #e9e9e9;
+    flex-shrink: 1;
+    margin-bottom: 1em;
+  }
+  .photo-with-caption .caption {
+    margin: 0.5em;
+  }
+  .photo-with-caption img {
+    margin-top: 1em;
+    border-radius: 2px;
+    max-width: 100%;
+  }
+  .tableOfContents ul {
+    list-style-type: none;
+    padding-left: 0.5em;
+  }
+  .tableOfContents h3 {
+    margin-left: 0.66666667em;
+  }
+  p:empty {
+    display: none;
+  }
+  
+  header.menu-open { 
+    transition:none; 
+  } 

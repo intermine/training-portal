@@ -30,7 +30,7 @@ menushortcutsnewtab = true # set true to open shortcuts links to a new tab/windo
 home = [ "HTML", "RSS", "JSON"]
 
 [[menu.shortcuts]]
-name = "Homepage"
+name = "InterMine"
 url = "http://intermine.org/"
 weight = 1
 

@@ -3,7 +3,7 @@ baseURL = "https://example.com"
 languageCode = "en-uk"
 DefaultContentLanguage = "en"
 title = "InterMine Training Portal"
-theme = "ace-documentation"
+theme = "training-portal-theme"
 pygmentsCodeFences = true
 pygmentsStyle = "monokailight"
 

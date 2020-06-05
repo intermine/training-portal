@@ -24,7 +24,7 @@ In the repo you downloaded just now, run:
 ```
 hugo server
 ```
-
+Then the whole content will be displayed on http://localhost:1313/.
 
 ## Appendix 
 

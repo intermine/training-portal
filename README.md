@@ -33,3 +33,6 @@ For more tutorials of Hugo, you can visit https://gohugo.io/.
 **Have some suggestions or questions?** Welcome to open an issue!
 
 
+## License
+
+MIT

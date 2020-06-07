@@ -1,5 +1,5 @@
 +++
-title = "Python Tutorials"
+title = "Python Tutorial"
 description = ""
 weight = 2
 +++
@@ -7,6 +7,7 @@ weight = 2
 {{< lead >}}
 This part gives **text** and **video** tutorials of Python on how to interact with InterMine registry. 
 <br/>
+
 You can download all tutorials [here](https://github.com/intermine/intermine-ws-python-docs).
 
 

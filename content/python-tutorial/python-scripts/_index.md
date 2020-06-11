@@ -1,11 +1,11 @@
 +++
-title = "Video Scripts"
+title = "Video Script"
 description = ""
 weight = 5
 +++
 
 {{< lead >}}
-This part gives **video** tutorial scripts of Python.
+This is the full text script that accompanies the video.
 <br/>
 
 

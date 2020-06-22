@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Video Script on InterMine Training Portal</title>
-    <link>https://persdre.github.io/intermine-training-portal/python-tutorial/python-scripts/</link>
+    <link>https://github.com/Persdre/intermine-training-portal.github.io/python-tutorial/python-scripts/</link>
     <description>Recent content in Video Script on InterMine Training Portal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     
-	<atom:link href="https://persdre.github.io/intermine-training-portal/python-tutorial/python-scripts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://github.com/Persdre/intermine-training-portal.github.io/python-tutorial/python-scripts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Tutorial 0</title>
-      <link>https://persdre.github.io/intermine-training-portal/python-tutorial/python-scripts/video00/</link>
+      <link>https://github.com/Persdre/intermine-training-portal.github.io/python-tutorial/python-scripts/video00/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/python-scripts/video00/</guid>
+      <guid>https://github.com/Persdre/intermine-training-portal.github.io/python-tutorial/python-scripts/video00/</guid>
       <description>Welcome to InterMine python tutorial! In this tutorial, I will show you how to interact with the intermine registry, which lists the different InterMines available on the web, and contains information about their URLs, the datasets and organisms you can find in each InterMine, and a few other things.
 First, don’t forget to run pip install intermine in your terminal, if you haven’t already.
 Then, let’s look at cells.</description>
@@ -23,10 +23,10 @@ Then, let’s look at cells.</description>
     
     <item>
       <title>Tutorial 1</title>
-      <link>https://persdre.github.io/intermine-training-portal/python-tutorial/python-scripts/video01/</link>
+      <link>https://github.com/Persdre/intermine-training-portal.github.io/python-tutorial/python-scripts/video01/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/python-scripts/video01/</guid>
+      <guid>https://github.com/Persdre/intermine-training-portal.github.io/python-tutorial/python-scripts/video01/</guid>
       <description>Welcome to the first intermine python tutorial! In this tutorial, we will go through the basics of intermine python queries and how to write your first query. To get started, you would want to ‘pip install intermine’ in your terminal first.
 Let’s look at cells. We start by importing the service class from InterMine’s webservice module. Let’s click it.
 Then let’s create a query object. The “new query” method can help us do this.</description>
@@ -34,10 +34,10 @@ Then let’s create a query object. The “new query” method can help us do th
     
     <item>
       <title>Tutorial 2</title>
-      <link>https://persdre.github.io/intermine-training-portal/python-tutorial/python-scripts/video02/</link>
+      <link>https://github.com/Persdre/intermine-training-portal.github.io/python-tutorial/python-scripts/video02/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/python-scripts/video02/</guid>
+      <guid>https://github.com/Persdre/intermine-training-portal.github.io/python-tutorial/python-scripts/video02/</guid>
       <description>Welcome to the second tutorial in the InterMine python tutorial series! In the previous tutorial we learned how to select the output columns of choice. In this tutorial, we’ll look at adding constraints to our queries to filter the results.
 Let’s start with creating a service and query object, like we saw earlier.
 If we want to view all the possible output columns at once, we can pass “*” as a parameter to the select function like this.</description>
@@ -45,10 +45,10 @@ If we want to view all the possible output columns at once, we can pass “*” 
     
     <item>
       <title>Tutorial 3</title>
-      <link>https://persdre.github.io/intermine-training-portal/python-tutorial/python-scripts/video03/</link>
+      <link>https://github.com/Persdre/intermine-training-portal.github.io/python-tutorial/python-scripts/video03/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/python-scripts/video03/</guid>
+      <guid>https://github.com/Persdre/intermine-training-portal.github.io/python-tutorial/python-scripts/video03/</guid>
       <description>Welcome to the third tutorial in the InterMine python tutorial series! In the previous tutorial, we learned about adding constraints to our query so that we could filter the results. In this tutorial we will take a look at some more different types of constraints.
 First, let’s create a query object like we saw earlier.
 The first type of constraint we will look at is Unary Constraint. A unary constraint is one that does not take any value but can be used to check if a particular attribute is absent or present.</description>
@@ -56,20 +56,20 @@ The first type of constraint we will look at is Unary Constraint. A unary constr
     
     <item>
       <title>Tutorial 4</title>
-      <link>https://persdre.github.io/intermine-training-portal/python-tutorial/python-scripts/video04/</link>
+      <link>https://github.com/Persdre/intermine-training-portal.github.io/python-tutorial/python-scripts/video04/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/python-scripts/video04/</guid>
+      <guid>https://github.com/Persdre/intermine-training-portal.github.io/python-tutorial/python-scripts/video04/</guid>
       <description>Welcome to the fourth tutorial in the InterMine python tutorial series! In the previous tutorials we learned about the basic backbone of a query - views and constraints. This short tutorial will talk about another feature of an InterMine query - Outer and Inner Joins.
 When we add a path to a query, even if it is in the view, then by default there is a constraint involved. Our query will consist of only those records that have information in the fields or attributes that are described by the path.</description>
     </item>
     
     <item>
       <title>Tutorial 5</title>
-      <link>https://persdre.github.io/intermine-training-portal/python-tutorial/python-scripts/video05/</link>
+      <link>https://github.com/Persdre/intermine-training-portal.github.io/python-tutorial/python-scripts/video05/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/python-scripts/video05/</guid>
+      <guid>https://github.com/Persdre/intermine-training-portal.github.io/python-tutorial/python-scripts/video05/</guid>
       <description>Welcome to the fifth tutorial in the InterMine python tutorial series! This tutorial will talk about dealing with the results of our query. You can either store the results into a file (using a library like csv) or you can process the results immediately after you extract them.
 Now we write a short query for genes, and add all views for publications associated with that gene, then explore the results.</description>
     </item>

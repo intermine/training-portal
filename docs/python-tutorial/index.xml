@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python Tutorial on InterMine Training Portal</title>
-    <link>https://persdre.github.io/intermine-training-portal/python-tutorial/</link>
+    <link>persdre.github.io/intermine-training-portal/python-tutorial/</link>
     <description>Recent content in Python Tutorial on InterMine Training Portal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     
-	<atom:link href="https://persdre.github.io/intermine-training-portal/python-tutorial/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="persdre.github.io/intermine-training-portal/python-tutorial/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Tutorial 0: Overview</title>
-      <link>https://persdre.github.io/intermine-training-portal/python-tutorial/00/</link>
+      <link>persdre.github.io/intermine-training-portal/python-tutorial/00/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/00/</guid>
+      <guid>persdre.github.io/intermine-training-portal/python-tutorial/00/</guid>
       <description>This tutorial is for users who use Python to get information of a mine or an organism. This tutorial consists of 14 parts.
 We use FlyMine as an example.
 We recommend you to use Jupyter Notebook to run following code. If you are new to Jupyter, you can visit this.
@@ -25,50 +25,50 @@ Try Live  You can try live here.</description>
     
     <item>
       <title>Tutorial 1: The Basics of a Query</title>
-      <link>https://persdre.github.io/intermine-training-portal/python-tutorial/01/</link>
+      <link>persdre.github.io/intermine-training-portal/python-tutorial/01/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/01/</guid>
+      <guid>persdre.github.io/intermine-training-portal/python-tutorial/01/</guid>
       <description>This tutorial will tell you about the basics of intermine-python queries and how to write your first query. Text Tutorial   Video Tutorial     You can see the script here.
 Try Live  You can try live here.</description>
     </item>
     
     <item>
       <title>Tutorial 2: Adding Constraints to a Query</title>
-      <link>https://persdre.github.io/intermine-training-portal/python-tutorial/02/</link>
+      <link>persdre.github.io/intermine-training-portal/python-tutorial/02/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/02/</guid>
+      <guid>persdre.github.io/intermine-training-portal/python-tutorial/02/</guid>
       <description>In this tutorial, we will look at adding constraints to our queries to filter the results. Text Tutorial   Video Tutorial     You can see the script here.
 Try Live  You can try live here.</description>
     </item>
     
     <item>
       <title>Tutorial 3: More about Constraints</title>
-      <link>https://persdre.github.io/intermine-training-portal/python-tutorial/03/</link>
+      <link>persdre.github.io/intermine-training-portal/python-tutorial/03/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/03/</guid>
+      <guid>persdre.github.io/intermine-training-portal/python-tutorial/03/</guid>
       <description>In this tutorial we will take a look at some more constraints and the different types of constraints. Text Tutorial   Video Tutorial     You can see the script here.
 Try Live  You can try live here.</description>
     </item>
     
     <item>
       <title>Tutorial 4: Query Features</title>
-      <link>https://persdre.github.io/intermine-training-portal/python-tutorial/04/</link>
+      <link>persdre.github.io/intermine-training-portal/python-tutorial/04/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/04/</guid>
+      <guid>persdre.github.io/intermine-training-portal/python-tutorial/04/</guid>
       <description>In this tutorial we will talk about another feature of an intermine query - Outer and Inner Joins. Text Tutorial   Video Tutorial     You can see the script here.
 Try Live  You can try live here.</description>
     </item>
     
     <item>
       <title>Tutorial 5: Query Results</title>
-      <link>https://persdre.github.io/intermine-training-portal/python-tutorial/05/</link>
+      <link>persdre.github.io/intermine-training-portal/python-tutorial/05/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/05/</guid>
+      <guid>persdre.github.io/intermine-training-portal/python-tutorial/05/</guid>
       <description>In this tutorial we will talk about dealing with the results of our query. Text Tutorial   Video Tutorial     You can see the script here.
 Try Live  You can try live here.</description>
     </item>

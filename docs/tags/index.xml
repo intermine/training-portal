@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on InterMine Training Portal</title>
-    <link>https://persdre.github.io/intermine-training-portal/tags/</link>
+    <link>persdre.github.io/intermine-training-portal/tags/</link>
     <description>Recent content in Tags on InterMine Training Portal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     
-	<atom:link href="https://persdre.github.io/intermine-training-portal/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="persdre.github.io/intermine-training-portal/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

@@ -1,4 +1,4 @@
-baseURL = " https://persdre.github.io/intermine-training-portal/"
+baseURL = "https://persdre.github.io/intermine-training-portal/"
 
 languageCode = "en-uk"
 DefaultContentLanguage = "en"

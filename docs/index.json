@@ -1,139 +1,139 @@
 [
 {
-	"uri": "https://example.com/training-workshops/",
+	"uri": "https://persdre.github.io/intermine-training-portal/training-workshops/",
 	"title": "Training Workshops",
 	"tags": [],
 	"description": "",
 	"content": "We provide training workshops each year. Click on links below to get them! Twitter Feed   Available Materials    "
 },
 {
-	"uri": "https://example.com/python-tutorial/python-scripts/video00/",
+	"uri": "https://persdre.github.io/intermine-training-portal/python-tutorial/python-scripts/video00/",
 	"title": "Tutorial 0",
 	"tags": [],
 	"description": "",
 	"content": " Welcome to InterMine python tutorial! In this tutorial, I will show you how to interact with the intermine registry, which lists the different InterMines available on the web, and contains information about their URLs, the datasets and organisms you can find in each InterMine, and a few other things.\nFirst, don’t forget to run pip install intermine in your terminal, if you haven’t already.\nThen, let’s look at cells.\nIn the first cell, we run from intermine import registry then registry.getMines from an organism. Then we can see the output. FawMine, Flymine, LocustMine and XenMine are all InterMines that contain information about fruit flies.\nNow that we have the mines. We can use getInfo(mine) to get all information about a particular mine. Here we use flymine as an example. Let’s click it and we can see the output. The output gives information about it including its description and URL and API version and others.\nNext, We can use getData function to get data of flymine.\nThen we can see the output.\nGood, this is the Intermine Python Tutorial Overview.\nThank you for watching!\n"
 },
 {
-	"uri": "https://example.com/python-tutorial/00/",
+	"uri": "https://persdre.github.io/intermine-training-portal/python-tutorial/00/",
 	"title": "Tutorial 0: Overview",
 	"tags": [],
 	"description": "",
 	"content": "This tutorial is for users who use Python to get information of a mine or an organism. This tutorial consists of 14 parts.\nWe use FlyMine as an example.\nWe recommend you to use Jupyter Notebook to run following code. If you are new to Jupyter, you can visit this.\nText Tutorial   Video Tutorial     You can see the script here.\nTry Live  You can try live here.\n"
 },
 {
-	"uri": "https://example.com/training-workshops/twitter-feed/",
+	"uri": "https://persdre.github.io/intermine-training-portal/training-workshops/twitter-feed/",
 	"title": "Twitter Feed",
 	"tags": [],
 	"description": "",
 	"content": "We keep information updated on this.Don't hesitate to follow it! "
 },
 {
-	"uri": "https://example.com/training-workshops/available-materials/",
+	"uri": "https://persdre.github.io/intermine-training-portal/training-workshops/available-materials/",
 	"title": "Available Materials",
 	"tags": [],
 	"description": "",
 	"content": "Listed in chronological order, with newer/upcoming courses at the top. 2019  July 4 - Handling integrated biological data using Python, Jupyter, and InterMine June 19 - UI + API training courses at Cambridge Bioinformatics Training Facility February 13 - EBI Multiomics Data Integration  2018  June - GCCBOSC 2018  Shorter UI section, with a longer API focus. 2.5 hours.   February - EBI Multiomics course  Mostly UI-oriented with a short API section. Shortlink: bit.ly/intermine-ebi-2018    "
 },
 {
-	"uri": "https://example.com/python-tutorial/",
+	"uri": "https://persdre.github.io/intermine-training-portal/python-tutorial/",
 	"title": "Python Tutorial",
 	"tags": [],
 	"description": "",
 	"content": "This part gives text and video tutorials of Python on how to interact with InterMine registry. \nYou can download all tutorials here.\nTutorial 0: Overview   Tutorial 1: The Basics of a Query   Tutorial 2: Adding Constraints to a Query   Tutorial 3: More about Constraints   Tutorial 4: Query Features   Tutorial 5: Query Results   Video Script    "
 },
 {
-	"uri": "https://example.com/python-tutorial/python-scripts/video01/",
+	"uri": "https://persdre.github.io/intermine-training-portal/python-tutorial/python-scripts/video01/",
 	"title": "Tutorial 1",
 	"tags": [],
 	"description": "",
 	"content": " Welcome to the first intermine python tutorial! In this tutorial, we will go through the basics of intermine python queries and how to write your first query. To get started, you would want to ‘pip install intermine’ in your terminal first.\nLet’s look at cells. We start by importing the service class from InterMine’s webservice module. Let’s click it.\nThen let’s create a query object. The “new query” method can help us do this. Let’s click it.\nA query object defines what we want from the intermine database. In this query object, we query the Flymine database to extract the symbol, primaryIdentifier and length of all genes. Then we can see the output.\nNext, I’ll show you how to print the results of our query. In this cell, we use’ for row in query.rows(start = 0, size = 10) print(row)’ command to print the results. Size = 10 means it will print ten results. We can see the output.\nThe query has another way it could be written. We can see this cell. Let’s click it. Yes, it gives the same output.\nNext, let’s try to write a new query which returns all organisms in the database. Let’s click it. It creates a new query object.\nThen we select organism names. In this way, this object gets all organisms in the database.\nIf we want to add another column to our final output, we can use the add_view method. Let’s click it.\nThen let’s try to print the results from the beginning. Of course, the size is too big. So we set size = 10. We can see the output, which is organisms’ information.\nBy default, the result will be sorted according to the first column you defined. We can use the addsort_order method of the query class to change the sorting order to another column.\nThen we reprint it. We can see this time the output is in the order of name.\nIn this tutorial, we learned how to get organisms from the database and how to set rows of output results. In the next video, I’ll show you how to add constraints to a query.\nThank you for watching!\n"
 },
 {
-	"uri": "https://example.com/python-tutorial/01/",
+	"uri": "https://persdre.github.io/intermine-training-portal/python-tutorial/01/",
 	"title": "Tutorial 1: The Basics of a Query",
 	"tags": [],
 	"description": "",
 	"content": " This tutorial will tell you about the basics of intermine-python queries and how to write your first query. Text Tutorial   Video Tutorial     You can see the script here.\nTry Live  You can try live here.\n"
 },
 {
-	"uri": "https://example.com/python-tutorial/python-scripts/video02/",
+	"uri": "https://persdre.github.io/intermine-training-portal/python-tutorial/python-scripts/video02/",
 	"title": "Tutorial 2",
 	"tags": [],
 	"description": "",
 	"content": " Welcome to the second tutorial in the InterMine python tutorial series! In the previous tutorial we learned how to select the output columns of choice. In this tutorial, we’ll look at adding constraints to our queries to filter the results.\nLet’s start with creating a service and query object, like we saw earlier.\nIf we want to view all the possible output columns at once, we can pass “*” as a parameter to the select function like this.\nIf we want to add a constraint to our query, we can use the add_constraint method available in the query class.\nFor example, we can add the constraint “genus” “=” “Drosophila” In this way, we gives the constraint Organism.genius equals to Drosophila.\nNow we can print the results of our query. In this cell, we don’t set limits to output rows. Let’s click it. We can see the output is quite long.\nNext, we are going to change the query a little bit. Let’s say we want to extract all the publication information about Drosophilids that have been published since 2010. Let’s click it.\nSince we want to get all the information related to each publication, we will add publications dot star as our parameter.\nWe can add constraints to it. Firstly we want to limit our search to only Drosophilids. Secondly we want to extract only those publications that were published in or after 2010. We use bigger or equals to here. Let’s click it.\nSimilarly, we can print the result while limiting the size, and we can see the output.\nNow, let’s look at another query. It runs similarly as before.\nWhen querying the database using consecutive add_constraint methods, by default the constraints are “and”. For example, a particular instance will be part of the final result only if it satisfies all the constraints. Here, the constraints are organism.genius = Drosophila and organism.species is one of the two species.\nAfter we click this cell, we can see the output.\nHowever, we have the option to use “or”. We create a new query object to show this.\nIn this cell, we set this constraint to A, this constraint to B, this constraint to C, this constraint to D.\nAfter we use the set_logic method, the constraints now are A and (B or C) and D.\nSimilarly, we can print the results.\nIn the next tutorial, I’ll introduce more about constraints.\nThank you for watching!\n"
 },
 {
-	"uri": "https://example.com/python-tutorial/02/",
+	"uri": "https://persdre.github.io/intermine-training-portal/python-tutorial/02/",
 	"title": "Tutorial 2: Adding Constraints to a Query",
 	"tags": [],
 	"description": "",
 	"content": " In this tutorial, we will look at adding constraints to our queries to filter the results. Text Tutorial   Video Tutorial     You can see the script here.\nTry Live  You can try live here.\n"
 },
 {
-	"uri": "https://example.com/python-tutorial/python-scripts/video03/",
+	"uri": "https://persdre.github.io/intermine-training-portal/python-tutorial/python-scripts/video03/",
 	"title": "Tutorial 3",
 	"tags": [],
 	"description": "",
 	"content": " Welcome to the third tutorial in the InterMine python tutorial series! In the previous tutorial, we learned about adding constraints to our query so that we could filter the results. In this tutorial we will take a look at some more different types of constraints.\nFirst, let’s create a query object like we saw earlier.\nThe first type of constraint we will look at is Unary Constraint. A unary constraint is one that does not take any value but can be used to check if a particular attribute is absent or present. The unary constraints are IS NULL and IS NOT NULL. Let’s look at a small example.\nWe add constraint IS NOT NULL here. This means that primaryIdentifier must have some value.\nLet’s click it and see the output.\nThe next type of constraint is a Binary Constraint. This refers to constraints that take a value. Binary constraints are the largest group of constraints. Binary operators are =, \u0026lt;=, \u0026gt;=, \u0026lt;, \u0026gt;, and !=.\nLet’s look at this example. We add the constraint length \u0026gt;= 12000 here. That means genes’ length should be longer than 12000 in this query object.\nWe can see the output here.\nNow we look at Ternary constraints. A ternary constraint is a type of constraint which has one required value and one optional value. InterMine currently supports only one such type of operator, LOOKUP, which searches through all the fields in a particular class for the value specified by the user.\nIn the example below, it will search through the entire gene class to find if any of the fields has an occurance of “zen”. The advantage of this is that you do not need to remember if zen is a symbol or a name or a primaryIdentifier. However, this may lead to ambiguous results and so you can use the optional extra_value parameter to limit the search to the type of object - for example, you might want to limit it by organism.\nWe can see in this example the constraint is Gene LOOKUP zen IN D.melanogaster.\nThen we can see the output.\nThe next constraint type we will look at is Multi-Value constraints. This allows the constraint to take multiple values. Two operators that are allowed are ONE OF and NONE OF.\nHere, we set the constraint is Gene.symbol NONE OF [‘zen’,’eve’].\nWe can see the output now.\nLet’s look at List Constraints now. List Constraints allow users to create a named list of objects and then use the operators IN and NOT IN to use those named lists in queries. Let’s show it in this example.\nNow the constraint is GENE IN the list PL FlyAtlas_brain_top.\nWe can see the output.\nNext, let’s look at Sub-Class constraints. These constraints allow you to specify a sub-class of a class to constrain a path to.\nIn this example, the constraint now is Gene.ontologyAnnotations IS A GOAnnotation\nWe can see the output.\nNext, we look at Loop Constraints. Loop constraints assert that two paths refer to the same object. The valid operators are IS and IS NOT. The Path and LoopPath in such a query must always be a Class(for example - Gene is a valid path). Also, the operators IS and IS NOT map to “=” and “!=”. The example below is an application of a Loop Constraint.\nFirstly, we add list constraints here.\nThen we add a loop constraint.\nThen we can see the output.\nFinally, let’s look at range constraints. They are used for testing where a value lies relative to a set of ranges. These constraints require that the value of the path they constrain should lie in relationship to the set of values passed according to the specific operator. Valid operators are OVERLAPS, DOES NOT OVERLAP, WITHIN, OUTSIDE, CONTAINS and DOES NOT CONTAIN. Here is an example of Range Constraint.\nHere we set the constraint OVERLAPS this range.\nNow we can see the output.\nThis tutorial summed up some of the important constraint types. In the next tutorial we will look at some of the other features of a query.\nThank you for watching!\n"
 },
 {
-	"uri": "https://example.com/python-tutorial/03/",
+	"uri": "https://persdre.github.io/intermine-training-portal/python-tutorial/03/",
 	"title": "Tutorial 3: More about Constraints",
 	"tags": [],
 	"description": "",
 	"content": " In this tutorial we will take a look at some more constraints and the different types of constraints. Text Tutorial   Video Tutorial     You can see the script here.\nTry Live  You can try live here.\n"
 },
 {
-	"uri": "https://example.com/python-tutorial/python-scripts/video04/",
+	"uri": "https://persdre.github.io/intermine-training-portal/python-tutorial/python-scripts/video04/",
 	"title": "Tutorial 4",
 	"tags": [],
 	"description": "",
 	"content": " Welcome to the fourth tutorial in the InterMine python tutorial series! In the previous tutorials we learned about the basic backbone of a query - views and constraints. This short tutorial will talk about another feature of an InterMine query - Outer and Inner Joins.\nWhen we add a path to a query, even if it is in the view, then by default there is a constraint involved. Our query will consist of only those records that have information in the fields or attributes that are described by the path.\nHere, we’ll try to get genes involved in a biosynthetic process and any publications on them. If a particular gene has publication information available, then we want to view the general information about that gene.\nBy default, InterMine is designed to give you an Inner Join, which basically means that no partial matches will be part of the result. However, for the example we are discussing here, we would require something known as an Outer Join. An outer Join on Gene.publications would help in solving the problem for us.\nHere is a comparison table of Inner Join and Outer Join:\n   Inner Join Outer Join     default behavior optional behavior   implicitly constrains the values of that path to be non-null allows null values in the joined path   no data will be returned if any one gene has not matched attributes described by the path query will continue even if some genes don’t have matched attributes described by the path     Screenshot of the same query with Inner Join and Outer Join:\nWith Outer Join: With Inner Join: PS: in the first second screenshot, results for 0610009B22Rik takes up three rows, which is the same as the SINGLE row with three publications in the second screenshot.\nLet’s start by creating a new query object like we saw earlier. We're selecting the primaryIdentifier and symbol for each gene, as well as the year, first author, and title of any associated publications.\nHere we add the constraint like this, which constrains ontology terms to be any term that contains “biosynthetic process”. The *s in the constraint are a wildcard, meaning that any additional text can come before or after the phrase “biosynthetic process”.\nThen, we add an outer join using the query.outerjoin method, asserting that all genes should be returned, and if publication information is available we will return it as well.\nHere we can see the output.\nAnother query feature that InterMine has is the ability to define shorter column names. This can be done using the add_path_description method.\nThis helps us when we want to print our tables into a file and want the column names to be in a readable format.\nIn this example, we use Ontology Term to represent ontologyAnnotations.ontologyTerm and Pub. to represent publications.\nIn the next tutorial, we will look at dealing with the results that are returned by our queries.\nThank you for watching!\n"
 },
 {
-	"uri": "https://example.com/python-tutorial/04/",
+	"uri": "https://persdre.github.io/intermine-training-portal/python-tutorial/04/",
 	"title": "Tutorial 4: Query Features",
 	"tags": [],
 	"description": "",
 	"content": " In this tutorial we will talk about another feature of an intermine query - Outer and Inner Joins. Text Tutorial   Video Tutorial     You can see the script here.\nTry Live  You can try live here.\n"
 },
 {
-	"uri": "https://example.com/python-tutorial/python-scripts/video05/",
+	"uri": "https://persdre.github.io/intermine-training-portal/python-tutorial/python-scripts/video05/",
 	"title": "Tutorial 5",
 	"tags": [],
 	"description": "",
 	"content": " Welcome to the fifth tutorial in the InterMine python tutorial series! This tutorial will talk about dealing with the results of our query. You can either store the results into a file (using a library like csv) or you can process the results immediately after you extract them.\nNow we write a short query for genes, and add all views for publications associated with that gene, then explore the results.\nHere we constrain the query to show the gene “zen” in fruit flies.\nOnce we have added our constraints and views, we are ready to look at the results. The results can be accessed in either a dictionary form, or a list, or a ResultRow object, or a list of strings (CSV or TSV).\nHere we can see the output\nAnd here we print all the genes.\nYou may have wondered what the difference was - and actually, iterating through query.results (we set rows = “rr” here) and iterating through query.rows() are equivalent. Feel free to use whichever you feel comfortable with.\nLet’s say you want to extract column 2 and 3 in this example.\nWe use the command print(gene[1], gene[2]) here and we can see the output. (because the count starts from 0, gene[1] means the second gene and gene[2] means the third gene)\nIf we want to print only those rows where publications.doi is not None then we can add an if condition as shown below.\nWe use the command if row[1] != None(!= means not equals to) here to achieve this goal.\nThen we can see the output.\nYou can pass two more parameters, start and size, while passing query.results(). Start represents the row number that you want to start processing from. By default this is set to 0 (the first row). Size represents the number of rows that you want to print. Let’s say we want to print row 10 and 11 only.\nSo here we set size equals to 2, and start equals to 10. We can see the output is only two rows\nIf you prefer dealing with lists of strings, for example csv and tsv objects, you can use them too. First, we need to import the csv library. Then we create a csv reader object. This has been shown below. query.results(row = “csv”) means that this object reads query.results. delimiter refers to the character used to separate values (or fields) in the CSV file. Here we set the character to comma. quotechar refers to the single character string that will be used to quote values if special characters (like delimiter) appears inside the field. Here this single character is quote.\nHere we print the first row, row[0]. We can see the output.\nThe last thing that we look at in this tutorial is the summarize method. This method is useful when we want some basic statistics regarding a particular column.\nHere we look at the statistics of the length of genes present in the list of the most enriched genes in the adult fly brain.\nFirst we create a query.\nThen we add views to show the gene and organism for each gene, and constraint the query to be in the list called “PL FlyAtlas_brain_top”.\nWe then print out the first 10 rows of results.\nNext we can look at the summary of the length of each gene. This contains some useful information such as the average length and the maximum and minimum length.\nWe can see the output.\nAlso, we can print genes’ id.\nIn the next tutorial we will focus on further management of results.\nThank you for watching!\n"
 },
 {
-	"uri": "https://example.com/python-tutorial/05/",
+	"uri": "https://persdre.github.io/intermine-training-portal/python-tutorial/05/",
 	"title": "Tutorial 5: Query Results",
 	"tags": [],
 	"description": "",
 	"content": " In this tutorial we will talk about dealing with the results of our query. Text Tutorial   Video Tutorial     You can see the script here.\nTry Live  You can try live here.\n"
 },
 {
-	"uri": "https://example.com/categories/",
+	"uri": "https://persdre.github.io/intermine-training-portal/categories/",
 	"title": "Categories",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "https://example.com/",
+	"uri": "https://persdre.github.io/intermine-training-portal/",
 	"title": "InterMine Training Portal",
 	"tags": [],
 	"description": "",
 	"content": "InterMine Training Portal is developed for users of InterMine, which integrates biological data sources, making it easy to query and analyse data. Training Workshops We typically carry out a few training workshops each year - keep your eye on our calendar or twitter feed to find out when registration is open. The materials are available online and designed to be worked through in a self-led or tutor-led manner.\nMaterials  Intro To Data Analysis:  Intro to data analysis with the InterMine user interface   Data Analysis Workflows: 🐍 Python  Python Pax6 Workflow (unsolved):  Python Pax6 Workflow (with answers):    🇷 Data analysis workflows in R  R Pax6 Workflow (unsolved)  R Pax6 Workflow (with answers)     Exercises  🇷 Producing figures and data visualisations in R (Advanced):  Enrichment and visualisations (unsolved):  Enrichment and visualisations (with answers):     Videos Here's a short list of video tutorials produced by community members. If you'd like yours added to the list please contact us!\n FlyMine intro videos - for the Drosophila-minded among us. TargetMine tutorials Tutorials for an InterMine designed to help identify drug targets. YeastMine videos - SGD has quite a broad range of tutorials based on S. Cerevisiae data. MouseMine at MGI - M. musculus InterMine intro Python tutorials - Tutorials to help you get familiarised with the intermine-python package. The tutorials are in the form of Jupyter-Notebooks.  "
 },
 {
-	"uri": "https://example.com/tags/",
+	"uri": "https://persdre.github.io/intermine-training-portal/tags/",
 	"title": "Tags",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "https://example.com/python-tutorial/python-scripts/",
+	"uri": "https://persdre.github.io/intermine-training-portal/python-tutorial/python-scripts/",
 	"title": "Video Script",
 	"tags": [],
 	"description": "",

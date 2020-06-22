@@ -6,6 +6,7 @@ title = "InterMine Training Portal"
 theme = "training-portal-theme"
 pygmentsCodeFences = true
 pygmentsStyle = "monokailight"
+publishDir = "docs"
 
 [params]
 ordersectionsby = "weight"  # ordersectionsby = "title"

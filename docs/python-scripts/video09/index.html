@@ -4,11 +4,11 @@
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="canonical" href="https://persdre.github.io/intermine-training-portal/training-workshops/twitter-feed/">
+    <link rel="canonical" href="https://persdre.github.io/intermine-training-portal/python-scripts/video09/">
 
     <title>
         
-        Twitter Feed | InterMine Training Portal
+        Tutorial 9 | InterMine Training Portal
         
     </title>
 
@@ -65,12 +65,12 @@
                 <input class="form-control mr-sm-2 w-100" data-search-input id="search-by" type="text" placeholder="Search topic/method">
             </form>
          <ul class="navbar-nav flex-column pt-3">
-    <li data-nav-id="/intermine-training-portal/training-workshops/" class="nav-item my-1 parent haschildren
+    <li data-nav-id="/intermine-training-portal/training-workshops/" class="nav-item my-1 haschildren
         ">
         
         <a class="nav-link p-0" href="/intermine-training-portal/training-workshops/"><h6>Training Workshops</h6></a>
         <ul class="list-unstyled ml-2">
-        <li data-nav-id="/intermine-training-portal/training-workshops/twitter-feed/" class="nav-item my-1 active">
+        <li data-nav-id="/intermine-training-portal/training-workshops/twitter-feed/" class="nav-item my-1">
                 
                  <a href="/intermine-training-portal/training-workshops/twitter-feed/" class="nav-link p-0">
                     Twitter Feed
@@ -157,7 +157,7 @@
         </li>
         </ul>
     </li>
-    <li data-nav-id="/intermine-training-portal/python-scripts/" class="nav-item my-1 haschildren
+    <li data-nav-id="/intermine-training-portal/python-scripts/" class="nav-item my-1 parent haschildren
         ">
         
         <a class="nav-link p-0" href="/intermine-training-portal/python-scripts/"><h6>Python Video Script</h6></a>
@@ -216,7 +216,7 @@
                     Tutorial 8
                 </a>
         </li>
-        <li data-nav-id="/intermine-training-portal/python-scripts/video09/" class="nav-item my-1">
+        <li data-nav-id="/intermine-training-portal/python-scripts/video09/" class="nav-item my-1 active">
                 
                  <a href="/intermine-training-portal/python-scripts/video09/" class="nav-link p-0">
                     Tutorial 9
@@ -243,10 +243,25 @@
                 <div class="main col-12 order-1 col-md-9 col-lg-10 col-xl-8 py-3">
                 
 
-<h1>Twitter Feed</h1>
+<h1>Tutorial 9</h1>
 
 <p class="lead">
-    We keep information updated on <a href="https://twitter.com/intermineorg" target="_blank">this</a>.Don't hesitate to follow it!
+    <br/>
+<p>Welcome to the ninth tutorial in the InterMine python tutorial series! This tutorial will talk about how you can create and save lists in your account. You will need to provide your login information while creating a service object like in the previous tutorial.</p>
+<p>You can either provide a list of identifiers (for example, gene symbols) and the InterMine Server will try to match them with objects in the database, or you can provide a query that specifies exactly what you want.</p>
+<p>Here I use my username and password to show how it works. Don’t forget to enter your own login information when you try to run it.</p>
+<p>We will look at three methods in this tutorial. Let’s say you want to upload a list of strings (Gene Symbols). We begin by declaring a python list variable, which I called symbols.</p>
+<p>Note that you can use other identifiers, known in InterMine as secondary identifiers or DB identifiers, if you are more comfortable with that. So you can change symbols to [&ldquo;CG2328&rdquo;,&ldquo;zen&rdquo;,&ldquo;rudimentary&rdquo;] or [&ldquo;eve&rdquo;,&ldquo;FBgn0004053&rdquo;,&ldquo;rudimentary&rdquo;] - both of these lists work with FlyMine and contain the same three genes. InterMine would be able to resolve it for you, so long as it has this identifier set in its database.</p>
+<p>To create a list in the InterMine server, you need to declare a list manager object. We then use the create_list method as shown below. Remember to define a name for the list, otherwise the list will be lost once the session will be terminated.</p>
+<p>delete_lists method here delete the given lists from the webserver. create_list has three parameters. content means the source of the identifiers for this list. Here the source is symbols we created before. list_type means the type of objects to include in the list, for example “Gene” or “Protein”. Since this is a list of genes, of course we want to include Gene in this list. name is the list name of your choice, so here, the name is “my list”.</p>
+<p>We will now look at how you can save a list from a query. Suppose that you want to extract only the information regarding the gene symbol “eve” stored in the previous list that we uploaded. You can do it as shown below. We create a query, restrict it to genes in the intermine list named “my list”, then add the constraint that symbol is eve, and then add a second intermine list named “my list 2” to store the query results.</p>
+<p>If you visit BlueGenes or FlyMine.org and go to the lists page, then click on the view tab, you should be able to see the two lists you created.</p>
+<p>Finally, let's say that you have a file with a list of gene identifiers stored on your machine which you want to upload as a list. Change the string stored to match the path location of your file. Uncomment the lines of code and run it. Files generally need to be plain text and have comma, (,) semicolon, (;) or new line separators between genes.</p>
+<p>If you want to view the names of all the lists available on the InterMine server, use get_all_list_names:</p>
+<p>Here we can see the output.</p>
+<p>In the next tutorial, we will talk about how you can perform enrichment calculations on lists that you have access to.</p>
+<p>Thank you for watching!</p>
+
 </p>
 
 
@@ -257,8 +272,8 @@
                     
                     <div class="row"><div class="position-relative mx-auto col-lg-9">
                           <div class="bg-primary overflow-hidden p-3 mt-5 shadow">
-    <div class="d-flex justify-content-center"><a class="p-1 mr-3 d-inline-block text-white" href="/intermine-training-portal/training-workshops/" title="Training Workshops"><i class="fas fa-chevron-left p-1"></i>Training Workshops</a>
-        <a class="p-1 ml-3 d-inline-block text-white text-right" href="/intermine-training-portal/training-workshops/available-materials/" title="Available Materials">Available Materials<i class="fas fa-chevron-right p-1"></i></a>
+    <div class="d-flex justify-content-center"><a class="p-1 mr-3 d-inline-block text-white" href="/intermine-training-portal/python-scripts/video08/" title="Tutorial 8"><i class="fas fa-chevron-left p-1"></i>Tutorial 8</a>
+        <a class="p-1 ml-3 d-inline-block text-white text-right" href="/intermine-training-portal/python-scripts/video10/" title="Tutorial 10">Tutorial 10<i class="fas fa-chevron-right p-1"></i></a>
     </div>
 </div>
 

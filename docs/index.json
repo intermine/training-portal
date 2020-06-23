@@ -39,7 +39,7 @@
 	"title": "Python Tutorial",
 	"tags": [],
 	"description": "",
-	"content": "This part gives text and video tutorials of Python on how to interact with InterMine registry. \nYou can download all tutorials here.\nTutorial 0: Overview   Tutorial 1: The Basics of a Query   Tutorial 2: Adding Constraints to a Query   Tutorial 3: More about Constraints   Tutorial 4: Query Features   Tutorial 5: Query Results   Tutorial 6: Advanced Results Management    "
+	"content": "This part gives text and video tutorials of Python on how to interact with InterMine registry. \nYou can download all tutorials here.\nTutorial 0: Overview   Tutorial 1: The Basics of a Query   Tutorial 2: Adding Constraints to a Query   Tutorial 3: More about Constraints   Tutorial 4: Query Features   Tutorial 5: Query Results   Tutorial 6: Advanced Results Management   Tutorial 7: Templates   Tutorial 8: Accessing Templates   Tutorial 9: Lists   Tutorial 10: Enrichment Calculations    "
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video01/",
@@ -60,7 +60,7 @@
 	"title": "Python Video Script",
 	"tags": [],
 	"description": "",
-	"content": "This is the full text script that accompanies the video.  Tutorial 0   Tutorial 1   Tutorial 2   Tutorial 3   Tutorial 4   Tutorial 5   Tutorial 6    "
+	"content": "This is the full text script that accompanies the video.  Tutorial 0   Tutorial 1   Tutorial 2   Tutorial 3   Tutorial 4   Tutorial 5   Tutorial 6   Tutorial 7   Tutorial 8   Tutorial 9   Tutorial 10    "
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video02/",
@@ -131,6 +131,62 @@
 	"tags": [],
 	"description": "",
 	"content": " This tutorial will show you how to process, sort, and analyse the query results. Text Tutorial   Video Tutorial     You can see the script here.\nTry Live  You can try live here.\n"
+},
+{
+	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video07/",
+	"title": "Tutorial 7",
+	"tags": [],
+	"description": "",
+	"content": " In this tutorial we will look at templates, which are like pre-prepared queries you can easily re-use. Templates can do everything that a query can do. Everything that you can do with a query - add new constraints, add new views, process the results using the results iterator can be done with templates as well.\nWhile writing queries of your own, you would have probably realized that there is a lot of duplication of effort. So we use templates which can be run numerous times and certain values can also be changed easily.\nLet’s begin with a simple example. Let's say you want to extract the publication information about various Genes related to an organism. There is already a set template for this process.\nWe begin by importing the Service class and then create a template object. The parameter that we pass to the get_template method is the name of the template.\nTo check the columns that our results will have we can use template.views. If you want to add a column use the add_view/add_views method.\nHere we can see the output.\nTo look at the current constraints, use template.constraint_dict. There is only one constraint which is editable. For example, you can change the value or operator if you want. However, even for editable constraints you are not allowed to change the path of the constraint.\nTo view the results we can use the results iterator as we learned previously.\nWe can see the output.\nIf you want to extract information for Drosophila Erecta and not Drosophila melanogaster, you can edit the query while calling the results method. In the code shown below, A refers to the code of the constraint. This code can be viewed using template.constraint_dict as shown above. Here the constraint means all the information should be of Drosophila erecta.\nThis is how you can use a predefined query and modify it to work for you. You can visit the flymine website and take a look at some of the templates that have been defined there. Try running them using Python and change the constraints and views.\nWhile exploring through templates you may come across templates that can be switched on or off. To switch off a constraint that is already turned on you can use the following code: template.get_constraints(\u0026lsquo;B\u0026rsquo;).switch_off , where B is the code of the constraint in the constraint dictionary. In our example, the code is A since there is only one constraint.\nTo check if a particular constraint is switchable use the get_switchable_status method. This method can return three possible values - locked, on or off. Locked means that the particular constraint is fixed and cannot be switched on or off. If a particular constraint is switchable, it will return on or off depending on its current status.\nSo here we know A’s constraint is locked - can’t be switched on or off.\nNaturally, if you try to switch off a constraint that is \u0026ldquo;locked\u0026rdquo; or not switchable, you will get an error.\nIt is also possible to modify constraints on the templates, as discussed above. Both the operator and value maybe altered. Here is an example from the Gene Intron template-\nFirstly we see the status of the constraints on this template.\nHere we get A’s constraint is editable and current constraint is on. B’s constraint is editable and current constraint is on too.\nNow we modify constraint A, such that it only contains output data with secondary identifier CG10023. Then we print the results.\nHere we can see the output.\nThus the output only contains results as per the applied constraints.\nThis tutorial focus on how templates help in automating commonly used queries and can make extremely efficient workflows. In the next tutorial, we will talk about how to access your saved templates and lists if you have your login information (username and password).\n"
+},
+{
+	"uri": "https://persdre.github.io/intermine-training-portal/python-tutorial/07/",
+	"title": "Tutorial 7: Templates",
+	"tags": [],
+	"description": "",
+	"content": " In this tutorial we will look at templates, which are like pre-prepared queries you can easily re-use. Text Tutorial   Video Tutorial     You can see the script here.\nTry Live  You can try live here.\n"
+},
+{
+	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video08/",
+	"title": "Tutorial 8",
+	"tags": [],
+	"description": "",
+	"content": " Welcome to the eighth tutorial in the InterMine python tutorial series! v If you don’t have an account, you can create one at flymine.org\nOnce you have made an account, you can use the web service to create a query of your choice and save it as a template. This template can be used through Python API or through the web service.\nTo login and access your templates through Python, you can provide your login information as shown below. The code shown below is in comments because it needs to be specific to your account. Change the username and password to match yours, uncomment the code, and then run it.\nIf you are not comfortable using your username and password, check out tutorial 14 where we show you another way to authenticate using an API token.\nThen you can play around with this saved template like any of the existing templates on FlyMine.\nTo view the names of all the available templates you can view the templates dictionary and iterate through it. This can be done as follows.\nHere we print all names of templates in FlyMine.\nThis dictionary contains all the information about all the available templates including the exact name and description. If you want to view the details about a particular template name, this can be done as shown below, using the name of the template in quotes and square brackets.\nYou can also view the templates on the FlyMine user interface at https://www.flymine.org/flymine/templates.do, or by visiting flymine.org and clicking the templates tab.\nYou can scroll through the list of templates. If you find an interesting template, click on the template and click on the Python tab (in blue). This would show you how to call the template in Python using the exact name.\nAlso, you can try our latest BlueGenes platform(http://bluegenes.apps.intermine.org/flymine) where you can search all the templates.\nIn the next tutorial, we will talk about how you can create and save lists in your account.\nThank you for watching!\nScreenshots showing how to get a template you are interested in on the flymine website:   "
+},
+{
+	"uri": "https://persdre.github.io/intermine-training-portal/python-tutorial/08/",
+	"title": "Tutorial 8: Accessing Templates",
+	"tags": [],
+	"description": "",
+	"content": " This tutorial will talk about how to access your saved templates and lists if you have your login information (username and password). Text Tutorial   Video Tutorial     You can see the script here.\nTry Live  You can try live here.\n"
+},
+{
+	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video09/",
+	"title": "Tutorial 9",
+	"tags": [],
+	"description": "",
+	"content": " Welcome to the ninth tutorial in the InterMine python tutorial series! This tutorial will talk about how you can create and save lists in your account. You will need to provide your login information while creating a service object like in the previous tutorial.\nYou can either provide a list of identifiers (for example, gene symbols) and the InterMine Server will try to match them with objects in the database, or you can provide a query that specifies exactly what you want.\nHere I use my username and password to show how it works. Don’t forget to enter your own login information when you try to run it.\nWe will look at three methods in this tutorial. Let’s say you want to upload a list of strings (Gene Symbols). We begin by declaring a python list variable, which I called symbols.\nNote that you can use other identifiers, known in InterMine as secondary identifiers or DB identifiers, if you are more comfortable with that. So you can change symbols to [\u0026ldquo;CG2328\u0026rdquo;,\u0026ldquo;zen\u0026rdquo;,\u0026ldquo;rudimentary\u0026rdquo;] or [\u0026ldquo;eve\u0026rdquo;,\u0026ldquo;FBgn0004053\u0026rdquo;,\u0026ldquo;rudimentary\u0026rdquo;] - both of these lists work with FlyMine and contain the same three genes. InterMine would be able to resolve it for you, so long as it has this identifier set in its database.\nTo create a list in the InterMine server, you need to declare a list manager object. We then use the create_list method as shown below. Remember to define a name for the list, otherwise the list will be lost once the session will be terminated.\ndelete_lists method here delete the given lists from the webserver. create_list has three parameters. content means the source of the identifiers for this list. Here the source is symbols we created before. list_type means the type of objects to include in the list, for example “Gene” or “Protein”. Since this is a list of genes, of course we want to include Gene in this list. name is the list name of your choice, so here, the name is “my list”.\nWe will now look at how you can save a list from a query. Suppose that you want to extract only the information regarding the gene symbol “eve” stored in the previous list that we uploaded. You can do it as shown below. We create a query, restrict it to genes in the intermine list named “my list”, then add the constraint that symbol is eve, and then add a second intermine list named “my list 2” to store the query results.\nIf you visit BlueGenes or FlyMine.org and go to the lists page, then click on the view tab, you should be able to see the two lists you created.\nFinally, let's say that you have a file with a list of gene identifiers stored on your machine which you want to upload as a list. Change the string stored to match the path location of your file. Uncomment the lines of code and run it. Files generally need to be plain text and have comma, (,) semicolon, (;) or new line separators between genes.\nIf you want to view the names of all the lists available on the InterMine server, use get_all_list_names:\nHere we can see the output.\nIn the next tutorial, we will talk about how you can perform enrichment calculations on lists that you have access to.\nThank you for watching!\n"
+},
+{
+	"uri": "https://persdre.github.io/intermine-training-portal/python-tutorial/09/",
+	"title": "Tutorial 9: Lists",
+	"tags": [],
+	"description": "",
+	"content": " This tutorial will talk about how you can create and save lists in your account. Text Tutorial   Video Tutorial     You can see the script here.\nTry Live  You can try live here.\n"
+},
+{
+	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video10/",
+	"title": "Tutorial 10",
+	"tags": [],
+	"description": "",
+	"content": " Welcome to the tenth tutorial in the InterMine python tutorial series! This tutorial will talk about how you can perform enrichment calculations on lists that you have access to.\n‘Enrichment’ means that the feature (GO term, domain) occurs for those genes more than would be expected by chance. It is calculated using the hypergeometric distribution which is described further in the InterMine documentation\nEnrichment widgets are useful to find items such as GO Terms or publications which are associated with your gene list more than would be expected by chance.\nThe InterMine service has various widgets that can perform different functions. These widgets are stored in a dictionary in the Service class. To view all the widgets for an InterMine we can use service.widgets.\nHere we can see the output\nIf you want to view only those widgets that are related to enrichment, you can filter based on the widget type. Here we use a python loop to print all the enrichment related widgets.\nNow we can get a list on which we want to perform the analysis using the list manager. The get_list method here returns a list from the service by name, if it exists.\nTo perform any enrichment analysis on the list, we can use the calculate_enrichment method. The arguments include the type of enrichment (this has to be one of the widget types shown in the widget list above) and the maximum p value to show. Here we store the results in a variable named “r”.\nThen we iterate through r and view the results.\nIn this output, we can see a set of publications for which this gene set is enriched - that is, genes that are over-represented in the publications\nIn the next tutorial, we will talk about how you can combine two lists easily in InterMine.\nThank you for watching!\n"
+},
+{
+	"uri": "https://persdre.github.io/intermine-training-portal/python-tutorial/10/",
+	"title": "Tutorial 10: Enrichment Calculations",
+	"tags": [],
+	"description": "",
+	"content": " This tutorial will talk about how you can perform enrichment calculations on lists that you have access to. Text Tutorial   Video Tutorial     You can see the script here.\nTry Live  You can try live here.\n"
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/categories/",

@@ -83,5 +83,45 @@ Try Live  You can try live here.</description>
 Try Live  You can try live here.</description>
     </item>
     
+    <item>
+      <title>Tutorial 7: Templates</title>
+      <link>https://persdre.github.io/intermine-training-portal/python-tutorial/07/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/07/</guid>
+      <description>In this tutorial we will look at templates, which are like pre-prepared queries you can easily re-use. Text Tutorial   Video Tutorial     You can see the script here.
+Try Live  You can try live here.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial 8: Accessing Templates</title>
+      <link>https://persdre.github.io/intermine-training-portal/python-tutorial/08/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/08/</guid>
+      <description>This tutorial will talk about how to access your saved templates and lists if you have your login information (username and password). Text Tutorial   Video Tutorial     You can see the script here.
+Try Live  You can try live here.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial 9: Lists</title>
+      <link>https://persdre.github.io/intermine-training-portal/python-tutorial/09/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/09/</guid>
+      <description>This tutorial will talk about how you can create and save lists in your account. Text Tutorial   Video Tutorial     You can see the script here.
+Try Live  You can try live here.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial 10: Enrichment Calculations</title>
+      <link>https://persdre.github.io/intermine-training-portal/python-tutorial/10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/10/</guid>
+      <description>This tutorial will talk about how you can perform enrichment calculations on lists that you have access to. Text Tutorial   Video Tutorial     You can see the script here.
+Try Live  You can try live here.</description>
+    </item>
+    
   </channel>
 </rss>

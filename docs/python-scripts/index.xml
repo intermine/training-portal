@@ -84,5 +84,47 @@ Now we write a short query for genes, and add all views for publications associa
 Usually, we begin by creating a query object. Our example for this tutorial is going to be related to gene expression, represented in InterMine by the RNA Sequence Result class.</description>
     </item>
     
+    <item>
+      <title>Tutorial 7</title>
+      <link>https://persdre.github.io/intermine-training-portal/python-scripts/video07/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://persdre.github.io/intermine-training-portal/python-scripts/video07/</guid>
+      <description>In this tutorial we will look at templates, which are like pre-prepared queries you can easily re-use. Templates can do everything that a query can do. Everything that you can do with a query - add new constraints, add new views, process the results using the results iterator can be done with templates as well.
+While writing queries of your own, you would have probably realized that there is a lot of duplication of effort.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial 8</title>
+      <link>https://persdre.github.io/intermine-training-portal/python-scripts/video08/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://persdre.github.io/intermine-training-portal/python-scripts/video08/</guid>
+      <description>Welcome to the eighth tutorial in the InterMine python tutorial series! v If you don’t have an account, you can create one at flymine.org
+Once you have made an account, you can use the web service to create a query of your choice and save it as a template. This template can be used through Python API or through the web service.
+To login and access your templates through Python, you can provide your login information as shown below.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial 9</title>
+      <link>https://persdre.github.io/intermine-training-portal/python-scripts/video09/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://persdre.github.io/intermine-training-portal/python-scripts/video09/</guid>
+      <description>Welcome to the ninth tutorial in the InterMine python tutorial series! This tutorial will talk about how you can create and save lists in your account. You will need to provide your login information while creating a service object like in the previous tutorial.
+You can either provide a list of identifiers (for example, gene symbols) and the InterMine Server will try to match them with objects in the database, or you can provide a query that specifies exactly what you want.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial 10</title>
+      <link>https://persdre.github.io/intermine-training-portal/python-scripts/video10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://persdre.github.io/intermine-training-portal/python-scripts/video10/</guid>
+      <description>Welcome to the tenth tutorial in the InterMine python tutorial series! This tutorial will talk about how you can perform enrichment calculations on lists that you have access to.
+‘Enrichment’ means that the feature (GO term, domain) occurs for those genes more than would be expected by chance. It is calculated using the hypergeometric distribution which is described further in the InterMine documentation
+Enrichment widgets are useful to find items such as GO Terms or publications which are associated with your gene list more than would be expected by chance.</description>
+    </item>
+    
   </channel>
 </rss>

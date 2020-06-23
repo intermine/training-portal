@@ -7,7 +7,7 @@
   </url>
   
   <url>
-    <loc>https://persdre.github.io/intermine-training-portal/python-tutorial/python-scripts/video00/</loc>
+    <loc>https://persdre.github.io/intermine-training-portal/python-scripts/video00/</loc>
   </url>
   
   <url>
@@ -27,7 +27,7 @@
   </url>
   
   <url>
-    <loc>https://persdre.github.io/intermine-training-portal/python-tutorial/python-scripts/video01/</loc>
+    <loc>https://persdre.github.io/intermine-training-portal/python-scripts/video01/</loc>
   </url>
   
   <url>
@@ -35,7 +35,11 @@
   </url>
   
   <url>
-    <loc>https://persdre.github.io/intermine-training-portal/python-tutorial/python-scripts/video02/</loc>
+    <loc>https://persdre.github.io/intermine-training-portal/python-scripts/</loc>
+  </url>
+  
+  <url>
+    <loc>https://persdre.github.io/intermine-training-portal/python-scripts/video02/</loc>
   </url>
   
   <url>
@@ -43,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://persdre.github.io/intermine-training-portal/python-tutorial/python-scripts/video03/</loc>
+    <loc>https://persdre.github.io/intermine-training-portal/python-scripts/video03/</loc>
   </url>
   
   <url>
@@ -51,7 +55,7 @@
   </url>
   
   <url>
-    <loc>https://persdre.github.io/intermine-training-portal/python-tutorial/python-scripts/video04/</loc>
+    <loc>https://persdre.github.io/intermine-training-portal/python-scripts/video04/</loc>
   </url>
   
   <url>
@@ -59,11 +63,19 @@
   </url>
   
   <url>
-    <loc>https://persdre.github.io/intermine-training-portal/python-tutorial/python-scripts/video05/</loc>
+    <loc>https://persdre.github.io/intermine-training-portal/python-scripts/video05/</loc>
   </url>
   
   <url>
     <loc>https://persdre.github.io/intermine-training-portal/python-tutorial/05/</loc>
+  </url>
+  
+  <url>
+    <loc>https://persdre.github.io/intermine-training-portal/python-scripts/video06/</loc>
+  </url>
+  
+  <url>
+    <loc>https://persdre.github.io/intermine-training-portal/python-tutorial/06/</loc>
   </url>
   
   <url>
@@ -76,10 +88,6 @@
   
   <url>
     <loc>https://persdre.github.io/intermine-training-portal/tags/</loc>
-  </url>
-  
-  <url>
-    <loc>https://persdre.github.io/intermine-training-portal/python-tutorial/python-scripts/</loc>
   </url>
   
 </urlset>

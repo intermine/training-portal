@@ -1,6 +1,7 @@
 +++
-title = "Video Script"
+title = "Python Video Script"
 description = ""
+weight = 3
 +++
 
 {{< lead >}}

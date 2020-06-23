@@ -4,11 +4,11 @@
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="canonical" href="https://persdre.github.io/intermine-training-portal/tags/">
+    <link rel="canonical" href="https://persdre.github.io/intermine-training-portal/python-scripts/video06/">
 
     <title>
         
-        Tags | InterMine Training Portal
+        Tutorial 6 | InterMine Training Portal
         
     </title>
 
@@ -133,7 +133,7 @@
         </li>
         </ul>
     </li>
-    <li data-nav-id="/intermine-training-portal/python-scripts/" class="nav-item my-1 haschildren
+    <li data-nav-id="/intermine-training-portal/python-scripts/" class="nav-item my-1 parent haschildren
         ">
         
         <a class="nav-link p-0" href="/intermine-training-portal/python-scripts/"><h6>Python Video Script</h6></a>
@@ -174,7 +174,7 @@
                     Tutorial 5
                 </a>
         </li>
-        <li data-nav-id="/intermine-training-portal/python-scripts/video06/" class="nav-item my-1">
+        <li data-nav-id="/intermine-training-portal/python-scripts/video06/" class="nav-item my-1 active">
                 
                  <a href="/intermine-training-portal/python-scripts/video06/" class="nav-link p-0">
                     Tutorial 6
@@ -189,13 +189,32 @@
 
 </div>
                 <div class="docs-toc large order-lg-2 order-md-0 order-xs-1 col-12 col-lg-2 col-xl-2 position-sticky border-left"><div class="docs-toc">
-	
+	<nav id="TableOfContents"></nav>
 </div>
 </div>
                 <div class="main col-12 order-1 col-md-9 col-lg-10 col-xl-8 py-3">
                 
 
-<h1>Tags</h1>
+<h1>Tutorial 6</h1>
+
+<p class="lead">
+    <br/>
+<p>Welcome to the sixth tutorial in the InterMine python tutorial series! In the previous tutorials we learned how to add filters to limit the query results. However, it is often useful to view the results without filters. This tutorial will show you how to process, sort, and analyse the query results.</p>
+<p>Usually, we begin by creating a query object. Our example for this tutorial is going to be related to gene expression, represented in InterMine by the RNA Sequence Result class. Let’s select the result score, expression level, and associated gene as our views.</p>
+<p>Then we sort the results in descending order of their expression score.</p>
+<p>Now we print the first ten rows.</p>
+<p>Note that we have not added any constraints so we have extracted all the possible results.</p>
+<p>Now let’s say that we want to sort all the results into three different maps, which we can also call dictionaries. Results with an expressionScore of greater than 25 go into the “high” map, the ones with an expression score greater than 10 but less than 25 into the “medium”, and all the remaining ones into a separate map for low result scores.</p>
+<p>We begin by declaring these three dictionaries. high_dict, medium_dict, and low_dict.</p>
+<p>Here we add three map conditions to sort the results into each of our three maps</p>
+<p>Then we print items stored in high_dict. We can see the output is quite long.</p>
+<p>We can calculate the average score of items with scores over 1000, by adding all scores together and dividing by the number of scores over 1000.</p>
+<p>Here we can see the result is around 3018.</p>
+<p>If you change your mind about the constraints, you can simply change the “if” condition.</p>
+<p>In the next tutorial, we will look at templates, which are like pre-prepared queries you can easily re-use.</p>
+<p>Thank you for watching!</p>
+
+</p>
 
 
 
@@ -205,7 +224,8 @@
                     
                     <div class="row"><div class="position-relative mx-auto col-lg-9">
                           <div class="bg-primary overflow-hidden p-3 mt-5 shadow">
-    <div class="d-flex justify-content-center"><a class="p-1 ml-3 d-inline-block text-white text-right" href="/intermine-training-portal/training-workshops/" title="Training Workshops">Training Workshops<i class="fas fa-chevron-right p-1"></i></a>
+    <div class="d-flex justify-content-center"><a class="p-1 mr-3 d-inline-block text-white" href="/intermine-training-portal/python-scripts/video05/" title="Tutorial 5"><i class="fas fa-chevron-left p-1"></i>Tutorial 5</a>
+        <a class="p-1 ml-3 d-inline-block text-white text-right" href="/intermine-training-portal/python-scripts/video00/" title="Tutorial 0">Tutorial 0<i class="fas fa-chevron-right p-1"></i></a>
     </div>
 </div>
 

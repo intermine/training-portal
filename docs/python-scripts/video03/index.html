@@ -4,11 +4,11 @@
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="canonical" href="https://persdre.github.io/intermine-training-portal/tags/">
+    <link rel="canonical" href="https://persdre.github.io/intermine-training-portal/python-scripts/video03/">
 
     <title>
         
-        Tags | InterMine Training Portal
+        Tutorial 3 | InterMine Training Portal
         
     </title>
 
@@ -133,7 +133,7 @@
         </li>
         </ul>
     </li>
-    <li data-nav-id="/intermine-training-portal/python-scripts/" class="nav-item my-1 haschildren
+    <li data-nav-id="/intermine-training-portal/python-scripts/" class="nav-item my-1 parent haschildren
         ">
         
         <a class="nav-link p-0" href="/intermine-training-portal/python-scripts/"><h6>Python Video Script</h6></a>
@@ -156,7 +156,7 @@
                     Tutorial 2
                 </a>
         </li>
-        <li data-nav-id="/intermine-training-portal/python-scripts/video03/" class="nav-item my-1">
+        <li data-nav-id="/intermine-training-portal/python-scripts/video03/" class="nav-item my-1 active">
                 
                  <a href="/intermine-training-portal/python-scripts/video03/" class="nav-link p-0">
                     Tutorial 3
@@ -189,13 +189,49 @@
 
 </div>
                 <div class="docs-toc large order-lg-2 order-md-0 order-xs-1 col-12 col-lg-2 col-xl-2 position-sticky border-left"><div class="docs-toc">
-	
+	<nav id="TableOfContents"></nav>
 </div>
 </div>
                 <div class="main col-12 order-1 col-md-9 col-lg-10 col-xl-8 py-3">
                 
 
-<h1>Tags</h1>
+<h1>Tutorial 3</h1>
+
+<p class="lead">
+    <br/>
+<p>Welcome to the third tutorial in the InterMine python tutorial series! In the previous tutorial, we learned about adding constraints to our query so that we could filter the results. In this tutorial we will take a look at some more different types of constraints.</p>
+<p>First, let’s create a query object like we saw earlier.</p>
+<p>The first type of constraint we will look at is Unary Constraint. A unary constraint is one that does not take any value but can be used to check if a particular attribute is absent or present. The unary constraints are IS NULL and IS NOT NULL. Let’s look at a small example.</p>
+<p>We add constraint IS NOT NULL here. This means that primaryIdentifier must have some value.</p>
+<p>Let’s click it and see the output.</p>
+<p>The next type of constraint is a Binary Constraint. This refers to constraints that take a value. Binary constraints are the largest group of constraints. Binary operators are =, &lt;=, &gt;=, &lt;, &gt;, and !=.</p>
+<p>Let’s look at this example. We add the constraint length &gt;= 12000 here. That means genes’ length should be longer than 12000 in this query object.</p>
+<p>We can see the output here.</p>
+<p>Now we look at Ternary constraints. A ternary constraint is a type of constraint which has one required value and one optional value. InterMine currently supports only one such type of operator, LOOKUP, which searches through all the fields in a particular class for the value specified by the user.</p>
+<p>In the example below, it will search through the entire gene class to find if any of the fields has an occurance of “zen”. The advantage of this is that you do not need to remember if zen is a symbol or a name or a primaryIdentifier. However, this may lead to ambiguous results and so you can use the optional extra_value parameter to limit the search to the type of object - for example, you might want to limit it by organism.</p>
+<p>We can see in this example the constraint is Gene LOOKUP zen IN D.melanogaster.</p>
+<p>Then we can see the output.</p>
+<p>The next constraint type we will look at is Multi-Value constraints. This allows the constraint to take multiple values. Two operators that are allowed are ONE OF and NONE OF.</p>
+<p>Here, we set the constraint is Gene.symbol NONE OF [‘zen’,’eve’].</p>
+<p>We can see the output now.</p>
+<p>Let’s look at List Constraints now. List Constraints allow users to create a named list of objects and then use the operators IN and NOT IN to use those named lists in queries.
+Let’s show it in this example.</p>
+<p>Now the constraint is GENE IN the list  PL FlyAtlas_brain_top.</p>
+<p>We can see the output.</p>
+<p>Next, let’s look at Sub-Class constraints. These constraints allow you to specify a sub-class of a class to constrain a path to.</p>
+<p>In this example, the constraint now is Gene.ontologyAnnotations IS A GOAnnotation</p>
+<p>We can see the output.</p>
+<p>Next, we look at Loop Constraints. Loop constraints assert that two paths refer to the same object. The valid operators are IS and IS NOT. The Path and LoopPath in such a query must always be a Class(for example - Gene is a valid path). Also, the operators IS and IS NOT map to “=” and “!=”. The example below is an application of a Loop Constraint.</p>
+<p>Firstly, we add list constraints here.</p>
+<p>Then we add a loop constraint.</p>
+<p>Then we can see the output.</p>
+<p>Finally, let’s look at range constraints. They are used for testing where a value lies relative to a set of ranges. These constraints require that the value of the path they constrain should lie in relationship to the set of values passed according to the specific operator. Valid operators are OVERLAPS, DOES NOT OVERLAP, WITHIN, OUTSIDE, CONTAINS and DOES NOT CONTAIN. Here is an example of Range Constraint.</p>
+<p>Here we set the constraint OVERLAPS this range.</p>
+<p>Now we can see the output.</p>
+<p>This tutorial summed up some of the important constraint types. In the next tutorial we will look at some of the other features of a query.</p>
+<p>Thank you for watching!</p>
+
+</p>
 
 
 
@@ -205,7 +241,8 @@
                     
                     <div class="row"><div class="position-relative mx-auto col-lg-9">
                           <div class="bg-primary overflow-hidden p-3 mt-5 shadow">
-    <div class="d-flex justify-content-center"><a class="p-1 ml-3 d-inline-block text-white text-right" href="/intermine-training-portal/training-workshops/" title="Training Workshops">Training Workshops<i class="fas fa-chevron-right p-1"></i></a>
+    <div class="d-flex justify-content-center"><a class="p-1 mr-3 d-inline-block text-white" href="/intermine-training-portal/python-scripts/video02/" title="Tutorial 2"><i class="fas fa-chevron-left p-1"></i>Tutorial 2</a>
+        <a class="p-1 ml-3 d-inline-block text-white text-right" href="/intermine-training-portal/python-scripts/video04/" title="Tutorial 4">Tutorial 4<i class="fas fa-chevron-right p-1"></i></a>
     </div>
 </div>
 

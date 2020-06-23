@@ -4,11 +4,11 @@
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="canonical" href="https://persdre.github.io/intermine-training-portal/tags/">
+    <link rel="canonical" href="https://persdre.github.io/intermine-training-portal/python-scripts/video04/">
 
     <title>
         
-        Tags | InterMine Training Portal
+        Tutorial 4 | InterMine Training Portal
         
     </title>
 
@@ -133,7 +133,7 @@
         </li>
         </ul>
     </li>
-    <li data-nav-id="/intermine-training-portal/python-scripts/" class="nav-item my-1 haschildren
+    <li data-nav-id="/intermine-training-portal/python-scripts/" class="nav-item my-1 parent haschildren
         ">
         
         <a class="nav-link p-0" href="/intermine-training-portal/python-scripts/"><h6>Python Video Script</h6></a>
@@ -162,7 +162,7 @@
                     Tutorial 3
                 </a>
         </li>
-        <li data-nav-id="/intermine-training-portal/python-scripts/video04/" class="nav-item my-1">
+        <li data-nav-id="/intermine-training-portal/python-scripts/video04/" class="nav-item my-1 active">
                 
                  <a href="/intermine-training-portal/python-scripts/video04/" class="nav-link p-0">
                     Tutorial 4
@@ -189,13 +189,61 @@
 
 </div>
                 <div class="docs-toc large order-lg-2 order-md-0 order-xs-1 col-12 col-lg-2 col-xl-2 position-sticky border-left"><div class="docs-toc">
-	
+	<nav id="TableOfContents"></nav>
 </div>
 </div>
                 <div class="main col-12 order-1 col-md-9 col-lg-10 col-xl-8 py-3">
                 
 
-<h1>Tags</h1>
+<h1>Tutorial 4</h1>
+
+<p class="lead">
+    <br/>
+<p>Welcome to the fourth tutorial in the InterMine python tutorial series! In the previous tutorials we learned about the basic backbone of a query - views and constraints. This short tutorial will talk about another feature of an InterMine query - Outer and Inner Joins.</p>
+<p>When we add a path to a query, even if it is in the view, then by default there is a constraint involved. Our query will consist of only those records that have information in the fields or attributes that are described by the path.</p>
+<p>Here, we’ll try to get genes involved in a biosynthetic process and any publications on them. If a particular gene has publication information available, then we want to view the general information about that gene.</p>
+<p>By default, InterMine is designed to give you an Inner Join, which basically means that no partial matches will be part of the result. However, for the example we are discussing here, we would require something known as an Outer Join. An outer Join on Gene.publications would help in solving the problem for us.</p>
+<p>Here is a comparison table of Inner Join and Outer Join:</p>
+<table>
+<thead>
+<tr>
+<th>Inner Join</th>
+<th>Outer Join</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>default behavior</td>
+<td>optional behavior</td>
+</tr>
+<tr>
+<td>implicitly constrains the values of that path to be non-null</td>
+<td>allows null values in the joined path</td>
+</tr>
+<tr>
+<td>no data will be returned if any one gene has not matched attributes described by the path</td>
+<td>query will continue even if some genes don’t have matched attributes described by the path</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<p>Screenshot of the same query with Inner Join and Outer Join:</p>
+<h4 id="with-outer-join">With Outer Join:</h4>
+<p><img src="https://i.imgur.com/av7Jggf.png" width="900" height="400" /></p>
+<h4 id="with-inner-join">With Inner Join:</h4>
+<p><img src="https://i.imgur.com/vXuoN3Q.png" width="900" height="600" /></p>
+<p><em>PS: in the first second screenshot, results for 0610009B22Rik takes up three rows, which is the same as the SINGLE row with three publications in the second screenshot.</em></p>
+<p>Let’s start by creating a new query object like we saw earlier. We're selecting the primaryIdentifier and symbol for each gene, as well as the year, first author, and title of any associated publications.</p>
+<p>Here we add the constraint like this, which constrains ontology terms to be any term that contains “biosynthetic process”. The *s in the constraint are a wildcard, meaning that any additional text can come before or after the phrase “biosynthetic process”.</p>
+<p>Then, we add an outer join using the query.outerjoin method, asserting that all genes should be returned, and if publication information is available we will return it as well.</p>
+<p>Here we can see the output.</p>
+<p>Another query feature that InterMine has is the ability to define shorter column names. This can be done using the add_path_description method.</p>
+<p>This helps us when we want to print our tables into a file and want the column names to be in a readable format.</p>
+<p>In this example, we use Ontology Term to represent ontologyAnnotations.ontologyTerm and Pub. to represent publications.</p>
+<p>In the next tutorial, we will look at dealing with the results that are returned by our queries.</p>
+<p>Thank you for watching!</p>
+
+</p>
 
 
 
@@ -205,7 +253,8 @@
                     
                     <div class="row"><div class="position-relative mx-auto col-lg-9">
                           <div class="bg-primary overflow-hidden p-3 mt-5 shadow">
-    <div class="d-flex justify-content-center"><a class="p-1 ml-3 d-inline-block text-white text-right" href="/intermine-training-portal/training-workshops/" title="Training Workshops">Training Workshops<i class="fas fa-chevron-right p-1"></i></a>
+    <div class="d-flex justify-content-center"><a class="p-1 mr-3 d-inline-block text-white" href="/intermine-training-portal/python-scripts/video03/" title="Tutorial 3"><i class="fas fa-chevron-left p-1"></i>Tutorial 3</a>
+        <a class="p-1 ml-3 d-inline-block text-white text-right" href="/intermine-training-portal/python-scripts/video05/" title="Tutorial 5">Tutorial 5<i class="fas fa-chevron-right p-1"></i></a>
     </div>
 </div>
 

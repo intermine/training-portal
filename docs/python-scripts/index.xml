@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>InterMine Training Portal</title>
-    <link>https://persdre.github.io/intermine-training-portal/</link>
-    <description>Recent content on InterMine Training Portal</description>
+    <title>Python Video Script on InterMine Training Portal</title>
+    <link>https://persdre.github.io/intermine-training-portal/python-scripts/</link>
+    <description>Recent content in Python Video Script on InterMine Training Portal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     
-	<atom:link href="https://persdre.github.io/intermine-training-portal/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://persdre.github.io/intermine-training-portal/python-scripts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -22,37 +22,6 @@ Then, let’s look at cells.</description>
     </item>
     
     <item>
-      <title>Tutorial 0: Overview</title>
-      <link>https://persdre.github.io/intermine-training-portal/python-tutorial/00/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/00/</guid>
-      <description>This tutorial is for users who use Python to get information of a mine or an organism. This tutorial consists of 14 parts.
-We use FlyMine as an example.
-We recommend you to use Jupyter Notebook to run following code. If you are new to Jupyter, you can visit this.
-Text Tutorial   Video Tutorial     You can see the script here.
-Try Live  You can try live here.</description>
-    </item>
-    
-    <item>
-      <title>Twitter Feed</title>
-      <link>https://persdre.github.io/intermine-training-portal/training-workshops/twitter-feed/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://persdre.github.io/intermine-training-portal/training-workshops/twitter-feed/</guid>
-      <description>We keep information updated on this.Don&#39;t hesitate to follow it! </description>
-    </item>
-    
-    <item>
-      <title>Available Materials</title>
-      <link>https://persdre.github.io/intermine-training-portal/training-workshops/available-materials/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://persdre.github.io/intermine-training-portal/training-workshops/available-materials/</guid>
-      <description>Listed in chronological order, with newer/upcoming courses at the top. 2019  July 4 - Handling integrated biological data using Python, Jupyter, and InterMine June 19 - UI + API training courses at Cambridge Bioinformatics Training Facility February 13 - EBI Multiomics Data Integration  2018  June - GCCBOSC 2018  Shorter UI section, with a longer API focus. 2.5 hours.   February - EBI Multiomics course  Mostly UI-oriented with a short API section.</description>
-    </item>
-    
-    <item>
       <title>Tutorial 1</title>
       <link>https://persdre.github.io/intermine-training-portal/python-scripts/video01/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -61,16 +30,6 @@ Try Live  You can try live here.</description>
       <description>Welcome to the first intermine python tutorial! In this tutorial, we will go through the basics of intermine python queries and how to write your first query. To get started, you would want to ‘pip install intermine’ in your terminal first.
 Let’s look at cells. We start by importing the service class from InterMine’s webservice module. Let’s click it.
 Then let’s create a query object. The “new query” method can help us do this.</description>
-    </item>
-    
-    <item>
-      <title>Tutorial 1: The Basics of a Query</title>
-      <link>https://persdre.github.io/intermine-training-portal/python-tutorial/01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/01/</guid>
-      <description>This tutorial will tell you about the basics of intermine-python queries and how to write your first query. Text Tutorial   Video Tutorial     You can see the script here.
-Try Live  You can try live here.</description>
     </item>
     
     <item>
@@ -85,16 +44,6 @@ If we want to view all the possible output columns at once, we can pass “*” 
     </item>
     
     <item>
-      <title>Tutorial 2: Adding Constraints to a Query</title>
-      <link>https://persdre.github.io/intermine-training-portal/python-tutorial/02/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/02/</guid>
-      <description>In this tutorial, we will look at adding constraints to our queries to filter the results. Text Tutorial   Video Tutorial     You can see the script here.
-Try Live  You can try live here.</description>
-    </item>
-    
-    <item>
       <title>Tutorial 3</title>
       <link>https://persdre.github.io/intermine-training-portal/python-scripts/video03/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -103,16 +52,6 @@ Try Live  You can try live here.</description>
       <description>Welcome to the third tutorial in the InterMine python tutorial series! In the previous tutorial, we learned about adding constraints to our query so that we could filter the results. In this tutorial we will take a look at some more different types of constraints.
 First, let’s create a query object like we saw earlier.
 The first type of constraint we will look at is Unary Constraint. A unary constraint is one that does not take any value but can be used to check if a particular attribute is absent or present.</description>
-    </item>
-    
-    <item>
-      <title>Tutorial 3: More about Constraints</title>
-      <link>https://persdre.github.io/intermine-training-portal/python-tutorial/03/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/03/</guid>
-      <description>In this tutorial we will take a look at some more constraints and the different types of constraints. Text Tutorial   Video Tutorial     You can see the script here.
-Try Live  You can try live here.</description>
     </item>
     
     <item>
@@ -126,16 +65,6 @@ When we add a path to a query, even if it is in the view, then by default there 
     </item>
     
     <item>
-      <title>Tutorial 4: Query Features</title>
-      <link>https://persdre.github.io/intermine-training-portal/python-tutorial/04/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/04/</guid>
-      <description>In this tutorial we will talk about another feature of an intermine query - Outer and Inner Joins. Text Tutorial   Video Tutorial     You can see the script here.
-Try Live  You can try live here.</description>
-    </item>
-    
-    <item>
       <title>Tutorial 5</title>
       <link>https://persdre.github.io/intermine-training-portal/python-scripts/video05/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -146,16 +75,6 @@ Now we write a short query for genes, and add all views for publications associa
     </item>
     
     <item>
-      <title>Tutorial 5: Query Results</title>
-      <link>https://persdre.github.io/intermine-training-portal/python-tutorial/05/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/05/</guid>
-      <description>In this tutorial we will talk about dealing with the results of our query. Text Tutorial   Video Tutorial     You can see the script here.
-Try Live  You can try live here.</description>
-    </item>
-    
-    <item>
       <title>Tutorial 6</title>
       <link>https://persdre.github.io/intermine-training-portal/python-scripts/video06/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -163,16 +82,6 @@ Try Live  You can try live here.</description>
       <guid>https://persdre.github.io/intermine-training-portal/python-scripts/video06/</guid>
       <description>Welcome to the sixth tutorial in the InterMine python tutorial series! In the previous tutorials we learned how to add filters to limit the query results. However, it is often useful to view the results without filters. This tutorial will show you how to process, sort, and analyse the query results.
 Usually, we begin by creating a query object. Our example for this tutorial is going to be related to gene expression, represented in InterMine by the RNA Sequence Result class.</description>
-    </item>
-    
-    <item>
-      <title>Tutorial 6: Advanced Results Management</title>
-      <link>https://persdre.github.io/intermine-training-portal/python-tutorial/06/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/06/</guid>
-      <description>This tutorial will show you how to process, sort, and analyse the query results. Text Tutorial   Video Tutorial     You can see the script here.
-Try Live  You can try live here.</description>
     </item>
     
   </channel>

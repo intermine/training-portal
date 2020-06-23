@@ -6,7 +6,7 @@ weight = 9
 {{< lead >}}
 <br/>
 
-Welcome to the eighth tutorial in the InterMine python tutorial series! v If you don’t have an account, you can create one at  flymine.org
+Welcome to the eighth tutorial in the InterMine python tutorial series! If you don’t have an account, you can create one at  flymine.org
 
 Once you have made an account, you can use the web service to create a query of your choice and save it as a template. This template can be used through Python API or through the web service.
 

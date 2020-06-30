@@ -100,9 +100,8 @@ While writing queries of your own, you would have probably realized that there i
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://persdre.github.io/intermine-training-portal/python-scripts/video08/</guid>
-      <description>Welcome to the eighth tutorial in the InterMine python tutorial series! v If you don’t have an account, you can create one at flymine.org
-Once you have made an account, you can use the web service to create a query of your choice and save it as a template. This template can be used through Python API or through the web service.
-To login and access your templates through Python, you can provide your login information as shown below.</description>
+      <description>Welcome to the eighth tutorial in the InterMine python tutorial series! This very short tutorial will talk about how to access your saved templates and lists if you have your login information (username and password). If you don’t have an account, you can create one at flymine.org
+Once you have made an account, you can use the web service to create a query of your choice and save it as a template.</description>
     </item>
     
     <item>
@@ -124,6 +123,59 @@ You can either provide a list of identifiers (for example, gene symbols) and the
       <description>Welcome to the tenth tutorial in the InterMine python tutorial series! This tutorial will talk about how you can perform enrichment calculations on lists that you have access to.
 ‘Enrichment’ means that the feature (GO term, domain) occurs for those genes more than would be expected by chance. It is calculated using the hypergeometric distribution which is described further in the InterMine documentation
 Enrichment widgets are useful to find items such as GO Terms or publications which are associated with your gene list more than would be expected by chance.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial 11</title>
+      <link>https://persdre.github.io/intermine-training-portal/python-scripts/video11/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://persdre.github.io/intermine-training-portal/python-scripts/video11/</guid>
+      <description>Welcome to the eleventh tutorial in the InterMine python tutorial series! This tutorial will talk about how you can combine two lists easily in InterMine.
+Like previous tutorials, this tutorial will require you to login into your InterMine account so that the lists that you will combine can be saved.
+To make things easier, I use a test account here. Don’t forget to enter your username and password, execute it and then proceed with the rest of the tutorial.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial 12</title>
+      <link>https://persdre.github.io/intermine-training-portal/python-scripts/video12/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://persdre.github.io/intermine-training-portal/python-scripts/video12/</guid>
+      <description>Welcome to the twelfth tutorial in the InterMine python tutorial series! This tutorial will cover some more functionalities of a query. Queries are the basis of all research in InterMine. Being able to manage them more effectively is always useful.
+First, we create a query object like we saw earlier, and select the gene symbol and organism as the views.
+Let’s say that the query is not as simple as a strict cumulative filter and the user wants combinations of constraints.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial 13</title>
+      <link>https://persdre.github.io/intermine-training-portal/python-scripts/video13/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://persdre.github.io/intermine-training-portal/python-scripts/video13/</guid>
+      <description>Welcome to the thirteenth tutorial in the InterMine python tutorial series! This tutorial will tell you about the Query Manager and how you can take advantage of it to make better use of queries. We hope at this stage you have the &amp;lsquo;intermine&amp;rsquo; package installed.
+We start by importing the module from the InterMine package.
+The next step will be to access the account we want to manage: save_mine_and_token is a method to access an account from a particular mine.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial 14</title>
+      <link>https://persdre.github.io/intermine-training-portal/python-scripts/video14/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://persdre.github.io/intermine-training-portal/python-scripts/video14/</guid>
+      <description>Welcome to the fourteenth tutorial in the InterMine python tutorial series! With the great need for data visualisation in the present world, we have introduced a few visual features to InterMine as well. This tutorial will have details of how we can visualise the data using the Python client.
+This feature of the Python Client is supported only on Python versions &amp;gt;= 3.6 because of the dependencies. So please update your Python environment if needed.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial 15</title>
+      <link>https://persdre.github.io/intermine-training-portal/python-scripts/video15/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://persdre.github.io/intermine-training-portal/python-scripts/video15/</guid>
+      <description>Welcome to the fifteenth tutorial in the InterMine python tutorial series! This tutorial will help you utilise the module to get details about the data model of various mines. These are additional examples, besides the ones covered here - http://intermine.org/intermine-ws-python/intermine.html#module-intermine.model. Each class (data type) has information containing references to other objects in the data model, collections of references or attribute details.
+Let&#39;s begin by showing all the fields a data type contains (including all Attributes, References and Collections listed alphabetically).</description>
     </item>
     
   </channel>

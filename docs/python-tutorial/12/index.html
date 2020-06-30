@@ -4,11 +4,11 @@
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="canonical" href="https://persdre.github.io/intermine-training-portal/python-scripts/video10/">
+    <link rel="canonical" href="https://persdre.github.io/intermine-training-portal/python-tutorial/12/">
 
     <title>
         
-        Tutorial 10 | InterMine Training Portal
+        Tutorial 12: More about Queries | InterMine Training Portal
         
     </title>
 
@@ -84,7 +84,7 @@
         </li>
         </ul>
     </li>
-    <li data-nav-id="/intermine-training-portal/python-tutorial/" class="nav-item my-1 haschildren
+    <li data-nav-id="/intermine-training-portal/python-tutorial/" class="nav-item my-1 parent haschildren
         ">
         
         <a class="nav-link p-0" href="/intermine-training-portal/python-tutorial/"><h6>Python Tutorial</h6></a>
@@ -161,7 +161,7 @@
                     Tutorial 11: Combining Lists
                 </a>
         </li>
-        <li data-nav-id="/intermine-training-portal/python-tutorial/12/" class="nav-item my-1">
+        <li data-nav-id="/intermine-training-portal/python-tutorial/12/" class="nav-item my-1 active">
                 
                  <a href="/intermine-training-portal/python-tutorial/12/" class="nav-link p-0">
                     Tutorial 12: More about Queries
@@ -187,7 +187,7 @@
         </li>
         </ul>
     </li>
-    <li data-nav-id="/intermine-training-portal/python-scripts/" class="nav-item my-1 parent haschildren
+    <li data-nav-id="/intermine-training-portal/python-scripts/" class="nav-item my-1 haschildren
         ">
         
         <a class="nav-link p-0" href="/intermine-training-portal/python-scripts/"><h6>Python Video Script</h6></a>
@@ -252,7 +252,7 @@
                     Tutorial 9
                 </a>
         </li>
-        <li data-nav-id="/intermine-training-portal/python-scripts/video10/" class="nav-item my-1 active">
+        <li data-nav-id="/intermine-training-portal/python-scripts/video10/" class="nav-item my-1">
                 
                  <a href="/intermine-training-portal/python-scripts/video10/" class="nav-link p-0">
                     Tutorial 10
@@ -297,31 +297,38 @@
 
 </div>
                 <div class="docs-toc large order-lg-2 order-md-0 order-xs-1 col-12 col-lg-2 col-xl-2 position-sticky border-left"><div class="docs-toc">
-	<nav id="TableOfContents"></nav>
+	<nav id="TableOfContents">
+  <ul>
+    <li><a href="#text-tutorial">Text Tutorial</a></li>
+    <li><a href="#video-tutorial">Video Tutorial</a></li>
+    <li><a href="#try-live">Try Live</a></li>
+  </ul>
+</nav>
 </div>
 </div>
                 <div class="main col-12 order-1 col-md-9 col-lg-10 col-xl-8 py-3">
                 
 
-<h1>Tutorial 10</h1>
+<h1>Tutorial 12: More about Queries</h1>
 
 <p class="lead">
     <br/>
-<p>Welcome to the tenth tutorial in the InterMine python tutorial series! This tutorial will talk about how you can perform enrichment calculations on lists that you have access to.</p>
-<p>‘Enrichment’ means that the feature (GO term, domain) occurs for those genes more than would be expected by chance. It is calculated using the hypergeometric distribution which is described further in the InterMine documentation</p>
-<p>Enrichment widgets are useful to find items such as GO Terms or publications which are associated with your gene list more than would be expected by chance.</p>
-<p>The InterMine service has various widgets that can perform different functions. These widgets are stored in a dictionary in the Service class. To view all the widgets for an InterMine we can use service.widgets.</p>
-<p>Here we can see the output</p>
-<p>If you want to view only those widgets that are related to enrichment, you can filter based on the widget type. Here we use a python loop to print all the enrichment related widgets.</p>
-<p>Now we can get a list on which we want to perform the analysis using the list manager. The get_list method here returns a list from the service by name, if it exists.</p>
-<p>To perform any enrichment analysis on the list, we can use the calculate_enrichment method. The arguments include the type of enrichment (this has to be one of the widget types shown in the widget list above) and the maximum p value to show. Here we store the results in a variable named “r”.</p>
-<p>Then we iterate through r and view the results.</p>
-<p>In this output, we can see a set of publications for which this gene set is enriched - that is, genes that are over-represented in the publications</p>
-<p>In the next tutorial, we will talk about how you can combine two lists easily in InterMine.</p>
-<p>Thank you for watching!</p>
-
+This tutorial will cover some more functionalities of a query. Queries are the basis of all research in InterMine and being able to manage them more effectively is always useful.
 </p>
 
+<h2 id="text-tutorial">Text Tutorial</h2>
+<br/>
+<iframe width="900" height="800" src="https://nbviewer.jupyter.org/github/intermine/intermine-ws-python-docs/blob/master/12-tutorial.ipynb" title="Python Tutorial 12">
+</iframe>
+<h2 id="video-tutorial">Video Tutorial</h2>
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Dz-ZN01IkJs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br/>
+<br/>
+<p>You can see the script <a href="/intermine-training-portal/python-scripts/video12">here</a>.</p>
+<h2 id="try-live">Try Live</h2>
+<br/>
+<p>You can try live <a href="https://mybinder.org/v2/gh/intermine/intermine-ws-python-docs/master?filepath=12-tutorial.ipynb">here</a>.</p>
 
 
     
@@ -330,8 +337,8 @@
                     
                     <div class="row"><div class="position-relative mx-auto col-lg-9">
                           <div class="bg-primary overflow-hidden p-3 mt-5 shadow">
-    <div class="d-flex justify-content-center"><a class="p-1 mr-3 d-inline-block text-white" href="/intermine-training-portal/python-scripts/video09/" title="Tutorial 9"><i class="fas fa-chevron-left p-1"></i>Tutorial 9</a>
-        <a class="p-1 ml-3 d-inline-block text-white text-right" href="/intermine-training-portal/python-scripts/video11/" title="Tutorial 11">Tutorial 11<i class="fas fa-chevron-right p-1"></i></a>
+    <div class="d-flex justify-content-center"><a class="p-1 mr-3 d-inline-block text-white" href="/intermine-training-portal/python-tutorial/11/" title="Tutorial 11: Combining Lists"><i class="fas fa-chevron-left p-1"></i>Tutorial 11: Combining Lists</a>
+        <a class="p-1 ml-3 d-inline-block text-white text-right" href="/intermine-training-portal/python-tutorial/13/" title="Tutorial 13: Query Manager">Tutorial 13: Query Manager<i class="fas fa-chevron-right p-1"></i></a>
     </div>
 </div>
 

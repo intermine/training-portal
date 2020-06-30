@@ -4,11 +4,11 @@
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="canonical" href="https://persdre.github.io/intermine-training-portal/python-scripts/video10/">
+    <link rel="canonical" href="https://persdre.github.io/intermine-training-portal/python-scripts/video14/">
 
     <title>
         
-        Tutorial 10 | InterMine Training Portal
+        Tutorial 14 | InterMine Training Portal
         
     </title>
 
@@ -252,7 +252,7 @@
                     Tutorial 9
                 </a>
         </li>
-        <li data-nav-id="/intermine-training-portal/python-scripts/video10/" class="nav-item my-1 active">
+        <li data-nav-id="/intermine-training-portal/python-scripts/video10/" class="nav-item my-1">
                 
                  <a href="/intermine-training-portal/python-scripts/video10/" class="nav-link p-0">
                     Tutorial 10
@@ -276,7 +276,7 @@
                     Tutorial 13
                 </a>
         </li>
-        <li data-nav-id="/intermine-training-portal/python-scripts/video14/" class="nav-item my-1">
+        <li data-nav-id="/intermine-training-portal/python-scripts/video14/" class="nav-item my-1 active">
                 
                  <a href="/intermine-training-portal/python-scripts/video14/" class="nav-link p-0">
                     Tutorial 14
@@ -303,21 +303,23 @@
                 <div class="main col-12 order-1 col-md-9 col-lg-10 col-xl-8 py-3">
                 
 
-<h1>Tutorial 10</h1>
+<h1>Tutorial 14</h1>
 
 <p class="lead">
     <br/>
-<p>Welcome to the tenth tutorial in the InterMine python tutorial series! This tutorial will talk about how you can perform enrichment calculations on lists that you have access to.</p>
-<p>‘Enrichment’ means that the feature (GO term, domain) occurs for those genes more than would be expected by chance. It is calculated using the hypergeometric distribution which is described further in the InterMine documentation</p>
-<p>Enrichment widgets are useful to find items such as GO Terms or publications which are associated with your gene list more than would be expected by chance.</p>
-<p>The InterMine service has various widgets that can perform different functions. These widgets are stored in a dictionary in the Service class. To view all the widgets for an InterMine we can use service.widgets.</p>
-<p>Here we can see the output</p>
-<p>If you want to view only those widgets that are related to enrichment, you can filter based on the widget type. Here we use a python loop to print all the enrichment related widgets.</p>
-<p>Now we can get a list on which we want to perform the analysis using the list manager. The get_list method here returns a list from the service by name, if it exists.</p>
-<p>To perform any enrichment analysis on the list, we can use the calculate_enrichment method. The arguments include the type of enrichment (this has to be one of the widget types shown in the widget list above) and the maximum p value to show. Here we store the results in a variable named “r”.</p>
-<p>Then we iterate through r and view the results.</p>
-<p>In this output, we can see a set of publications for which this gene set is enriched - that is, genes that are over-represented in the publications</p>
-<p>In the next tutorial, we will talk about how you can combine two lists easily in InterMine.</p>
+<p>Welcome to the fourteenth tutorial in the InterMine python tutorial series! With the great need for data visualisation in the present world, we have introduced a few visual features to InterMine as well. This tutorial will have details of how we can visualise the data using the Python client.</p>
+<p>This feature of the Python Client is supported only on Python versions &gt;= 3.6 because of the dependencies. So please update your Python environment if needed.</p>
+<p>First, let’s import bar_chart from InterMine. Like the tutorial 13, you need to access your account from humanmine in the method save_mine_and_token.</p>
+<p>plot_go_vs_p(list name) can be used to print GO Terms vs p-value, as the name suggests. Also each bar in the bar-chart is labelled by the gene count corresponding to the particular GO Term.</p>
+<p>Here we can see the bar chart.</p>
+<p>Similarly, plot_go_vs_count(list name) can be used to print GO Terms vs gene count. Again, each bar in the bar-chart is labelled by the annotation corresponding to the particular GO Term.</p>
+<p>Again, we can see the bar chart.</p>
+<p>query_to_barchart_log is used to plot the query given as an argument in xml format.</p>
+<p>It is important to note that the query should be in a format such that the first row contains the gene, the second row has content for x-axis and the third row consists of y-axis values.</p>
+<p>When the second argument is &lsquo;true&rsquo;, the y axis values are converted to their corresponding log values. It is really useful if the values have a diverse range. If not needed, the second argument can be any string except an empty string(“\t”)</p>
+<p>We can see the bar chart here.</p>
+<p>We will soon be coming out with more plots. If you have any ideas feel free to open an issue in the Python Client repository.</p>
+<p>In the next tutorial, it will help you utilise the module to get details about the data model of various mines.</p>
 <p>Thank you for watching!</p>
 
 </p>
@@ -330,8 +332,8 @@
                     
                     <div class="row"><div class="position-relative mx-auto col-lg-9">
                           <div class="bg-primary overflow-hidden p-3 mt-5 shadow">
-    <div class="d-flex justify-content-center"><a class="p-1 mr-3 d-inline-block text-white" href="/intermine-training-portal/python-scripts/video09/" title="Tutorial 9"><i class="fas fa-chevron-left p-1"></i>Tutorial 9</a>
-        <a class="p-1 ml-3 d-inline-block text-white text-right" href="/intermine-training-portal/python-scripts/video11/" title="Tutorial 11">Tutorial 11<i class="fas fa-chevron-right p-1"></i></a>
+    <div class="d-flex justify-content-center"><a class="p-1 mr-3 d-inline-block text-white" href="/intermine-training-portal/python-scripts/video13/" title="Tutorial 13"><i class="fas fa-chevron-left p-1"></i>Tutorial 13</a>
+        <a class="p-1 ml-3 d-inline-block text-white text-right" href="/intermine-training-portal/python-scripts/video15/" title="Tutorial 15">Tutorial 15<i class="fas fa-chevron-right p-1"></i></a>
     </div>
 </div>
 

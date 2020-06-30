@@ -39,7 +39,7 @@
 	"title": "Python Tutorial",
 	"tags": [],
 	"description": "",
-	"content": "This part gives text and video tutorials of Python on how to interact with InterMine registry. \nYou can download all tutorials here.\nTutorial 0: Overview   Tutorial 1: The Basics of a Query   Tutorial 2: Adding Constraints to a Query   Tutorial 3: More about Constraints   Tutorial 4: Query Features   Tutorial 5: Query Results   Tutorial 6: Advanced Results Management   Tutorial 7: Templates   Tutorial 8: Accessing Templates   Tutorial 9: Lists   Tutorial 10: Enrichment Calculations    "
+	"content": "This part gives text and video tutorials of Python on how to interact with InterMine registry. \nYou can download all tutorials here.\nTutorial 0: Overview   Tutorial 1: The Basics of a Query   Tutorial 2: Adding Constraints to a Query   Tutorial 3: More about Constraints   Tutorial 4: Query Features   Tutorial 5: Query Results   Tutorial 6: Advanced Results Management   Tutorial 7: Templates   Tutorial 8: Accessing Templates   Tutorial 9: Lists   Tutorial 10: Enrichment Calculations   Tutorial 11: Combining Lists   Tutorial 12: More about Queries   Tutorial 13: Query Manager   Tutorial 14: Visualisation in InterMine   Tutorial 15: Simple Ways to Manipulate the Model    "
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video01/",
@@ -60,7 +60,7 @@
 	"title": "Python Video Script",
 	"tags": [],
 	"description": "",
-	"content": "This is the full text script that accompanies the video.  Tutorial 0   Tutorial 1   Tutorial 2   Tutorial 3   Tutorial 4   Tutorial 5   Tutorial 6   Tutorial 7   Tutorial 8   Tutorial 9   Tutorial 10    "
+	"content": "This is the full text script that accompanies the video.  Tutorial 0   Tutorial 1   Tutorial 2   Tutorial 3   Tutorial 4   Tutorial 5   Tutorial 6   Tutorial 7   Tutorial 8   Tutorial 9   Tutorial 10   Tutorial 11   Tutorial 12   Tutorial 13   Tutorial 14   Tutorial 15    "
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video02/",
@@ -151,7 +151,7 @@
 	"title": "Tutorial 8",
 	"tags": [],
 	"description": "",
-	"content": " Welcome to the eighth tutorial in the InterMine python tutorial series! v If you don’t have an account, you can create one at flymine.org\nOnce you have made an account, you can use the web service to create a query of your choice and save it as a template. This template can be used through Python API or through the web service.\nTo login and access your templates through Python, you can provide your login information as shown below. The code shown below is in comments because it needs to be specific to your account. Change the username and password to match yours, uncomment the code, and then run it.\nIf you are not comfortable using your username and password, check out tutorial 14 where we show you another way to authenticate using an API token.\nThen you can play around with this saved template like any of the existing templates on FlyMine.\nTo view the names of all the available templates you can view the templates dictionary and iterate through it. This can be done as follows.\nHere we print all names of templates in FlyMine.\nThis dictionary contains all the information about all the available templates including the exact name and description. If you want to view the details about a particular template name, this can be done as shown below, using the name of the template in quotes and square brackets.\nYou can also view the templates on the FlyMine user interface at https://www.flymine.org/flymine/templates.do, or by visiting flymine.org and clicking the templates tab.\nYou can scroll through the list of templates. If you find an interesting template, click on the template and click on the Python tab (in blue). This would show you how to call the template in Python using the exact name.\nAlso, you can try our latest BlueGenes platform(http://bluegenes.apps.intermine.org/flymine) where you can search all the templates.\nIn the next tutorial, we will talk about how you can create and save lists in your account.\nThank you for watching!\nScreenshots showing how to get a template you are interested in on the flymine website:   "
+	"content": " Welcome to the eighth tutorial in the InterMine python tutorial series! This very short tutorial will talk about how to access your saved templates and lists if you have your login information (username and password). If you don’t have an account, you can create one at flymine.org\nOnce you have made an account, you can use the web service to create a query of your choice and save it as a template. This template can be used through Python API or through the web service.\nTo login and access your templates through Python, you can provide your login information as shown below. The code shown below is in comments because it needs to be specific to your account. Change the username and password to match yours, uncomment the code, and then run it.\nIf you are not comfortable using your username and password, check out tutorial 14 where we show you another way to authenticate using an API token.\nThen you can play around with this saved template like any of the existing templates on FlyMine.\nTo view the names of all the available templates you can view the templates dictionary and iterate through it. This can be done as follows.\nHere we print all names of templates in FlyMine.\nThis dictionary contains all the information about all the available templates including the exact name and description. If you want to view the details about a particular template name, this can be done as shown below, using the name of the template in quotes and square brackets.\nYou can also view the templates on the FlyMine user interface at https://www.flymine.org/flymine/templates.do, or by visiting flymine.org and clicking the templates tab.\nYou can scroll through the list of templates. If you find an interesting template, click on the template and click on the Python tab (in blue). This would show you how to call the template in Python using the exact name.\nAlso, you can try our latest BlueGenes platform(http://bluegenes.apps.intermine.org/flymine) where you can search all the templates.\nIn the next tutorial, we will talk about how you can create and save lists in your account.\nThank you for watching!\nScreenshots showing how to get a template you are interested in on the flymine website:   "
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/python-tutorial/08/",
@@ -187,6 +187,76 @@
 	"tags": [],
 	"description": "",
 	"content": " This tutorial will talk about how you can perform enrichment calculations on lists that you have access to. Text Tutorial   Video Tutorial     You can see the script here.\nTry Live  You can try live here.\n"
+},
+{
+	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video11/",
+	"title": "Tutorial 11",
+	"tags": [],
+	"description": "",
+	"content": " Welcome to the eleventh tutorial in the InterMine python tutorial series! This tutorial will talk about how you can combine two lists easily in InterMine.\nLike previous tutorials, this tutorial will require you to login into your InterMine account so that the lists that you will combine can be saved.\nTo make things easier, I use a test account here. Don’t forget to enter your username and password, execute it and then proceed with the rest of the tutorial.\nWe begin by declaring a list manager object which will help us in combining various lists together.\nLet's say that you want to combine all the most enriched genes in the adult Fly brain and in the adult Fly hindgut. These are present as two separate lists currently on Flymine. So we begin by extracting both the lists first, storing them in variables called l1 and l2.\nWe use get_list method here. This method returns a list from the service by name.\nThere are a couple of ways by which you combine the two lists, for example, union of the two lists.\nThe first method is shown below - using the addition operator automatically combines both the lists.\nHere we delete the list with the name “combination-1” in case there is already a list named combination-1 on the server which will cause an error. Then we set the name of variable l3 to “combination-1”.\nThen we can print all genes in l3.\nHere we can see the output\nThe second way of combining two lists is to first declare a Python List object with the lists that you want to combine. I've called this temporary list \u0026ldquo;y\u0026rdquo;. You can then use the union method present in list manager to take the set union and give a name to the list in one step. This has been shown below.\nSimilarly, if you want to find the intersection of two lists, you can use the intersect method that is present in the list manager class. You can combine lists and queries in the same way.\nNext tutorial will cover some more functionalities of a query.\nThank you for watching!\n"
+},
+{
+	"uri": "https://persdre.github.io/intermine-training-portal/python-tutorial/11/",
+	"title": "Tutorial 11: Combining Lists",
+	"tags": [],
+	"description": "",
+	"content": " This tutorial will talk about how you can combine two lists and save results in your account easily in InterMine. Text Tutorial   Video Tutorial     You can see the script here.\nTry Live  You can try live here.\n"
+},
+{
+	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video12/",
+	"title": "Tutorial 12",
+	"tags": [],
+	"description": "",
+	"content": " Welcome to the twelfth tutorial in the InterMine python tutorial series! This tutorial will cover some more functionalities of a query. Queries are the basis of all research in InterMine. Being able to manage them more effectively is always useful.\nFirst, we create a query object like we saw earlier, and select the gene symbol and organism as the views.\nLet’s say that the query is not as simple as a strict cumulative filter and the user wants combinations of constraints. For example, the user wants all genes such that the gene symbol is either ‘eve’ or ‘zen’. This can be incorporated in the following way using set_logic and the pipe operator | to signify OR\nHere we can see the output. It returns two symbols which are exactly ‘eve’ and ’zen’.\nThe query results can be converted into a dictionary using row_to_d() method in the following way:\nSimilarly, row.to_l() can be used for conversion of the results into a list.\ncount() can be used to print the total number of rows in a query:\nSo here the result is 2.\nto_xml() can be used to return a readable XML serialisation of the query. This can also be copy/pasted and imported into the InterMine user interface.\nclear_view() can be used to clear the output column list, which deletes all entries currently in the view list. It is contrary to add_view().\nIn these ways, queries can be utilized to a greater extent and produce more fruitful results.\nNext tutorial will tell you about the Query Manager and how it can be utilised to make better use of queries.\nThank you for watching!\n"
+},
+{
+	"uri": "https://persdre.github.io/intermine-training-portal/python-tutorial/12/",
+	"title": "Tutorial 12: More about Queries",
+	"tags": [],
+	"description": "",
+	"content": " This tutorial will cover some more functionalities of a query. Queries are the basis of all research in InterMine and being able to manage them more effectively is always useful. Text Tutorial   Video Tutorial     You can see the script here.\nTry Live  You can try live here.\n"
+},
+{
+	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video13/",
+	"title": "Tutorial 13",
+	"tags": [],
+	"description": "",
+	"content": " Welcome to the thirteenth tutorial in the InterMine python tutorial series! This tutorial will tell you about the Query Manager and how you can take advantage of it to make better use of queries. We hope at this stage you have the \u0026lsquo;intermine\u0026rsquo; package installed.\nWe start by importing the module from the InterMine package.\nThe next step will be to access the account we want to manage: save_mine_and_token is a method to access an account from a particular mine. We can see here the first variable is flymine, which is a particular mine we want to access an account from. The second variable is the API token linked to your account. You can get the token in your account details.\n   There are now four functions that we can utilise:\nFirst, post_query - it posts a query with name and other information as shown in the form of string. If the name is already existed, it will print “The query name exists”.\nHere we can see test is posted.\nSecond, get_all_query_names - it returns all queries that are saved in your account.\nThird, get_query - it returns information about the query whose name is \u0026lsquo;test’’.\nLast, delete_query - it \u0026lsquo;deletes the query whose name is \u0026lsquo;test’\u0026rsquo; from user's account.\nNow that we have made dealing with queries easier, the next tutorial will have details of how we can visualise the data using the Python client.\nThank you for watching!\n"
+},
+{
+	"uri": "https://persdre.github.io/intermine-training-portal/python-tutorial/13/",
+	"title": "Tutorial 13: Query Manager",
+	"tags": [],
+	"description": "",
+	"content": " This tutorial will tell you about the Query Manager especially functions of it and how you can take advantage of Query Manager to make better use of queries. Text Tutorial   Video Tutorial     You can see the script here.\nTry Live  You can try live here.\n"
+},
+{
+	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video14/",
+	"title": "Tutorial 14",
+	"tags": [],
+	"description": "",
+	"content": " Welcome to the fourteenth tutorial in the InterMine python tutorial series! With the great need for data visualisation in the present world, we have introduced a few visual features to InterMine as well. This tutorial will have details of how we can visualise the data using the Python client.\nThis feature of the Python Client is supported only on Python versions \u0026gt;= 3.6 because of the dependencies. So please update your Python environment if needed.\nFirst, let’s import bar_chart from InterMine. Like the tutorial 13, you need to access your account from humanmine in the method save_mine_and_token.\nplot_go_vs_p(list name) can be used to print GO Terms vs p-value, as the name suggests. Also each bar in the bar-chart is labelled by the gene count corresponding to the particular GO Term.\nHere we can see the bar chart.\nSimilarly, plot_go_vs_count(list name) can be used to print GO Terms vs gene count. Again, each bar in the bar-chart is labelled by the annotation corresponding to the particular GO Term.\nAgain, we can see the bar chart.\nquery_to_barchart_log is used to plot the query given as an argument in xml format.\nIt is important to note that the query should be in a format such that the first row contains the gene, the second row has content for x-axis and the third row consists of y-axis values.\nWhen the second argument is \u0026lsquo;true\u0026rsquo;, the y axis values are converted to their corresponding log values. It is really useful if the values have a diverse range. If not needed, the second argument can be any string except an empty string(“\\t”)\nWe can see the bar chart here.\nWe will soon be coming out with more plots. If you have any ideas feel free to open an issue in the Python Client repository.\nIn the next tutorial, it will help you utilise the module to get details about the data model of various mines.\nThank you for watching!\n"
+},
+{
+	"uri": "https://persdre.github.io/intermine-training-portal/python-tutorial/14/",
+	"title": "Tutorial 14: Visualisation in InterMine",
+	"tags": [],
+	"description": "",
+	"content": " With the great need for data visualisation in the present world, we have introduced a few visual features to Intermine as well. We have tried to cover the most common needs of visualisation and have explained their use in this tutorial. Text Tutorial   Video Tutorial     You can see the script here.\nTry Live  You can try live here.\n"
+},
+{
+	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video15/",
+	"title": "Tutorial 15",
+	"tags": [],
+	"description": "",
+	"content": " Welcome to the fifteenth tutorial in the InterMine python tutorial series! This tutorial will help you utilise the module to get details about the data model of various mines. These are additional examples, besides the ones covered here - http://intermine.org/intermine-ws-python/intermine.html#module-intermine.model. Each class (data type) has information containing references to other objects in the data model, collections of references or attribute details.\nLet's begin by showing all the fields a data type contains (including all Attributes, References and Collections listed alphabetically). Each class can have any number of attributes (which store primitive data, like numbers, dates, and strings), references to other objects in the database, and collections of other objects in the database.\nHere we see the datatype is Gene with the method get_class.\nThen we can see all fields in the gene data type.\nSuppose you have a class name, and want to know the details about a particular field it contains, then you can do the following:\nHere we only get the gene field from the Protein class.\nNote that if you enter a field name that does not belong to the class, then you will receive an error.\nNow, suppose you want to find out the nature of the data you retrieved earlier (i.e. whether it is an \u0026lsquo;Attribute\u0026rsquo; or \u0026lsquo;Collection\u0026rsquo;/\u0026lsquo;Reference\u0026rsquo;), you can easily iterate over the fields we had obtained earlier:\nHere, we classify field types as either REFERENCE or ATTRIBUTE and print their names.\nNotice that we used make_path() in the process. This function helps us construct paths and inspect whether it is valid or not, or as in here, utilise it to get more information from the model.\nNow let's look at what information we can get regarding \u0026lsquo;inheritance\u0026rsquo; of class\u0026rsquo;.\nThe isa function helps us determine whether \u0026lsquo;input\u0026rsquo; belongs to the ancestry(is a parent class or one of the parents of the parent class or so on) of a given class.\nSo here we know Allele is not an ancestor of Protein.\nNow let's see how we can retrieve the ancestry of a particular class:\nThe to_ancestry method returns the ancestry of the given class.\nWe can print them here.\nThis tutorial thus explained how to get information regarding a class such as its attributes and the inheritance it shares without having to retrieve the entire model!\nThanks for watching!\n"
+},
+{
+	"uri": "https://persdre.github.io/intermine-training-portal/python-tutorial/15/",
+	"title": "Tutorial 15: Simple Ways to Manipulate the Model",
+	"tags": [],
+	"description": "",
+	"content": " This tutorial will help you utilise the module to get details about the data model of various mines. These are additional examples, besides the ones covered here - http://intermine.org/intermine-ws-python/intermine.html#module-intermine.model. Text Tutorial   Video Tutorial     You can see the script here.\nTry Live  You can try live here.\n"
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/categories/",

@@ -1,6 +1,6 @@
 intermine-training-portal
 ===
-Address: https://persdre.github.io/intermine-training-portal/
+https://persdre.github.io/intermine-training-portal/
 
 If you want to run this repository locally - clone or download this repo firstly.
 

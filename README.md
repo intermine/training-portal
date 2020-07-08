@@ -32,7 +32,7 @@ Then the whole content will be displayed on http://localhost:1313/.
 
 For more tutorials of Hugo, you can visit https://gohugo.io/.
 
-**Have some suggestions or questions?** Welcome to open an issue!
+Have some suggestions or questions? Welcome to open an issue!
 
 
 ## License

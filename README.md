@@ -1,10 +1,8 @@
 intermine-training-portal
 ===
-Website: https://persdre.github.io/intermine-training-portal/
+Address: https://persdre.github.io/intermine-training-portal/
 
-If you want to run this repository locally:
-
-First, clone or download this repo.
+If you want to run this repository locally - clone or download this repo firstly.
 
 ## Step 1: Install Hugo
 
@@ -26,7 +24,7 @@ In the repo you downloaded just now, run:
 ```
 hugo server
 ```
-Then the whole content will be displayed on http://localhost:1313/.
+Then the whole content will be displayed on http://localhost:1313/intermine-training-portal/.
 
 ## Appendix 
 

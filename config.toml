@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://persdre.github.io/intermine-training-portal/"
 
 languageCode = "en-uk"
 DefaultContentLanguage = "en"
@@ -6,6 +6,7 @@ title = "InterMine Training Portal"
 theme = "training-portal-theme"
 pygmentsCodeFences = true
 pygmentsStyle = "monokailight"
+publishDir = "docs"
 
 [params]
 ordersectionsby = "weight"  # ordersectionsby = "title"

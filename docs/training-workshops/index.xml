@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Training Workshops on InterMine Training Portal</title>
+    <link>https://persdre.github.io/intermine-training-portal/training-workshops/</link>
+    <description>Recent content in Training Workshops on InterMine Training Portal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    
+	<atom:link href="https://persdre.github.io/intermine-training-portal/training-workshops/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Twitter Feed</title>
+      <link>https://persdre.github.io/intermine-training-portal/training-workshops/twitter-feed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://persdre.github.io/intermine-training-portal/training-workshops/twitter-feed/</guid>
+      <description>We keep information updated on this.Don&#39;t hesitate to follow it! </description>
+    </item>
+    
+    <item>
+      <title>Available Materials</title>
+      <link>https://persdre.github.io/intermine-training-portal/training-workshops/available-materials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://persdre.github.io/intermine-training-portal/training-workshops/available-materials/</guid>
+      <description>Listed in chronological order, with newer/upcoming courses at the top. 2019  July 4 - Handling integrated biological data using Python, Jupyter, and InterMine June 19 - UI + API training courses at Cambridge Bioinformatics Training Facility February 13 - EBI Multiomics Data Integration  2018  June - GCCBOSC 2018  Shorter UI section, with a longer API focus. 2.5 hours.   February - EBI Multiomics course  Mostly UI-oriented with a short API section.</description>
+    </item>
+    
+  </channel>
+</rss>

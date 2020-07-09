@@ -14,9 +14,12 @@
     <!-- Load stylesheet -->
     <link href="{{ .Site.BaseURL }}css/fontawesome.min.css" rel="stylesheet">
 
+    <link rel="shortcut icon" href="{{ "webfonts/favicon.ico" | absURL }}" />
+
     {{ $style := resources.Get "css/ace.scss" | toCSS | minify }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
 
+    
     <!-- Only include the tracking when using `hugo` or adding `--environment production` -->
     {{ if eq hugo.Environment "production" }}
         {{ template "_internal/google_analytics_async.html" . }}

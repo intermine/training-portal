@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html><head>
+
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="canonical" href="https://persdre.github.io/intermine-training-portal/python-tutorial/15/">
+
+    <title>
+        
+        Tutorial 15: Simple Ways to Manipulate the Model | InterMine Training Portal
+        
+    </title>
+
+    
+    <link href="https://persdre.github.io/intermine-training-portal/css/fontawesome.min.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="https://persdre.github.io/intermine-training-portal/webfonts/favicon.ico" />
+
+    
+    <link rel="stylesheet" href="https://persdre.github.io/intermine-training-portal/css/ace.min.css">
+
+    
+    
+    
+        
+    
+
+</head>
+<body><nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow sticky-top" id="navbarMain">
+    <div class="container">
+        <div>
+            <a class="navbar-brand" href="/intermine-training-portal">
+                InterMine Training Portal
+            </a>
+        </div>
+        
+            <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarMainCollapse" aria-controls="navbarMainCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMainCollapse">
+              <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://intermine.org/" target="_blank">
+                                  InterMine
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://github.com/intermine" target="_blank">
+                                  <i class='fab fa-github'></i>
+                                </a>
+                            </li>
+              </ul>
+            </div>
+    </div>
+</nav>
+<div class="container-fluid">
+            <div class="row">
+
+                <div class="docs-sidenav order-0 col-12 col-md-3 col-lg-2 col-xl-2 position-sticky border-right"><nav class="navbar navbar-expand-md navbar-light pl-0">
+    <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#sidenav-left-collapse" aria-controls="sidenav-left-collapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+     <div class="collapse navbar-collapse align-items-start flex-column" id="sidenav-left-collapse">
+            <form class="form-inline my-2 my-lg-0 searchbox">
+                <input class="form-control mr-sm-2 w-100" data-search-input id="search-by" type="text" placeholder="Search topic/method">
+            </form>
+         <ul class="navbar-nav flex-column pt-3">
+    <li data-nav-id="/intermine-training-portal/training-workshops/" class="nav-item my-1 haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/intermine-training-portal/training-workshops/"><h6>Training Workshops</h6></a>
+        <ul class="list-unstyled ml-2">
+        <li data-nav-id="/intermine-training-portal/training-workshops/twitter-feed/" class="nav-item my-1">
+                
+                 <a href="/intermine-training-portal/training-workshops/twitter-feed/" class="nav-link p-0">
+                    Twitter Feed
+                </a>
+        </li>
+        <li data-nav-id="/intermine-training-portal/training-workshops/available-materials/" class="nav-item my-1">
+                
+                 <a href="/intermine-training-portal/training-workshops/available-materials/" class="nav-link p-0">
+                    Available Materials
+                </a>
+        </li>
+        </ul>
+    </li>
+    <li data-nav-id="/intermine-training-portal/python-tutorial/" class="nav-item my-1 parent haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/intermine-training-portal/python-tutorial/"><h6>Python Tutorial</h6></a>
+        <ul class="list-unstyled ml-2">
+        <li data-nav-id="/intermine-training-portal/python-tutorial/00/" class="nav-item my-1">
+                
+                 <a href="/intermine-training-portal/python-tutorial/00/" class="nav-link p-0">
+                    Tutorial 0: Overview
+                </a>
+        </li>
+        <li data-nav-id="/intermine-training-portal/python-tutorial/01/" class="nav-item my-1">
+                
+                 <a href="/intermine-training-portal/python-tutorial/01/" class="nav-link p-0">
+                    Tutorial 1: The Basics of a Query
+                </a>
+        </li>
+        <li data-nav-id="/intermine-training-portal/python-tutorial/02/" class="nav-item my-1">
+                
+                 <a href="/intermine-training-portal/python-tutorial/02/" class="nav-link p-0">
+                    Tutorial 2: Adding Constraints to a Query
+                </a>
+        </li>
+        <li data-nav-id="/intermine-training-portal/python-tutorial/03/" class="nav-item my-1">
+                
+                 <a href="/intermine-training-portal/python-tutorial/03/" class="nav-link p-0">
+                    Tutorial 3: More about Constraints
+                </a>
+        </li>
+        <li data-nav-id="/intermine-training-portal/python-tutorial/04/" class="nav-item my-1">
+                
+                 <a href="/intermine-training-portal/python-tutorial/04/" class="nav-link p-0">
+                    Tutorial 4: Query Features
+                </a>
+        </li>
+        <li data-nav-id="/intermine-training-portal/python-tutorial/05/" class="nav-item my-1">
+                
+                 <a href="/intermine-training-portal/python-tutorial/05/" class="nav-link p-0">
+                    Tutorial 5: Query Results
+                </a>
+        </li>
+        <li data-nav-id="/intermine-training-portal/python-tutorial/06/" class="nav-item my-1">
+                
+                 <a href="/intermine-training-portal/python-tutorial/06/" class="nav-link p-0">
+                    Tutorial 6: Advanced Results Management
+                </a>
+        </li>
+        <li data-nav-id="/intermine-training-portal/python-tutorial/07/" class="nav-item my-1">
+                
+                 <a href="/intermine-training-portal/python-tutorial/07/" class="nav-link p-0">
+                    Tutorial 7: Templates
+                </a>
+        </li>
+        <li data-nav-id="/intermine-training-portal/python-tutorial/08/" class="nav-item my-1">
+                
+                 <a href="/intermine-training-portal/python-tutorial/08/" class="nav-link p-0">
+                    Tutorial 8: Accessing Templates
+                </a>
+        </li>
+        <li data-nav-id="/intermine-training-portal/python-tutorial/09/" class="nav-item my-1">
+                
+                 <a href="/intermine-training-portal/python-tutorial/09/" class="nav-link p-0">
+                    Tutorial 9: Lists
+                </a>
+        </li>
+        <li data-nav-id="/intermine-training-portal/python-tutorial/10/" class="nav-item my-1">
+                
+                 <a href="/intermine-training-portal/python-tutorial/10/" class="nav-link p-0">
+                    Tutorial 10: Enrichment Calculations
+                </a>
+        </li>
+        <li data-nav-id="/intermine-training-portal/python-tutorial/11/" class="nav-item my-1">
+                
+                 <a href="/intermine-training-portal/python-tutorial/11/" class="nav-link p-0">
+                    Tutorial 11: Combining Lists
+                </a>
+        </li>
+        <li data-nav-id="/intermine-training-portal/python-tutorial/12/" class="nav-item my-1">
+                
+                 <a href="/intermine-training-portal/python-tutorial/12/" class="nav-link p-0">
+                    Tutorial 12: More about Queries
+                </a>
+        </li>
+        <li data-nav-id="/intermine-training-portal/python-tutorial/13/" class="nav-item my-1">
+                
+                 <a href="/intermine-training-portal/python-tutorial/13/" class="nav-link p-0">
+                    Tutorial 13: Query Manager
+                </a>
+        </li>
+        <li data-nav-id="/intermine-training-portal/python-tutorial/14/" class="nav-item my-1">
+                
+                 <a href="/intermine-training-portal/python-tutorial/14/" class="nav-link p-0">
+                    Tutorial 14: Visualisation in InterMine
+                </a>
+        </li>
+        <li data-nav-id="/intermine-training-portal/python-tutorial/15/" class="nav-item my-1 active">
+                
+                 <a href="/intermine-training-portal/python-tutorial/15/" class="nav-link p-0">
+                    Tutorial 15: Simple Ways to Manipulate the Model
+                </a>
+        </li>
+        </ul>
+    </li>
+    <li data-nav-id="/intermine-training-portal/python-scripts/" class="nav-item my-1 haschildren
+        ">
+        
+        <a class="nav-link p-0" href="/intermine-training-portal/python-scripts/"><h6>Python Video Script</h6></a>
+        <ul class="list-unstyled ml-2">
+        <li data-nav-id="/intermine-training-portal/python-scripts/video00/" class="nav-item my-1">
+                
+                 <a href="/intermine-training-portal/python-scripts/video00/" class="nav-link p-0">
+                    Tutorial 0
+                </a>
+        </li>
+        <li data-nav-id="/intermine-training-portal/python-scripts/video01/" class="nav-item my-1">
+                
+                 <a href="/intermine-training-portal/python-scripts/video01/" class="nav-link p-0">
+                    Tutorial 1
+                </a>
+        </li>
+        <li data-nav-id="/intermine-training-portal/python-scripts/video02/" class="nav-item my-1">
+                
+                 <a href="/intermine-training-portal/python-scripts/video02/" class="nav-link p-0">
+                    Tutorial 2
+                </a>
+        </li>
+        <li data-nav-id="/intermine-training-portal/python-scripts/video03/" class="nav-item my-1">
+                
+                 <a href="/intermine-training-portal/python-scripts/video03/" class="nav-link p-0">
+                    Tutorial 3
+                </a>
+        </li>
+        <li data-nav-id="/intermine-training-portal/python-scripts/video04/" class="nav-item my-1">
+                
+                 <a href="/intermine-training-portal/python-scripts/video04/" class="nav-link p-0">
+                    Tutorial 4
+                </a>
+        </li>
+        <li data-nav-id="/intermine-training-portal/python-scripts/video05/" class="nav-item my-1">
+                
+                 <a href="/intermine-training-portal/python-scripts/video05/" class="nav-link p-0">
+                    Tutorial 5
+                </a>
+        </li>
+        <li data-nav-id="/intermine-training-portal/python-scripts/video06/" class="nav-item my-1">
+                
+                 <a href="/intermine-training-portal/python-scripts/video06/" class="nav-link p-0">
+                    Tutorial 6
+                </a>
+        </li>
+        <li data-nav-id="/intermine-training-portal/python-scripts/video07/" class="nav-item my-1">
+                
+                 <a href="/intermine-training-portal/python-scripts/video07/" class="nav-link p-0">
+                    Tutorial 7
+                </a>
+        </li>
+        <li data-nav-id="/intermine-training-portal/python-scripts/video08/" class="nav-item my-1">
+                
+                 <a href="/intermine-training-portal/python-scripts/video08/" class="nav-link p-0">
+                    Tutorial 8
+                </a>
+        </li>
+        <li data-nav-id="/intermine-training-portal/python-scripts/video09/" class="nav-item my-1">
+                
+                 <a href="/intermine-training-portal/python-scripts/video09/" class="nav-link p-0">
+                    Tutorial 9
+                </a>
+        </li>
+        <li data-nav-id="/intermine-training-portal/python-scripts/video10/" class="nav-item my-1">
+                
+                 <a href="/intermine-training-portal/python-scripts/video10/" class="nav-link p-0">
+                    Tutorial 10
+                </a>
+        </li>
+        <li data-nav-id="/intermine-training-portal/python-scripts/video11/" class="nav-item my-1">
+                
+                 <a href="/intermine-training-portal/python-scripts/video11/" class="nav-link p-0">
+                    Tutorial 11
+                </a>
+        </li>
+        <li data-nav-id="/intermine-training-portal/python-scripts/video12/" class="nav-item my-1">
+                
+                 <a href="/intermine-training-portal/python-scripts/video12/" class="nav-link p-0">
+                    Tutorial 12
+                </a>
+        </li>
+        <li data-nav-id="/intermine-training-portal/python-scripts/video13/" class="nav-item my-1">
+                
+                 <a href="/intermine-training-portal/python-scripts/video13/" class="nav-link p-0">
+                    Tutorial 13
+                </a>
+        </li>
+        <li data-nav-id="/intermine-training-portal/python-scripts/video14/" class="nav-item my-1">
+                
+                 <a href="/intermine-training-portal/python-scripts/video14/" class="nav-link p-0">
+                    Tutorial 14
+                </a>
+        </li>
+        <li data-nav-id="/intermine-training-portal/python-scripts/video15/" class="nav-item my-1">
+                
+                 <a href="/intermine-training-portal/python-scripts/video15/" class="nav-link p-0">
+                    Tutorial 15
+                </a>
+        </li>
+        </ul>
+    </li>
+    <li data-nav-id="/intermine-training-portal/intermine-documentation/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/intermine-training-portal/intermine-documentation/"><h6>InterMine Documentation</h6></a>
+    </li>
+    <li data-nav-id="/intermine-training-portal/flymine-documentation/" class="nav-item my-1
+        ">
+        
+        <a class="nav-link p-0" href="/intermine-training-portal/flymine-documentation/"><h6>FlyMine Documentation</h6></a>
+    </li>
+        </ul>
+    </div>
+</nav>
+
+
+</div>
+                <div class="docs-toc large order-lg-2 order-md-0 order-xs-1 col-12 col-lg-2 col-xl-2 position-sticky border-left"><div class="docs-toc">
+	<nav id="TableOfContents">
+  <ul>
+    <li><a href="#text-tutorial">Text Tutorial</a></li>
+    <li><a href="#video-tutorial">Video Tutorial</a></li>
+    <li><a href="#try-live">Try Live</a></li>
+  </ul>
+</nav>
+</div>
+</div>
+                <div class="main col-12 order-1 col-md-9 col-lg-10 col-xl-8 py-3">
+                
+
+<h1>Tutorial 15: Simple Ways to Manipulate the Model</h1>
+
+<p class="lead">
+    <br/>
+<br/>
+This tutorial will help you utilise the module to get details about the data model of various mines. These are additional examples, besides the ones covered here - http://intermine.org/intermine-ws-python/intermine.html#module-intermine.model.
+</p>
+
+<h2 id="text-tutorial">Text Tutorial</h2>
+<br/>
+<iframe width="900" height="800" src="https://nbviewer.jupyter.org/github/intermine/intermine-ws-python-docs/blob/master/15-tutorial.ipynb" title="Python Tutorial 15">
+</iframe>
+<h2 id="video-tutorial">Video Tutorial</h2>
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tnNEqYnnPMA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br/>
+<br/>
+<p>You can see the script <a href="/intermine-training-portal/python-scripts/video15">here</a>.</p>
+<h2 id="try-live">Try Live</h2>
+<br/>
+<p>You can try live <a href="https://mybinder.org/v2/gh/intermine/intermine-ws-python-docs/master?filepath=15-tutorial.ipynb">here</a>.</p>
+
+
+    
+
+
+                    
+                    <div class="row"><div class="position-relative mx-auto col-lg-9">
+                          <div class="bg-primary overflow-hidden p-3 mt-5 shadow">
+    <div class="d-flex justify-content-center"><a class="p-1 mr-3 d-inline-block text-white" href="/intermine-training-portal/python-tutorial/14/" title="Tutorial 14: Visualisation in InterMine"><i class="fas fa-chevron-left p-1"></i>Tutorial 14: Visualisation in InterMine</a>
+        <a class="p-1 ml-3 d-inline-block text-white text-right" href="/intermine-training-portal/python-scripts/" title="Python Video Script">Python Video Script<i class="fas fa-chevron-right p-1"></i></a>
+    </div>
+</div>
+
+
+                        </div></div> 
+
+                </div>
+
+            </div> 
+
+        </div> 
+<script src="https://persdre.github.io/intermine-training-portal/lib/jquery.min.js"></script> 
+<script src="https://persdre.github.io/intermine-training-portal/lib/popper.min.js"></script> 
+
+<script src="https://persdre.github.io/intermine-training-portal/js/bootstrap.min.js"></script> 
+
+
+<script type="text/javascript" src="/intermine-training-portal/plugins/lunr.min.js"></script>
+<script type="text/javascript" src="/intermine-training-portal/plugins/auto-complete.js"></script>
+<link href="/intermine-training-portal/plugins/auto-complete.css" rel="stylesheet">
+<script type="text/javascript">
+  
+      var baseurl = "https:\/\/persdre.github.io\/intermine-training-portal\/";
+  
+</script>
+<script type="text/javascript" src="/intermine-training-portal/plugins/search.js"></script>
+
+
+<script type="text/javascript" src="/intermine-training-portal/plugins/clipboard.js"></script>
+<script>
+  new ClipboardJS('.btn');
+</script>
+</body>
+</html>

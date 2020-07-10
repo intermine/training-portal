@@ -102,7 +102,7 @@
 	"title": "FlyMine Documentation",
 	"tags": [],
 	"description": "",
-	"content": "  The link is here.  "
+	"content": "The link is here.\n "
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video04/",
@@ -117,6 +117,13 @@
 	"tags": [],
 	"description": "",
 	"content": " In this tutorial we will talk about another feature of an intermine query - Outer and Inner Joins. Text Tutorial   Video Tutorial     You can see the script here.\nTry Live  You can try live here.\n"
+},
+{
+	"uri": "https://persdre.github.io/intermine-training-portal/contribution-guide/",
+	"title": "Contributing to InterMine Training Portal",
+	"tags": [],
+	"description": "",
+	"content": "We love your contribution! We want to make contributing to this website as easy and transparent as possible, whether it's:\n Reporting a bug Discussing the current state of the code Submitting a fix Proposing new features Writing more docs Becoming a maintainer  and so on.\nBefore you contribute, please read InterMine Code of Conduct\nWe develop with GitHub We use github to host code, to track issues and feature requests, as well as accept pull requests.\nInterMine Training Portal repository: https://github.com/intermine/training-portal\nIf you are new to GitHub, Open Source Guides will help you quick start.\nWe use GitHub Flow, so all code changes happen through pull requests Pull requests are the best way to propose changes to the codebase (we use GitHub Flow). We actively welcome your pull requests:\n Fork the repo and create your branch from master. If you've added code that should be tested, add tests. Ensure the test suite passes. Make sure your code lints. Issue that pull request!  Any contributions you make will be under the MIT Software License In short, when you submit code changes, your submissions are understood to be under the same MIT License that covers the project. Feel free to contact the maintainers if that's a concern.\nReport bugs using Github's issues We use GitHub issues to track public bugs. Report a bug by opening a new issue\nSubmit a fix If you fix a bug, submit by pull request\nPropose new features We welcome new features about the code, videos, layout, and others!\nYou can open a new issue as well as pull request\nWrite more docs If you find that some documentations are unclear, incomplete, or wrong, you can add new contents!\nBecome a maintainer Welcome! We’re excited to have you join the community. InterMine integrates biological data, but you don’t have to be a biologist to contribute to InterMine. Some of our entry-level issues only require knowledge of the relevant programming language, but others may require more in-depth understanding.\nIf you’d like to learn a bit more about InterMine, visit here\nLicense By contributing, you agree that your contributions will be licensed under its MIT License.\n "
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video05/",

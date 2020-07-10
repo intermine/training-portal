@@ -4,11 +4,11 @@
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="canonical" href="https://persdre.github.io/intermine-training-portal/python-scripts/video07/">
+    <link rel="canonical" href="https://persdre.github.io/intermine-training-portal/contribution-guide/">
 
     <title>
         
-        Tutorial 7 | InterMine Training Portal
+        Contributing to InterMine Training Portal | InterMine Training Portal
         
     </title>
 
@@ -190,7 +190,7 @@
         </li>
         </ul>
     </li>
-    <li data-nav-id="/intermine-training-portal/python-scripts/" class="nav-item my-1 parent haschildren
+    <li data-nav-id="/intermine-training-portal/python-scripts/" class="nav-item my-1 haschildren
         ">
         
         <a class="nav-link p-0" href="/intermine-training-portal/python-scripts/"><h6>Python Video Script</h6></a>
@@ -237,7 +237,7 @@
                     Tutorial 6
                 </a>
         </li>
-        <li data-nav-id="/intermine-training-portal/python-scripts/video07/" class="nav-item my-1 active">
+        <li data-nav-id="/intermine-training-portal/python-scripts/video07/" class="nav-item my-1">
                 
                  <a href="/intermine-training-portal/python-scripts/video07/" class="nav-link p-0">
                     Tutorial 7
@@ -303,7 +303,7 @@
         
         <a class="nav-link p-0" href="/intermine-training-portal/flymine-documentation/"><h6>FlyMine Documentation</h6></a>
     </li>
-    <li data-nav-id="/intermine-training-portal/contribution-guide/" class="nav-item my-1
+    <li data-nav-id="/intermine-training-portal/contribution-guide/" class="nav-item my-1 parent active
         ">
         
         <a class="nav-link p-0" href="/intermine-training-portal/contribution-guide/"><h6>Contributing to InterMine Training Portal</h6></a>
@@ -315,41 +315,80 @@
 
 </div>
                 <div class="docs-toc large order-lg-2 order-md-0 order-xs-1 col-12 col-lg-2 col-xl-2 position-sticky border-left"><div class="docs-toc">
-	<nav id="TableOfContents"></nav>
+	<nav id="TableOfContents">
+  <ul>
+    <li><a href="#we-develop-with-github">We develop with GitHub</a></li>
+    <li><a href="#we-use-github-flowhttpsguidesgithubcomintroductionflowindexhtml-so-all-code-changes-happen-through-pull-requests">We use GitHub Flow, so all code changes happen through pull requests</a></li>
+    <li><a href="#any-contributions-you-make-will-be-under-the-mit-software-license">Any contributions you make will be under the MIT Software License</a></li>
+    <li><a href="#report-bugs-using-githubs-issues">Report bugs using Github's issues</a></li>
+    <li><a href="#submit-a-fix">Submit a fix</a></li>
+    <li><a href="#propose-new-features">Propose new features</a></li>
+    <li><a href="#write-more-docs">Write more docs</a></li>
+    <li><a href="#become-a-maintainer">Become a maintainer</a></li>
+    <li><a href="#license">License</a></li>
+  </ul>
+</nav>
 </div>
 </div>
                 <div class="main col-12 order-1 col-md-9 col-lg-10 col-xl-8 py-3">
                 
 
-<h1>Tutorial 7</h1>
+<h1>Contributing to InterMine Training Portal</h1>
 
-<p class="lead">
-    <br/>
-<p>In this tutorial we will look at templates, which are like pre-prepared queries you can easily re-use. Templates can do everything that a query can do. Everything that you can do with a query - add new constraints, add new views, process the results using the results iterator can be done with templates as well.</p>
-<p>While writing queries of your own, you would have probably realized that there is a lot of duplication of effort. So we use templates which can be run numerous times and certain values can also be changed easily.</p>
-<p>Let’s begin with a simple example. Let's say you want to extract the publication information about various Genes related to an organism. There is already a set template for this process.</p>
-<p>We begin by importing the Service class and then create a template object. The parameter that we pass to the get_template method is the name of the template.</p>
-<p>To check the columns that our results will have we can use template.views. If you want to add a column use the add_view/add_views method.</p>
-<p>Here we can see the output.</p>
-<p>To look at the current constraints, use template.constraint_dict. There is only one constraint which is editable. For example, you can change the value or operator if you want. However, even for editable constraints you are not allowed to change the path of the constraint.</p>
-<p>To view the results we can use the results iterator as we learned previously.</p>
-<p>We can see the output.</p>
-<p>If you want to extract information for Drosophila Erecta and not Drosophila melanogaster, you can edit the query while calling the results method. In the code shown below, A refers to the code of the constraint. This code can be viewed using template.constraint_dict as shown above. Here the constraint means all the information should be of Drosophila erecta.</p>
-<p>This is how you can use a predefined query and modify it to work for you. You can visit the flymine website and take a look at some of the templates that have been defined there. Try running them using Python and change the constraints and views.</p>
-<p>While exploring through templates you may come across templates that can be switched on or off. To switch off a constraint that is already turned on you can use the following code:
-template.get_constraints(&lsquo;B&rsquo;).switch_off , where B is the code of the constraint in the constraint dictionary. In our example, the code is A since there is only one constraint.</p>
-<p>To check if a particular constraint is switchable use the get_switchable_status method. This method can return three possible values - locked, on or off. Locked means that the particular constraint is fixed and cannot be switched on or off. If a particular constraint is switchable, it will return on or off depending on its current status.</p>
-<p>So here we know A’s constraint is locked - can’t be switched on or off.</p>
-<p>Naturally, if you try to switch off a constraint that is &ldquo;locked&rdquo; or not switchable, you will get an error.</p>
-<p>It is also possible to modify constraints on the templates, as discussed above. Both the operator and value maybe altered.  Here is an example from the Gene Intron template-</p>
-<p>Firstly we see the status of the constraints on this template.</p>
-<p>Here we get A’s constraint is editable and current constraint is on. B’s constraint is editable and current constraint is on too.</p>
-<p>Now we modify constraint A, such that it only contains output data with secondary identifier CG10023. Then we print the results.</p>
-<p>Here we can see the output.</p>
-<p>Thus the output only contains results as per the applied constraints.</p>
-<p>This tutorial focus on how templates help in automating commonly used queries and can make extremely efficient workflows. In the next tutorial, we will  talk about how to access your saved templates and lists if you have your login information (username and password).</p>
-
+<p><p class="lead">
+    
 </p>
+
+We love your contribution! We want to make contributing to this website as easy and transparent as possible, whether it's:</p>
+<ul>
+<li>Reporting a bug</li>
+<li>Discussing the current state of the code</li>
+<li>Submitting a fix</li>
+<li>Proposing new features</li>
+<li>Writing more docs</li>
+<li>Becoming a maintainer</li>
+</ul>
+<p>and so on.</p>
+<p>Before you contribute, please read <strong><a href="http://intermine.org/code-of-conduct/#intermine-code-of-conduct">InterMine Code of Conduct</a></strong></p>
+<h2 id="we-develop-with-github">We develop with GitHub</h2>
+<p>We use github to host code, to track issues and feature requests, as well as accept pull requests.</p>
+<p>InterMine Training Portal repository: <a href="https://github.com/intermine/training-portal">https://github.com/intermine/training-portal</a></p>
+<p>If you are new to GitHub, <strong><a href="https://opensource.guide/how-to-contribute/#how-to-submit-a-contribution">Open Source Guides</a></strong> will help you quick start.</p>
+<h2 id="we-use-github-flowhttpsguidesgithubcomintroductionflowindexhtml-so-all-code-changes-happen-through-pull-requests">We use <a href="https://guides.github.com/introduction/flow/index.html">GitHub Flow</a>, so all code changes happen through pull requests</h2>
+<p>Pull requests are the best way to propose changes to the codebase (we use <a href="https://guides.github.com/introduction/flow/index.html">GitHub Flow</a>). We actively welcome your pull requests:</p>
+<ol>
+<li>Fork the repo and create your branch from <code>master</code>.</li>
+<li>If you've added code that should be tested, add tests.</li>
+<li>Ensure the test suite passes.</li>
+<li>Make sure your code lints.</li>
+<li>Issue that pull request!</li>
+</ol>
+<h2 id="any-contributions-you-make-will-be-under-the-mit-software-license">Any contributions you make will be under the MIT Software License</h2>
+<p>In short, when you submit code changes, your submissions are understood to be under the same <a href="http://choosealicense.com/licenses/mit/">MIT License</a> that covers the project. Feel free to contact the maintainers if that's a concern.</p>
+<h2 id="report-bugs-using-githubs-issues">Report bugs using Github's issues</h2>
+<p>We use GitHub issues to track public bugs. Report a bug by <a href="https://github.com/intermine/training-portal/issues/new">opening a new issue</a></p>
+<h2 id="submit-a-fix">Submit a fix</h2>
+<p>If you fix a bug, submit by <a href="https://github.com/intermine/training-portal/pulls">pull request</a></p>
+<h2 id="propose-new-features">Propose new features</h2>
+<p>We welcome new features about the code, videos, layout, and others!</p>
+<p>You can <a href="https://github.com/intermine/training-portal/issues/new">open a new issue</a> as well as <a href="https://github.com/intermine/training-portal/pulls">pull request</a></p>
+<h2 id="write-more-docs">Write more docs</h2>
+<p>If you find that some documentations are unclear, incomplete, or wrong, you can add new contents!</p>
+<h2 id="become-a-maintainer">Become a maintainer</h2>
+<p>Welcome! We’re excited to have you join the community. InterMine integrates biological data, but you don’t have to be a biologist to contribute to InterMine. Some of our entry-level issues only require knowledge of the relevant programming language, but others may require more in-depth understanding.</p>
+<p>If you’d like to learn a bit more about InterMine, visit <a href="http://intermine.org/contributing/">here</a></p>
+<h2 id="license">License</h2>
+<p>By contributing, you agree that your contributions will be licensed under its MIT License.</p>
+
+
+
+<ul class="docs-children list-unstyled">
+
+	
+</ul>
+
+
+
 
 
 
@@ -359,8 +398,8 @@ template.get_constraints(&lsquo;B&rsquo;).switch_off , where B is the code of th
                     
                     <div class="row"><div class="position-relative mx-auto col-lg-9">
                           <div class="bg-primary overflow-hidden p-3 mt-5 shadow">
-    <div class="d-flex justify-content-center"><a class="p-1 mr-3 d-inline-block text-white" href="/intermine-training-portal/python-scripts/video06/" title="Tutorial 6"><i class="fas fa-chevron-left p-1"></i>Tutorial 6</a>
-        <a class="p-1 ml-3 d-inline-block text-white text-right" href="/intermine-training-portal/python-scripts/video08/" title="Tutorial 8">Tutorial 8<i class="fas fa-chevron-right p-1"></i></a>
+    <div class="d-flex justify-content-center"><a class="p-1 mr-3 d-inline-block text-white" href="/intermine-training-portal/flymine-documentation/" title="FlyMine Documentation"><i class="fas fa-chevron-left p-1"></i>FlyMine Documentation</a>
+        <a class="p-1 ml-3 d-inline-block text-white text-right" href="/intermine-training-portal/training-workshops/" title="Training Workshops">Training Workshops<i class="fas fa-chevron-right p-1"></i></a>
     </div>
 </div>
 

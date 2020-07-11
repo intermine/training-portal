@@ -1,5 +1,5 @@
 +++
-title = "Contributing to InterMine Training Portal"
+title = "Contributing Guide"
 description = ""
 weight = 6
 +++
@@ -27,7 +27,7 @@ InterMine Training Portal repository: https://github.com/intermine/training-port
 
 If you are new to GitHub, **[Open Source Guides](https://opensource.guide/how-to-contribute/#how-to-submit-a-contribution)** will help you quick start.
 
-## We use [GitHub Flow](https://guides.github.com/introduction/flow/index.html), so all code changes happen through pull requests
+## All code changes happen through pull requests
 Pull requests are the best way to propose changes to the codebase (we use [GitHub Flow](https://guides.github.com/introduction/flow/index.html)). We actively welcome your pull requests:
 
 1. Fork the repo and create your branch from `master`.

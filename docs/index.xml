@@ -28,10 +28,8 @@ Then, let’s look at cells.</description>
       
       <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/00/</guid>
       <description>This tutorial is for users who use Python to get information of a mine or an organism. This tutorial consists of 14 parts.
-We use FlyMine as an example.
-We recommend you to use Jupyter Notebook to run following code. If you are new to Jupyter, you can visit this.
-Text Tutorial   Video Tutorial     You can see the script here.
-Try Live  You can try live here.</description>
+ We use  Flymine as an example.     We recommend you to use Jupyter Notebook to run following code. If you are new to Jupyter, you can visit  this
+ Text Tutorial   Video Tutorial      You can see the script  here   Try Live   You can try live  here   </description>
     </item>
     
     <item>
@@ -69,8 +67,7 @@ Then let’s create a query object. The “new query” method can help us do th
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/01/</guid>
-      <description>This tutorial will tell you about the basics of intermine-python queries and how to write your first query. Text Tutorial   Video Tutorial     You can see the script here.
-Try Live  You can try live here.</description>
+      <description> This tutorial will tell you about the basics of intermine-python queries and how to write your first query. Text Tutorial   Video Tutorial      You can see the script  here   Try Live   You can try live  here  </description>
     </item>
     
     <item>
@@ -90,8 +87,7 @@ If we want to view all the possible output columns at once, we can pass “*” 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/02/</guid>
-      <description>In this tutorial, we will look at adding constraints to our queries to filter the results. Text Tutorial   Video Tutorial     You can see the script here.
-Try Live  You can try live here.</description>
+      <description> In this tutorial, we will look at adding constraints to our queries to filter the results. Text Tutorial   Video Tutorial      You can see the script  here   Try Live   You can try live  here   </description>
     </item>
     
     <item>
@@ -111,8 +107,7 @@ The first type of constraint we will look at is Unary Constraint. A unary constr
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/03/</guid>
-      <description>In this tutorial we will take a look at some more constraints and the different types of constraints. Text Tutorial   Video Tutorial     You can see the script here.
-Try Live  You can try live here.</description>
+      <description> In this tutorial we will take a look at some more constraints and the different types of constraints. Text Tutorial   Video Tutorial      You can see the script  here   Try Live   You can try live  here  </description>
     </item>
     
     <item>
@@ -131,8 +126,7 @@ When we add a path to a query, even if it is in the view, then by default there 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/04/</guid>
-      <description>In this tutorial we will talk about another feature of an intermine query - Outer and Inner Joins. Text Tutorial   Video Tutorial     You can see the script here.
-Try Live  You can try live here.</description>
+      <description> In this tutorial we will talk about another feature of an intermine query - Outer and Inner Joins. Text Tutorial   Video Tutorial      You can see the script  here   Try Live   You can try live  here  </description>
     </item>
     
     <item>
@@ -151,8 +145,7 @@ Now we write a short query for genes, and add all views for publications associa
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/05/</guid>
-      <description>In this tutorial we will talk about dealing with the results of our query. Text Tutorial   Video Tutorial     You can see the script here.
-Try Live  You can try live here.</description>
+      <description> In this tutorial we will talk about dealing with the results of our query. Text Tutorial   Video Tutorial      You can see the script  here   Try Live   You can try live  here  </description>
     </item>
     
     <item>
@@ -171,8 +164,7 @@ Usually, we begin by creating a query object. Our example for this tutorial is g
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/06/</guid>
-      <description>This tutorial will show you how to process, sort, and analyse the query results. Text Tutorial   Video Tutorial     You can see the script here.
-Try Live  You can try live here.</description>
+      <description> This tutorial will show you how to process, sort, and analyse the query results. Text Tutorial   Video Tutorial      You can see the script  here   Try Live   You can try live  here  </description>
     </item>
     
     <item>
@@ -191,8 +183,7 @@ While writing queries of your own, you would have probably realized that there i
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/07/</guid>
-      <description>In this tutorial we will look at templates, which are like pre-prepared queries you can easily re-use. Text Tutorial   Video Tutorial     You can see the script here.
-Try Live  You can try live here.</description>
+      <description> In this tutorial we will look at templates, which are like pre-prepared queries you can easily re-use. Text Tutorial   Video Tutorial      You can see the script  here   Try Live   You can try live  here  </description>
     </item>
     
     <item>
@@ -211,8 +202,7 @@ Once you have made an account, you can use the web service to create a query of 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/08/</guid>
-      <description>This tutorial will talk about how to access your saved templates and lists if you have your login information (username and password). Text Tutorial   Video Tutorial     You can see the script here.
-Try Live  You can try live here.</description>
+      <description> This tutorial will talk about how to access your saved templates and lists if you have your login information (username and password). Text Tutorial   Video Tutorial      You can see the script  here   Try Live   You can try live  here  </description>
     </item>
     
     <item>
@@ -231,8 +221,7 @@ You can either provide a list of identifiers (for example, gene symbols) and the
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/09/</guid>
-      <description>This tutorial will talk about how you can create and save lists in your account. Text Tutorial   Video Tutorial     You can see the script here.
-Try Live  You can try live here.</description>
+      <description> This tutorial will talk about how you can create and save lists in your account. Text Tutorial   Video Tutorial      You can see the script  here   Try Live   You can try live  here  </description>
     </item>
     
     <item>
@@ -252,8 +241,7 @@ Enrichment widgets are useful to find items such as GO Terms or publications whi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/10/</guid>
-      <description>This tutorial will talk about how you can perform enrichment calculations on lists that you have access to. Text Tutorial   Video Tutorial     You can see the script here.
-Try Live  You can try live here.</description>
+      <description> This tutorial will talk about how you can perform enrichment calculations on lists that you have access to. Text Tutorial   Video Tutorial      You can see the script  here   Try Live   You can try live  here  </description>
     </item>
     
     <item>
@@ -273,8 +261,7 @@ To make things easier, I use a test account here. Don’t forget to enter your u
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/11/</guid>
-      <description>This tutorial will talk about how you can combine two lists and save results in your account easily in InterMine. Text Tutorial   Video Tutorial     You can see the script here.
-Try Live  You can try live here.</description>
+      <description> This tutorial will talk about how you can combine two lists and save results in your account easily in InterMine. Text Tutorial   Video Tutorial      You can see the script  here   Try Live   You can try live  here  </description>
     </item>
     
     <item>
@@ -294,8 +281,7 @@ Let’s say that the query is not as simple as a strict cumulative filter and th
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/12/</guid>
-      <description>This tutorial will cover some more functionalities of a query. Queries are the basis of all research in InterMine and being able to manage them more effectively is always useful. Text Tutorial   Video Tutorial     You can see the script here.
-Try Live  You can try live here.</description>
+      <description> This tutorial will cover some more functionalities of a query. Queries are the basis of all research in InterMine and being able to manage them more effectively is always useful. Text Tutorial   Video Tutorial      You can see the script  here   Try Live   You can try live  here  </description>
     </item>
     
     <item>
@@ -315,8 +301,7 @@ The next step will be to access the account we want to manage: save_mine_and_tok
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/13/</guid>
-      <description>This tutorial will tell you about the Query Manager especially functions of it and how you can take advantage of Query Manager to make better use of queries. Text Tutorial   Video Tutorial     You can see the script here.
-Try Live  You can try live here.</description>
+      <description> This tutorial will tell you about the Query Manager especially functions of it and how you can take advantage of Query Manager to make better use of queries. Text Tutorial   Video Tutorial      You can see the script  here   Try Live   You can try live  here  </description>
     </item>
     
     <item>
@@ -335,8 +320,7 @@ This feature of the Python Client is supported only on Python versions &amp;gt;=
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/14/</guid>
-      <description>With the great need for data visualisation in the present world, we have introduced a few visual features to Intermine as well. We have tried to cover the most common needs of visualisation and have explained their use in this tutorial. Text Tutorial   Video Tutorial     You can see the script here.
-Try Live  You can try live here.</description>
+      <description> With the great need for data visualisation in the present world, we have introduced a few visual features to Intermine as well. We have tried to cover the most common needs of visualisation and have explained their use in this tutorial. Text Tutorial   Video Tutorial      You can see the script  here   Try Live   You can try live  here  </description>
     </item>
     
     <item>
@@ -355,8 +339,7 @@ Let&#39;s begin by showing all the fields a data type contains (including all At
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://persdre.github.io/intermine-training-portal/python-tutorial/15/</guid>
-      <description>This tutorial will help you utilise the module to get details about the data model of various mines. These are additional examples, besides the ones covered here - http://intermine.org/intermine-ws-python/intermine.html#module-intermine.model. Text Tutorial   Video Tutorial     You can see the script here.
-Try Live  You can try live here.</description>
+      <description> This tutorial will help you utilise the module to get details about the data model of various mines. These are additional examples, besides the ones covered  here   Text Tutorial   Video Tutorial      You can see the script  here   Try Live   You can try live  here  </description>
     </item>
     
   </channel>

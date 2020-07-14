@@ -4,9 +4,6 @@ description = ""
 weight = 6
 +++
 
-{{< lead >}}
-
-{{< /lead >}}
 We love your contribution! We want to make contributing to this website as easy and transparent as possible, whether it's:
 
 - Reporting a bug

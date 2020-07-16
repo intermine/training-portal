@@ -24,6 +24,12 @@ $dark:          #343a40;
     margin-top: -3rem;
 }
 
+/* hyperlink format */
+.main a {
+    color:blue; 
+    text-decoration:underline;
+}
+
 .haschildren ul{
     color: gray;
     display:none;
@@ -36,6 +42,9 @@ $dark:          #343a40;
 .highlight > pre {
     padding:15px;
 }
+
+  
+
 
 
 /* Side navigation menus */

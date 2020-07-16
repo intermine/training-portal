@@ -18,14 +18,14 @@
 	"title": "Tutorial 0: Overview",
 	"tags": [],
 	"description": "",
-	"content": "This tutorial is for users who use Python to get information of a mine or an organism. This tutorial consists of 14 parts.\n We use  Flymine as an example.     We recommend you to use Jupyter Notebook to run following code. If you are new to Jupyter, you can visit  this\n Text Tutorial   Video Tutorial      You can see the script  here   Try Live   You can try live  here   "
+	"content": "This tutorial is for users who use Python to get information of a mine or an organism. This tutorial consists of 14 parts.\nWe use Flymine as an example.\n  We recommend you to use Jupyter Notebook to run following code. If you are new to Jupyter, you can visit this\nText Tutorial   Video Tutorial     You can see the script here \n Try Live  You can try live here\n"
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/training-workshops/twitter-feed/",
 	"title": "Twitter Feed",
 	"tags": [],
 	"description": "",
-	"content": "We keep information updated on this.Don't hesitate to follow it! "
+	"content": "We keep information updated on this. Don't hesitate to follow it! "
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/training-workshops/available-materials/",
@@ -39,7 +39,7 @@
 	"title": "Python Tutorial",
 	"tags": [],
 	"description": "",
-	"content": "This part gives text and video tutorials of Python on how to interact with InterMine registry. \n You can download all tutorials  here  Tutorial 0: Overview   Tutorial 1: The Basics of a Query   Tutorial 2: Adding Constraints to a Query   Tutorial 3: More about Constraints   Tutorial 4: Query Features   Tutorial 5: Query Results   Tutorial 6: Advanced Results Management   Tutorial 7: Templates   Tutorial 8: Accessing Templates   Tutorial 9: Lists   Tutorial 10: Enrichment Calculations   Tutorial 11: Combining Lists   Tutorial 12: More about Queries   Tutorial 13: Query Manager   Tutorial 14: Visualisation in InterMine   Tutorial 15: Simple Ways to Manipulate the Model    "
+	"content": "This part gives text and video tutorials of Python on how to interact with InterMine registry. \nYou can download all tutorials here\nTutorial 0: Overview   Tutorial 1: The Basics of a Query   Tutorial 2: Adding Constraints to a Query   Tutorial 3: More about Constraints   Tutorial 4: Query Features   Tutorial 5: Query Results   Tutorial 6: Advanced Results Management   Tutorial 7: Templates   Tutorial 8: Accessing Templates   Tutorial 9: Lists   Tutorial 10: Enrichment Calculations   Tutorial 11: Combining Lists   Tutorial 12: More about Queries   Tutorial 13: Query Manager   Tutorial 14: Visualisation in InterMine   Tutorial 15: Simple Ways to Manipulate the Model    "
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video01/",
@@ -53,7 +53,7 @@
 	"title": "Tutorial 1: The Basics of a Query",
 	"tags": [],
 	"description": "",
-	"content": " This tutorial will tell you about the basics of intermine-python queries and how to write your first query. Text Tutorial   Video Tutorial      You can see the script  here   Try Live   You can try live  here  "
+	"content": " This tutorial will tell you about the basics of intermine-python queries and how to write your first query. Text Tutorial   Video Tutorial     You can see the script here\nTry Live  You can try live here\n"
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/",
@@ -74,14 +74,14 @@
 	"title": "Tutorial 2: Adding Constraints to a Query",
 	"tags": [],
 	"description": "",
-	"content": " In this tutorial, we will look at adding constraints to our queries to filter the results. Text Tutorial   Video Tutorial      You can see the script  here   Try Live   You can try live  here   "
+	"content": " In this tutorial, we will look at adding constraints to our queries to filter the results. Text Tutorial   Video Tutorial     You can see the script here\nTry Live  You can try live here\n"
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/intermine-documentation/",
 	"title": "InterMine Documentation",
 	"tags": [],
 	"description": "",
-	"content": "  InterMine  is an open source data warehouse build specifically for the integration and analysis of complex biological data.     Developed by the  Micklem lab  at the  University of Cambridge . InterMine enables the creation of biological databases accessed by sophisticated web query tools. Parsers are provided for integrating data from many common biological data sources and formats, and there is a framework for adding your own data. InterMine includes an attractive, user-friendly web interface that works ‘out of the box’ and can be easily customised for your specific needs, as well as a powerful, scriptable web-service API to allow programmatic access to your data.     The link is  here    "
+	"content": "InterMine is an open source data warehouse build specifically for the integration and analysis of complex biological data.\n Developed by the Micklem lab at the University of Cambridge. InterMine enables the creation of biological databases accessed by sophisticated web query tools. Parsers are provided for integrating data from many common biological data sources and formats, and there is a framework for adding your own data. InterMine includes an attractive, user-friendly web interface that works ‘out of the box’ and can be easily customised for your specific needs, as well as a powerful, scriptable web-service API to allow programmatic access to your data.   The link is here\n "
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video03/",
@@ -95,14 +95,14 @@
 	"title": "Tutorial 3: More about Constraints",
 	"tags": [],
 	"description": "",
-	"content": " In this tutorial we will take a look at some more constraints and the different types of constraints. Text Tutorial   Video Tutorial      You can see the script  here   Try Live   You can try live  here  "
+	"content": " In this tutorial we will take a look at some more constraints and the different types of constraints. Text Tutorial   Video Tutorial     You can see the script here\nTry Live  You can try live here\n"
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/flymine-documentation/",
 	"title": "FlyMine Documentation",
 	"tags": [],
 	"description": "",
-	"content": " The link is  here    "
+	"content": "The link is here  "
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video04/",
@@ -116,14 +116,14 @@
 	"title": "Tutorial 4: Query Features",
 	"tags": [],
 	"description": "",
-	"content": " In this tutorial we will talk about another feature of an intermine query - Outer and Inner Joins. Text Tutorial   Video Tutorial      You can see the script  here   Try Live   You can try live  here  "
+	"content": " In this tutorial we will talk about another feature of an intermine query - Outer and Inner Joins. Text Tutorial   Video Tutorial     You can see the script here\nTry Live  You can try live here\n"
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/contribution-guide/",
 	"title": "Contributing Guide",
 	"tags": [],
 	"description": "",
-	"content": "We love your contribution! We want to make contributing to this website as easy and transparent as possible, whether it's:\n Reporting a bug Discussing the current state of the code Submitting a fix Proposing new features Writing more docs Becoming a maintainer  and so on.\n Before you contribute, please read  InterMine Code of Conduct  We develop with GitHub We use github to host code, to track issues and feature requests, as well as accept pull requests.\nInterMine Training Portal repository: https://github.com/intermine/training-portal\nIf you are new to GitHub,   Open Source Guides will help you quick start.\n All code changes happen through pull requests  In short, when you submit code changes, your submissions are understood to be under the same  GitHub Flow). We actively welcome your pull requests:     Fork the repo and create your branch from master. If you've added code that should be tested, add tests. Ensure the test suite passes. Make sure your code lints. Issue that pull request!  Any contributions you make will be under the MIT Software License  In short, when you submit code changes, your submissions are understood to be under the same  MIT License that covers the project. Feel free to contact the maintainers if that's a concern.  Report bugs using Github's issues  We use GitHub issues to track public bugs. Report a bug by  opening a new issue  Submit a fix  If you fix a bug, submit by  pull request  Propose new features We welcome new features about the code, videos, layout, and others!\nWrite more docs If you find that some documentations are unclear, incomplete, or wrong, you can add new contents!\nBecome a maintainer Welcome! We’re excited to have you join the community. InterMine integrates biological data, but you don’t have to be a biologist to contribute to InterMine. Some of our entry-level issues only require knowledge of the relevant programming language, but others may require more in-depth understanding.\n If you’d like to learn a bit more about InterMine, visit  here  License By contributing, you agree that your contributions will be licensed under its MIT License.\n "
+	"content": "We love your contribution! We want to make contributing to this website as easy and transparent as possible, whether it's:\n Reporting a bug Discussing the current state of the code Submitting a fix Proposing new features Writing more docs Becoming a maintainer  and so on.\nBefore you contribute, please read InterMine Code of Conduct\nWe develop with GitHub We use github to host code, to track issues and feature requests, as well as accept pull requests.\nInterMine Training Portal repository: https://github.com/intermine/training-portal\nIf you are new to GitHub, Open Source Guides will help you quick start.\nAll code changes happen through pull requests In short, when you submit code changes, your submissions are understood to be under the same GitHub Flow. We actively welcome your pull requests:  \n Fork the repo and create your branch from master. If you've added code that should be tested, add tests. Ensure the test suite passes. Make sure your code lints. Issue that pull request!  Any contributions you make will be under the MIT Software License In short, when you submit code changes, your submissions are understood to be under the same MIT License that covers the project. Feel free to contact the maintainers if that's a concern.\nReport bugs using Github's issues We use GitHub issues to track public bugs. Report a bug by opening a new issue\nSubmit a fix If you fix a bug, submit by pull request\nPropose new features We welcome new features about the code, videos, layout, and others!\nWrite more docs If you find that some documentations are unclear, incomplete, or wrong, you can add new contents!\nBecome a maintainer Welcome! We’re excited to have you join the community. InterMine integrates biological data, but you don’t have to be a biologist to contribute to InterMine. Some of our entry-level issues only require knowledge of the relevant programming language, but others may require more in-depth understanding.\nIf you’d like to learn a bit more about InterMine, visit here\nLicense By contributing, you agree that your contributions will be licensed under its MIT License.\n "
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video05/",
@@ -137,7 +137,7 @@
 	"title": "Tutorial 5: Query Results",
 	"tags": [],
 	"description": "",
-	"content": " In this tutorial we will talk about dealing with the results of our query. Text Tutorial   Video Tutorial      You can see the script  here   Try Live   You can try live  here  "
+	"content": " In this tutorial we will talk about dealing with the results of our query. Text Tutorial   Video Tutorial     You can see the script here\nTry Live  You can try live here\n"
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video06/",
@@ -151,7 +151,7 @@
 	"title": "Tutorial 6: Advanced Results Management",
 	"tags": [],
 	"description": "",
-	"content": " This tutorial will show you how to process, sort, and analyse the query results. Text Tutorial   Video Tutorial      You can see the script  here   Try Live   You can try live  here  "
+	"content": " This tutorial will show you how to process, sort, and analyse the query results. Text Tutorial   Video Tutorial     You can see the script here\nTry Live  You can try live here\n"
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video07/",
@@ -165,7 +165,7 @@
 	"title": "Tutorial 7: Templates",
 	"tags": [],
 	"description": "",
-	"content": " In this tutorial we will look at templates, which are like pre-prepared queries you can easily re-use. Text Tutorial   Video Tutorial      You can see the script  here   Try Live   You can try live  here  "
+	"content": " In this tutorial we will look at templates, which are like pre-prepared queries you can easily re-use. Text Tutorial   Video Tutorial     You can see the script here\nTry Live  You can try live here\n"
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video08/",
@@ -179,7 +179,7 @@
 	"title": "Tutorial 8: Accessing Templates",
 	"tags": [],
 	"description": "",
-	"content": " This tutorial will talk about how to access your saved templates and lists if you have your login information (username and password). Text Tutorial   Video Tutorial      You can see the script  here   Try Live   You can try live  here  "
+	"content": " This tutorial will talk about how to access your saved templates and lists if you have your login information (username and password). Text Tutorial   Video Tutorial     You can see the script here\nTry Live   You can try live here"
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video09/",
@@ -193,7 +193,7 @@
 	"title": "Tutorial 9: Lists",
 	"tags": [],
 	"description": "",
-	"content": " This tutorial will talk about how you can create and save lists in your account. Text Tutorial   Video Tutorial      You can see the script  here   Try Live   You can try live  here  "
+	"content": " This tutorial will talk about how you can create and save lists in your account. Text Tutorial   Video Tutorial     You can see the script here\nTry Live  You can try live here\n"
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video10/",
@@ -207,7 +207,7 @@
 	"title": "Tutorial 10: Enrichment Calculations",
 	"tags": [],
 	"description": "",
-	"content": " This tutorial will talk about how you can perform enrichment calculations on lists that you have access to. Text Tutorial   Video Tutorial      You can see the script  here   Try Live   You can try live  here  "
+	"content": " This tutorial will talk about how you can perform enrichment calculations on lists that you have access to. Text Tutorial   Video Tutorial     You can see the script here\nTry Live  You can try live here\n"
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video11/",
@@ -221,7 +221,7 @@
 	"title": "Tutorial 11: Combining Lists",
 	"tags": [],
 	"description": "",
-	"content": " This tutorial will talk about how you can combine two lists and save results in your account easily in InterMine. Text Tutorial   Video Tutorial      You can see the script  here   Try Live   You can try live  here  "
+	"content": " This tutorial will talk about how you can combine two lists and save results in your account easily in InterMine. Text Tutorial   Video Tutorial     You can see the script here\nTry Live  You can try live here\n"
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video12/",
@@ -235,7 +235,7 @@
 	"title": "Tutorial 12: More about Queries",
 	"tags": [],
 	"description": "",
-	"content": " This tutorial will cover some more functionalities of a query. Queries are the basis of all research in InterMine and being able to manage them more effectively is always useful. Text Tutorial   Video Tutorial      You can see the script  here   Try Live   You can try live  here  "
+	"content": " This tutorial will cover some more functionalities of a query. Queries are the basis of all research in InterMine and being able to manage them more effectively is always useful. Text Tutorial   Video Tutorial     You can see the script here\nTry Live  You can try live here\n"
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video13/",
@@ -249,7 +249,7 @@
 	"title": "Tutorial 13: Query Manager",
 	"tags": [],
 	"description": "",
-	"content": " This tutorial will tell you about the Query Manager especially functions of it and how you can take advantage of Query Manager to make better use of queries. Text Tutorial   Video Tutorial      You can see the script  here   Try Live   You can try live  here  "
+	"content": " This tutorial will tell you about the Query Manager especially functions of it and how you can take advantage of Query Manager to make better use of queries. Text Tutorial   Video Tutorial     You can see the script here\nTry Live  You can try live here\n"
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video14/",
@@ -263,7 +263,7 @@
 	"title": "Tutorial 14: Visualisation in InterMine",
 	"tags": [],
 	"description": "",
-	"content": " With the great need for data visualisation in the present world, we have introduced a few visual features to Intermine as well. We have tried to cover the most common needs of visualisation and have explained their use in this tutorial. Text Tutorial   Video Tutorial      You can see the script  here   Try Live   You can try live  here  "
+	"content": " With the great need for data visualisation in the present world, we have introduced a few visual features to Intermine as well. We have tried to cover the most common needs of visualisation and have explained their use in this tutorial. Text Tutorial   Video Tutorial     You can see the script here\nTry Live  You can try live here\n"
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video15/",
@@ -277,7 +277,7 @@
 	"title": "Tutorial 15: Simple Ways to Manipulate the Model",
 	"tags": [],
 	"description": "",
-	"content": " This tutorial will help you utilise the module to get details about the data model of various mines. These are additional examples, besides the ones covered  here   Text Tutorial   Video Tutorial      You can see the script  here   Try Live   You can try live  here  "
+	"content": "This tutorial will help you utilise the module to get details about the data model of various mines. These are additional examples, besides the ones covered here Text Tutorial   Video Tutorial     You can see the script here\nTry Live  You can try live here\n"
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/categories/",

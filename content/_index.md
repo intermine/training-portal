@@ -4,7 +4,7 @@ description = ""
 +++
 
 {{< lead >}}
-InterMine Training Portal is developed for users of <a href="http://intermine.org/" target="_blank">InterMine</a>, which integrates biological data sources, making it easy to query and analyse data.
+InterMine Training Portal is developed for users of <a href="http://intermine.org/">InterMine</a>, which integrates biological data sources, making it easy to query and analyse data.
 {{< /lead >}}
 
 ## Training Workshops

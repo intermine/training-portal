@@ -1,5 +1,5 @@
 +++
-title = "FlyMine Documentation"
+title = "InterMine User Documentation"
 description = ""
 weight = 5
 +++

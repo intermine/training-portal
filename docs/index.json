@@ -39,7 +39,7 @@
 	"title": "Python Tutorial",
 	"tags": [],
 	"description": "",
-	"content": "This part gives text and video tutorials of Python on how to interact with InterMine registry. \nYou can download all tutorials here\nTutorial 0: Overview   Tutorial 1: The Basics of a Query   Tutorial 2: Adding Constraints to a Query   Tutorial 3: More about Constraints   Tutorial 4: Query Features   Tutorial 5: Query Results   Tutorial 6: Advanced Results Management   Tutorial 7: Templates   Tutorial 8: Accessing Templates   Tutorial 9: Lists   Tutorial 10: Enrichment Calculations   Tutorial 11: Combining Lists   Tutorial 12: More about Queries   Tutorial 13: Query Manager   Tutorial 14: Visualisation in InterMine   Tutorial 15: Simple Ways to Manipulate the Model    "
+	"content": "This part gives text and video tutorials of Python on how to interact with InterMine registry. \nYou can download all text tutorials here\nYou can download the Python tech documentation here\nTutorial 0: Overview   Tutorial 1: The Basics of a Query   Tutorial 2: Adding Constraints to a Query   Tutorial 3: More about Constraints   Tutorial 4: Query Features   Tutorial 5: Query Results   Tutorial 6: Advanced Results Management   Tutorial 7: Templates   Tutorial 8: Accessing Templates   Tutorial 9: Lists   Tutorial 10: Enrichment Calculations   Tutorial 11: Combining Lists   Tutorial 12: More about Queries   Tutorial 13: Query Manager   Tutorial 14: Visualisation in InterMine   Tutorial 15: Simple Ways to Manipulate the Model    "
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video01/",

@@ -4,11 +4,11 @@
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="canonical" href="https://persdre.github.io/intermine-training-portal/python-scripts/video15/">
+    <link rel="canonical" href="https://persdre.github.io/intermine-training-portal/contribution-guide/">
 
     <title>
         
-        Tutorial 15 | InterMine Training Portal
+        Contributing Guide | InterMine Training Portal
         
     </title>
 
@@ -190,7 +190,7 @@
         </li>
         </ul>
     </li>
-    <li data-nav-id="/intermine-training-portal/python-scripts/" class="nav-item my-1 parent haschildren
+    <li data-nav-id="/intermine-training-portal/python-scripts/" class="nav-item my-1 haschildren
         ">
         
         <a class="nav-link p-0" href="/intermine-training-portal/python-scripts/"><h6>Python Video Script</h6></a>
@@ -285,7 +285,7 @@
                     Tutorial 14
                 </a>
         </li>
-        <li data-nav-id="/intermine-training-portal/python-scripts/video15/" class="nav-item my-1 active">
+        <li data-nav-id="/intermine-training-portal/python-scripts/video15/" class="nav-item my-1">
                 
                  <a href="/intermine-training-portal/python-scripts/video15/" class="nav-link p-0">
                     Tutorial 15
@@ -303,7 +303,7 @@
         
         <a class="nav-link p-0" href="/intermine-training-portal/flymine-documentation/"><h6>InterMine User Documentation</h6></a>
     </li>
-    <li data-nav-id="/intermine-training-portal/contribution-guide/" class="nav-item my-1
+    <li data-nav-id="/intermine-training-portal/contribution-guide/" class="nav-item my-1 parent active
         ">
         
         <a class="nav-link p-0" href="/intermine-training-portal/contribution-guide/"><h6>Contributing Guide</h6></a>
@@ -315,37 +315,81 @@
 
 </div>
                 <div class="docs-toc large order-lg-2 order-md-0 order-xs-1 col-12 col-lg-2 col-xl-2 position-sticky border-left"><div class="docs-toc">
-	<nav id="TableOfContents"></nav>
+	<nav id="TableOfContents">
+  <ul>
+    <li><a href="#we-develop-with-github">We develop with GitHub</a></li>
+    <li><a href="#all-code-changes-happen-through-pull-requests">All code changes happen through pull requests</a></li>
+    <li><a href="#any-contributions-you-make-will-be-under-the-mit-software-license">Any contributions you make will be under the MIT Software License</a></li>
+    <li><a href="#report-bugs-using-githubs-issues">Report bugs using Github's issues</a></li>
+    <li><a href="#submit-a-fix">Submit a fix</a></li>
+    <li><a href="#propose-new-features">Propose new features</a></li>
+    <li><a href="#write-more-docs">Write more docs</a></li>
+    <li><a href="#become-a-maintainer">Become a maintainer</a></li>
+    <li><a href="#license">License</a></li>
+  </ul>
+</nav>
 </div>
 </div>
                 <div class="main col-12 order-1 col-md-9 col-lg-10 col-xl-8 py-3">
                 
 
-<h1>Tutorial 15</h1>
+<h1>Contributing Guide</h1>
 
-<p class="lead">
-    <br/>
-<p>Welcome to the fifteenth tutorial in the InterMine python tutorial series! This tutorial will help you utilise the module to get details about the data model of various mines. These are additional examples, besides the ones covered here - <a href="http://intermine.org/intermine-ws-python/intermine.html#module-intermine.model">http://intermine.org/intermine-ws-python/intermine.html#module-intermine.model</a>.
-Each class (data type) has information containing references to other objects in the data model, collections of references or attribute details.</p>
-<p>Let's begin by showing all the fields a data type contains (including all Attributes, References and Collections listed alphabetically). Each class can have any number of attributes (which store primitive data, like numbers, dates, and strings), references to other objects in the database, and collections of other objects in the database.</p>
-<p>Here we see the datatype is Gene with the method get_class.</p>
-<p>Then we can see all fields in the gene data type.</p>
-<p>Suppose you have a class name, and want to know the details about a particular field it contains, then you can do the following:</p>
-<p>Here we only get the gene field from the Protein class.</p>
-<p>Note that if you enter a field name that does not belong to the class, then you will receive an error.</p>
-<p>Now, suppose you want to find out the nature of the data you retrieved earlier (i.e. whether it is an &lsquo;Attribute&rsquo; or &lsquo;Collection&rsquo;/&lsquo;Reference&rsquo;), you can easily iterate over the fields we had obtained earlier:</p>
-<p>Here, we classify field types as either REFERENCE or ATTRIBUTE and print their names.</p>
-<p>Notice that we used make_path() in the process. This function helps us construct paths and inspect whether it is valid or not, or as in here, utilise it to get more information from the model.</p>
-<p>Now let's look at what information we can get regarding &lsquo;inheritance&rsquo; of class&rsquo;.</p>
-<p>The isa function helps us determine whether &lsquo;input&rsquo; belongs to the ancestry(is a parent class or one of the parents of the parent class or so on) of a given class.</p>
-<p>So here we know Allele is not an ancestor of Protein.</p>
-<p>Now let's see how we can retrieve the ancestry of a particular class:</p>
-<p>The to_ancestry method returns the ancestry of the given class.</p>
-<p>We can print them here.</p>
-<p>This tutorial thus explained how to get information regarding a class such as its attributes and the inheritance it shares without having to retrieve the entire model!</p>
-<p>Thanks for watching!</p>
+<p>We love your contribution! We want to make contributing to this website as easy and transparent as possible, whether it's:</p>
+<ul>
+<li>Reporting a bug</li>
+<li>Discussing the current state of the code</li>
+<li>Submitting a fix</li>
+<li>Proposing new features</li>
+<li>Writing more docs</li>
+<li>Becoming a maintainer</li>
+</ul>
+<p>and so on.</p>
+<p>Before you contribute, please read
+<a href="http://intermine.org/code-of-conduct/#intermine-code-of-conduct">InterMine Code of Conduct</a></p>
+<h2 id="we-develop-with-github">We develop with GitHub</h2>
+<p>We use github to host code, to track issues and feature requests, as well as accept pull requests.</p>
+<p>InterMine Training Portal repository: <a href="https://github.com/intermine/training-portal">https://github.com/intermine/training-portal</a></p>
+<p>If you are new to GitHub,
+<a href="https://opensource.guide/how-to-contribute/#how-to-submit-a-contribution">Open Source Guides</a>
+will help you quick start.</p>
+<h2 id="all-code-changes-happen-through-pull-requests">All code changes happen through pull requests</h2>
+<p>In short, when you submit code changes, your submissions are understood to be under the same <a href="https://guides.github.com/introduction/flow/index.html">GitHub Flow</a>. We actively welcome your pull requests:
+<br/>
+<br/></p>
+<ol>
+<li>Fork the repo and create your branch from <code>master</code>.</li>
+<li>If you've added code that should be tested, add tests.</li>
+<li>Ensure the test suite passes.</li>
+<li>Make sure your code lints.</li>
+<li>Issue that pull request!</li>
+</ol>
+<h2 id="any-contributions-you-make-will-be-under-the-mit-software-license">Any contributions you make will be under the MIT Software License</h2>
+<p>In short, when you submit code changes, your submissions are understood to be under the same
+<a href="http://choosealicense.com/licenses/mit/" style="color:blue;">MIT License</a> that covers the project. Feel free to contact the maintainers if that's a concern.</p>
+<h2 id="report-bugs-using-githubs-issues">Report bugs using Github's issues</h2>
+<p>We use GitHub issues to track public bugs. Report a bug by <a href="https://github.com/intermine/training-portal/issues/new">opening a new issue</a></p>
+<h2 id="submit-a-fix">Submit a fix</h2>
+<p>If you fix a bug, submit by <a href="https://github.com/intermine/training-portal/issues/new">pull request</a></p>
+<h2 id="propose-new-features">Propose new features</h2>
+<p>We welcome new features about the code, videos, layout, and others!</p>
+<h2 id="write-more-docs">Write more docs</h2>
+<p>If you find that some documentations are unclear, incomplete, or wrong, you can add new contents!</p>
+<h2 id="become-a-maintainer">Become a maintainer</h2>
+<p>Welcome! We’re excited to have you join the community. InterMine integrates biological data, but you don’t have to be a biologist to contribute to InterMine. Some of our entry-level issues only require knowledge of the relevant programming language, but others may require more in-depth understanding.</p>
+<p>If you’d like to learn a bit more about InterMine, visit <a href="http://intermine.org/contributing/">here</a></p>
+<h2 id="license">License</h2>
+<p>By contributing, you agree that your contributions will be licensed under its MIT License.</p>
 
-</p>
+
+
+<ul class="docs-children list-unstyled">
+
+	
+</ul>
+
+
+
 
 
 
@@ -355,8 +399,8 @@ Each class (data type) has information containing references to other objects in
                     
                     <div class="row"><div class="position-relative mx-auto col-lg-9">
                           <div class="bg-primary overflow-hidden p-3 mt-5 shadow">
-    <div class="d-flex justify-content-center"><a class="p-1 mr-3 d-inline-block text-white" href="/intermine-training-portal/python-scripts/video14/" title="Tutorial 14"><i class="fas fa-chevron-left p-1"></i>Tutorial 14</a>
-        <a class="p-1 ml-3 d-inline-block text-white text-right" href="/intermine-training-portal/intermine-documentation/" title="InterMine Documentation">InterMine Documentation<i class="fas fa-chevron-right p-1"></i></a>
+    <div class="d-flex justify-content-center"><a class="p-1 mr-3 d-inline-block text-white" href="/intermine-training-portal/flymine-documentation/" title="InterMine User Documentation"><i class="fas fa-chevron-left p-1"></i>InterMine User Documentation</a>
+        <a class="p-1 ml-3 d-inline-block text-white text-right" href="/intermine-training-portal/training-workshops/" title="Training Workshops">Training Workshops<i class="fas fa-chevron-right p-1"></i></a>
     </div>
 </div>
 

@@ -8,7 +8,8 @@ InterMine Training Portal is developed for users of <a href="http://intermine.or
 {{< /lead >}}
 
 ## Training Workshops
-We typically carry out a few training workshops each year - keep your eye on our [calendar](https://intermineorg.wordpress.com/events/) or [twitter feed](https://twitter.com/intermineorg) to find out when registration is open. The [materials are available online](http://intermine.org/training-workshops/) and designed to be worked through in a self-led or tutor-led manner. 
+
+We typically carry out a few training workshops each year - keep your eye on our [calendar](https://intermineorg.wordpress.com/events/) or [twitter feed](https://twitter.com/intermineorg) to find out when registration is open. 
 
 
 ## Materials
@@ -21,6 +22,18 @@ We typically carry out a few training workshops each year - keep your eye on our
 - 🇷 Data analysis workflows in R
   - R Pax6 Workflow (unsolved) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/intermine/interminer-workshop/master?filepath=Workshop%20Workflow%20PAX6-unsolved.ipynb)
   - R Pax6 Workflow (with answers) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/intermine/interminer-workshop/master?filepath=Workshop%20Workflow%20PAX6.ipynb)
+
+<br/>
+
+- July 4, 2019 - [Handling integrated biological data using Python, Jupyter, and InterMine](http://intermine.org/training-workshops/2019/2019-07-04-gcc-overview)
+- June 19, 2019 - [UI + API training courses at Cambridge Bioinformatics Training Facility](http://intermine.org/training-workshops/2019/2019-06-19-genetics-overview)
+- February 13, 2019 - [EBI Multiomics Data Integration](http://intermine.org/training-workshops/2019/ebi-multiomics)
+- June, 2018 - [GCCBOSC 2018](http://intermine.org/bosc-2018/)
+    - Shorter UI section, with a longer API focus. 2.5 hours.
+- February, 2018 - [EBI Multiomics course](https://yochannah.github.io/EBI-multiomics-resources-2018/index.html)
+    - Mostly UI-oriented with a short API section.
+    - Shortlink: [bit.ly/intermine-ebi-2018](http://bit.ly/intermine-ebi-2018)
+
 
 ## Exercises
 

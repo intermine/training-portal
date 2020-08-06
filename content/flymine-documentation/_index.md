@@ -1,7 +1,7 @@
 +++
 title = "InterMine User Documentation"
 description = ""
-weight = 5
+weight = 4
 +++
 
 {{< lead >}}

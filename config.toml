@@ -6,11 +6,11 @@ title = "InterMine Training Portal"
 theme = "training-portal-theme"
 pygmentsCodeFences = true
 pygmentsStyle = "monokailight"
-publishDir = "docs"
+publishDir = "docs"         # all publish pages are from docs folder
 
 [params]
 ordersectionsby = "weight"  # ordersectionsby = "title"
-disableSearch = false       # default is false
+disableSearch = false       # search function is able by default.
 disableReadmoreNav = false  # set true to hide prev/next navigation, default is false
 highlightClientSide = false # set true to use highlight.pack.js instead of the default hugo chroma highlighter
 menushortcutsnewtab = true  # set true to open shortcuts links to a new tab/window

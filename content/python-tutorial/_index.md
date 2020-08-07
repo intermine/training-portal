@@ -1,7 +1,7 @@
 +++
 title = "Python Tutorial"
 description = ""
-weight = 2
+weight = 1
 +++
 
 {{< lead >}}

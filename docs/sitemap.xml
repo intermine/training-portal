@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://persdre.github.io/intermine-training-portal/training-workshops/</loc>
+    <loc>https://persdre.github.io/intermine-training-portal/python-tutorial/</loc>
   </url>
   
   <url>
@@ -15,15 +15,7 @@
   </url>
   
   <url>
-    <loc>https://persdre.github.io/intermine-training-portal/training-workshops/twitter-feed/</loc>
-  </url>
-  
-  <url>
-    <loc>https://persdre.github.io/intermine-training-portal/training-workshops/available-materials/</loc>
-  </url>
-  
-  <url>
-    <loc>https://persdre.github.io/intermine-training-portal/python-tutorial/</loc>
+    <loc>https://persdre.github.io/intermine-training-portal/python-scripts/</loc>
   </url>
   
   <url>
@@ -35,7 +27,7 @@
   </url>
   
   <url>
-    <loc>https://persdre.github.io/intermine-training-portal/python-scripts/</loc>
+    <loc>https://persdre.github.io/intermine-training-portal/intermine-documentation/</loc>
   </url>
   
   <url>
@@ -47,7 +39,7 @@
   </url>
   
   <url>
-    <loc>https://persdre.github.io/intermine-training-portal/intermine-documentation/</loc>
+    <loc>https://persdre.github.io/intermine-training-portal/flymine-documentation/</loc>
   </url>
   
   <url>
@@ -59,7 +51,7 @@
   </url>
   
   <url>
-    <loc>https://persdre.github.io/intermine-training-portal/flymine-documentation/</loc>
+    <loc>https://persdre.github.io/intermine-training-portal/contribution-guide/</loc>
   </url>
   
   <url>
@@ -68,10 +60,6 @@
   
   <url>
     <loc>https://persdre.github.io/intermine-training-portal/python-tutorial/04/</loc>
-  </url>
-  
-  <url>
-    <loc>https://persdre.github.io/intermine-training-portal/contribution-guide/</loc>
   </url>
   
   <url>

@@ -1,10 +1,10 @@
 [
 {
-	"uri": "https://persdre.github.io/intermine-training-portal/training-workshops/",
-	"title": "Training Workshops",
+	"uri": "https://persdre.github.io/intermine-training-portal/python-tutorial/",
+	"title": "Python Tutorial",
 	"tags": [],
 	"description": "",
-	"content": "We provide training workshops each year. Click on links below to get them! Twitter Feed   Available Materials    "
+	"content": "This part gives text and video tutorials of Python on how to interact with InterMine registry. \nYou can download all text tutorials here\nYou can download the Python tech documentation here\nTutorial 0: Overview   Tutorial 1: The Basics of a Query   Tutorial 2: Adding Constraints to a Query   Tutorial 3: More about Constraints   Tutorial 4: Query Features   Tutorial 5: Query Results   Tutorial 6: Advanced Results Management   Tutorial 7: Templates   Tutorial 8: Accessing Templates   Tutorial 9: Lists   Tutorial 10: Enrichment Calculations   Tutorial 11: Combining Lists   Tutorial 12: More about Queries   Tutorial 13: Query Manager   Tutorial 14: Visualisation in InterMine   Tutorial 15: Simple Ways to Manipulate the Model    "
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video00/",
@@ -21,25 +21,11 @@
 	"content": "This tutorial is for users who use Python to get information of a mine or an organism. This tutorial consists of 14 parts.\nWe use Flymine as an example.\n  We recommend you to use Jupyter Notebook to run following code. If you are new to Jupyter, you can visit this\nText Tutorial   Video Tutorial     You can see the script here \n Try Live  You can try live here\n"
 },
 {
-	"uri": "https://persdre.github.io/intermine-training-portal/training-workshops/twitter-feed/",
-	"title": "Twitter Feed",
+	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/",
+	"title": "Python Video Script",
 	"tags": [],
 	"description": "",
-	"content": "We keep information updated on this. Don't hesitate to follow it! "
-},
-{
-	"uri": "https://persdre.github.io/intermine-training-portal/training-workshops/available-materials/",
-	"title": "Available Materials",
-	"tags": [],
-	"description": "",
-	"content": "Listed in chronological order, with newer/upcoming courses at the top. 2019  July 4 - Handling integrated biological data using Python, Jupyter, and InterMine June 19 - UI + API training courses at Cambridge Bioinformatics Training Facility February 13 - EBI Multiomics Data Integration  2018  June - GCCBOSC 2018  Shorter UI section, with a longer API focus. 2.5 hours.   February - EBI Multiomics course  Mostly UI-oriented with a short API section. Shortlink: bit.ly/intermine-ebi-2018    "
-},
-{
-	"uri": "https://persdre.github.io/intermine-training-portal/python-tutorial/",
-	"title": "Python Tutorial",
-	"tags": [],
-	"description": "",
-	"content": "This part gives text and video tutorials of Python on how to interact with InterMine registry. \nYou can download all text tutorials here\nYou can download the Python tech documentation here\nTutorial 0: Overview   Tutorial 1: The Basics of a Query   Tutorial 2: Adding Constraints to a Query   Tutorial 3: More about Constraints   Tutorial 4: Query Features   Tutorial 5: Query Results   Tutorial 6: Advanced Results Management   Tutorial 7: Templates   Tutorial 8: Accessing Templates   Tutorial 9: Lists   Tutorial 10: Enrichment Calculations   Tutorial 11: Combining Lists   Tutorial 12: More about Queries   Tutorial 13: Query Manager   Tutorial 14: Visualisation in InterMine   Tutorial 15: Simple Ways to Manipulate the Model    "
+	"content": "This is the full text script that accompanies the video.  Tutorial 0   Tutorial 1   Tutorial 2   Tutorial 3   Tutorial 4   Tutorial 5   Tutorial 6   Tutorial 7   Tutorial 8   Tutorial 9   Tutorial 10   Tutorial 11   Tutorial 12   Tutorial 13   Tutorial 14   Tutorial 15    "
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video01/",
@@ -56,11 +42,11 @@
 	"content": " This tutorial will tell you about the basics of intermine-python queries and how to write your first query. Text Tutorial   Video Tutorial     You can see the script here\nTry Live  You can try live here\n"
 },
 {
-	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/",
-	"title": "Python Video Script",
+	"uri": "https://persdre.github.io/intermine-training-portal/intermine-documentation/",
+	"title": "InterMine Documentation",
 	"tags": [],
 	"description": "",
-	"content": "This is the full text script that accompanies the video.  Tutorial 0   Tutorial 1   Tutorial 2   Tutorial 3   Tutorial 4   Tutorial 5   Tutorial 6   Tutorial 7   Tutorial 8   Tutorial 9   Tutorial 10   Tutorial 11   Tutorial 12   Tutorial 13   Tutorial 14   Tutorial 15    "
+	"content": "InterMine is an open source data warehouse build specifically for the integration and analysis of complex biological data.\n Developed by the Micklem lab at the University of Cambridge. InterMine enables the creation of biological databases accessed by sophisticated web query tools. Parsers are provided for integrating data from many common biological data sources and formats, and there is a framework for adding your own data. InterMine includes an attractive, user-friendly web interface that works ‘out of the box’ and can be easily customised for your specific needs, as well as a powerful, scriptable web-service API to allow programmatic access to your data.   The link is here\n "
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video02/",
@@ -77,11 +63,11 @@
 	"content": " In this tutorial, we will look at adding constraints to our queries to filter the results. Text Tutorial   Video Tutorial     You can see the script here\nTry Live  You can try live here\n"
 },
 {
-	"uri": "https://persdre.github.io/intermine-training-portal/intermine-documentation/",
-	"title": "InterMine Documentation",
+	"uri": "https://persdre.github.io/intermine-training-portal/flymine-documentation/",
+	"title": "InterMine User Documentation",
 	"tags": [],
 	"description": "",
-	"content": "InterMine is an open source data warehouse build specifically for the integration and analysis of complex biological data.\n Developed by the Micklem lab at the University of Cambridge. InterMine enables the creation of biological databases accessed by sophisticated web query tools. Parsers are provided for integrating data from many common biological data sources and formats, and there is a framework for adding your own data. InterMine includes an attractive, user-friendly web interface that works ‘out of the box’ and can be easily customised for your specific needs, as well as a powerful, scriptable web-service API to allow programmatic access to your data.   The link is here\n "
+	"content": "The link is here  "
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video03/",
@@ -98,11 +84,11 @@
 	"content": " In this tutorial we will take a look at some more constraints and the different types of constraints. Text Tutorial   Video Tutorial     You can see the script here\nTry Live  You can try live here\n"
 },
 {
-	"uri": "https://persdre.github.io/intermine-training-portal/flymine-documentation/",
-	"title": "InterMine User Documentation",
+	"uri": "https://persdre.github.io/intermine-training-portal/contribution-guide/",
+	"title": "Contributing Guide",
 	"tags": [],
 	"description": "",
-	"content": "The link is here  "
+	"content": "We love your contribution! We want to make contributing to this website as easy and transparent as possible, whether it's:\n Reporting a bug Discussing the current state of the code Submitting a fix Proposing new features Writing more docs Becoming a maintainer  and so on.\nBefore you contribute, please read InterMine Code of Conduct\nWe develop with GitHub We use github to host code, to track issues and feature requests, as well as accept pull requests.\nInterMine Training Portal repository: https://github.com/intermine/training-portal\nIf you are new to GitHub, Open Source Guides will help you quick start.\nAll code changes happen through pull requests In short, when you submit code changes, your submissions are understood to be under the same GitHub Flow. We actively welcome your pull requests:  \n Fork the repo and create your branch from master. If you've added code that should be tested, add tests. Ensure the test suite passes. Make sure your code lints. Issue that pull request!  Any contributions you make will be under the MIT Software License In short, when you submit code changes, your submissions are understood to be under the same MIT License that covers the project. Feel free to contact the maintainers if that's a concern.\nReport bugs using Github's issues We use GitHub issues to track public bugs. Report a bug by opening a new issue\nSubmit a fix If you fix a bug, submit by pull request\nPropose new features We welcome new features about the code, videos, layout, and others!\nWrite more docs If you find that some documentations are unclear, incomplete, or wrong, you can add new contents!\nBecome a maintainer Welcome! We’re excited to have you join the community. InterMine integrates biological data, but you don’t have to be a biologist to contribute to InterMine. Some of our entry-level issues only require knowledge of the relevant programming language, but others may require more in-depth understanding.\nIf you’d like to learn a bit more about InterMine, visit here\nLicense By contributing, you agree that your contributions will be licensed under its MIT License.\n "
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video04/",
@@ -117,13 +103,6 @@
 	"tags": [],
 	"description": "",
 	"content": " In this tutorial we will talk about another feature of an intermine query - Outer and Inner Joins. Text Tutorial   Video Tutorial     You can see the script here\nTry Live  You can try live here\n"
-},
-{
-	"uri": "https://persdre.github.io/intermine-training-portal/contribution-guide/",
-	"title": "Contributing Guide",
-	"tags": [],
-	"description": "",
-	"content": "We love your contribution! We want to make contributing to this website as easy and transparent as possible, whether it's:\n Reporting a bug Discussing the current state of the code Submitting a fix Proposing new features Writing more docs Becoming a maintainer  and so on.\nBefore you contribute, please read InterMine Code of Conduct\nWe develop with GitHub We use github to host code, to track issues and feature requests, as well as accept pull requests.\nInterMine Training Portal repository: https://github.com/intermine/training-portal\nIf you are new to GitHub, Open Source Guides will help you quick start.\nAll code changes happen through pull requests In short, when you submit code changes, your submissions are understood to be under the same GitHub Flow. We actively welcome your pull requests:  \n Fork the repo and create your branch from master. If you've added code that should be tested, add tests. Ensure the test suite passes. Make sure your code lints. Issue that pull request!  Any contributions you make will be under the MIT Software License In short, when you submit code changes, your submissions are understood to be under the same MIT License that covers the project. Feel free to contact the maintainers if that's a concern.\nReport bugs using Github's issues We use GitHub issues to track public bugs. Report a bug by opening a new issue\nSubmit a fix If you fix a bug, submit by pull request\nPropose new features We welcome new features about the code, videos, layout, and others!\nWrite more docs If you find that some documentations are unclear, incomplete, or wrong, you can add new contents!\nBecome a maintainer Welcome! We’re excited to have you join the community. InterMine integrates biological data, but you don’t have to be a biologist to contribute to InterMine. Some of our entry-level issues only require knowledge of the relevant programming language, but others may require more in-depth understanding.\nIf you’d like to learn a bit more about InterMine, visit here\nLicense By contributing, you agree that your contributions will be licensed under its MIT License.\n "
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video05/",
@@ -291,7 +270,7 @@
 	"title": "InterMine Training Portal",
 	"tags": [],
 	"description": "",
-	"content": "InterMine Training Portal is developed for users of InterMine, which integrates biological data sources, making it easy to query and analyse data. Training Workshops We typically carry out a few training workshops each year - keep your eye on our calendar or twitter feed to find out when registration is open. The materials are available online and designed to be worked through in a self-led or tutor-led manner.\nMaterials  Intro To Data Analysis:  Intro to data analysis with the InterMine user interface   Data Analysis Workflows: 🐍 Python  Python Pax6 Workflow (unsolved):  Python Pax6 Workflow (with answers):    🇷 Data analysis workflows in R  R Pax6 Workflow (unsolved)  R Pax6 Workflow (with answers)     Exercises  🇷 Producing figures and data visualisations in R (Advanced):  Enrichment and visualisations (unsolved):  Enrichment and visualisations (with answers):     Videos Here's a short list of video tutorials produced by community members. If you'd like yours added to the list please contact us!\n FlyMine intro videos - for the Drosophila-minded among us. TargetMine tutorials Tutorials for an InterMine designed to help identify drug targets. YeastMine videos - SGD has quite a broad range of tutorials based on S. Cerevisiae data. MouseMine at MGI - M. musculus InterMine intro Python tutorials - Tutorials to help you get familiarised with the intermine-python package. The tutorials are in the form of Jupyter-Notebooks.  "
+	"content": "InterMine Training Portal is developed for users of InterMine, which integrates biological data sources, making it easy to query and analyse data. Training Workshops We typically carry out a few training workshops each year - keep your eye on our calendar or twitter feed to find out when registration is open.\nMaterials  Intro To Data Analysis:  Intro to data analysis with the InterMine user interface   Data Analysis Workflows: 🐍 Python  Python Pax6 Workflow (unsolved):  Python Pax6 Workflow (with answers):    🇷 Data analysis workflows in R  R Pax6 Workflow (unsolved)  R Pax6 Workflow (with answers)       July 4, 2019 - Handling integrated biological data using Python, Jupyter, and InterMine June 19, 2019 - UI + API training courses at Cambridge Bioinformatics Training Facility February 13, 2019 - EBI Multiomics Data Integration June, 2018 - GCCBOSC 2018  Shorter UI section, with a longer API focus. 2.5 hours.   February, 2018 - EBI Multiomics course  Mostly UI-oriented with a short API section. Shortlink: bit.ly/intermine-ebi-2018    Exercises  🇷 Producing figures and data visualisations in R (Advanced):  Enrichment and visualisations (unsolved):  Enrichment and visualisations (with answers):     Videos Here's a short list of video tutorials produced by community members. If you'd like yours added to the list please contact us!\n FlyMine intro videos - for the Drosophila-minded among us. TargetMine tutorials Tutorials for an InterMine designed to help identify drug targets. YeastMine videos - SGD has quite a broad range of tutorials based on S. Cerevisiae data. MouseMine at MGI - M. musculus InterMine intro Python tutorials - Tutorials to help you get familiarised with the intermine-python package. The tutorials are in the form of Jupyter-Notebooks.  "
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/tags/",

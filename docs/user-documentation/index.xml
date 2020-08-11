@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>User Documentation on InterMine Training Portal</title>
+    <link>https://persdre.github.io/intermine-training-portal/user-documentation/</link>
+    <description>Recent content in User Documentation on InterMine Training Portal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    
+	<atom:link href="https://persdre.github.io/intermine-training-portal/user-documentation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

@@ -42,13 +42,6 @@
 	"content": " This tutorial will tell you about the basics of intermine-python queries and how to write your first query. Text Tutorial   Video Tutorial     You can see the script here\nTry Live  You can try live here\n"
 },
 {
-	"uri": "https://persdre.github.io/intermine-training-portal/intermine-documentation/",
-	"title": "InterMine Documentation",
-	"tags": [],
-	"description": "",
-	"content": "InterMine is an open source data warehouse build specifically for the integration and analysis of complex biological data.\n Developed by the Micklem lab at the University of Cambridge. InterMine enables the creation of biological databases accessed by sophisticated web query tools. Parsers are provided for integrating data from many common biological data sources and formats, and there is a framework for adding your own data. InterMine includes an attractive, user-friendly web interface that works ‘out of the box’ and can be easily customised for your specific needs, as well as a powerful, scriptable web-service API to allow programmatic access to your data.   The link is here\n "
-},
-{
 	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video02/",
 	"title": "Tutorial 2",
 	"tags": [],
@@ -63,11 +56,18 @@
 	"content": " In this tutorial, we will look at adding constraints to our queries to filter the results. Text Tutorial   Video Tutorial     You can see the script here\nTry Live  You can try live here\n"
 },
 {
-	"uri": "https://persdre.github.io/intermine-training-portal/flymine-documentation/",
-	"title": "InterMine User Documentation",
+	"uri": "https://persdre.github.io/intermine-training-portal/user-documentation/",
+	"title": "User Documentation",
 	"tags": [],
 	"description": "",
-	"content": "The link is here  "
+	"content": " User Doc Try online on BlueGenes   "
+},
+{
+	"uri": "https://persdre.github.io/intermine-training-portal/developer-documentation/",
+	"title": "Developer Documentation",
+	"tags": [],
+	"description": "",
+	"content": "InterMine is an open source data warehouse build specifically for the integration and analysis of complex biological data.\n Developed by the Micklem lab at the University of Cambridge. InterMine enables the creation of biological databases accessed by sophisticated web query tools. Parsers are provided for integrating data from many common biological data sources and formats, and there is a framework for adding your own data. InterMine includes an attractive, user-friendly web interface that works ‘out of the box’ and can be easily customised for your specific needs, as well as a powerful, scriptable web-service API to allow programmatic access to your data.   The link is here\n "
 },
 {
 	"uri": "https://persdre.github.io/intermine-training-portal/python-scripts/video03/",

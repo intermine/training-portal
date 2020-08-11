@@ -27,10 +27,6 @@
   </url>
   
   <url>
-    <loc>https://persdre.github.io/intermine-training-portal/intermine-documentation/</loc>
-  </url>
-  
-  <url>
     <loc>https://persdre.github.io/intermine-training-portal/python-scripts/video02/</loc>
   </url>
   
@@ -39,7 +35,11 @@
   </url>
   
   <url>
-    <loc>https://persdre.github.io/intermine-training-portal/flymine-documentation/</loc>
+    <loc>https://persdre.github.io/intermine-training-portal/user-documentation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://persdre.github.io/intermine-training-portal/developer-documentation/</loc>
   </url>
   
   <url>

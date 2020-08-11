@@ -1,7 +1,7 @@
 +++
-title = "InterMine Documentation"
+title = "Developer Documentation"
 description = ""
-weight = 3
+weight = 4
 +++
 
 {{< lead >}}

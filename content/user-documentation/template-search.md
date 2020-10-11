@@ -73,7 +73,7 @@ To filter data by gene information.
 ## g.Interactions: 
 To filter by its genetic interactions.
 
-[alt text](https://raw.githubusercontent.com/LizzyKate/training-portal/lizzy/content/user-documentation/template-img/cate.PNG)
+![alt text](https://raw.githubusercontent.com/LizzyKate/training-portal/lizzy/content/user-documentation/template-img/cate.PNG)
 
 
 

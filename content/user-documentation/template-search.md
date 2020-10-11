@@ -38,14 +38,16 @@ A pre-defined search which provides a simple form with one or more variables for
 
 
 1. Go to bluegenes homepage link  http://bluegenes.apps.intermine.org/
-
+![alt text](https://raw.githubusercontent.com/LizzyKate/training-portal/lizzy/content/user-documentation/template-img/home.PNG)
 
 
 2. At the top of the webpage, you will find a navbar and a dropdown with its default value of “Flymine”. You can click on this dropdown to select a mine of your choice or you can proceed with the Flymine.
+![alt text](https://raw.githubusercontent.com/LizzyKate/training-portal/lizzy/content/user-documentation/template-img/fly.PNG)
 
 
 
 3. Proceed to click on “TEMPLATES”.
+![alt text](https://raw.githubusercontent.com/LizzyKate/training-portal/lizzy/content/user-documentation/template-img/template.PNG)
 
 4. Clicking on templates redirects you to a webpage where you see an instruction telling you how to filter your data. You can filter your data in two ways:
 
@@ -79,7 +81,7 @@ To filter by its genetic interactions.
 
 ## B. Filter By Description: 
 You can write the description of the data you want to find and the data automatically pops out.
-
+![alt text](https://raw.githubusercontent.com/LizzyKate/training-portal/lizzy/content/user-documentation/template-img/des.PNG)
 
 
 

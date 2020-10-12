@@ -1,5 +1,5 @@
 +++
-title = "Welcome to the InterMine User Documentation"
+title = "User Documentation"
 description = ""
 weight = 3
 +++
@@ -12,8 +12,8 @@ weight = 3
 * Getting started
   * General Overview
 * Tutorial
-  * Exercise1: Faceted Search
-  * Exercise1 answers
+  * [Exercise1: Faceted Search](http://localhost:1313/intermine-training-portal/user-documentation/faceted-search/)
+  * [Exercise1: Answers](http://localhost:1313/intermine-training-portal/user-documentation/faceted-search-answers/)
   * Exercise2: Exploring a gene
   * Exercise2: Answers
   * Exercise3: List Upload

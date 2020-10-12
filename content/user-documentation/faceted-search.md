@@ -1,6 +1,6 @@
 
 +++
-title = "User Documentation"
+title = "Exercise 1: Faceted Search"
 description = ""
 weight = 3
 +++
@@ -25,7 +25,7 @@ Use HumanMine to complete this exercise.
 
 Need a hint? Please take a look at  our [Keyword Search](https://flymine.readthedocs.io/en/latest/quick-search/Documentationquicksearch.html#quicksearch) tutorial
 
-Answers are [available here]()
+Answers are [available here](faceted-search.md)
 
 # Exercise 1: Answers
 

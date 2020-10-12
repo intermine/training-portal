@@ -1,7 +1,7 @@
 +++
 title = "Exercise 1: Faceted Search"
 description = ""
-weight = 3
+weight = 4
 +++
 Use HumanMine to complete this exercise.
 

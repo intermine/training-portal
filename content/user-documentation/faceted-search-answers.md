@@ -1,7 +1,7 @@
 +++
 title = "Exercise 1: Answers"
 description = ""
-weight = 3
+weight = 5
 +++
 
 **1. Select the HumanMine instance to complete this exercise**

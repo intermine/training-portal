@@ -13,16 +13,16 @@ A template search consists of a simple form with one or more options for you to 
 Each template has a short name and a longer description. We provide a short name so you can quickly scan the available searches and find the one that you need. The longer description will provide you with more details and any limitations to the values you can enter.
 
 ### Steps to finding a template search
-We use <a href="https://www.flymine.org/flymine/begin.do">Flymine</a> as an example.
-1. Click on the templates tab in the main menu bar.
+We use <a href="http://bluegenes.apps.intermine.org/default">Flymine</a> as an example.
+1. Click on the **Templates** tab in the main menu bar.
 
-<img src="https://i.imgur.com/bp7Vp3Q.png">
+<img src="https://i.imgur.com/4dpW6zp.png"> 
 <br/>
 <br/>
 
-2. Filter the list using either keywords or data categories
+2. Filter the list using either keywords i.e. **Filter by discription** or data categories i.e. **Filter by Category**
 
-<img src="https://i.imgur.com/0cex0ax.png" >
+<img src="https://i.imgur.com/AMpgJ1k.png" >
 <br/>
 
 ### Can’t find what you want?
@@ -30,23 +30,23 @@ If you can’t find a template search that you want or if there is one available
 
 ### Running a template search
 1. Once you have choosen your intended search, you will be provided with a form with one or more variables to set
-2. Enter a value,  in this case there is an auto-suggest function. **OR**
-3. Choose choose from the drop-down lists if provided
+2. Enter a value **OR**
+3. Choose from the drop-down lists if provided
 4. Some constraints are optional: you can choose whether to filter on the pathway data source by turning the constraints on or off
-5. Click **Show Results** to run the search.
+5. The results preview at the right hand side.
 
-<img src="https://i.imgur.com/nD1HyHA.png">
+<img src="https://i.imgur.com/GVIkafU.png"> 
 <br/>
 <br/>
 
-### Running a template search with one of my lists or a public list
+<!-- ### Running a template search with one of my lists or a public list
 1. Log-in so that your own lists can be viewed. 
 2. Every template can be run on relevant Lists of objects - if you have lists of the correct type (e.g. a list of genes) or if there is a suitable public list, you will be able to select the one you require from a drop-down list. 
 3.  select the checkbox to access this.
 
 <img src="https://i.imgur.com/DnVYso5.png">
 <br/>
-<br/>
+<br/> -->
 
 ### Understanding your results
 Your template will return a results tables. As well as displaying your results, the results tables are a powerful analysis tool as well. See the <a href="https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables">Results Tables</a> for more details and for information on how to save or download your results.
@@ -54,10 +54,11 @@ Your template will return a results tables. As well as displaying your results, 
 ### Modifying a template search
 Sometimes you may find a template does not return everything you want in your results. Templates can also be a good starting point for building more complex searches. To modify a template using the The Query Builder:
 
-1. Click on the **Edit query** (4) button from the image above to display the template in the query builder. You need to understand how to use the query builder to modify your template - please see the <a href="https://flymine.readthedocs.io/en/latest/query-builder/Documentationquerybuilder.html#querybuilder">The Query Builder documentation.</a> Remember, if you do not want to invest the time learning how to use the query builder you can <a href="https://flymine.readthedocs.io/en/latest/contact/Documentationcontact.html#contact">Contact Us</a> the InterMine team who will be happy to help construct the search you require.
-2. Edit from image below and when done click **Show results**
+1. Click on the **Query Builder** tab in the main menu bar. You need to understand how to use the query builder to modify your template - please see the <a href="https://flymine.readthedocs.io/en/latest/query-builder/Documentationquerybuilder.html#querybuilder">The Query Builder documentation.</a> Remember, if you do not want to invest the time learning how to use the query builder you can <a href="https://flymine.readthedocs.io/en/latest/contact/Documentationcontact.html#contact">Contact Us</a> the InterMine team who will be happy to help construct the search you require.
+2. Choose the template you want to modify
+3. Make your intended selection and see the output at the right hand side
 
-<img src="https://i.imgur.com/RtjozHu.png">
+<img src="https://i.imgur.com/JbXualD.png"> 
 <br/>
 <br/>
 

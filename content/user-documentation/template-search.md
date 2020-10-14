@@ -38,7 +38,7 @@ A pre-defined query that has been created to search for data which provides a si
 
 
 1. Go to bluegenes homepage link  http://bluegenes.apps.intermine.org/
-![alt text](https://raw.githubusercontent.com/LizzyKate/training-portal/lizzy/content/user-documentation/template-img/home.PNG)
+![alt text](https://github.com/LizzyKate/training-portal/blob/lizzy/content/user-documentation/template-img/home.PNG?raw=true)
 
 
 2. At the top of the webpage, you will find a navbar and a dropdown with its default value of “Flymine”. You can click on this dropdown to select a mine of your choice or you can proceed with the Flymine.

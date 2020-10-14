@@ -42,12 +42,14 @@ A pre-defined query that has been created to search for data which provides a si
 
 
 2. At the top of the webpage, you will find a navbar and a dropdown with its default value of “Flymine”. You can click on this dropdown to select a mine of your choice or you can proceed with the Flymine.
-![alt text](https://raw.githubusercontent.com/LizzyKate/training-portal/lizzy/content/user-documentation/template-img/fly.PNG)
+![alt text](https://github.com/LizzyKate/training-portal/blob/lizzy/content/user-documentation/template-img/fly.PNG?raw=true)
+![alt text](https://github.com/LizzyKate/training-portal/blob/lizzy/content/user-documentation/template-img/drop.PNG?raw=true)
+
 
 
 
 3. Proceed to click on “TEMPLATES”.
-![alt text](https://raw.githubusercontent.com/LizzyKate/training-portal/lizzy/content/user-documentation/template-img/template.PNG)
+![alt text](https://github.com/LizzyKate/training-portal/blob/lizzy/content/user-documentation/template-img/template.PNG?raw=true)
 
 4. Clicking on templates redirects you to a webpage where you see an instruction telling you how to filter your data. You can filter your data in two ways:
 
@@ -75,38 +77,39 @@ To filter data by information.
 ## g.Interactions: 
 To filter data by interactions.
 
-![alt text](https://raw.githubusercontent.com/LizzyKate/training-portal/lizzy/content/user-documentation/template-img/cate.PNG)
-
-
+![alt text](https://github.com/LizzyKate/training-portal/blob/lizzy/content/user-documentation/template-img/cate.PNG?raw=true)
 
 ## B. Filter By Keywords: 
 You can write the keyword of the data you want to find and the datatype automatically pops out.
-![alt text](https://raw.githubusercontent.com/LizzyKate/training-portal/lizzy/content/user-documentation/template-img/des.PNG)
-
+![alt text](https://github.com/LizzyKate/training-portal/blob/lizzy/content/user-documentation/template-img/describe.PNG?raw=true)
 
 ## Description Of Each Templates
 Each template has a short name and a description. The short name is provided so that users can quickly scan the available searches and provide the one that they need. The description will provide you with more details of the search and any limitations to the values you can enter.
 
 ## Short Name
-![alt text]()
+![alt text](https://github.com/LizzyKate/training-portal/blob/lizzy/content/user-documentation/template-img/short.PNG?raw=true)
 
 ## Description
-![alt text]()
+![alt text](https://github.com/LizzyKate/training-portal/blob/lizzy/content/user-documentation/template-img/keyword.PNG?raw=true)
 
 ## Details Of A Template Search
 A template search provides you with a form, with one or more keywords to set. Some will require you to enter a value, while others will provide drop-down lists for you to select from. Some templates provide optional constraints. These constraints can be turned on or off depending on your wish. Once you are have provided the options you want to chose so as to minimize your data search, results based on those options are provided with a button signalling you to click to show more results. 
 
 ## Dropdowns
-![alt text]()
+![alt text](https://github.com/LizzyKate/training-portal/blob/lizzy/content/user-documentation/template-img/down.PNG?raw=true)
+
 
 ## Optional Constraints
-![alt text]()
+![alt text](https://github.com/LizzyKate/training-portal/blob/lizzy/content/user-documentation/template-img/Optional.PNG?raw=true)
+
 
 ## Results
-![alt text]()
+![alt text](https://github.com/LizzyKate/training-portal/blob/lizzy/content/user-documentation/template-img/Result.PNG?raw=true)
+
 
 ## View More Results
-![alt text]()
+![alt text](https://github.com/LizzyKate/training-portal/blob/lizzy/content/user-documentation/template-img/view.PNG?raw=true)
+
 
 ## TROUBLESHOOTING
 

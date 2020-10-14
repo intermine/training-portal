@@ -16,13 +16,13 @@ Each template has a short name and a longer description. We provide a short name
 We use <a href="http://bluegenes.apps.intermine.org/default">Flymine</a> as an example.
 1. Click on the **Templates** tab in the main menu bar.
 
-<img src="https://i.imgur.com/4dpW6zp.png"> 
+<img src="https://i.imgur.com/2PxrxT5.png"> 
 <br/>
 <br/>
 
 2. Filter the list using either keywords i.e. **Filter by discription** or data categories i.e. **Filter by Category**
 
-<img src="https://i.imgur.com/AMpgJ1k.png" >
+<img src="https://i.imgur.com/Y3MztyZ.png" > 
 <br/>
 
 ### Can’t find what you want?
@@ -35,7 +35,7 @@ If you can’t find a template search that you want or if there is one available
 4. Some constraints are optional: you can choose whether to filter on the pathway data source by turning the constraints on or off
 5. The results preview at the right hand side.
 
-<img src="https://i.imgur.com/GVIkafU.png"> 
+<img src="https://i.imgur.com/xu0233Z.png"> 
 <br/>
 <br/>
 
@@ -58,7 +58,7 @@ Sometimes you may find a template does not return everything you want in your re
 2. Choose the template you want to modify
 3. Make your intended selection and see the output at the right hand side
 
-<img src="https://i.imgur.com/JbXualD.png"> 
+<img src="https://i.imgur.com/O8cNHvn.png"> 
 <br/>
 <br/>
 

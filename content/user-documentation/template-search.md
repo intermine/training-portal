@@ -31,7 +31,7 @@ This query interface has provided options to search for this data and it include
 
 ## Template Search
 
-A pre-defined search which provides a simple form with one or more variables for you to define. It provides a list of terms making the search easier for someone who do not know the right terms to search for and provides default values for each template search.
+A pre-defined query that has been created to search for data which provides a simple form with one or more variables for you to define. It allows you to search for databases without having to construct your own query or understand  the underlying data structure. In other words, it provides a list of terms making the search easier for someone who do not know the right terms to search for and provides default values for each template search.
 
 
 ## How To Get Data Using The Bluegene Template Search
@@ -52,40 +52,61 @@ A pre-defined search which provides a simple form with one or more variables for
 4. Clicking on templates redirects you to a webpage where you see an instruction telling you how to filter your data. You can filter your data in two ways:
 
 ## A.Filter By Category:  
- You can click on the buttons to filter the searches. The buttons include:
+ You can click on the buttons to filter the searches by category. The buttons include:
 
 ## a. All : 
-To provide you with all information you might want to know
+To provide you with all information you might want to know about any data type.
 
 ## b. Regulation: 
 To filter the data and provide transcription factors information of the mine involved.
 
 ## c. Function: 
-To filter data by gene functions
+To filter data by functions
 
 ## d.Expression:
- To filter data by Dna an Rna Expressions.
+ To filter data by Expressions.
 
 ## e.Homology: 
-To filter data by its gene homologues.
+To filter data by homologues.
 
 ## f.Genes: 
-To filter data by gene information.
+To filter data by information.
 
 ## g.Interactions: 
-To filter by its genetic interactions.
+To filter data by interactions.
 
 ![alt text](https://raw.githubusercontent.com/LizzyKate/training-portal/lizzy/content/user-documentation/template-img/cate.PNG)
 
 
 
-## B. Filter By Description: 
-You can write the description of the data you want to find and the data automatically pops out.
+## B. Filter By Keywords: 
+You can write the keyword of the data you want to find and the datatype automatically pops out.
 ![alt text](https://raw.githubusercontent.com/LizzyKate/training-portal/lizzy/content/user-documentation/template-img/des.PNG)
 
 
+## Description Of Each Templates
+Each template has a short name and a description. The short name is provided so that users can quickly scan the available searches and provide the one that they need. The description will provide you with more details of the search and any limitations to the values you can enter.
 
+## Short Name
+![alt text]()
 
+## Description
+![alt text]()
+
+## Details Of A Template Search
+A template search provides you with a form, with one or more keywords to set. Some will require you to enter a value, while others will provide drop-down lists for you to select from. Some templates provide optional constraints. These constraints can be turned on or off depending on your wish. Once you are have provided the options you want to chose so as to minimize your data search, results based on those options are provided with a button signalling you to click to show more results. 
+
+## Dropdowns
+![alt text]()
+
+## Optional Constraints
+![alt text]()
+
+## Results
+![alt text]()
+
+## View More Results
+![alt text]()
 
 ## TROUBLESHOOTING
 

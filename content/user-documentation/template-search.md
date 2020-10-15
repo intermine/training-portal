@@ -54,29 +54,7 @@ A pre-defined query that has been created to search for data which provides a si
 4. Clicking on templates redirects you to a webpage where you see an instruction telling you how to filter your data. You can filter your data in two ways:
 
 ## A.Filter By Category:  
- You can click on the buttons to filter the searches by category. The buttons include:
-
-## a. All : 
-To provide you with all information you might want to know about any data type.
-
-## b. Regulation: 
-To filter the data and provide transcription factors information of the mine involved.
-
-## c. Function: 
-To filter data by functions
-
-## d.Expression:
- To filter data by Expressions.
-
-## e.Homology: 
-To filter data by homologues.
-
-## f.Genes: 
-To filter data by information.
-
-## g.Interactions: 
-To filter data by interactions.
-
+ You can click on the buttons to filter the searches by category for example regulation, function, expression, homology, genes and interaction
 ![alt text](https://github.com/LizzyKate/training-portal/blob/lizzy/content/user-documentation/template-img/cate.PNG?raw=true)
 
 ## B. Filter By Keywords: 

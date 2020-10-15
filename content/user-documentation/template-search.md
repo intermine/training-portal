@@ -110,6 +110,88 @@ A template search provides you with a form, with one or more keywords to set. So
 ## View More Results
 ![alt text](https://github.com/LizzyKate/training-portal/blob/lizzy/content/user-documentation/template-img/view.PNG?raw=true)
 
+## Modifying A Template Search
+Sometimes the template you want may not return everything you want in your results. Templates are a starting point for building more complex searches. The template can be modified by using the "Query Builder" buttons.
+After Clicking on the "View more results", a section to the left shows the recent queries you have searched for. 
+At the middle-top of the webpage, you will find query buttons that enables you to build your query. These buttons are:
+![alt text]()
+
+1. Add Columns: To add a new query of data.
+![alt text]()
+
+2. Manage FIlter: To type in the query you want to see in the result e.g if you want to add a query of "Secondary Identifier", you can type it in the "Manage Filter" section instead of looking for that query in the "Add Columns section".
+![alt text]()
+
+3. Manage Relationships: If you want your query to be required or optional, you can determine it in this section.
+![alt text]()
+
+4. Save List: You can save your own query in the public lists for it to be viewed by others or you later if selected from the List section. Your query  can only be added to the public list if you sign up and login into that particular "Mine". You can edit the name you want your query to be called in this list thus creating your own data for others to use.
+![alt text]()
+
+5. Export: You can download your results with this button.
+![alt text]()
+
+6. Javascript: Developers can use this button to choose the programming language and alsoto download the source code of this result.
+![alt text]()
+
+7. Undo: You can click on this button to reverse all the changes you have made and remove all the query data you have added.
+
+
+## Enrichment
+Enrichment are extra information you may want to know about that data. It is seen at right side of the result webpage Any enrichment that is clicked on adds a new query to the previous queries on the "Recent Query" Section.
+![alt text]()
+
+## Result Tables
+Any search that is being looked upon, whether from a template search or a query builder will give you a results table. Results tables are also used to display the content of lists on the public list page.
+Results tables not only display your results but also allows you to summarise, filter, add or remove columns, create and download data.
+
+## Understanding your result table
+The first thing to note on your result table is the "Recent Queries" which is seen at the top left of the webpage to show the queries that have been searched for to give information about that particular data. 
+![alt text]()
+On the middle-top section of the webpage, you will see query buttons that enable you build your own query and add more data to the results.
+![alt text]()
+On the middle section, immediately below the query buttons, you will see a dropdown that siginifies how may rows of data you want to see per page.
+![alt text]() 
+Towards the right of the row dropdown, you will see a the following symbols "Backward, Lesser, Greater and Forward" that allows you to navigate to any page you want data from. You will also see a text indicating the numbering of the rows that are going to show in the result tables.
+![alt text]()
+Below the rows and the page symbols section are the "Column Headings". These give the field name for the data shown and in some cases the class the data is from. 
+For examples, in the following result table, the column headers are :
+1. Gene Secondary Identifier
+2. Gene Symbol
+3. Chromosome DB Identifier
+4. Chromosome Location Start
+5. CHromosome Location End 
+6. Chromosome Location Strand
+
+![alt text]()
+
+## Column Summaries
+ A summary of the data can be accessed by clicking on the graph in the column header. You can read more in the <a href="https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables">Results Table Section Of the Intermine Documention</a>.
+ ![alt text]()
+ ![alt text]()
+
+ You can also filter the results in the column summary either by selecting the checkboxes or enter some text in the filter fields. You can use the sliders in the numerical data to select a range of data you wish to view. You can read more in the <a href="https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables">Results Table Section Of the Intermine Documention</a>.
+ ![alt text]()
+ ![alt text]()
+
+ You can remove a column header by clicking on the "X" Symbol.
+ ![alt text]()
+
+ You can sort the data in an alphabetical order using the "Up Arrow" symbol for ascending alphabetical Order or the "Down Arrow" symbol for descending alphabetical order.
+ ![alt text]()
+
+ ## Finding Out More Links
+ Below the column headers and in the rows are object identifiers or symbols which are links to the "Report Pages". These identifiers also give a pop-up summary of the object.
+ ![alt text]()
+
+ ## Report Pages
+ The Report pages give you details of that particular data depending on what query that data was built upon. You can read more in the <a href="https://flymine.readthedocs.io/en/latest/report-pages/Documentationreportpages.html#reportpages">Report Pages Of The Intermine Documentation</a>
+ ![alt text]()
+
+## Enrichment
+This section is found at the right part of the result table webpage. This section allows to enrich the data of your query by increasing or decreasing your "Max p-value", changing your "Test Correction" inputing your query data in "Filter Enrichment Results". You can also click on the default enrichment values provided instead of making your own query data yourself.
+<a href="https://intermine.readthedocs.io/en/latest/embedding/list-widgets/enrichment-widgets/">You can find out how Enrichment is calculated here</a> 
+![alt text]()
 
 ## TROUBLESHOOTING
 

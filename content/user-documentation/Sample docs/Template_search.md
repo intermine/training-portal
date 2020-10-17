@@ -15,14 +15,14 @@ Each template has a short name and a longer description. We provide a short name
 
 To access the template library click on the templates tab in the main menu bar.
 
-![Main menu bar showing template](/images/template.png)
+![Main menu bar showing template](images\template.png)
 
 ### **Finding a Template**
 
 ---
 The list of template searches is long. To help you find the search that you want you can filter either using category or description:
 
-![Active filters for template search](/images/template_category.png)
+![Active filters for template search](images\template_category.png)
 
 
 
@@ -42,7 +42,7 @@ If you can’t find a template search that you want or if there is one available
 
 A template search provides you with a form, with one or more variables to set. Some will require you to enter a value, while others will provide drop-down lists for you to select from. Once you are happy with your options, simply click *View rows* to run the search taking you to the result page.
 
-![Fields for template search](/images/template_search.png)
+![Fields for template search](images\template_search.png)
 
 
 ### Trouble Shooting

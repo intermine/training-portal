@@ -7,7 +7,7 @@ weight = 3
 
 A search box appears on the menu bar of all pages as well as on the home page. You can search for any identifier, name, symbol or keyword.
 
-![Image](https://i.imgur.com/9wfW6IU.png)
+![Image](https://i.imgur.com/FER9UOn.png)
 
 ### Examples of what you can search:
 
@@ -29,5 +29,4 @@ Boolean search syntax is supported: e.g. dros* for partial matches or fly AND NO
 
 The quick search will search all objects in the database for the term you enter. All objects that match the term are returned and provided to you in an interface that allows you to further refine your search:
 
-![Image](https://i.imgur.com/xprxNxz.png)
 ![Image](https://i.imgur.com/dC2hWMs.png)

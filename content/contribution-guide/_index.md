@@ -1,7 +1,7 @@
 +++
 title = "Contributing Guide"
 description = ""
-weight = 5
+weight = 6
 +++
 
 We love your contribution! We want to make contributing to this website as easy and transparent as possible, whether it's:

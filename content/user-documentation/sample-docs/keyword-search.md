@@ -37,4 +37,5 @@ The quick search will search will search all related objects in the database for
 ! [showing category of terms related](/images/category.png)
 
 
+
 The results from a quick search link to [Report Pages](https://flymine.readthedocs.io/en/latest/report-pages/Documentationreportpages.html#reportpages) for each item found.

@@ -1,7 +1,7 @@
 
 ## Template Searches
 
-
+<br></br>
 
 ### What is a Template Search ?
 
@@ -15,18 +15,20 @@ Each template has a short name and a longer description. We provide a short name
 
 To access the template library click on the templates tab in the main menu bar.
 
-![Main menu bar showing template](images\template.png)
+<img src="https://imgur.com/9LEjWsN.png" alt= "Main Menu Bar"/>
+
+<br></br>
 
 ### **Finding a Template**
 
 ---
 The list of template searches is long. To help you find the search that you want you can filter either using category or description:
 
-![Active filters for template search](images\template_category.png)
+<img src= "https://imgur.com/BDrqBfL.png" alt= "Active filters for template search"/>
 
 
 
-<br>
+<br></br>
 
 ### Can't find what you are looking for ?
 
@@ -40,10 +42,31 @@ If you can’t find a template search that you want or if there is one available
 
 ---
 
-A template search provides you with a form, with one or more variables to set. Some will require you to enter a value, while others will provide drop-down lists for you to select from. Once you are happy with your options, simply click *View rows* to run the search taking you to the result page.
+A template search provides you with a form, with one or more variables to set. Some will require you to enter a value, while others will provide drop-down lists for you to select from. Once you are satisfied with your options, simply click *View rows* to run the search taking you to the report page.
 
-![Fields for template search](images\template_search.png)
+<img src= "https://imgur.com/ZUIHgyv.png" alt= "Template Search"/>
 
+**Report Page**
+
+<img src= "https://imgur.com/PLTR2js.png" alt= "Report Page"/>
+
+
+### Running a Template with a list of genes
+
+Using a public list of genes or your own list (remember to log in first to enable access to personal lists ), you can run a template search.
+To search a list,click on the *In List* option, then in the next drop-down you can choose either recently created list(personal) or publicly available list.
+
+<img src= "https://imgur.com/lYNXk7x.png" alt= "Template search with list of genes"/>
+
+<br></br>
+
+### Understanding your results
+
+---
+
+The template search returns results in  tabular format with a range of options. As well as displaying your results, the results tables are a powerful analysis tool as well. See the [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables) for more details and for information on how to save or download your results.
+
+<br></br>
 
 ### Trouble Shooting
 

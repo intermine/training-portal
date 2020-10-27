@@ -2,8 +2,14 @@
 
 The Region Search allows you to search for features that overlap a list of genome coordinates. It is found under the Regions tab in the main InterMine header.
 
+![Region tab](https://user-images.githubusercontent.com/66256932/97363272-9ea03480-18a2-11eb-994b-fee73dd9c522.png)
+
 -1 Firstly, select the organism for which your regions are from.
 -2 Select which genomic features you are interested in. All features are selected by default. 
+
+![Default genomic features selected](https://user-images.githubusercontent.com/66256932/97363517-fe96db00-18a2-11eb-8b68-c1a4ad0f5c22.png)
+
+
 -3 Upload your genomic coordinates. The following formats are accepted:
    -**chromosome:start..end**, e.g. 2L:11334..12296
    -**chromosome:start-end**, e.g. 2R:5866746-5868284 or chrII:14646344-14667746
@@ -34,6 +40,8 @@ Note that the genome browser will initially display a default region or the last
 ---------
 
 The table display shows each of your regions in turn. The left hand column shows the region and allows you to download the results for just that region in various formats (tab, csv, gff3, FASTA and BED) or send your results to galaxy. You can also create a list of a specific type of feature. Download and list creation for all regions is found just above the table under the genome browser. The right hand side of the table displays all the features found and their genomic location
+
+![Results page](https://user-images.githubusercontent.com/66256932/97363897-88df3f00-18a3-11eb-95b7-b0dd24523d84.png)
 
 
 ## Troubleshooting 

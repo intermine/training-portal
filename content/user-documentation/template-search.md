@@ -168,7 +168,9 @@ This section is found at the right part of the result table webpage. This sectio
 <a href="https://intermine.readthedocs.io/en/latest/embedding/list-widgets/enrichment-widgets/">You can find out how Enrichment is calculated here</a> 
 ![alt text](https://github.com/LizzyKate/training-portal/blob/lizzy/content/user-documentation/template-img/Enrichment.PNG?raw=true)
 
-
+## Link To The Video Tutorial
+The link to the template search video tutorial
+https://drive.google.com/file/d/1nPPwFgYZRwG7uz7kEwr6ZGeWp7amRMFx/view?usp=sharing
 
 
 ## TROUBLESHOOTING

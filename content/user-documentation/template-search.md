@@ -172,6 +172,9 @@ This section is found at the right part of the result table webpage. This sectio
 The link to the template search video tutorial
 https://drive.google.com/file/d/1nPPwFgYZRwG7uz7kEwr6ZGeWp7amRMFx/view?usp=sharing
 
+## Link To Proposal Template
+The link to the proposal template is https://docs.google.com/document/d/1iwQzFK3I-pv-xbuyjjRqBdS0a1uQvqJoBopjYg0klf4/edit?usp=sharing
+
 
 ## TROUBLESHOOTING
 

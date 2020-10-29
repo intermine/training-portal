@@ -18,11 +18,12 @@ HumanMine is an integrated database of *Homo Sapiens* genomic data.
 
 Human Necrosis Factor is the first gene result in the list that shows when HumanMine is clicked. 
 
-<img src= "https://imgur.com/aSpBknU.png" alt= "Search results"/>
+<img src= "https://imgur.com/SC5LBqN.png" alt= "Search results"/>
 
 <br></br>
 > Click on the gene to be taken to the report page.
 
+<img src= "https://imgur.com/pSzzwAN.png" alt= "Report Page"/>
 <br></br>
 
 2. Filtering and creating a list

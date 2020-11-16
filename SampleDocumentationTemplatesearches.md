@@ -30,7 +30,7 @@ values you can enter.
 **To access the template library** click 
 on the templates tab in the main 
 menu bar as shown in image below.
-![image of Template search icon](https://flymine.readthedocs.io/en/latest/_images/templatestab.png)
+![image of Template search icon](https://imgur.com/8MK8wYc)
 
 # FINDING THE TEMPLATE THAT YOU WANT
 

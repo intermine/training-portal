@@ -22,12 +22,12 @@ There are many different InterMines worldwide, covering a broad range of model o
 
 For the full list of InterMines, please see the [registry](http://registry.intermine.org/)
 
-### With InterMine you can: 
+### Why use InterMine?
 
 * Query across several data sources at once
-* Data formatting issues resolved
+* Common platform to many organisms and data types
+* Resolve data formatting issues
+* One source of Information without visiting several sites
 * Identifier resolution system
 * Collate information about items and sets
-* Common platform to many organisms and type of data
-* Information without visiting several sites
 

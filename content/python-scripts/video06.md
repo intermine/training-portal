@@ -1,10 +1,6 @@
-+++
-title = "Tutorial 6"
-description = ""
-weight = 7
-+++
-{{< lead >}}
-<br/>
+# video06
+
++++ title = "Tutorial 6" description = "" weight = 7 +++    
 
 
 Welcome to the sixth tutorial in the InterMine python tutorial series! In the previous tutorials we learned how to add filters to limit the query results. However, it is often useful to view the results without filters. This tutorial will show you how to process, sort, and analyse the query results.
@@ -19,11 +15,11 @@ Note that we have not added any constraints so we have extracted all the possibl
 
 Now let’s say that we want to sort all the results into three different maps, which we can also call dictionaries. Results with an expressionScore of greater than 25 go into the “high” map, the ones with an expression score greater than 10 but less than 25 into the “medium”, and all the remaining ones into a separate map for low result scores.
 
-We begin by declaring these three dictionaries. high_dict, medium_dict, and low_dict.
+We begin by declaring these three dictionaries. high\_dict, medium\_dict, and low\_dict.
 
 Here we add three map conditions to sort the results into each of our three maps
 
-Then we print items stored in high_dict. We can see the output is quite long.
+Then we print items stored in high\_dict. We can see the output is quite long.
 
 We can calculate the average score of items with scores over 1000, by adding all scores together and dividing by the number of scores over 1000.
 
@@ -34,3 +30,4 @@ If you change your mind about the constraints, you can simply change the “if�
 In the next tutorial, we will look at templates, which are like pre-prepared queries you can easily re-use.
 
 Thank you for watching!
+

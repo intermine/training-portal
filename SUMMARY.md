@@ -42,6 +42,8 @@
     * [\_index](content/python-tutorial/_index.md)
   * [user-documentation](content/user-documentation/README.md)
     * [\_index](content/user-documentation/_index.md)
+    * [Getting Started](content/user-documentation/getting-started/README.md)
+      * [General Overview](content/user-documentation/getting-started/general-overview.md)
   * [contribution-guide](content/contribution-guide/README.md)
     * [\_index](content/contribution-guide/_index.md)
   * [\_index](content/_index.md)

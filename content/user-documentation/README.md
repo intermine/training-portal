@@ -1,2 +1,2 @@
-# Welcome to the InterMine User Documentation
+# user-documentation
 

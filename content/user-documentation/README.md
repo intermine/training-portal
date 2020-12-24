@@ -1,2 +1,2 @@
-# user-documentation
+# User Documentation
 

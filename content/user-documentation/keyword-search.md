@@ -1,2 +1,2 @@
-# Keyword Search
+# Template Searches
 

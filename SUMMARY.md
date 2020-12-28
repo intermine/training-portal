@@ -46,6 +46,7 @@
       * [General Overview](content/user-documentation/getting-started/general-overview.md)
     * [Template Searches](content/user-documentation/keyword-search.md)
     * [Contact Us](content/user-documentation/contact-us.md)
+    * [InterMine Mobile](content/user-documentation/intermine-mobile.md)
   * [contribution-guide](content/contribution-guide/README.md)
     * [\_index](content/contribution-guide/_index.md)
   * [\_index](content/_index.md)

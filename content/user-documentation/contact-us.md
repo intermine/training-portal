@@ -1,57 +1,47 @@
 # Contact Us
 
-We love chatting with our users, so please feel free to get in touch!
+#### We love hearing back from our users, so please feel free to get in touch! 
 
-### By email
+### By Email 📧 
 
-{% tabs %}
-{% tab title="Email" %}
-For general enquiries, you can use this email: [info@intermine.org ](mailto:info%40intermine.org)
+For general enquiries, you can email us at [info@intermine.org](mailto:info%40intermine.org) or at [support@intermine.org](mailto:support%40intermine.org)
 
-Each InterMine database will have its own help support email. For FlyMine, metabolicMine and humanMine please use:
+Please note that each InterMine database will have its own help support email. For FlyMine, metabolicMine and humanMine, please use: 
 
-* FlyMine: [support@flymine.org](mailto:support%40flymine.org)
+* FlyMine: [support@flymine.org ](mailto:support%40flymine.org)
 * MetabolicMine/HumanMine: [support@metabolicmine.org](mailto:support%40metabolicmine.org)
-{% endtab %}
 
-{% tab title="Chat" %}
-You can our public support channel on [Discord](http://chat.intermine.org%20) to connect with us. 
-{% endtab %}
+### Chat 
 
-{% tab title="Blog" %}
-Stay up to date 
-{% endtab %}
-{% endtabs %}
+You can join the InterMine [**Discord**](http://chat.intermine.org) Server and become a community member. 
 
+{% embed url="https://discord.com/invite/rrJDS6N" %}
 
+### Twitter 
 
+Have a quick question? Hit us up on [**Twitter**](https://twitter.com/intermineorg)
 
+### Blog 
 
-Each page within the interface has a link to a contact form. You can use this for any problem, but if you are having problems constructing a query, this form will automatically append the query you are working on for us to look at.
+Stay up to date with our latest news, releases, and announcements posted on our [**Blog**](https://intermineorg.wordpress.com/)
 
-### Chat
+{% embed url="https://intermineorg.wordpress.com/" %}
 
-You can our public support channel on discord to connect with us
-
-[http://chat.intermine.org](http://chat.intermine.org/) 
-
-### Twitter
-
-[https://twitter.com/intermineorg](https://twitter.com/intermineorg)
-
-### Blog
-
-[https://intermineorg.wordpress.com/](https://intermineorg.wordpress.com/)
-
-### By Mail
+### By Mail 📮 
 
 InterMine, Department of Genetics
 
 Downing St, CAMBRIDGE CB2 3EH, United Kingdom
 
-### Visit Us
+### Visit Us 🇧🇸 
 
-Please contact us first so we know to expect you!
+Please contact us first, so we know to expect you!
 
-[https://map.cam.ac.uk/Department+of+Genetics](https://map.cam.ac.uk/Department+of+Genetics)
+{% embed url="https://map.cam.ac.uk/Department+of+Genetics" caption="Downing site - Department of Genetics" %}
+
+### Roadmap
+
+ For more information about the upcoming releases, please visit the InterMine roadmap [**here**](https://github.com/intermine/intermine/projects/7)
+
+### Improve this page **** 
 

@@ -60,16 +60,16 @@ Coming soon……
 
 ## Can’t find what you want - let us know!
 
-If you can’t find a template search that you want or available ones don’t entirely return everything you need, please do not hesitate to [Contact Us](https://intermine.readthedocs.io/en/latest/about/contact-us/). We can create a custom template for you or modify an existing one; assuming that the data is available in the database!
+If you can’t find a template search that you want or available ones don’t entirely return everything you need, please do not hesitate to [Contact Us](contact-us.md). We can create a custom template for you or modify an existing one; assuming that the data is available in the database!
 
 ## TroubleShooting
 
 #### My template returns no results - why?
 
-All templates should return results with the default values provided. Please [Contact Us](https://flymine.readthedocs.io/en/latest/contact/Documentationcontact.html#contact) if you find any template that doesn’t.
+All templates should return results with the default values provided. Please [Contact Us](contact-us.md) if you find any template that doesn’t.
 
 * If you have entered your desired values and the template returns No Results in the results preview window, this means the data you are looking for is not available.
 * For more complex searches with optional constraints, the way the search is constructed may affect the results - some of the required data might be missing resulting in no results. If you have activated multiple optional constraints, it is often a good idea to turn these On individually to see if one of them is causing the problem. By default adding a constraint means that the data **MUST** satisfy that constraint for the search to return results - take a look at [Outer Joins](https://flymine.readthedocs.io/en/latest/query-builder/Documentationquerybuilder.html#outerjoin) for more details about how constrains and joins can limit your results. 
 
-Please [Contact Us](https://flymine.readthedocs.io/en/latest/contact/Documentationcontact.html#contact) if you require further assistance. 
+Please [Contact Us](contact-us.md) if you require further assistance. 
 

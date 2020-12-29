@@ -10,15 +10,15 @@ InterMine is a data warehouse system that integrates biological data sources, ma
 
 There are many different InterMines worldwide, covering a broad range of model organisms and life science research areas, including:
 
-* [FlyMine](https://www.flymine.org/)
-* [HumanMine](https://www.humanmine.org/)
-* [MouseMine](http://www.mousemine.org/)
-* [YeastMine](https://yeastmine.yeastgenome.org/)
-* [ZebrafishMine](http://zebrafishmine.org/)
-* [RatMine](http://ratmine.mcw.edu/ratmine/begin.do)
-* [TargetMine](http://targetmine.mizuguchilab.org/)
-* [ThaleMine](https://apps.araport.org/thalemine)
-* [PhytoMine](https://phytozome.jgi.doe.gov/phytomine)
+* [FlyMine](https://www.flymine.org/)  - a data warehouse of integrated fruit fly genetic, genomic and proteomic data
+* [HumanMine](https://www.humanmine.org/) - an integrated database of Homo sapiens genomic data
+* [MouseMine](http://www.mousemine.org/) - an integrated data warehouse of mouse genomic data, developed by MGI
+* [YeastMine](https://yeastmine.yeastgenome.org/) - an integrated data warehouse of yeast genomic data, developed by SGD
+* [ZebrafishMine](http://zebrafishmine.org/) - an integrated data warehouse of zebrafish genomic data, developed by ZFIN
+* [RatMine](http://ratmine.mcw.edu/ratmine/begin.do) - an integrated data warehouse of rat genomic data, developed by RGD
+* [TargetMine](http://targetmine.mizuguchilab.org/) - a data warehouse for candidate gene prioritisation and drug target discovery, developed at NIBIO, Japan
+* [ThaleMine](https://apps.araport.org/thalemine) - a data warehouse for Arabidopsis thaliana Col-0 for the ARAPORT project
+* [PhytoMine](https://phytozome.jgi.doe.gov/phytomine) - an integrated data warehouse of over 50 plant genomes from Phytozome.
 
 For the full list of InterMines, please see the [registry](http://registry.intermine.org/). 
 

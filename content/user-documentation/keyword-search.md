@@ -12,7 +12,7 @@ Each template has a short name and an extended description underneath. The title
 
 ## Finding the template search that you want
 
-There is a long list of pre-defined searches, and checking all available templates can be time-consuming. So, to find your template of interest, you can filter the list by keyword - description or by data category.
+There is a long list of pre-defined searches, and checking all available templates can be time-consuming. So, to find your template of interest, you can filter the list by keyword/description or by data category.
 
  **Image** 
 
@@ -26,7 +26,7 @@ A template search provides you with a fillable form with one or more fields to s
 
 **Image** 
 
-To see all of the search results, click **view rows** 
+To see all of the search results, click **view rows.**  
 
 **Image** 
 
@@ -48,11 +48,11 @@ Template searches return results in a tabular format. Besides displaying query r
 
 ## Modifying a template search
 
-Sometimes you may find that a template does not return everything you want in your results. Templates are a good starting point for building more complex searches. You can modify a template using [The Query Builder](https://flymine.readthedocs.io/en/latest/query-builder/Documentationquerybuilder.html#querybuilder) - simply click on **Edit Query** at the bottom of the **Results Preview** window to view the selected template in the query builder. 
+Sometimes you may find that a template does not return everything you want in your results. Templates are a good starting point for building more complex searches. You can modify a template using [The Query Builder](https://flymine.readthedocs.io/en/latest/query-builder/Documentationquerybuilder.html#querybuilder) - click on **Edit Query** at the bottom of the **Results Preview** window to view the selected template in the query builder window. 
 
 **Image** 
 
-You need to understand how to use the query builder to modify your template - please check [The Query Builder](https://flymine.readthedocs.io/en/latest/query-builder/Documentationquerybuilder.html#querybuilder) section for more details. If you do not want to spend some time learning how to use the query builder, you can always [contact](https://intermine.readthedocs.io/en/latest/about/contact-us/) the InterMine team who will help construct your desired search.
+You need to understand how to use the query builder to modify your template - please check [The Query Builder](https://flymine.readthedocs.io/en/latest/query-builder/Documentationquerybuilder.html#querybuilder) section for more details. If you do not want to spend some time learning how to use the query builder, you can always [contact](https://intermine.readthedocs.io/en/latest/about/contact-us/) the InterMine team to help construct your desired search.
 
 ## Building your own template search
 
@@ -69,7 +69,7 @@ If you can’t find a template search that you want or available ones don’t en
 All templates should return results with the default values provided. Please [Contact Us](contact-us.md) if you find any template that doesn’t.
 
 * If you have entered your desired values and the template returns No Results in the results preview window, this means the data you are looking for is not available.
-* For more complex searches with optional constraints, the way the search is constructed may affect the results - some of the required data might be missing resulting in no results. If you have activated multiple optional constraints, it is often a good idea to turn these On individually to see if one of them is causing the problem. By default adding a constraint means that the data **MUST** satisfy that constraint for the search to return results - take a look at [Outer Joins](https://flymine.readthedocs.io/en/latest/query-builder/Documentationquerybuilder.html#outerjoin) for more details about how constrains and joins can limit your results. 
+* For more complex searches with optional constraints, the way the search is constructed may affect the results - some of the required data might be missing resulting in no results. If you have activated multiple optional constraints, it is often a good idea to turn these On individually to see if one of them is causing the problem. By default adding a constraint means that the data **MUST** satisfy that constraint for the search to return results - take a look at [Outer Joins](https://flymine.readthedocs.io/en/latest/query-builder/Documentationquerybuilder.html#outerjoin) for more details about how constraints and joins can limit your results. 
 
 Please [Contact Us](contact-us.md) if you require further assistance. 
 

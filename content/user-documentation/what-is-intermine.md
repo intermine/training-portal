@@ -1,10 +1,10 @@
 # Introduction
 
-### Disparate data in, unified data out
+## Disparate data in, unified data out
 
-InterMine is a data warehouse system that integrates biological data sources, making it easy to query and analyse data. It is an [open-source](https://github.com/intermine/intermine) project that is free to use under the open-source [LGPL](http://www.gnu.org/licenses/lgpl.html) license, and that can be [installed on your own servers](http://intermine.readthedocs.io/en/latest/get-started/) to make data available on the web.  Developed by the [Micklem lab](http://www.micklemlab.org/) at the [University of Cambridge](https://www.gen.cam.ac.uk/), InterMine enables creating biological databases accessed by sophisticated web query tools. Parsers are provided for integrating data from many common biological data sources and formats, and there is a framework for adding your own data. InterMine includes an attractive, user-friendly web interface that works ‘out of the box’ and can be easily customised for your specific needs, as well as a powerful, scriptable web-service API to allow programmatic access to your data.
+InterMine is a data warehouse system that integrates biological data sources, making it easy to query and analyse data. It is an [open-source](https://github.com/intermine/intermine) project that is free to use under the open-source [LGPL](http://www.gnu.org/licenses/lgpl.html) license and can be [installed on your own servers](http://intermine.readthedocs.io/en/latest/get-started/) to make data available on the web.  Developed by the [Micklem lab](http://www.micklemlab.org/) at the [University of Cambridge](https://www.gen.cam.ac.uk/) with the support of the [Wellcome Trust](https://wellcome.org/). Complementary projects have been funded by the[ National Human Genome Research Institute \(NIH/NHGRI\)](https://www.nih.gov/) and the [Biotechnology and Biological Sciences Research Council \(BBSRC\)](https://bbsrc.ukri.org/). Recently, the Wellcome Trust granted another five years of funding for the InterMine development, as well as the development of HumanMine - a data warehouse of human genetic, genomic and proteomic data. InterMine includes an attractive, user-friendly web interface that works ‘**out of the box**’ and can be easily customised for your specific needs, as well as a powerful, scriptable web-service API to allow programmatic access to your data.
 
-![what is InterMine](../../.gitbook/assets/image.png)
+![What is InterMine?](../../.gitbook/assets/image.png)
 
 ### There's an InterMine for \(almost\) anyone!
 
@@ -16,18 +16,20 @@ There are many different InterMines worldwide, covering a broad range of model o
 * [YeastMine](https://yeastmine.yeastgenome.org/) - an integrated data warehouse of yeast genomic data, developed by SGD
 * [ZebrafishMine](http://zebrafishmine.org/) - an integrated data warehouse of zebrafish genomic data, developed by ZFIN
 * [RatMine](http://ratmine.mcw.edu/ratmine/begin.do) - an integrated data warehouse of rat genomic data, developed by RGD
-* [TargetMine](http://targetmine.mizuguchilab.org/) - a data warehouse for candidate gene prioritisation and drug target discovery, developed at NIBIO, Japan
+* [TargetMine](http://targetmine.mizuguchilab.org/) - a data warehouse for candidate gene prioritisation and drug target discovery, developed at NIBIO, Japan.
 * [ThaleMine](https://apps.araport.org/thalemine) - a data warehouse for Arabidopsis thaliana Col-0 for the ARAPORT project
 * [PhytoMine](https://phytozome.jgi.doe.gov/phytomine) - an integrated data warehouse of over 50 plant genomes from Phytozome.
 
 For the full list of InterMines, please see the [registry](http://registry.intermine.org/). 
 
-### Why use InterMine?
+### InterMine Features
 
-* Query across several data sources at once
-* A Common platform to many organisms and data types
-* Resolve data formatting issues
-* One source of Information without visiting several sites
-* Identifier resolution system
-* Collate information about items and sets
+Benefiting from over a decade of data warehousing experience and input from a wide range of research collaborators, InterMine is still in active development and is used by many major model organism databases, among others. InterMine features include:
+
+* Sophisticated data integration facilities
+* Fast, flexible querying across several data sources at once
+* User-friendly web interface and analysis tools
+* An extensive set of APIs and web tools
+* Highly developed and extensible system
+* One platform to many organisms and data types without visiting several sites
 

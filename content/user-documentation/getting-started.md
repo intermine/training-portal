@@ -1,6 +1,6 @@
 # Getting Started
 
-A powerful open source data warehouse system that allows users to integrate diverse data sources with a minimal effort, providing powerful web-services and an elegant web-application with minimal configuration. 
+A powerful open-source data warehouse system that allows users to integrate diverse data sources with minimal effort, providing powerful web-services and an elegant web-application with minimal configuration. 
 
 ### General Overview
 

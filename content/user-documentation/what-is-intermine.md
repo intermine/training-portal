@@ -31,5 +31,5 @@ Benefiting from over a decade of data warehousing experience and input from a wi
 * User-friendly web interface and analysis tools
 * An extensive set of APIs and web tools
 * Highly developed and extensible system
-* One platform to many organisms and data types without visiting several sites
+* One platform to many organisms and data types without visiting several sites 
 

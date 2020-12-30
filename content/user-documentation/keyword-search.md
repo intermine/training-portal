@@ -4,17 +4,15 @@
 
 A template search is a pre-defined query that has been created and is ready to use. Template searches allow you to search the database without constructing your own queries from scratch or understanding the underlying data structure. A library of template searches covering a full range of data is available.
 
-A template search has a simple form with one or more entry fields. You can fill in these fields with your data or select a value from the available options. Each template uses default values for all required fields, allowing you to immediately run the query and check whether the search returns the data you want.
+A template search has a simple form with one or more entry fields. You can fill in these fields with your data or select a value from the available options. Each template uses default values for all required fields, allowing you to immediately run the query and check whether the search returns the data you want. Each template has a short name and an extended description underneath. The title helps you quickly scan available searches and find the one you need. The description provides more details, including any restrictions on the values you can use to run the query. To access the template library, click on the Templates tab in the main menu bar. 
 
-Each template has a short name and an extended description underneath. The title helps you quickly scan available searches and find the one you need. The description provides more details, including any restrictions on the values you can use to run the query. To access the template library, click on the Templates tab in the main menu bar. 
-
-![Templates Tab](../../.gitbook/assets/template.png)
+![Templates Tab](../../.gitbook/assets/template-1.png)
 
 ## Finding the template search that you want
 
-There is a long list of pre-defined searches, and checking all available templates can be time-consuming. So, to find your template of interest, you can filter the list by keyword/description or by data category.
+There is a long list of pre-defined searches, and checking all available templates can be time-consuming. So, to find your template of interest, you can filter the list by keyword/description or by data category. ****
 
- **Image** 
+![](../../.gitbook/assets/template-filtering.png)
 
 If you are unsure which category to use as a filter, category tags are shown at the bottom right corner of each template preview. 
 

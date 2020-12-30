@@ -2,7 +2,7 @@
 
 ## Disparate data in, unified data out
 
-InterMine is a data warehouse system that integrates biological data sources, making it easy to query and analyse data. It is an [open-source](https://github.com/intermine/intermine) project that is free to use under the open-source [LGPL](http://www.gnu.org/licenses/lgpl.html) license and can be [installed on your own servers](http://intermine.readthedocs.io/en/latest/get-started/) to make data available on the web.  Developed by the [Micklem lab](http://www.micklemlab.org/) at the [University of Cambridge](https://www.gen.cam.ac.uk/) with the support of the [Wellcome Trust](https://wellcome.org/). Complementary projects have been funded by the[ National Human Genome Research Institute \(NIH/NHGRI\)](https://www.nih.gov/) and the [Biotechnology and Biological Sciences Research Council \(BBSRC\)](https://bbsrc.ukri.org/). Recently, the Wellcome Trust granted another five years of funding for the InterMine development, as well as the development of HumanMine - a data warehouse of human genetic, genomic and proteomic data. InterMine includes an attractive, user-friendly web interface that works ‘**out of the box**’ and can be easily customised for your specific needs, as well as a powerful, scriptable web-service API to allow programmatic access to your data.
+InterMine is a data warehouse system that integrates biological data sources, making it easy to query and analyse data. It is an [open-source](https://github.com/intermine/intermine) project that is free to use under the open-source [LGPL](http://www.gnu.org/licenses/lgpl.html) license, and that can be [installed on your own servers](http://intermine.readthedocs.io/en/latest/get-started/) to make data available on the web.  InterMine was developed by the [Micklem lab](http://www.micklemlab.org/) at the [University of Cambridge](https://www.gen.cam.ac.uk/) with the [Wellcome Trust](https://wellcome.org/)'s support; complementary projects have been funded by the[ National Human Genome Research Institute \(NIH/NHGRI\)](https://www.nih.gov/) and the [Biotechnology and Biological Sciences Research Council \(BBSRC\)](https://bbsrc.ukri.org/). Recently, the Wellcome Trust granted another five years of funding for the development InterMine and HumanMine - a data warehouse of human genetic, genomic and proteomic data. InterMine includes an attractive, user-friendly web interface that works ‘**out of the box**’ and can be easily customised for your specific needs, as well as a powerful, scriptable web-service API to allow programmatic access to your data.
 
 ![What is InterMine?](../../.gitbook/assets/image.png)
 
@@ -31,5 +31,5 @@ Benefiting from over a decade of data warehousing experience and input from a wi
 * User-friendly web interface and analysis tools
 * An extensive set of APIs and web tools
 * Highly developed and extensible system
-* One platform to many organisms and data types without visiting several sites
+* One platform to many organisms and data types without visiting several sites 
 

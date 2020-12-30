@@ -1,6 +1,6 @@
 # Template Searches
 
-## What is a template search?
+### What is a template search?
 
 A template search is a pre-defined query that has been created and is ready to use. Template searches allow you to search the database without constructing your own queries from scratch or understanding the underlying data structure. A library of template searches covering a full range of data is available.
 
@@ -8,7 +8,7 @@ A template search has a simple form with one or more entry fields. You can fill 
 
 ![Templates Tab](../../.gitbook/assets/template-1.png)
 
-## Finding the template search that you want
+### Finding the template search that you want
 
 There is a long list of pre-defined searches, and checking all available templates can be time-consuming. So, to find your template of interest, you can filter the list by keyword/description or by data category. ****
 
@@ -18,7 +18,7 @@ If you are unsure which category to use as a filter, category tags are shown at 
 
 **Image**
 
-## Running a template search
+### Running a template search
 
 A template search provides you with a fillable form with one or more fields to set. Some entry fields may require entering a value, while others have a set of available choices in a drop-down list. Some templates offer optional search constraints that you can turn On and Off as desired. Once everything looks good, click **view &gt;&gt;** to further expand the template, view the results preview and the constraints window. 
 
@@ -30,7 +30,7 @@ To see all of the search results, click **view rows.**
 
 **Image**
 
-## How do I run a template search with one of my lists or a public list?
+### How do I run a template search with one of my lists or a public list?
 
 First, remember to **log in** so that you can view and use your saved lists. You can run templates to search for a keyword in relevant [Lists](https://flymine.readthedocs.io/en/latest/lists/overview/Documentationlists.html#overview) of objects by selecting the **In list** option. 
 
@@ -40,11 +40,11 @@ If you have a list of the correct type \(e.g. a list of genes\) or there is a pu
 
 **Image**
 
-## Understanding your results
+### Understanding your results
 
 Template searches return results in a tabular format. Besides displaying query results, results tables are also powerful analysis tools. Check the [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables) section for more details on how to save or download your search results.
 
-## Modifying a template search
+### Modifying a template search
 
 Sometimes you may find that a template does not return everything you want in your results. Templates are a good starting point for building more complex searches. You can modify a template using [The Query Builder](https://flymine.readthedocs.io/en/latest/query-builder/Documentationquerybuilder.html#querybuilder) - click on **Edit Query** at the bottom of the **Results Preview** window to view the selected template in the query builder window. 
 
@@ -52,15 +52,15 @@ Sometimes you may find that a template does not return everything you want in yo
 
 You need to understand how to use the query builder to modify your template - please check [The Query Builder](https://flymine.readthedocs.io/en/latest/query-builder/Documentationquerybuilder.html#querybuilder) section for more details. If you do not want to spend some time learning how to use the query builder, you can always [contact](https://intermine.readthedocs.io/en/latest/about/contact-us/) the InterMine team to help construct your desired search.
 
-## Building your own template search
+### Building your own template search
 
 Coming soon……
 
-## Can’t find what you want - let us know!
+### Can’t find what you want - let us know!
 
 If you can’t find a template search that you want or available ones don’t entirely return everything you need, please do not hesitate to [Contact Us](contact-us.md). We can create a custom template for you or modify an existing one; assuming that the data is available in the database!
 
-## TroubleShooting
+### TroubleShooting
 
 #### My template returns no results - why?
 

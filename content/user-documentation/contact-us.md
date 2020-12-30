@@ -11,8 +11,8 @@ The InterMine core team is based in Cambridge, UK, with 8 ****am to 5 pm busines
 
 Please note that some InterMine databases will have their own help support emails. 
 
-* For FlyMine, please use: [support@flymine.org ](mailto:support%40flymine.org)
-* For MetabolicMine/HumanMine, please use: [support@metabolicmine.org](mailto:support%40metabolicmine.org) 
+* For FlyMine, please use [support@flymine.org](mailto:support%40flymine.org)
+* For MetabolicMine/HumanMine, please use [support@metabolicmine.org](mailto:support%40metabolicmine.org) 
 
 ### Chat 💬 
 
@@ -26,7 +26,7 @@ Have a quick question? Hit us up on [**Twitter**](https://twitter.com/intermineo
 
 ### Blog 📝 
 
-Stay up to date with our latest news, releases, and announcements posted on our [**Blog**](https://intermineorg.wordpress.com/)
+Stay up to date with our latest news, releases, and announcements posted on our [**Blog**](https://intermineorg.wordpress.com/)**.**
 
 {% embed url="https://intermineorg.wordpress.com/" %}
 
@@ -44,7 +44,7 @@ Please contact us first, so we can get ready to have you! ****
 
 ### Roadmap 🗺 
 
-For more information about the upcoming releases, please visit the InterMine roadmap [**here**](https://github.com/intermine/intermine/projects/7)
+For more information about the upcoming releases, please visit the InterMine roadmap [**here**](https://github.com/intermine/intermine/projects/7)**.**
 
 #### Improve this page **** 
 

@@ -8,7 +8,7 @@ A template search has a simple form with one or more entry fields. You can fill 
 
 Each template has a short name and an extended description underneath. The title helps you quickly scan available searches and find the one you need. The description provides more details, including any restrictions on the values you can use to run the query. To access the template library, click on the Templates tab in the main menu bar. 
 
-**Image**
+![Templates Tab](../../.gitbook/assets/template.png)
 
 ## Finding the template search that you want
 

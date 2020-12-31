@@ -47,7 +47,7 @@
     * [Template Searches](content/user-documentation/keyword-search.md)
     * [Contact Us](content/user-documentation/contact-us.md)
     * [InterMine Mobile](content/user-documentation/intermine-mobile.md)
-    * [Frequently Asked Questions - FAQs](content/user-documentation/frequently-asked-questions-faq.md)
+    * [Frequently Asked Questions - FAQs](content/user-documentation/questions-faqs.md)
   * [contribution-guide](content/contribution-guide/README.md)
     * [\_index](content/contribution-guide/_index.md)
   * [\_index](content/_index.md)

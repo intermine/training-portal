@@ -43,6 +43,7 @@
   * [User Documentation](content/user-documentation/README.md)
     * [Introduction](content/user-documentation/what-is-intermine.md)
     * [Getting Started](content/user-documentation/getting-started.md)
+    * [Keyword Search](content/user-documentation/keyword-search-2.md)
     * [Template Searches](content/user-documentation/keyword-search.md)
     * [Contact Us](content/user-documentation/contact-us.md)
     * [InterMine Mobile](content/user-documentation/intermine-mobile.md)

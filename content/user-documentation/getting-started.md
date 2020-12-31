@@ -21,6 +21,10 @@ Intermine allows you to work with **single items \(objects\)** and **multiple it
 * **Object:** A single item in the database. This can be anything, a gene, protein or binding site.
 * **List:** Multiple items of the same type. For example, a list of genes or a list of proteins.
 
+{% hint style="info" %}
+This user guide demonstrates the workflow in all sections using HumanMine as a reference
+{% endhint %}
+
 ### Homepage sections
 
 Below is a quick description of different sections in the BlueGenes homepage

@@ -2,6 +2,8 @@
 
 ### Welcome to the InterMine user documentation!
 
+### Contents: 
+
 {% page-ref page="what-is-intermine.md" %}
 
 {% page-ref page="getting-started.md" %}

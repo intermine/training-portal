@@ -15,5 +15,7 @@ Examples of what you can search:
 
 The quick search will search all objects in the database for the term you enter. All objects that match the term are returned in an interface allowing you to further refine your search results. 
 
-The results from a quick search link to [Report Pages](https://flymine.readthedocs.io/en/latest/report-pages/Documentationreportpages.html#reportpages) for each item found.
+![Quick search](../../.gitbook/assets/quick-search.png)
+
+Results from any quick search link to [Report Pages](https://flymine.readthedocs.io/en/latest/report-pages/Documentationreportpages.html#reportpages) for each item found
 

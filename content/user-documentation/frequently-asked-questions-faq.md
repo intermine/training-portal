@@ -1,6 +1,6 @@
 # Frequently Asked Questions - FAQs
 
-## Template Searches
+## [Template Searches](keyword-search.md)
 
 ### 1. My template returns no results - why?
 

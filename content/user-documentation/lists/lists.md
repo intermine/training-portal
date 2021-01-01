@@ -6,11 +6,11 @@ A **list** in InterMine refers to multiple items of the same type - for example,
 
 ### What is a public list? 🌍  
 
-A public list is a list that has been created by the InterMine developers and is ready to be used. For example, FlyMine has public lists for sets of transcription factors in _Drosophila_. You can use these publicly available lists for analysis or to run a particular search. If you wish to modify a public list, you need to first make your own copy of that list. Please check **How do I copy a list?** section for more details on copying a list.
+A public list is a list that has been created by the InterMine developers and is ready to be used. For example, FlyMine has public lists for sets of transcription factors in _Drosophila_. You can use these publicly available lists for analysis or to run a particular search. If you wish to modify a public list, you need to first make your own copy of that list. Please check [**How do I copy a list?**](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#how-do-i-copy-a-list) ****for more details.
 
 ### How do I make a list?
 
-Lists can be created internally - for example from [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables) or the [Region Search](https://flymine.readthedocs.io/en/latest/region-search/Documentationregionsearch.html#regionsearch), or they can be uploaded from an external source: [Upload a list](https://flymine.readthedocs.io/en/latest/lists/upload/Documentationlistupload.html#listupload). **NOTE**: Remember to create a [MyMine](https://flymine.readthedocs.io/en/latest/mymine/DocumentationMyMine.html#mymine) account if you want to permanently store your list.
+Lists can be created internally - for example from [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables) or the [Region Search](https://flymine.readthedocs.io/en/latest/region-search/Documentationregionsearch.html#regionsearch), or they can be uploaded from an external source: [Upload a list](upload-a-list.md). **NOTE**: Remember to create a [MyMine](https://flymine.readthedocs.io/en/latest/mymine/DocumentationMyMine.html#mymine) account if you want to permanently store your list.
 
 ### How do I view my list?
 

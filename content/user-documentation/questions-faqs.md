@@ -1,6 +1,6 @@
 # Frequently Asked Questions - FAQs
 
-## [Template Searches](keyword-search.md)
+## [Template Searches](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/keyword-search)
 
 ### 1. My template returns no results - why?
 

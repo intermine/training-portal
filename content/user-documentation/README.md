@@ -8,9 +8,9 @@
 
 {% page-ref page="getting-started.md" %}
 
-{% page-ref page="keyword-search-2.md" %}
-
 {% page-ref page="keyword-search.md" %}
+
+{% page-ref page="template-search.md" %}
 
 {% page-ref page="intermine-mobile.md" %}
 

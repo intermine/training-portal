@@ -6,7 +6,7 @@ A **list** in InterMine refers to multiple items of the same type - for example,
 
 ![Lists page](../../../.gitbook/assets/lists-edited.png)
 
-1. You have to be logged in your account to have access to your privates lists and accomplish certain tasks that are not available to guests, including copying, editing and deleting lists. 
+1. You have to be logged in your account![](../../../.gitbook/assets/61205.png)to have access to your privates lists and accomplish certain tasks that are not available to guests, including copying, editing and deleting lists. 
 2. You can filter lists by typing in any keyword in the search field
 3. You can analyse your lists using the given set operations. These operations are inactive by default, and you need two or more lists to activate them. Please check [List set operations](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#list-set-operations) ****for more details.
 4. You can control the number of rows per page to 20, 50, or 100

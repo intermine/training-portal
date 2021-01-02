@@ -31,7 +31,7 @@ Below is a quick description of different sections in the BlueGenes homepage
 
 ![The BlueGenes UI Homepage](../../.gitbook/assets/homepage.png)
 
-* **Home**: the main page of the interface offering a search feature for any term, access to popular queries, documentation, the InterMine blog, external tools, and more.  
+* \*\*\*\*[**Home**](http://bluegenes.apps.intermine.org/humanmine): the main page of the interface offering a search feature for any term, access to popular queries, documentation, the InterMine blog, external tools, and more.  
 * \*\*\*\*[**Upload**](lists/upload-a-list.md): to upload a new list as a free text or from an existing file. 
 * \*\*\*\*[**Lists**](lists/): A list in InterMine refers to multiple items of the same type - for example, a list of genes or a list of binding sites. 
 * \*\*\*\*[**Templates**](template-search.md): a pre-defined query which offers a simple form with one or more variables for you to define; defaults are always provided so you can see exactly how the template works.

@@ -2,19 +2,39 @@
 
 ### Overview
 
-A **list** in InterMine refers to multiple items of the same type - for example, a list of genes or a list of binding sites. A list can not contain a mixture of types - e.g. genes and proteins.
+A **list** in InterMine refers to multiple items of the same type - for example, a list of genes or a list of binding sites. A list cannot contain a mixture of types - e.g. genes and proteins. To access the lists library, click on the Lists tab in the main menu bar. 
 
-### What is a public list? 🌍  
+![Lists page](../../../.gitbook/assets/lists-edited.png)
 
-A public list is a list that has been created by the InterMine developers and is ready to be used. For example, FlyMine has public lists for sets of transcription factors in _Drosophila_. You can use these publicly available lists for analysis or to run a particular search. If you wish to modify a public list, you need to first make your own copy of that list. Please check [**How do I copy a list?**](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#how-do-i-copy-a-list) ****for more details.
+1. You have to be logged in your account to have access to your privates lists and accomplish certain tasks that are not available to guests, including copying, editing and deleting lists. 
+2. You can filter lists by typing in any keyword in the search field
+3. You can analyse your lists using the given set operations. These operations are inactive by default, and you need two or more lists to activate them. Please check [List set operations](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#list-set-operations) ****for more details.
+4. You can control the number of rows per page to 20, 50, or 100
+5. You can sort lists by date, type, tags, etc. 
+6. This icon![](../../../.gitbook/assets/download-removebg-preview.png)represents a public list 
+7. Controls to manage your lists 
+
+### What is a public list?![](../../../.gitbook/assets/download-removebg-preview.png) 
+
+A public list is a list that has been created by the InterMine developers and is ready for use. For example, FlyMine has public lists for sets of transcription factors in _Drosophila_. You can use these publicly available lists for analysis or to run a particular search. If you wish to modify a public list, you need to first make your own copy of that list. Please check [How do I copy a list?](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#how-do-i-copy-a-list) ****for more details.
+
+![](../../../.gitbook/assets/screenshot-685-copy.png)
 
 ### How do I make a list?
 
-Lists can be created internally - for example from [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables) or the [Region Search](https://flymine.readthedocs.io/en/latest/region-search/Documentationregionsearch.html#regionsearch), or they can be uploaded from an external source: [Upload a list](upload-a-list.md). **NOTE**: Remember to create a [MyMine](https://flymine.readthedocs.io/en/latest/mymine/DocumentationMyMine.html#mymine) account if you want to permanently store your list.
+Lists can be created internally - for example from [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables) or [Region Search](https://flymine.readthedocs.io/en/latest/region-search/Documentationregionsearch.html#regionsearch), or they can be uploaded from an external source via [Upload a list](upload-a-list.md). 
+
+{% hint style="info" %}
+Remember to create a [MyMine](https://flymine.readthedocs.io/en/latest/mymine/DocumentationMyMine.html#mymine) account to store lists
+{% endhint %}
 
 ### How do I view my list?
 
-To find a list, navigate to the lists tab and click on the **view** sub tab. All your lists and the public lists will be shown here. **NOTE**: remember to login to view previously stored lists. You can also manage your lists through your [MyMine](https://flymine.readthedocs.io/en/latest/mymine/DocumentationMyMine.html#mymine) account.
+To find a list, navigate to the lists tab and click on the **view** sub tab. All of your lists and the public lists will be shown here. 
+
+{% hint style="info" %}
+remember to login to your account to view your stored lists. You can also manage your lists through your [MyMine](https://flymine.readthedocs.io/en/latest/mymine/DocumentationMyMine.html#mymine) account
+{% endhint %}
 
 ### Managing your lists
 
@@ -24,11 +44,11 @@ You can manage your lists through your [MyMine](https://flymine.readthedocs.io/e
 
 You can run searches on a list - for example a template search or a search you have built yourself using the query builder. For example, you may want to run a search to find all the GO terms for a list of genes. You can do this from the template form \(see [How do I run a template search with one of my lists or a public list?](https://flymine.readthedocs.io/en/latest/templates/Documentationtemplatesearches.html#templatesearchelists)\).
 
-### List Analysis
+### List analysis
 
 All lists have an associated [List analysis pages](https://flymine.readthedocs.io/en/latest/lists/analysis/Documentationlistanalysispages.html#listanalysispage), which provide a summary of your list and several analysis tools. In addition it is possible to carry out powerful analysis using the list operations: union, intersect, subtract and asymmetric difference \(see [List Set operations:]()\).
 
-### List Set operations:
+### List set operations
 
 Sets of lists can be analysed using the union, intersect, subtract and asymmetric difference functions. These set operations are available on both the lists view \([How do I view my list?]()\) page and the lists page within your [MyMine](https://flymine.readthedocs.io/en/latest/mymine/DocumentationMyMine.html#mymine) account. To use any of these functions:
 

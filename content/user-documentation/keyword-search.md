@@ -13,9 +13,9 @@ Examples of what you can search:
 * **Phrases:** to search for phrases use quotation marks - **“ ”** -   \(e.g. “DNA binding”\)
 * **Boolean:** Boolean search syntax is supported using Boolean expressions: e.g. dros\* for partial matches or fly AND NOT embryo to exclude a term
 
-The quick search will search all objects in the database for the term you enter. All objects that match the term are returned in an interface allowing you to further refine your search results. 
+The keyword search will search all objects in the database for the term you enter. All objects that match the term are returned in an interface allowing you to further refine your search results. 
 
-![Quick search](../../.gitbook/assets/quick-search.png)
+![Keyword search](../../.gitbook/assets/quick-search.png)
 
-Results from any quick search link to [Report Pages](https://flymine.readthedocs.io/en/latest/report-pages/Documentationreportpages.html#reportpages) for each item found
+Results from any keyword search link to [Report Pages](https://flymine.readthedocs.io/en/latest/report-pages/Documentationreportpages.html#reportpages) for each item found
 

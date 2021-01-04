@@ -12,7 +12,7 @@ A **list** in InterMine refers to multiple items of the same type - for example,
 4. You can control the number of rows per page to 20, 50, or 100
 5. You can sort lists by date, type, tags, etc. 
 6. This icon![](../../../.gitbook/assets/download-removebg-preview.png)represents a public list 
-7. Controls to manage your lists 
+7. Controls to copy, edit, and delete a list 
 
 ### What is a public list?![](../../../.gitbook/assets/download-removebg-preview.png) 
 

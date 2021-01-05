@@ -2,9 +2,11 @@
 
 ### Overview
 
-A **list** in InterMine refers to multiple items of the same type - for example, a list of genes or a list of binding sites. A list cannot contain a mixture of types - e.g. genes and proteins. To access the lists library, click on the Lists tab in the main menu bar. 
+A **list** in InterMine refers to multiple items of the same type - for example, a list of genes or a list of binding sites. A list cannot contain a mixture of types - e.g. genes and proteins. To access the lists library, click on the **Lists** tab in the main menu bar. 
 
 ![Lists page](../../../.gitbook/assets/lists-edited.png)
+
+The following list is a breakdown of what each key item in your Lists **Lists** tab means: 
 
 1. You have to be logged in your account![](../../../.gitbook/assets/61205.png)to have access to your privates lists and accomplish certain tasks that are not available to guests, including copying, editing and deleting lists. 
 2. You can filter lists by typing in any keyword in the search field
@@ -16,16 +18,18 @@ A **list** in InterMine refers to multiple items of the same type - for example,
 
 ### What is a public list?![](../../../.gitbook/assets/download-removebg-preview.png) 
 
-A public list is a list that has been created by the InterMine developers and is ready for use. For example, FlyMine has public lists for sets of transcription factors in _Drosophila_. You can use these publicly available lists for analysis or to run a particular search. If you wish to modify a public list, you need to first make your own copy of that list. Please check [How do I copy a list?](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#how-do-i-copy-a-list) ****for more details.
+A public list is a list that has been created by the InterMine developers and is ready for use. For example, FlyMine has public lists for sets of transcription factors in _Drosophila_. You can use these publicly available lists for analysis or to run a particular search. 
 
 ![](../../../.gitbook/assets/screenshot-685-copy.png)
+
+If you wish to modify a public list, you need to first make your own copy of that list. Please check [How do I copy a list?](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#how-do-i-copy-a-list) ****for more details.
 
 ### How do I make a list?
 
 Lists can be created internally - for example from [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables) or [Region Search](https://flymine.readthedocs.io/en/latest/region-search/Documentationregionsearch.html#regionsearch), or they can be uploaded from an external source via [Upload a list](upload-a-list.md). 
 
 {% hint style="info" %}
-Remember to create a [MyMine](https://flymine.readthedocs.io/en/latest/mymine/DocumentationMyMine.html#mymine) account to store lists
+Remember to create an account to copy or store any lists
 {% endhint %}
 
 ### How do I view my list?

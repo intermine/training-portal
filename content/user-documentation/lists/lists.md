@@ -22,21 +22,29 @@ A public list is a list that has been created by InterMine developers and is rea
 
 ![Public list](../../../.gitbook/assets/public-list.png)
 
-If you wish to modify a public list, you need to first make your own copy of that list. Please check [How do I copy a list?](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#how-do-i-copy-a-list) ****for more details.
+{% hint style="info" %}
+You cannot modify a public list. You need to make your own copy of a particular public list before you can edit it. Please check [How do I copy a list?](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#how-do-i-copy-a-list) for more details.
+{% endhint %}
 
 ### How do I make a list?
 
 Lists can be created internally - for example from [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables) or [Region Search](https://flymine.readthedocs.io/en/latest/region-search/Documentationregionsearch.html#regionsearch). They also can be uploaded from an external source via [Upload a list](upload-a-list.md). 
 
 {% hint style="info" %}
-Remember to create an account prior to copying or storing any lists
+Remember that you need to have an account prior to copying or storing any lists
 {% endhint %}
 
 ### How do I view my lists?
 
-To view a list or a group of lists, you can filter using the dropdown menu shown in the screenshot. You can select displaying g your private lists, public lists, lists in particular folder first, or all of your lists at once. 
+By default, when you click on the **Lists** tab, all of your lists will be shown.  Just remember, you need to be logged in to view your private lists. To filter your lists, you can use one of the available filtering options, such as date, tags, etc., shown in the next screenshot. 
 
-![Viewing lists](../../../.gitbook/assets/view-lists-edited.png)
+![](../../../.gitbook/assets/filter-0.png)
+
+For example, you can select to only view your private lists, public lists, lists in particular folder first, or all of your lists at once by using the dropdown menu shown in the following screenshot. 
+
+![](../../../.gitbook/assets/view-lists-edited.png)
+
+![Viewing private lists only](../../../.gitbook/assets/private-lists-only.png)
 
 {% hint style="info" %}
 remember to log in to your account to view and manage your private lists
@@ -44,11 +52,11 @@ remember to log in to your account to view and manage your private lists
 
 ###  Managing your lists
 
-You can manage your lists through your personal account. Using your account, you can delete, rename, and upgrade a list, if your identifiers have become outdated.
+You can manage your lists through Lists view page. While logged in to your account, you can delete, rename, and upgrade a list, if your identifiers have become outdated.
 
 ### Lists tags
 
-Tags can be used to organise your lists into categories. You can add your preferred tags to your saved lists by clicking on the **Edit list** icon ✏ in the list view page. 
+Tags can be used to organise your lists into categories. You can add your preferred tags to your saved lists by clicking on the **Edit list** icon✏in the **Lists** view page. 
 
 ![](../../../.gitbook/assets/edit-lists-0-1.png)
 
@@ -56,7 +64,7 @@ Tags can be used to organise your lists into categories. You can add your prefer
 
 ![Adding tags](../../../.gitbook/assets/mytag-cut.png)
 
-You can then filter your lists by tags on the lists view page. 
+You can then filter your lists by one of the available tags in the **Lists** view page. 
 
 ![](../../../.gitbook/assets/filter-by-tag-1.png)
 
@@ -64,24 +72,31 @@ You can then filter your lists by tags on the lists view page.
 
 ### Using lists in searches
 
-You can run searches on a list - for example a template search or a search you have built yourself using the query builder. For example, you may want to run a search to find all the GO terms for a list of genes. You can do this from the template form \(see [How do I run a template search with one of my lists or a public list?](https://flymine.readthedocs.io/en/latest/templates/Documentationtemplatesearches.html#templatesearchelists)\).
+You can run searches on a list, such as a [template search](../template-search.md) or a search you have built using the query builder. For example, you may want to run a search to find all the GO terms for a list of genes. You can use lists in your searches in the template form - in list option. Check [How do I run a template search with one of my lists or a public list?](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/template-search#how-do-i-run-a-template-search-with-one-of-my-lists-or-a-public-list) for more information.
 
 ### List analysis
 
-All lists have an associated [List analysis pages](list-analysis-pages.md), which provide a summary of your lists and several analysis tools. In addition it is possible to carry out powerful analysis using the list operations: union, intersect, subtract and asymmetric difference. Please see [List Set operations](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#list-set-operations) for more details.
+All lists have an associated [List analysis pages](list-analysis-pages.md), which provide a summary of your list and several analysis tools. In addition, it is possible to carry out powerful analysis using lists' set operations, including union, intersect, subtract and asymmetric difference. Please see [List set operations](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#list-set-operations) for more details.
 
 ### List set operations
 
-Sets of lists can be analysed using the union, intersect, subtract and asymmetric difference functions. These set operations are available on both the lists view \([How do I view my list?]()\) page and the lists page within your user account. To use any of these functions:
+Sets of lists can be analysed using the **Combine**, **Intersect**, **Subtract** and **Difference** functions. These set operations are available in the lists view page. 
 
-> 1. Select the lists you wish to analyse.
-> 2. Select the function
+![Set operations](../../../.gitbook/assets/lists-set-functions-2.png)
+
+To use any of these functions:
+
+> 1. Select two or more lists you wish to analyse
+> 2. Select any of the functions
 > 3. Provide a name for your resulting list
-> 4. Click **save**: Your results will appear as a list at the top of the page.
+> 4. Click **Save**
+> 5. Your results will appear as a list at the top of the page
+
+For example, you can combine two lists and save the new list as **My\_New\_List**. 
+
+![Combining lists](../../../.gitbook/assets/combine-lists-edited.png)
 
 {% hint style="info" %}
-If you are on your mymine list page, you provide a name for your new list and then select the function you wish to use.
-
 * **Subtract:** This function creates a list that contains the unique entries from **both** lists provided: i.e it is like the opposite of an intersect: if an object is in both lists it will not be in the resulting list, but if it appears in either one, but not the other it will be in the resulting list.
 * **Asymmetric difference:** This is more of a traditional ‘subtract’ function, in that the resulting list will contain objects that are in one of the lists only. For example if you have lists A and B and you want to find those unique to list B, use the asymmetric difference function. Note that this function gives you the option to perform the subtraction either way - ie, A-B or B-A.
 {% endhint %}

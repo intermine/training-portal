@@ -148,6 +148,16 @@ A fillable form will be shown that you can use to change the title - name of the
 
 ![Rename a list](../../../.gitbook/assets/rename-a-list.png)
 
+### How do I download a list?
+
+Lists can be downloaded from the **Lists** view page. You can select any particular list, and you will be taken to the list's detailed results table page. 
+
+![](../../../.gitbook/assets/download-list.png)
+
+You can click the **Export** button on the right of the resulting table to download the results to your device. You can export the results ****in different formats, such as tsv, csv, or fasta.  
+
+![](../../../.gitbook/assets/download-list-2.png)
+
 ### How do I delete a list?
 
 You can delete a list from the **Lists** **view** page. 

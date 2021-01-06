@@ -2,9 +2,9 @@
 
 A search box appears in the top navigation bar of all pages and in the home page. You can search for any identifier, name, symbol or term.
 
-![Search bar in the top navigation bar](../../.gitbook/assets/search-mini-1.png)
+![Search bar in the top navigation bar](../../.gitbook/assets/search-mini-with-border.png)
 
-![Search bars in the homepage](../../.gitbook/assets/homepage-search.png)
+![Search bars in the homepage](../../.gitbook/assets/homepage-search%20%281%29.png)
 
 Examples of what you can search:
 
@@ -15,7 +15,7 @@ Examples of what you can search:
 
 The keyword search will search all objects in the database for the term you enter. All objects that match the term are returned in an interface allowing you to further refine your search results. 
 
-![Keyword search](../../.gitbook/assets/quick-search.png)
+![Keyword search](../../.gitbook/assets/keyword-search-1-edited.png)
 
-Results from any keyword search link to [Report Pages](https://flymine.readthedocs.io/en/latest/report-pages/Documentationreportpages.html#reportpages) for each item found
+Results from any keyword search link to [Report Pages](https://flymine.readthedocs.io/en/latest/report-pages/Documentationreportpages.html#reportpages) for each item found. 
 

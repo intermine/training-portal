@@ -13,7 +13,7 @@ Examples of what you can search:
 * **Phrases:** to search for phrases use quotation marks - **“ ”** -   \(e.g. “DNA binding”\)
 * **Boolean:** Boolean search syntax is supported using Boolean expressions: e.g. dros\* for partial matches or fly AND NOT embryo to exclude a term
 
-The keyword search will go through all objects in the database for the term you enter. All objects that match the term are returned in an interface allowing you to further refine your search results. 
+The keyword search will go through all objects in the database for any term you enter. All objects that match the term are returned in an interface allowing you to further refine your search results. 
 
 ![Keyword search](../../.gitbook/assets/keyword-search-1-edited.png)
 

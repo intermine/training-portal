@@ -76,7 +76,7 @@ You can run searches on a list, such as a [template search](../template-search.m
 
 ### List analysis
 
-All lists have an associated [List analysis pages](list-analysis-pages.md), which provide a summary of your list and several analysis tools. In addition, it is possible to carry out powerful analysis using lists' set operations, including union, intersect, subtract and asymmetric difference. Please see [List set operations](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#list-set-operations) for more details.
+All lists have an associated [List analysis pages](list-analysis-pages.md), which provide a summary of your list and several analysis tools. In addition, it is possible to carry out powerful analysis using lists' set operations, including union, intersect, subtract and symmetric difference. Please see [List set operations](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#list-set-operations) for more details.
 
 ### List set operations
 
@@ -118,19 +118,55 @@ The BlueGenes interface offers four operations on sets for constructing new list
 
 ### How do I copy a list?
 
-You can copy a list either in the lists tab of your personal account or from the lists **view** \([How do I view my list?]()\) page. Select your list and click on **copy**. A new list will be created with the same name and an underscore number. You should see a message at the top of the page informing you of the new list that has been created.
+You can copy a list from the **Lists** view \([How do I view my list?](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#how-do-i-view-my-lists)\) page. 
 
-### How do I delete a list?
+1. You can select one list and click on the copy ****icon![](../../../.gitbook/assets/download-1-.png)at the right or each list. 
+2. You can also use the check boxes on the left of each list to select multiple lists at once
+3. You can copy several lists using the **Copy All** option shown in the menu at the bottom of the page
 
-You can delete a list either in the lists tab of your account or from the lists **view** \([How do I view my list?]()\) page. Select your list and click on **delete**, your list will be deleted straight away.
+![](../../../.gitbook/assets/copy-list-0-edited.png)
+
+You can click **Copy List\(s\)** to make a copy of the list or click **Cancel** to return to the **Lists** view page. Please note that lists can also be copied to a particular folder. 
+
+![](../../../.gitbook/assets/copy-list-1-edited.png)
+
+ A new list will be created with the same name and an underscore number. You should see a message at the top of the page informing you of the new list that has been created, and the copied list will show at the top of the **Lists** view page. You can then change the given name of the copied list to any preferred name; please see [How do I rename a list?](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#how-do-i-rename-a-list) for more details. 
+
+![](../../../.gitbook/assets/copy-list-2-edited.png)
+
+{% hint style="info" %}
+remember to log in to your account to copy any list\(s\)
+{% endhint %}
 
 ### How do I rename a list?
 
-To rename a list you must be in your user account. Click on the rename icon next to the list name to provide the new name:
+To rename a list you must be logged in to your user account. Click on the Edit list ✏ icon on the far right of the list's name. 
 
-### I am being told to upgrade my lists - what does this mean?
+![](../../../.gitbook/assets/edit-list-0.png)
 
-Every time we make a new release of an InterMine database it is possible that some of the gene models will have changed. This means that some of your identifiers may now be out of date. For example, a gene may have been split, in which case an identifier may now refer to more than one gene. Often a gene model is just updated and the old identifier becomes a synonym and the gene is assigned a new identifier. When we make a new release, all the identifiers in your saved lists will be checked against the identifiers in the new database. If any discrepancies are found \(i.e if any have now become synonyms, or refer to more than one gene\) then you will be asked what you want to do about these genes before you are able to use your list again.
+A fillable form will be shown that you can use to change the title - name of the list,  provide a description, and to add any tag\(s\). 
 
-A message appears at the top of any page informing you that you have lists that need updating. To update your lists you must be in your user account. Within your lists page, the lists that need updating will be shown first. The list upgrade system is the same as the [The Identifier Resolution page](https://flymine.readthedocs.io/en/latest/lists/upload/Documentationlistupload.html#listconfirmationpage) that you see when you upload a list.
+![Rename a list](../../../.gitbook/assets/rename-a-list.png)
+
+### How do I delete a list?
+
+You can delete a list from the **Lists** **view** page. 
+
+![](../../../.gitbook/assets/delete-a-list.png)
+
+Select any list you want to delete and click on the **delete** icon, your list will be deleted permanently.
+
+![](../../../.gitbook/assets/delete-a-list-1-edited.png)
+
+{% hint style="danger" %}
+Please note that deleting a list is an irreversible action!
+{% endhint %}
+
+### TroubleShooting
+
+#### I am being told to upgrade my lists - what does this mean?
+
+Every time we make a new release of an InterMine database, it is possible that some of the gene models have changed, which means that some of your identifiers might become outdated. For example, a gene may have been split; in this case, an identifier may now refer to more than one gene. Often a gene model is just updated, and the old identifier becomes a synonym while the gene is assigned a new identifier. When we make a new release, all of the identifiers present in your saved lists will be checked against the new database’s identifiers. When any discrepancies are found \(i.e. if any have now become synonyms or refer to more than one gene\), you will be asked what you want to do about these genes before using your list again. 
+
+A message appears at the top of any page informing you that you have lists that need an update. To update your lists, you must be logged in to your user account. Within the Lists view page, lists that need to be updated will be shown first. The list upgrade system is the same as The Identifier Resolution page you see when you upload a list.
 

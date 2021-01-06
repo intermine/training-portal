@@ -156,10 +156,10 @@ You can delete a list from the **Lists** **view** page.
 
 Select any list you want to delete and click on the **delete** icon, your list will be deleted permanently.
 
-![](../../../.gitbook/assets/delete-a-list-1-edited.png)
+![Deleting a list](../../../.gitbook/assets/delete-a-list-1-edited.png)
 
 {% hint style="danger" %}
-Please note that deleting a list is an irreversible action!
+Please note that deleting a list is an irreversible action, and it only applies to your own lists!
 {% endhint %}
 
 ### TroubleShooting

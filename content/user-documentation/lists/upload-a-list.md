@@ -1,17 +1,38 @@
 # Upload a list
 
-## Upload a list
+### Upload a list
 
 To upload a list simply click on the ‘Upload’ tab
 
-On the list upload form, you can select the following - see the screenshot below:
+![](../../../.gitbook/assets/upload-list-resized.png)
 
-1. The type of list - from the drop-down list select the type of list you are uploading, e.g. gene or protein 
-2. The organism your items are from. It is possible to upload a list containing items from more than one organism - in this case, set the organism drop-down to ‘Any’
-3. Either type-in, paste-in or upload your list from a file 
-4. Note: to upload from a file the file must be a .txt file. Although the type of item you are uploading must be the same, the type of identifier can differ - e.g. you can enter a mixture of gene symbols, identifiers and names. 5. Match on case: this option is useful in some cases, for example, if you are entering gene symbols for Drosophila melanogaster, where the case matters. 6. Create list: this will activate the identifier resolution system, where the identifiers you have entered are checked against the InterMine database. Any discrepancies will be shown on the next page.
+The following is a breakdown of key fields in the list upload form: 
 
-## The Identifier Resolution page
+1. The type of list - you can select the type of list you are uploading from the drop-down menu, e.g. gene or protein 
+2. The organism your items are from. You can select the organism from the available drop-down menu. However, It is still possible to upload a list containing items from more than one organism by setting the organism to ‘Any’
+3. Check the box, if list identifiers are case sensitive. This option is useful in some cases, such as when you are entering gene symbols for Drosophila melanogaster, where the case matters.  
+4. You can type in your list or paste it as a text; see the screenshot under the **Free Text** tab below. 
+5. If you are not sure how to add your list in text format, click the **Example** button for a sample text 
+6. You can upload a list from a file; only .txt files are accepted. Although the type of items you are uploading must be the same, the type of identifier can differ. For example, you can enter a mixture of gene symbols, identifiers and names. Check the screenshot under the **File Upload** tab below.  
+7. You can click **Continue to** activate the identifier resolution system. The identifiers you have entered are checked against the InterMine database and any discrepancies will be shown on the next page. You can click **Reset** to cancel. 
+
+{% tabs %}
+{% tab title="Free Text" %}
+![Uploading a list as a text](../../../.gitbook/assets/text-upload.png)
+{% endtab %}
+
+{% tab title="File Upload" %}
+
+{% endtab %}
+{% endtabs %}
+
+You can click **Save List** to add the list to your stored lists.  ****
+
+![](../../../.gitbook/assets/uploaded-list.png)
+
+![List Upload](../../../.gitbook/assets/uploaded-list-view.png)
+
+### The Identifier Resolution page
 
 When you upload a list, all the identifiers you enter will be checked against the database to see if they can be found. InterMine has a sophisticated identifier resolution system that will help you map your identifiers to the correct identifier in the database. This is particularly useful if there have been some gene model changes and some of your identifiers are now out of date. The identifier resolution system will report the following:
 

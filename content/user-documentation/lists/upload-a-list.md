@@ -30,7 +30,7 @@ You can click **Save List** to add the list to your stored lists.  ****
 
 ![](../../../.gitbook/assets/uploaded-list.png)
 
-![List Upload](../../../.gitbook/assets/uploaded-list-view.png)
+![](../../../.gitbook/assets/uploaded-list-view.png)
 
 ### The Identifier Resolution page
 

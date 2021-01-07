@@ -2,14 +2,14 @@
 
 ## Upload a list
 
-To upload a list simply click on the ‘Lists’ tab and then select the ‘Upload’ subtab:
+To upload a list simply click on the ‘Upload’ tab
 
 On the list upload form, you can select the following - see the screenshot below:
 
-1. The type of list - from the drop-down list select the type of list you are uploading, e.g. gene
-2. The organism your items are from. It is possible to upload a list containing items from more than one organism - in this case, set the organism drop-down to ‘Any’.
-
-3. Either type-in, paste-in or upload your list from a file \(4\). Note: to upload from a file the file must be a .txt file. Although the type of item you are uploading must be the same, the type of identifier can differ - e.g. you can enter a mixture of gene symbols, identifiers and names. 5. Match on case: this option is useful in some cases, for example, if you are entering gene symbols for Drosophila melanogaster, where the case matters. 6. Create list: this will activate the identifier resolution system, where the identifiers you have entered are checked against the InterMine database. Any discrepancies will be shown on the next page.
+1. The type of list - from the drop-down list select the type of list you are uploading, e.g. gene or protein 
+2. The organism your items are from. It is possible to upload a list containing items from more than one organism - in this case, set the organism drop-down to ‘Any’
+3. Either type-in, paste-in or upload your list from a file 
+4. Note: to upload from a file the file must be a .txt file. Although the type of item you are uploading must be the same, the type of identifier can differ - e.g. you can enter a mixture of gene symbols, identifiers and names. 5. Match on case: this option is useful in some cases, for example, if you are entering gene symbols for Drosophila melanogaster, where the case matters. 6. Create list: this will activate the identifier resolution system, where the identifiers you have entered are checked against the InterMine database. Any discrepancies will be shown on the next page.
 
 ## The Identifier Resolution page
 

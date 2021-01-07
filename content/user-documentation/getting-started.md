@@ -29,7 +29,7 @@ This user guide demonstrates the workflow in all sections using HumanMine as a r
 
 Below is a quick description of different sections in the BlueGenes homepage
 
-![The BlueGenes UI Homepage](../../.gitbook/assets/homepage.png)
+![The BlueGenes UI Homepage](../../.gitbook/assets/homepage%20%281%29.png)
 
 * \*\*\*\*[**Home**](http://bluegenes.apps.intermine.org/humanmine): the main page of the interface offering a search feature for any term, access to popular queries, documentation, the InterMine blog, external tools, and more.  
 * \*\*\*\*[**Upload**](lists/upload-a-list.md): to upload a new list as a free text or from an existing file. 
@@ -65,5 +65,5 @@ For example, you could run [Template Searches](template-search.md) to find all g
 
 Alternatively, you may start by [Uploading a list](lists/upload-a-list.md) of genes. Through the graphs and tables provided on the [List analysis pages](https://flymine.readthedocs.io/en/latest/lists/analysis/Documentationlistanalysispages.html#listanalysispage), you may filter this list according to particular criteria \(e.g. expressed in the brain\) to create a smaller list. You may then run a series of [Template Searches](template-search.md) or build your own queries using [The Query Builder](https://flymine.readthedocs.io/en/latest/query-builder/Documentationquerybuilder.html#querybuilder) to find out more about this set of genes. You may also browse the information available on the [Report Pages](https://flymine.readthedocs.io/en/latest/report-pages/Documentationreportpages.html#reportpages) for any genes that may seem interesting to you! 
 
-Likewise you may start by entering a gene identifier for a gene you have picked up in an experiment into the [Keyword Search](keyword-search.md) box and browse all the information for this gene on its [Report Pages](https://flymine.readthedocs.io/en/latest/report-pages/Documentationreportpages.html#reportpages). From here, you learn that this gene has orthologues in fish, mouse and rat. You click the link for the mouse orthologue and, this takes you to the report page for this orthologous gene in a related intermine, MouseMine, and so on.
+Likewise, you may start by entering a gene identifier for a gene you have picked up in an experiment into the [Keyword Search](keyword-search.md) box and browse all the information for this gene on its [Report Pages](https://flymine.readthedocs.io/en/latest/report-pages/Documentationreportpages.html#reportpages). From here, you learn that this gene has orthologues in fish, mouse and rat. You click the link for the mouse orthologue and, this takes you to the report page for this orthologous gene in a related intermine, MouseMine, and so on.
 

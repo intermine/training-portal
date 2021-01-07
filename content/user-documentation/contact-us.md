@@ -2,7 +2,7 @@
 
 **We love hearing back from our users, so please feel free to get in touch!** 
 
-The InterMine core team is based in Cambridge, UK, with 8 ****am to 5 pm business hours during the week. 
+The InterMine core team is based in Cambridge, UK, with 8 ****am to 5 pm business hours during the week. You can contact us in several ways!
 
 ### By Email 📧 
 

@@ -36,7 +36,7 @@ You can run a template search with a more complex set of constraints - i.e. opti
 
 ### How do I run a template search with one of my lists or a public list?
 
-First, remember to **log in** so that you can view and use your saved lists. You can run templates to search for a keyword in relevant [Lists](lists/) of objects by selecting the **In list** option. 
+First, remember to **log in** to your account so that you can view and use your saved lists. Every template can be run on relevant Lists of objects by selecting the **In list** option. When you run a template on a given list, you are searching the database for information for every item in the used list. 
 
 ![](../../.gitbook/assets/in-list%20%281%29.png)
 

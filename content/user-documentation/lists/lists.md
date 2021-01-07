@@ -9,16 +9,16 @@ A **list** in InterMine refers to multiple items of the same type - for example,
 The following list is a breakdown of what each key item in your **Lists** tab means: 
 
 1. You need to be logged in to your InterMine account![](../../../.gitbook/assets/61205.png)to have access to your stored lists and to accomplish certain tasks that are not available to guests, including copying, editing and deleting lists. 
-2. You can filter lists by typing in any keyword in the search field
+2. You can filter lists by typing in any keyword in the search field.
 3. You can analyse your lists using the given set operations. These operations are inactive by default, and you need two or more lists to activate them. Please check [List set operations](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#list-set-operations) ****for more details.
 4. You can control the number of rows shown per page to 20, 50, or 100
 5. You can sort lists by date, type, tags, etc. 
-6. This icon![](../../../.gitbook/assets/download-removebg-preview.png)represents a public list 
-7. Controls to copy, move, or delete a given list or a group of lists
+6. This icon![](../../../.gitbook/assets/download-removebg-preview.png)represents a public list. 
+7. Controls to copy, move or delete a given list or a group of lists
 
 ### What is a public list?![](../../../.gitbook/assets/download-removebg-preview.png) 
 
-A public list is a list that has been created by InterMine developers and is ready for use. For example, FlyMine has public lists for sets of transcription factors in _Drosophila_. You can use these publicly available lists for analysis or to run a particular search. 
+A public list is a list that has been created by InterMine developers and is ready for use. For example, FlyMine has public lists for sets of transcription factors in _Drosophila_. You can use these publicly available lists for analysis or run a particular search. 
 
 ![Public list](../../../.gitbook/assets/public-list.png)
 
@@ -28,10 +28,10 @@ You cannot modify a public list. You need to make your own copy of a particular 
 
 ### How do I make a list?
 
-Lists can be created internally - for example from [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables) or [Region Search](https://flymine.readthedocs.io/en/latest/region-search/Documentationregionsearch.html#regionsearch). They also can be uploaded from an external source via [Upload a list](upload-a-list.md). 
+Lists can be created internally - for example, from [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables) or [Region Search](https://flymine.readthedocs.io/en/latest/region-search/Documentationregionsearch.html#regionsearch). They also can be uploaded from an external source via [Upload a list](upload-a-list.md). 
 
 {% hint style="info" %}
-Remember that you need to have an account prior to copying or storing any lists
+Remember that you need to have an account prior to copying or storing any lists.
 {% endhint %}
 
 ### How do I view my lists?
@@ -40,7 +40,7 @@ By default, when you click on the **Lists** tab, all of your lists will be shown
 
 ![](../../../.gitbook/assets/filter-0.png)
 
-For example, you can select to only view your private lists, public lists, lists in particular folder first, or all of your lists at once by using the dropdown menu shown in the following screenshot. 
+For example, you can select to only view your private lists, public lists, lists saved in a particular folder first, or all of your lists at once by using the dropdown menu shown in the following screenshot. 
 
 ![](../../../.gitbook/assets/view-lists-edited.png)
 
@@ -52,7 +52,7 @@ remember to log in to your account to view and manage your private lists
 
 ###  Managing your lists
 
-You can manage your lists through Lists view page. While logged in to your account, you can delete, rename, and upgrade a list, if your identifiers have become outdated.
+You can manage your lists through the **Lists** view page. While logged in to your account, you can delete, rename, and upgrade a list, if your identifiers have become outdated.
 
 ### Lists tags
 
@@ -76,11 +76,11 @@ You can run searches on a list, such as a [template search](../template-search.m
 
 ### List analysis
 
-All lists have an associated [List analysis pages](list-analysis-pages.md), which provide a summary of your list and several analysis tools. In addition, it is possible to carry out powerful analysis using lists' set operations, including union, intersect, subtract and symmetric difference. Please see [List set operations](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#list-set-operations) for more details.
+All lists have an associated [List analysis pages](list-analysis-pages.md), which provide a summary of your list and several analysis tools. Besides, it is possible to carry out powerful analysis using lists' set operations, including union, intersect, subtract and symmetric difference. Please see [List set operations](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#list-set-operations) for more details.
 
 ### List set operations
 
-Sets of lists can be analysed using the **Combine**, **Intersect**, **Subtract** and **Difference** functions. These set operations are available in the lists view page. 
+Sets of lists can be analysed using the **Combine**, **Intersect**, **Subtract** and **Difference** functions. These set operations are available in the Lists view page. 
 
 ![Set operations](../../../.gitbook/assets/lists-set-functions-2.png)
 
@@ -120,9 +120,9 @@ The BlueGenes interface offers four operations on sets for constructing new list
 
 You can copy a list from the **Lists** view \([How do I view my list?](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#how-do-i-view-my-lists)\) page. 
 
-1. You can select one list and click on the copy ****icon![](../../../.gitbook/assets/download-1-.png)at the right or each list. 
-2. You can also use the check boxes on the left of each list to select multiple lists at once
-3. You can copy several lists using the **Copy All** option shown in the menu at the bottom of the page
+1. You can select one list and click on the copy ****icon![](../../../.gitbook/assets/download-1-.png)at the right of each list.
+2. You can also use the checkboxes on the left of each list to select multiple lists at once
+3. You can copy several lists using the **Copy All** option shown in the menu at the bottom of the page.
 
 ![](../../../.gitbook/assets/copy-list-0-edited.png)
 
@@ -140,11 +140,11 @@ remember to log in to your account to copy any list\(s\)
 
 ### How do I rename a list?
 
-To rename a list you must be logged in to your user account. Click on the Edit list ✏ icon on the far right of the list's name. 
+To rename a list, you must be logged in to your user account. Click on the Edit list ✏ icon on the far right of the list's name. 
 
 ![](../../../.gitbook/assets/edit-list-0.png)
 
-A fillable form will be shown that you can use to change the title - name of the list,  provide a description, and to add any tag\(s\). 
+A fillable form will be shown that you can use to change the title - the name of the list,  provide a description, and to add any tag\(s\). 
 
 ![Rename a list](../../../.gitbook/assets/rename-a-list.png)
 
@@ -164,7 +164,7 @@ You can delete a list from the **Lists** **view** page.
 
 ![](../../../.gitbook/assets/delete-a-list.png)
 
-Select any list you want to delete and click on the **delete** icon, your list will be deleted permanently.
+Select any list you want to delete and click on the **delete** icon to delete that list permanently.
 
 ![Deleting a list](../../../.gitbook/assets/delete-a-list-1-edited.png)
 

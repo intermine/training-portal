@@ -22,7 +22,7 @@ The following is a breakdown of key fields in the list upload form:
 {% endtab %}
 
 {% tab title="File Upload" %}
-
+![Uploading a list from a file](../../../.gitbook/assets/file-upload.png)
 {% endtab %}
 {% endtabs %}
 

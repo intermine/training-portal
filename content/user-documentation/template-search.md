@@ -12,7 +12,7 @@ A template search has a simple form with one or more entry fields. You can fill 
 
 There is a long list of pre-defined searches, and checking all available templates can be time-consuming. So, to find your template of interest, you can filter the list by keyword/description or by data category. ****
 
-![Filtering templates](../../.gitbook/assets/template-filtering-2%20%281%29.png)
+![Filtering templates](../../.gitbook/assets/template-filtering-2-cut.png)
 
 If you are unsure which category to use as a filter, category tags are shown at the bottom right corner of each template preview. 
 

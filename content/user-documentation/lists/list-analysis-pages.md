@@ -1,16 +1,16 @@
 # List analysis pages
 
-## Overview
+### Overview
 
-Every list has an associated list analysis page. A list analysis page is analogous to a gene report page that provides collated information about all objects in a particualer list. When you upload a new list, you will be automatically taken to its list analysis page. To access the list analysis page for public lists that are already in the database, click on the [Lists](lists.md) tab. Clicking on a list name will display its associated analysis page. 
+Every list has an associated list analysis page. A list analysis page is analogous to a gene report page that provides collated information about all objects in a particular list. When you upload a new list, you will be automatically taken to its list analysis page. To access the list analysis page for public lists that are already in the database, click on the [Lists](lists.md) tab. Clicking on a list name will display its associated analysis page. 
 
 {% hint style="info" %}
-Remember, you must be logged in to view your own lists!
+Remember, you must be logged in to view your private lists!
 {% endhint %}
 
 ![](../../../.gitbook/assets/lists-analysis-page.png)
 
-###  The list summary
+### The list summary
 
 The list summary provides the main identifiers for the objects in your list. The list summary is a [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables) and provides all the [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables) functionality.
 
@@ -74,7 +74,7 @@ The correction coefficient is described in the [InterMine documentation](http://
 
 ## Template results on list analysis pages
 
-List analysis pages include a set of [Template Searches](https://flymine.readthedocs.io/en/latest/templates/Documentationtemplatesearches.html#templatesearches). These are found at the bottom of the list analysis page and are a set of searches that are automatically run on your list so you can immediately access the results. The results are presented in [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables) and provide the full functionality of [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables).
+List analysis pages include a set of [Template Searches](../template-search.md). These are found at the bottom of the list analysis page and are a set of searches that are automatically run on your list so you can immediately access the results. The results are presented in [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables) and provide the full functionality of [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables).
 
 🖼 
 

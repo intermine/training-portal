@@ -1,6 +1,6 @@
 # Introduction
 
-This introduction is 
+Before discussing the BlueGenes user interface, this introductory section will provide some background information about the InterMine software.
 
 ### Disparate data in, unified data out
 

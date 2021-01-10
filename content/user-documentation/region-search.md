@@ -4,12 +4,15 @@ The Region Search allows you to search for features that overlap a list of genom
 
 ![Regions tab](../../.gitbook/assets/regions-tab.png)
 
-1. First, select the organism for which your regions are from.
-2. Select which genomic features you are interested in. By default, all are selected.
-3. Upload your genomic coordinates. The following formats are accepted:
-   * **chromosome:start..end**, e.g. 2L:11334..12296
-   * **chromosome:start-end**, e.g. 2R:5866746-5868284 or chrII:14646344-14667746
+![](../../.gitbook/assets/region-form.png)
+
+1. First, type in chormosome coordinates in the box. The following formats are accepted: 
+   * chromosome:start..end, e.g. 2:14615455..14619002 
+   * chromosome:start-end, e.g. 4:5866646-5868384 
    * **tab delimited**
+2. Select the organism for which your regions are from. By default, all organisms are selected. 
+3. Select which features you are interested in to include. By default, all are features are included.
+4. If you are unsure, click **Show Example** for sample coordinates or click **Search** to run your query. 
 
 Note that you must also select the coordinate system of your regions. Both **base coordinate** \(e.g. BLAST, GFF/GFF3\) and I**nterbase coordinate** \(e.g. UCSC BED, Chado\) systems are supported. For example, for a DNA piece **GCCATGTA**, the position of the **ATG** in Interbase is \[3, 6\], and in base coordinates, it is \[4, 6\]. Users need to select which coordinate system they are using. This is base coordinate by default.
 

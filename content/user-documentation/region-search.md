@@ -6,10 +6,10 @@ The Region Search allows you to search for features that overlap a list of genom
 
 ![](../../.gitbook/assets/region-form.png)
 
-1. First, type in chormosome coordinates in the box. The following formats are accepted: 
+1. First, type in chromosome coordinates in the box. The following formats are accepted: 
    * chromosome:start..end, e.g. 2:14615455..14619002 
    * chromosome:start-end, e.g. 4:5866646-5868384 
-   * **tab delimited**
+   * **new lines** 
 2. Select the organism for which your regions are from. By default, all organisms are selected. 
 3. Select which features you are interested in to include. By default, all are features are included.
 4. If you are unsure, click **Show Example** for sample coordinates or click **Search** to run your query. 

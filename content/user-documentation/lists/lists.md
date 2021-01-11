@@ -40,7 +40,7 @@ By default, when you click on the **Lists** tab, all of your lists will be shown
 
 ![](../../../.gitbook/assets/filter-0.png)
 
-For example, you can select to only view your private lists, public lists, lists saved in a particular folder first, or all of your lists at once by using the dropdown menu shown in the following screenshot. 
+For example, you can select to only view your private lists, public lists, lists saved in a particular folder first, or all of your lists at once by using the dropdown menu shown in the following screenshot. Check the Creating folders section for more details about how to make new folders. 
 
 ![](../../../.gitbook/assets/view-lists-edited.png)
 
@@ -126,7 +126,7 @@ You can copy a list from the **Lists** view \([How do I view my list?](https://u
 
 ![](../../../.gitbook/assets/copy-list-0-edited.png)
 
-You can click **Copy List\(s\)** to make a copy of the list or click **Cancel** to return to the **Lists** view page. Please note that lists can also be copied to a particular folder. 
+You can click **Copy List\(s\)** to make a copy of the list or click **Cancel** to return to the **Lists** view page. Please note that lists can also be copied to a particular folder. Check the Creating folders section for more details about how to make new folders. 
 
 ![](../../../.gitbook/assets/copy-list-1-edited.png)
 
@@ -171,6 +171,14 @@ Select any list you want to delete and click on the **delete** icon to delete th
 {% hint style="danger" %}
 Please note that deleting a list is an irreversible action, and it only applies to your own lists!
 {% endhint %}
+
+### Creating folders
+
+By default, all public and private lists are shown in the **Lists** view page; no folders exist. 
+
+![](../../../.gitbook/assets/create-folder-1%20%281%29.png)
+
+You can create a folder as a part of copying or moving a list or a group of lists. For example, if you want to copy a list, such as the one shown in the previous screenshot. 
 
 ### TroubleShooting
 

@@ -178,7 +178,7 @@ All public and private lists are shown in the **Lists** view page, and no folder
 
 ![](../../../.gitbook/assets/create-folder-1%20%281%29.png)
 
-You can create new folders as part of [copying](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/~/drafts/-MQlo5xE8fGV8IneUfjG/content/user-documentation/lists/lists#copying-lists) a list. For example, you can select any list that you want to copy into a folder, and click on the copy ****icon![](../../../.gitbook/assets/download-1-.png)at the right of that list. You can then type any preferred folder name in the **Choose folder** input field and enter to create a new folder. 
+You can create new folders as part of [copying](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#copying-lists) a list. For example, you can select any list that you want to copy into a folder, and click on the copy ****icon![](../../../.gitbook/assets/download-1-.png)at the right of that list. You can then type any preferred folder name in the **Choose folder** input field and enter to create a new folder. 
 
 ![](../../../.gitbook/assets/create-folder-2.png)
 
@@ -203,7 +203,7 @@ New folders can also be created when moving a list or a group of lists. For exam
 ![](../../../.gitbook/assets/move-lists.png)
 
 {% hint style="info" %}
-Please see the [Copying lists](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/~/drafts/-MQlo5xE8fGV8IneUfjG/content/user-documentation/lists/lists#copying-lists) section for more information about making a copy of a given list
+Please see the [Copying lists](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#copying-lists) section for more information about making a copy of a given list
 {% endhint %}
 
 ### TroubleShooting

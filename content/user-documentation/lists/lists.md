@@ -174,11 +174,37 @@ Please note that deleting a list is an irreversible action, and it only applies 
 
 ### Creating folders
 
-By default, all public and private lists are shown in the **Lists** view page; no folders exist. 
+All public and private lists are shown in the **Lists** view page, and no folders exist by default. 
 
 ![](../../../.gitbook/assets/create-folder-1%20%281%29.png)
 
-You can create a folder as a part of copying or moving a list or a group of lists. For example, if you want to copy a list, such as the one shown in the previous screenshot. 
+You can create new folders as part of [copying](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/~/drafts/-MQlo5xE8fGV8IneUfjG/content/user-documentation/lists/lists#copying-lists) a list. For example, you can select any list that you want to copy into a folder, and click on the copy ****icon![](../../../.gitbook/assets/download-1-.png)at the right of that list. You can then type any preferred folder name in the **Choose folder** input field and enter to create a new folder. 
+
+![](../../../.gitbook/assets/create-folder-2.png)
+
+Click on **Copy List\(s\)** to make a copy of the list inside the new folder, **My Folder**. 
+
+{% hint style="info" %}
+Click the arrow⬆icon to cancel copying the list into the new folder, and delete the newly created folder.  
+{% endhint %}
+
+![](../../../.gitbook/assets/create-folder-3.png)
+
+The new folder will be shown at the top of the Lists view page. 
+
+![](../../../.gitbook/assets/create-folder-4.png)
+
+To view the contents of any folder, click on the folder's name or the➕icon to the left of that folder. The contents of any folder are usually displayed between light blue lines. 
+
+![](../../../.gitbook/assets/create-folder-6.png)
+
+New folders can also be created when moving a list or a group of lists. For example, you can use the checkboxes to select multiple lists and then copy or move the selected lists to a new folder using the **Copy All - Move All** options shown in the menu at the bottom of the page. Then follow the same previous steps to create the new folder. 
+
+![](../../../.gitbook/assets/move-lists.png)
+
+{% hint style="info" %}
+Please see the [Copying lists](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/~/drafts/-MQlo5xE8fGV8IneUfjG/content/user-documentation/lists/lists#copying-lists) section for more information about making a copy of a given list
+{% endhint %}
 
 ### TroubleShooting
 

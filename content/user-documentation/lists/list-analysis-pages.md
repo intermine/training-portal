@@ -12,9 +12,15 @@ Remember, you must be logged in to view your private lists!
 
 ### The list summary
 
-The list summary provides the main identifiers for the objects in your list. The list summary is a [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables) and provides all the [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables) functionality.
+The list summary provides the main identifiers for the objects in your list. For example, the next screenshot shows 86 rows for all 86 genes in the selected list. The list summary page is a form of Query Results - [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables) that offers the full functionality of  Query Results - [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables) page. It also includes the List **Enrichment Statistics** on the right of the analysis page, as well as the **GO-term Visualizer** at the bottom of the page. 
 
-🖼 
+![](../../../.gitbook/assets/list-summary-1.png)
+
+![](../../../.gitbook/assets/go-term.png)
+
+{% hint style="info" %}
+You can expand any enrichment widget or the visualizer by clicking on the ➕icon.  
+{% endhint %}
 
 ### What does enrichment mean and how are the p-values calculated?
 

@@ -1,40 +1,43 @@
 # Region Search
 
+### Overview
+
 The Region Search allows you to search for features that overlap a list of genome coordinates. It is found under the **Regions** tab in the main InterMine header.
 
-![Regions tab](../../.gitbook/assets/regions-tab.png)
+![](../../.gitbook/assets/regions-tab-1.png)
 
-![](../../.gitbook/assets/region-form.png)
+![](../../.gitbook/assets/regions-form.png)
 
-1. First, type in chromosome coordinates in the box with each coordinates entry on a seperate line. The following formats are accepted: 
+1. First, type in chromosome coordinates in the box with each input coordinates or genomic region needs to be on a separate line. The following formats are accepted:  
    * chromosome:start..end, e.g. 2:14615455..14619002 
    * chromosome:start-end, e.g. 4:5866646-5868384
 2. Select the organism for which your regions are from. By default, all organisms are selected. 
 3. Select which features you are interested in to include. By default, all are features are included.
 4. If you are unsure, click **Show Example** for sample coordinates or click **Search** to run your query. 
 
-Note that you must also select the coordinate system of your regions. Both **base coordinate** \(e.g. BLAST, GFF/GFF3\) and I**nterbase coordinate** \(e.g. UCSC BED, Chado\) systems are supported. For example, for a DNA piece **GCCATGTA**, the position of the **ATG** in Interbase is \[3, 6\], and in base coordinates, it is \[4, 6\]. Users need to select which coordinate system they are using. This is base coordinate by default.
+![Running a regions search with sample coordinates](../../.gitbook/assets/regions-search-0.png)
 
-Each genomic region needs to be on a separate line.
+{% hint style="info" %}
+Like most genome portals, such as NCBI, bioinformatics software, such as BLAST, and annotation file formats like SAM and VCF, BlueGenes use the[ base coordinate system](http://bergmanlab.genetics.uga.edu/?s=coordinate), representing a feature starting at the first nucleotide as position 1. 
+{% endhint %}
 
-1. Next, you can choose to extend your regions by a certain number of bases upstream and downstream. Note that this currently extends your region in both directions by the amount specified.
-2. Finally, on some InterMine installations, there will be a checkbox to restrict searches to a specific strand. For example, Chr1:12345-23456 indicates a region on the + strand; Chr1:23456-12345 indicates a region on the - strand. One situation in which this is useful is when you have a series of BLAST-generated regions on which you’d like to search for upstream gene flanking regions. In this case, there is no point in matching with gene flanking regions on the opposite strand. The default behaviour is to search both strands.
+### Regions Search Results
 
-## Region Search Results
+The regions search provides results in a tabular format. The resulting table displays each of your regions in turn with all features found and their genomic location.  
 
-The region search provides results in two formats: in a genome browser and as a table \(Note; genome browser is not currently configured for FlyMine\).
+![](../../.gitbook/assets/region-search-results.png)
 
-### 1. The genome browser
+You can click on any feature to expand more details about that feature. For example, clicking on **exon-NM\_001014809.3-2** will direct you to a more detailed page about that feature. The left-hand column shows two sections, **Summary** and **Data**. The Summary can be downloaded in FASTA format, and you can use the **Copy permanent URL** to share or have a reference to the resulting report. The URL will continue to work through database rebuilds and will return the report for this object.
 
-Note that the genome browser will initially display a default region or the last region you looked at. To display one of the regions from your current query, click on the region link from the table display. The genome browser will display the Gene track for that region. Further tracks available are shown on the left and can be pulled onto the view.
+![](../../.gitbook/assets/expand-a-region.png)
 
-### 2. The table
+The Data section provides more information about the selected feature using Results Tables. Check the [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables) section for more details on managing, saving or exporting each data table.
 
-The table display shows each of your regions in turn. The left-hand column shows the region and allows you to download the results for just that region in various formats \(tab, csv, gff3, FASTA and BED\) or send your results to the galaxy. You can also create a list of a specific type of feature. Download and list creation for all regions is found just above the table under the genome browser. The right hand side of the table displays all the features found and their genomic location.
+![](../../.gitbook/assets/regions-data-1.png)
 
 ### Troubleshooting
 
 ### I have saved my genomic regions from a query - how do I upload them to the region search?
 
-At present, it is not possible to upload genomic regions directly from the results of an InterMine search into the region search. You need to download the regions and reformat them first. This is something we hope to rectify in the future.
+BlueGenes does not support uploading genomic regions directly from the results of an InterMine search into regions search. You first need to download the regions, and then reformat them to one of the accepted formats. 
 

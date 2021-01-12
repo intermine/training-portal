@@ -101,19 +101,19 @@ For example, you can combine two lists and save the new list as **My\_New\_List*
 The BlueGenes interface offers four operations on sets for constructing new lists from given lists
 
 {% hint style="success" %}
-**Combine lists**: this is more of a traditional ‘**add**’ function, in that the resulting list will contain **all objects** from all selected lists. For example, if you have list A and list B, you can use the Combine function to create a new list containing all items in both lists - i.e. A + B.
+**Combine lists**: this is more of a traditional ‘**add**’ function, in that the resulting list will contain **all objects** from all selected lists. The mathematical symbol for the Combine operation is$$A ∪ B$$. For example, if you have list A and list B, you can use the Combine function to create a new list containing all items in both lists - i.e. A + B. 
 {% endhint %}
 
 {% hint style="success" %}
-**Intersect lists**: this function creates a list that includes only items **common** to all given lists. For example, if you have list A and list B, you can use the Intersect function to create a new list containing only elements that exist in both A and B.
+**Intersect lists**: this function creates a list that includes only items **common** to all given lists. The mathematical symbol for the Intersect operation is $$A ∩ B$$. For example, if you have list A and list B, you can use the Intersect function to create a new list containing only elements that exist in both A and B.
 {% endhint %}
 
 {% hint style="success" %}
-* **Difference lists**: this function performs a [**mathematical symmetric difference**](https://en.wikipedia.org/wiki/Symmetric_difference) ****on all selected lists, and the resulting list will contain only items unique to each of those lists. It is more like the opposite of an intersection operation. For example, if you have list A and list B, you can use the Difference function to create a new list that includes objects only appearing in either A or B.
+* **Difference lists**: this function performs a [**mathematical symmetric difference**](https://en.wikipedia.org/wiki/Symmetric_difference) ****on all selected lists, and the resulting list will contain only items unique to each of those lists. This operation is more like the opposite of an intersection operation, which is represented mathematically as$$A ∆ B $$. For example, if you have list A and list B, you can use the Difference function to create a new list that includes objects only appearing in either A or B.
 {% endhint %}
 
 {% hint style="success" %}
-* **Subtract lists:** this is more of a traditional ‘**subtract**’ function, in that the resulting list will contain objects that exist in one \(_**or group**_\) of the lists only. For example, if you have list A and list B, you can use the Subtract function to find unique items in list B. Note that this function gives you the option to perform the subtraction either way - i.e., A-B or B-A.
+* **Subtract lists:** this is more of a traditional ‘**subtract**’ function, in that the resulting list will contain objects that exist in one \(_**or group**_\) of the lists only. The mathematical symbol for the Subtract operation is $$A ∩ B$$.  For example, if you have list A and list B, you can use the Subtract function to find unique items in list B. Note that this function gives you the option to perform the subtraction either way - i.e., A-B or B-A.
 {% endhint %}
 
 ### Copying lists

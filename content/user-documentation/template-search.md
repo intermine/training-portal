@@ -16,6 +16,8 @@ There is a long list of pre-defined searches, and checking all available templat
 
 If you are unsure which category to use as a filter, category tags are shown at the bottom right corner of each template preview. 
 
+![Category tags](../../.gitbook/assets/category-tags%20%282%29.png)
+
 ![Category tags](../../.gitbook/assets/category-tags%20%281%29.png)
 
 ### Running a template search

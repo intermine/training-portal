@@ -2,17 +2,17 @@
 
 ### What is a template search?
 
-A template search is a pre-defined query that has been created and is ready to use. Template searches allow you to search the database without constructing your own queries from scratch or understanding the underlying data structure. A library of template searches covering a full range of data is available.
+A template search is a pre-defined query that has been created and is ready to be used. Template searches allow you to search the database without constructing your own queries from scratch or understanding the underlying data structure. A library of template searches covering a full range of data is available.
 
-A template search has a simple form with one or more entry fields. You can fill in these fields with your data or select a value from the available options. Each template uses default values for all required fields, allowing you to immediately run the query and check whether the search returns the data you want. Each template has a short name and an extended description underneath. The title helps you quickly scan available searches and find the one you need. The description provides more details, including any restrictions on the values you can use to run the query. To access the template library, click on the Templates tab in the main menu bar. 
+A template search has a simple form with one or more entry fields. You can fill in these fields with your data or select a value from the available options. Each template uses default values for all required fields, allowing you to immediately run the query and check whether the search returns the data you want. Each template has a short name and an extended description underneath. The title helps you quickly scan available searches and find the one you need; while the description provides more details, including any restrictions on the values you can use to run the query. To access the template library, click on the Templates tab in the main menu bar. 
 
-![Templates tab](../../.gitbook/assets/template-1%20%282%29.png)
+![Templates tab](../../.gitbook/assets/templates-tab-updated.png)
 
 ### Finding the template search that you want
 
-There is a long list of pre-defined searches, and checking all available templates can be time-consuming. So, to find your template of interest, you can filter the list by keyword/description or by data category. ****
+There is a long list of pre-defined searches, and checking all available templates can be time-consuming. So, to find any template of interest, you can filter the templates list by keyword/description or by data category. ****
 
-![Filtering templates](../../.gitbook/assets/template-filtering-2-cut.png)
+![Filtering templates](../../.gitbook/assets/template-filtering%20%282%29.png)
 
 If you are unsure which category to use as a filter, category tags are shown at the bottom right corner of each template preview. 
 
@@ -40,7 +40,7 @@ First, remember to **log in** to your account so that you can view and use your 
 
 ![](../../.gitbook/assets/in-list%20%281%29.png)
 
-If you have a list of the correct type \(e.g. a list of genes\) or there is a public one that matches your needs, you can choose your preferred list from the shown drop-down set. 
+If you have a list of the correct type \(e.g. a list of genes\) or a public one that matches your needs exists, you can select your preferred list from the shown drop-down set. 
 
 ![Run a template with a list](../../.gitbook/assets/in-list-2.png)
 
@@ -57,10 +57,6 @@ Sometimes you may find that a template does not return everything you want in th
 ![Editing a template search](../../.gitbook/assets/query-builder.png)
 
 You need to understand how to use the query builder to modify your template - please check [The Query Builder](https://flymine.readthedocs.io/en/latest/query-builder/Documentationquerybuilder.html#querybuilder) section for more details. If you do not want to spend some time learning how to use the query builder, you can always [contact](https://intermine.readthedocs.io/en/latest/about/contact-us/) the InterMine team to help construct your desired search.
-
-### Building your own template search
-
-This is not supported in the BlueGenes application. To build your own template, you will need to access the legacy web application. Please check the "Building your own template search" documentation section for the legacy web application.    
 
 ### Can’t find what you want - let us know!
 

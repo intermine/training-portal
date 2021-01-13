@@ -8,14 +8,21 @@ A search box appears in the top navigation bar of all pages and the home page. Y
 
 Examples of what you can search:
 
-* **Single terms:** to search for one term, such as Gene identifiers \(e.g. FBgn0000606\), Gene names \(e.g. Notch\), Gene symbols \(e.g. eve\), Keywords \(e.g. Diabetes, embryo\), etc. 
-* **Two terms:** to search for either of two keywords, use **OR** \(e.g. fly OR drosophila\)
-* **Phrases:** to search for phrases use quotation marks - **“ ”** -   \(e.g. “DNA binding”\)
-* **Boolean:** Boolean search syntax is supported using Boolean expressions: e.g. dros\* for partial matches or fly AND NOT embryo to exclude a term
+* **Single terms:** to search for one term, such as Gene identifiers \(e.g. ENSG00000165695\), Gene names \(e.g. Adenylate kinase 8\), Gene symbols \(e.g. AK8\), Keywords \(e.g. Diabetes\), etc. 
+* **Two terms:** to search for either of two keywords, use **OR** \(e.g. Gene OR PPARG\)
+* **Phrases:** to search for phrases use quotation marks - **“ ”** -   \(e.g. 
 
-The keyword search will go through all objects in the database for any term you enter. All objects that match the term are returned in an interface, allowing you to refine your search results further. 
+  “DNA binding”\)
 
-![Keyword search](../../.gitbook/assets/keyword-search-1-edited.png)
+* **Boolean:** Boolean search syntax is supported using Boolean expressions, \(e.g. gen\*\) for partial matches or \(e.g. gene AND NOT LOC644563\) to exclude a term
 
-Results from any keyword search link to [Report Pages](https://flymine.readthedocs.io/en/latest/report-pages/Documentationreportpages.html#reportpages) for each item found. 
+![Phrases search](../../.gitbook/assets/dna-binding.png)
+
+![Boolean search](../../.gitbook/assets/gene-and-not-loc644563.png)
+
+The keyword search goes through all objects in the database for any term you enter. All objects that match the term are returned in an interface, allowing you to further refine your search results.   
+
+![](../../.gitbook/assets/keyword-search.png)
+
+Results from any keyword search link to [Report Pages](https://flymine.readthedocs.io/en/latest/report-pages/Documentationreportpages.html#reportpages) for each item found. See the Report Pages section for more details about how to view information about a particular object. 
 

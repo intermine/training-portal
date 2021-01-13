@@ -50,6 +50,7 @@
       * [Upload a list](content/user-documentation/lists/upload-a-list.md)
       * [List analysis](content/user-documentation/lists/list-analysis-pages.md)
     * [Region Search](content/user-documentation/region-search.md)
+    * [Report Pages](content/user-documentation/report-pages.md)
     * [InterMine Mobile](content/user-documentation/intermine-mobile.md)
     * [Contact Us](content/user-documentation/contact-us.md)
     * [Frequently Asked Questions - FAQs](content/user-documentation/questions-faqs.md)

@@ -53,7 +53,7 @@
     * [Report Pages](content/user-documentation/report-pages.md)
     * [InterMine Mobile](content/user-documentation/intermine-mobile.md)
     * [Contact Us](content/user-documentation/contact-us.md)
-    * [Frequently Asked Questions - FAQs](content/user-documentation/questions-faqs.md)
+    * [Frequently Asked Questions](content/user-documentation/questions-faqs.md)
   * [contribution-guide](content/contribution-guide/README.md)
     * [\_index](content/contribution-guide/_index.md)
   * [\_index](content/_index.md)

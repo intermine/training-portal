@@ -10,7 +10,7 @@ A template search has a simple form with one or more entry fields. You can fill 
 
 ### Finding the template search that you want
 
-There is a long list of pre-defined searches, and checking all available templates can be time-consuming. So, to find any template of interest, you can filter the templates list by keyword/description or by data category. ****
+There is a long list of pre-defined searches, and checking all available templates can be time-consuming. To find any template of interest, you can filter the templates list by keyword/description or by data category. ****
 
 ![Filtering templates](../../.gitbook/assets/template-filtering%20%282%29.png)
 
@@ -18,19 +18,17 @@ If you are unsure which category to use as a filter, category tags are shown at 
 
 ![Category tags](../../.gitbook/assets/category-tags%20%282%29.png)
 
-![Category tags](../../.gitbook/assets/category-tags%20%281%29.png)
-
 ### Running a template search
 
-A template search provides you with a fillable form with one or more fields to set. Some entry fields may require entering a value, while others have a set of available choices in a drop-down list. Some templates offer optional search constraints that you can turn On and Off as desired. Once everything looks good, click **View &gt;&gt;** to expand the template details, view the results preview and the constraints window. 
+A template search provides you with a fillable form with one or more fields to set. Some entry fields may require entering a value; while others have a set of available choices in a drop-down list. Some templates offer optional search constraints that you can turn On and Off as desired. Once everything looks good, click **View &gt;&gt;** to expand the template details, including the results preview and the constraints window. 
 
-![Expanding a template](../../.gitbook/assets/template-view%20%281%29.png)
+![](../../.gitbook/assets/view-templates.png)
 
-To see all of the search results, click **View Rows.**  
+![](../../.gitbook/assets/run-template%20%282%29.png)
 
-![](../../.gitbook/assets/run-template%20%281%29.png)
+The previous screenshot is only a preview that doesn't display full results; to access all results of a given template, click **View Rows.**  
 
-![](../../.gitbook/assets/search-results%20%281%29.png)
+![](../../.gitbook/assets/template-results-table-edited.png)
 
 You can run a template search with a more complex set of constraints - i.e. optional constraints **ON**.
 
@@ -38,13 +36,13 @@ You can run a template search with a more complex set of constraints - i.e. opti
 
 ### How do I run a template search with one of my lists or a public list?
 
-First, remember to **log in** to your account so that you can view and use your saved lists. Every template can be run on relevant Lists of objects by selecting the **In list** option. When you run a template on a given list, you are searching the database for information for every item in the used list. 
+First, remember to **log in** to your account to view and use your saved lists. Every template can be run on relevant Lists of objects by selecting the **In list** option. When you run a template on a given list, you are technically searching the database for information related to every item in the used list. 
 
-![](../../.gitbook/assets/in-list%20%281%29.png)
+![](../../.gitbook/assets/in-list%20%282%29.png)
 
 If you have a list of the correct type \(e.g. a list of genes\) or a public one that matches your needs exists, you can select your preferred list from the shown drop-down set. 
 
-![Run a template with a list](../../.gitbook/assets/in-list-2.png)
+![](../../.gitbook/assets/in-list-2%20%281%29.png)
 
 ### Understanding your results
 
@@ -54,9 +52,9 @@ Template searches return results in a tabular format. Besides displaying query r
 
 Sometimes you may find that a template does not return everything you want in the results. Templates are a good starting point for building more complex searches. You can modify a template using [The Query Builder](https://flymine.readthedocs.io/en/latest/query-builder/Documentationquerybuilder.html#querybuilder) - click on **Edit Query** at the bottom of the **Results Preview** window to view the selected template in the query builder window. 
 
-![](../../.gitbook/assets/edit-query-1%20%281%29.png)
+![](../../.gitbook/assets/edit-query-1%20%282%29.png)
 
-![Editing a template search](../../.gitbook/assets/query-builder.png)
+![](../../.gitbook/assets/template-editing.png)
 
 You need to understand how to use the query builder to modify your template - please check [The Query Builder](https://flymine.readthedocs.io/en/latest/query-builder/Documentationquerybuilder.html#querybuilder) section for more details. If you do not want to spend some time learning how to use the query builder, you can always [contact](https://intermine.readthedocs.io/en/latest/about/contact-us/) the InterMine team to help construct your desired search.
 

@@ -2,11 +2,11 @@
 
 ### Overview
 
-A **list** in InterMine refers to multiple items of the same type - for example, a list of genes or a list of binding sites. A list cannot contain a mixture of types - e.g. genes and proteins. To access the lists library, click on the **Lists** tab in the main menu bar. 
+A **list** in InterMine refers to multiple items of the same type - for example, a list of genes or a list of binding sites. A list cannot contain a mixture of types - e.g. genes and proteins. To access your lists library, click on the **Lists** tab in the main menu bar. 
 
 ![Lists tab](../../../.gitbook/assets/lists-w-border.png)
 
-The following list is a breakdown of what each key item in your **Lists** tab means: 
+The following is a breakdown of what each key item in the **Lists view page** means: 
 
 1. You need to be logged in to your InterMine account![](../../../.gitbook/assets/61205.png)to have access to your stored lists and to accomplish certain tasks that are not available to guests, including copying, editing and deleting lists. 
 2. You can filter lists by typing in any keyword in the search field.
@@ -18,9 +18,9 @@ The following list is a breakdown of what each key item in your **Lists** tab me
 
 ### Public lists![](../../../.gitbook/assets/download-removebg-preview.png) 
 
-A public list is a list that has been created by InterMine developers and is ready for use. For example, FlyMine has public lists for sets of transcription factors in _Drosophila_. You can use these publicly available lists for analysis or run a particular search. 
+A public list is a list that has been created by InterMine developers and is available to all users. For example, HumanMine has public lists for Pax6 \(\(Paired Box 6\) gene targets. You can use these publicly available lists for analysis or run a particular search. 
 
-![Public list](../../../.gitbook/assets/public-list.png)
+![](../../../.gitbook/assets/public-list%20%281%29.png)
 
 {% hint style="info" %}
 You cannot modify a public list. You need to make your own copy of a particular public list before you can edit it. Please check [How do I copy a list?](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#how-do-i-copy-a-list) for more details.
@@ -47,7 +47,7 @@ For example, you can select to only view your private lists, public lists, lists
 ![Viewing private lists only](../../../.gitbook/assets/private-lists-only.png)
 
 {% hint style="info" %}
-remember to log in to your account to view and manage your private lists
+Remember to log in to your account to view and manage your private lists
 {% endhint %}
 
 ### Managing lists
@@ -135,7 +135,7 @@ You can click **Copy List\(s\)** to make a copy of the list or click **Cancel** 
 ![](../../../.gitbook/assets/copy-list-2-edited.png)
 
 {% hint style="info" %}
-remember to log in to your account to copy any list\(s\)
+Remember to log in to your account to copy any list\(s\)
 {% endhint %}
 
 ### Renaming a lists

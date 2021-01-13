@@ -23,12 +23,12 @@ A public list is a list that has been created by InterMine developers and is ava
 ![](../../../.gitbook/assets/public-list%20%281%29.png)
 
 {% hint style="info" %}
-You cannot modify a public list. You need to make your own copy of a particular public list before you can edit it. Please check [How do I copy a list?](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#how-do-i-copy-a-list) for more details.
+You can't modify a public list. Instead, make your own copy of a particular public list to edit it. Please check [How do I copy a list?](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#how-do-i-copy-a-list) for more details.
 {% endhint %}
 
 ### Creating lists
 
-Lists can be created internally - for example, from [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables) or [Region Search](https://flymine.readthedocs.io/en/latest/region-search/Documentationregionsearch.html#regionsearch). They also can be uploaded from an external source via [Upload a list](upload-a-list.md). 
+Lists can be created internally - for example, from [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables) or [Regions Search](../region-search.md). They also can be uploaded from an external source via [Upload a list](upload-a-list.md). 
 
 {% hint style="info" %}
 Remember that you need to have an account prior to copying or storing any lists.
@@ -36,7 +36,7 @@ Remember that you need to have an account prior to copying or storing any lists.
 
 ### Viewing lists
 
-By default, when you click on the **Lists** tab, all of your lists will be shown.  Just remember, you need to be logged in to view your private lists. To filter your lists, you can use one of the available filtering options, such as date, tags, etc., shown in the next screenshot. 
+By default, when you click on the **Lists** tab, all of your lists will be shown; privates lists are only shown if you are logged in to your account. To filter your lists, you can use one of the available filtering options, such as date, tags, etc., shown in the next screenshot. 
 
 ![](../../../.gitbook/assets/filter-0.png)
 

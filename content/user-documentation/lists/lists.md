@@ -25,7 +25,7 @@ A public list is a list that has been created by InterMine developers and is ava
 ![](../../../.gitbook/assets/public-list%20%281%29.png)
 
 {% hint style="info" %}
-You can't modify a public list. Instead, make your own copy of that list to be able to edit it. Please check [How do I copy a list?](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#how-do-i-copy-a-list) for more details.
+You can't modify a public list. Instead, make your own copy of that list to be able to edit it. Please check [**Copying lists**](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#copying-lists) for more details.
 {% endhint %}
 
 ### Creating lists
@@ -91,14 +91,14 @@ To use any of these functions:
 > 1. Select two or more lists you wish to analyse
 > 2. Select one of the functions
 > 3. Provide a name for your resulting list
-> 4. Click Save New List
+> 4. Click **Save New List**
 > 5. Your results will appear as a new list at the top of the Lists view page
 
-For example, you can combine two lists and save the new list as **My\_New\_List**. 
+For example, you can combine two lists, public and private lists, and save the new list as **My\_New\_List**. 
 
-![](../../../.gitbook/assets/combine-lists-edited.png)
+![](../../../.gitbook/assets/combine-lists%20%281%29.png)
 
-![Combining lists](../../../.gitbook/assets/new-list-edited.png)
+![](../../../.gitbook/assets/new-list.png)
 
 The BlueGenes interface offers four operations on sets for constructing new lists from given lists
 
@@ -120,9 +120,9 @@ The BlueGenes interface offers four operations on sets for constructing new list
 
 ### Copying lists
 
-You can copy a list from the **Lists** view \([How do I view my list?](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#how-do-i-view-my-lists)\) page. 
+Copying a list or several lists can be done from the [**Lists** **view page**](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#viewing-lists). 
 
-1. You can select one list and click on the copy ****icon![](../../../.gitbook/assets/download-1-.png)at the right of each list.
+1. You can select any list and click on the copy ****icon![](../../../.gitbook/assets/download-1-.png)on the right of that list.
 2. You can also use the checkboxes on the left of each list to select multiple lists at once
 3. You can copy several lists using the **Copy All** option shown in the menu at the bottom of the page.
 
@@ -132,7 +132,7 @@ You can click **Copy List\(s\)** to make a copy of the list or click **Cancel** 
 
 ![](../../../.gitbook/assets/copy-list-1-edited.png)
 
- A new list will be created with the same name and an underscore number. You should see a message at the top of the page informing you of the new list that has been created, and the copied list will show at the top of the **Lists** view page. You can then change the given name of the copied list to any preferred name; please see [How do I rename a list?](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#how-do-i-rename-a-list) for more details. 
+ A new list will be created with the same name and an underscore number. You should see a message at the top of the page informing you of the new list that has been created, and the copied list will show at the top of the **Lists** view page. You can then change the given name of the copied list to any preferred name; please see Renaming lists for more details. 
 
 ![](../../../.gitbook/assets/copy-list-2-edited.png)
 
@@ -140,7 +140,7 @@ You can click **Copy List\(s\)** to make a copy of the list or click **Cancel** 
 Remember to log in to your account to copy any list\(s\)
 {% endhint %}
 
-### Renaming a lists
+### Renaming lists
 
 To rename a list, you must be logged in to your user account. Click on the Edit list ✏ icon on the far right of the list's name. 
 

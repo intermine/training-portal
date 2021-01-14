@@ -78,7 +78,7 @@ You can run searches on a list, such as a [template search](../template-search.m
 
 ### List analysis
 
-All lists have an associated [List analysis pages](list-analysis-pages.md), which provide a summary of your lists and several analysis tools. Besides, it is possible to carry out powerful analysis using lists' set operations, including union, intersect, subtract and symmetric difference. Please see [List set operations](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#list-set-operations) for more details.
+All lists have an associated [List analysis page](list-analysis-pages.md), which provide a summary of your lists and several analysis tools. Besides, it is possible to carry out powerful analysis using lists' set operations, including union, intersect, subtract and symmetric difference. Please see [List set operations](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#list-set-operations) for more details.
 
 ### List set operations
 
@@ -134,13 +134,17 @@ Remember to log in to your account to copy any list\(s\)
 
 ![](../../../.gitbook/assets/copy-several-lists.png)
 
-You can click **Copy List\(s\)** to make a copy of selected list\(s\) or click **Cancel** to return to the **Lists** view page. Please note that lists can also be copied to a particular folder or sub-folder. Check the [**Creating folders** ](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#creating-folders)section for more details about how to make new folders and sub-folders. 
+You can click **Copy List\(s\)** to make a copy of selected list\(s\) or click **Cancel** to exit the Copy list\(s\) window. 
+
+{% hint style="info" %}
+Please note that lists can also be copied to a particular folder or sub-folder. Check the [**Creating folders** ](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#creating-folders)section for more details about how to make new folders and sub-folders. 
+{% endhint %}
 
 ![](../../../.gitbook/assets/copy-one.png)
 
 ![](../../../.gitbook/assets/copy-all.png)
 
- For each copied list, a new list will be created with the same name as the original list and an underscore followed by a number. You should see a message at the top of the page informing you of the new list\(s\) created, and the copied list\(s\) will appear at the top of the **Lists** view page. The default name of the copied list\(s\) can be changed to any preferred name; please see [**Renaming lists**](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#renaming-lists) for more details. 
+For each copied list, a new list will be created with the same name as the original list and an underscore followed by a number. You should see a message at the top of the page informing you of the new list\(s\) created, and the copied list\(s\) will appear at the top of the **Lists** view page. The default name of the copied list\(s\) can be changed to any preferred name; please see [**Renaming lists**](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#renaming-lists) for more details. 
 
 ![](../../../.gitbook/assets/copied-list-default.png)
 
@@ -176,7 +180,7 @@ You can delete a list or several lists from the **Lists** **view** page.
 
 ![](../../../.gitbook/assets/delete-many-lists.png)
 
-Select any list you want to delete and click on the **delete** icon to delete that list permanently.
+You can click Delete List\(s\) to romove selected list\(s\) permanently or click Cancel to exit the Delete list\(s\) window.
 
 ![](../../../.gitbook/assets/delete-one-list.png)
 
@@ -188,15 +192,19 @@ Please note that deleting a list is an irreversible action, and it only applies 
 
 ### Creating folders
 
-All public and private lists are shown in the **Lists** view page, and no folders exist by default. 
+The BlueGenes application allows users to create folders and sub-folders to organise their lists. Lists can be either copied or moved into a folder or sub-folder. By default, all public and private lists are shown in the **Lists** view page, and no folders exist. 
 
 ![](../../../.gitbook/assets/create-folder-1%20%281%29.png)
 
-You can create new folders as part of [copying](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#copying-lists) a list. For example, you can select any list that you want to copy into a folder, and click on the copy ****icon![](../../../.gitbook/assets/download-1-.png)at the right of that list. You can then type any preferred folder name in the **Choose folder** input field and enter to create a new folder. 
+{% hint style="info" %}
+Folders can be created as part of copying, moving, or editing a list. 
+{% endhint %}
+
+* You can create new folders while [copying](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#copying-lists) a list or a group of lists. While the Copy list\(s\) window is active, you can type any preferred folder name in the **Choose folder** input field and enter to create a new folder.
 
 ![](../../../.gitbook/assets/create-folder-2.png)
 
-Click on **Copy List\(s\)** to make a copy of the list inside the new folder, **My Folder**. 
+Click on **Copy List\(s\)** to copy the desired list\(s\) inside the new folder, **My Folder**. 
 
 {% hint style="info" %}
 Click the arrow⬆icon to cancel copying the list into the new folder, and delete the newly created folder.  
@@ -204,17 +212,31 @@ Click the arrow⬆icon to cancel copying the list into the new folder, and delet
 
 ![](../../../.gitbook/assets/create-folder-3.png)
 
-The new folder will be shown at the top of the Lists view page. 
+{% hint style="info" %}
+Please see the [Copying lists](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#copying-lists) section for more information about making a copy of a given list or group of lists.
+{% endhint %}
+
+* New folders can also be created when moving a list or a group of lists while the **Move list\(s\)** window is active. Just type in any preferred folder name in the Choose folder input field and enter to create a new folder.
+
+![](../../../.gitbook/assets/create-folder-moving.png)
+
+* You can also create new folders while editing a list using the ✏icon to the right of the desired list while the **Edit list** window is active. Just type in any preferred folder name in the Choose folder input field and enter to create a new folder.
+
+![](../../../.gitbook/assets/create-folder-editing.png)
+
+* Sub-folders can be created inside existing or new folders following the same previous steps.  
+
+![](../../../.gitbook/assets/sub-folder-0.png)
+
+Any new folders or sub-folders are shown at the top of the Lists view page. 
 
 ![](../../../.gitbook/assets/create-folder-4.png)
+
+![](../../../.gitbook/assets/sub-folder-3.png)
 
 To view the contents of any folder, click on the folder's name or the➕icon to the left of that folder. The contents of any folder are usually displayed between light blue lines. 
 
 ![](../../../.gitbook/assets/create-folder-6.png)
-
-New folders can also be created when moving a list or a group of lists. For example, you can use the checkboxes to select multiple lists and then copy or move the selected lists to a new folder using the **Copy All - Move All** options shown in the menu at the bottom of the page. Then follow the same previous steps to create the new folder. 
-
-![](../../../.gitbook/assets/move-lists.png)
 
 {% hint style="info" %}
 Please see the [Copying lists](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#copying-lists) section for more information about making a copy of a given list

@@ -238,9 +238,11 @@ To view the contents of any folder, click on the folder's name or the➕icon to 
 
 ![](../../../.gitbook/assets/create-folder-6.png)
 
-{% hint style="info" %}
-Please see the [Copying lists](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#copying-lists) section for more information about making a copy of a given list
-{% endhint %}
+Folders and sub-folders can only be deleted by deleting their content. For example, if you wish to delete your newly created sub-folder, you can remove the content inside it, or **My\_Copied\_List.** You can take a look at [**Deleting lists**](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#deleting-lists) to know how to delete a list or several lists. 
+
+![](../../../.gitbook/assets/delete-subfolder.png)
+
+![](../../../.gitbook/assets/delete-subfolder-1.png)
 
 ### TroubleShooting
 

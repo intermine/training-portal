@@ -122,23 +122,27 @@ The BlueGenes interface offers four operations on sets for constructing new list
 
 Copying a list or several lists can be done from the [**Lists** **view page**](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#viewing-lists). 
 
-1. You can select any list and click on the copy ****icon![](../../../.gitbook/assets/download-1-.png)on the right of that list.
-2. You can also use the checkboxes on the left of each list to select multiple lists at once
-3. You can copy several lists using the **Copy All** option shown in the menu at the bottom of the page.
-
-![](../../../.gitbook/assets/copy-list-0-edited.png)
-
-You can click **Copy List\(s\)** to make a copy of the list or click **Cancel** to return to the **Lists** view page. Please note that lists can also be copied to a particular folder. Check the Creating folders section for more details about how to make new folders. 
-
-![](../../../.gitbook/assets/copy-list-1-edited.png)
-
- A new list will be created with the same name and an underscore number. You should see a message at the top of the page informing you of the new list that has been created, and the copied list will show at the top of the **Lists** view page. You can then change the given name of the copied list to any preferred name; please see Renaming lists for more details. 
-
-![](../../../.gitbook/assets/copy-list-2-edited.png)
-
 {% hint style="info" %}
 Remember to log in to your account to copy any list\(s\)
 {% endhint %}
+
+* To copy a single list, lick on the copy ****icon![](../../../.gitbook/assets/download-1-.png)on the right of your list of interest. 
+
+![](../../../.gitbook/assets/copy-a-list.png)
+
+* To copy multiple lists at once, use the checkboxes on the left of each list to select one or more lists. Then, you can copy selected lists using the **Copy All** option shown in the menu at the bottom of the page.
+
+![](../../../.gitbook/assets/copy-several-lists.png)
+
+You can click **Copy List\(s\)** to make a copy of selected list\(s\) or click **Cancel** to return to the **Lists** view page. Please note that lists can also be copied to a particular folder or sub-folder. Check the [**Creating folders** ](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#creating-folders)section for more details about how to make new folders and sub-folders. 
+
+![](../../../.gitbook/assets/copy-one.png)
+
+![](../../../.gitbook/assets/copy-all.png)
+
+ For each copied list, a new list will be created with the same name as the original list and an underscore followed by a number. You should see a message at the top of the page informing you of the new list\(s\) created, and the copied list\(s\) will appear at the top of the **Lists** view page. You can then change the default name of the copied list\(s\) to any preferred name; please see [**Renaming lists**](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#renaming-lists) for more details. 
+
+![](../../../.gitbook/assets/copy-list-2-edited.png)
 
 ### Renaming lists
 

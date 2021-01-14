@@ -4,7 +4,7 @@
 
 A **list** in InterMine refers to multiple items of the same type - for example, a list of genes or a list of binding sites. A list cannot contain a mixture of types - e.g. genes and proteins. To access your lists library, click on the **Lists** tab in the main menu bar. 
 
-![Lists tab](../../../.gitbook/assets/lists-w-border.png)
+![](../../../.gitbook/assets/lists-11.png)
 
 The following is a breakdown of what each key item in the **Lists view page** means: 
 

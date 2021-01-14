@@ -4,17 +4,19 @@
 
 A **list** in InterMine refers to multiple items of the same type - for example, a list of genes or a list of binding sites. A list cannot contain a mixture of types - e.g. genes and proteins. To access your lists library, click on the **Lists** tab in the main menu bar. 
 
-![](../../../.gitbook/assets/lists-11.png)
+![](../../../.gitbook/assets/lists-tab.png)
 
 The following is a breakdown of what each key item in the **Lists view page** means: 
 
-1. You need to be logged in to your InterMine account![](../../../.gitbook/assets/61205.png)to have access to your stored lists and to accomplish certain tasks that are not available to guests, including copying, editing and deleting lists. 
+1. You need to be logged in to your InterMine account![](../../../.gitbook/assets/61205.png)to access your saved lists and perform specific tasks not available to guests, including copying, editing, and deleting lists.
 2. You can filter lists by typing in any keyword in the search field.
 3. You can analyse your lists using the given set operations. These operations are inactive by default, and you need two or more lists to activate them. Please check [List set operations](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#list-set-operations) ****for more details.
 4. You can control the number of rows shown per page to 20, 50, or 100
 5. You can sort lists by date, type, tags, etc. 
-6. This icon![](../../../.gitbook/assets/download-removebg-preview.png)represents a public list. 
-7. Controls to copy, move or delete a given list or a group of lists
+6. You can use ![](../../../.gitbook/assets/refresh.png)to refresh your lists
+7. This icon![](../../../.gitbook/assets/download-removebg-preview.png)represents a public list; while the yellow user ![](../../../.gitbook/assets/61205.png) icon represents a private list/folder. 
+8. You can create folders and subfolders to save your lists
+9. Controls to copy, move or delete a given list or a group of lists
 
 ### Public lists![](../../../.gitbook/assets/download-removebg-preview.png) 
 
@@ -23,7 +25,7 @@ A public list is a list that has been created by InterMine developers and is ava
 ![](../../../.gitbook/assets/public-list%20%281%29.png)
 
 {% hint style="info" %}
-You can't modify a public list. Instead, make your own copy of a particular public list to edit it. Please check [How do I copy a list?](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#how-do-i-copy-a-list) for more details.
+You can't modify a public list. Instead, make your own copy of that list to be able to edit it. Please check [How do I copy a list?](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#how-do-i-copy-a-list) for more details.
 {% endhint %}
 
 ### Creating lists
@@ -36,15 +38,15 @@ Remember that you need to have an account prior to copying or storing any lists.
 
 ### Viewing lists
 
-By default, when you click on the **Lists** tab, all of your lists will be shown; privates lists are only shown if you are logged in to your account. To filter your lists, you can use one of the available filtering options, such as date, tags, etc., shown in the next screenshot. 
+By default, when you click on the **Lists** tab, all of your lists will be shown; private lists are only shown if you are logged in to your account. To filter your lists, you can use one of the provided filtering options, such as date, tags, etc., shown in the next screenshot. 
 
-![](../../../.gitbook/assets/filter-0.png)
+![](../../../.gitbook/assets/list-filters.png)
 
-For example, you can select to only view your private lists, public lists, lists saved in a particular folder first, or all of your lists at once by using the dropdown menu shown in the following screenshot. Check the Creating folders section for more details about how to make new folders. 
+By default, all public and private lists/folders are shown, but it is possible to only view your private lists, public lists, lists saved in a particular folder first by using the dropdown menu. 
 
-![](../../../.gitbook/assets/view-lists-edited.png)
+![](../../../.gitbook/assets/list-filtering-2.png)
 
-![Viewing private lists only](../../../.gitbook/assets/private-lists-only.png)
+![Displaying private lists only](../../../.gitbook/assets/private-lists-only%20%281%29.png)
 
 {% hint style="info" %}
 Remember to log in to your account to view and manage your private lists
@@ -58,17 +60,17 @@ You can manage your lists through the **Lists** view page. While logged in to yo
 
 Tags can be used to organise your lists into categories. You can add your preferred tags to your saved lists by clicking on the **Edit list** icon✏in the **Lists** view page. 
 
-![](../../../.gitbook/assets/edit-lists-0-1.png)
+![](../../../.gitbook/assets/private-list-no-tag.png)
 
 ![](../../../.gitbook/assets/new-tag-cut.png)
 
-![Adding tags](../../../.gitbook/assets/mytag-cut.png)
+![Adding a tag](../../../.gitbook/assets/mytag-cut.png)
 
 You can then filter your lists by one of the available tags in the **Lists** view page. 
 
-![](../../../.gitbook/assets/filter-by-tag-1.png)
+![](../../../.gitbook/assets/filtering-by-tag.png)
 
-![Filter lists by tags](../../../.gitbook/assets/filter-by-tag-2.png)
+![](../../../.gitbook/assets/mytag-updated.png)
 
 ### Using lists in searches
 
@@ -82,7 +84,7 @@ All lists have an associated [List analysis pages](list-analysis-pages.md), whic
 
 Sets of lists can be analysed using the **Combine**, **Intersect**, **Subtract** and **Difference** functions. These set operations are available in the Lists view page. 
 
-![Set operations](../../../.gitbook/assets/lists-set-functions-2.png)
+![Lists set operations](../../../.gitbook/assets/set-operations.png)
 
 To use any of these functions:
 

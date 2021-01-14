@@ -130,7 +130,7 @@ Remember to log in to your account to copy any list\(s\)
 
 ![](../../../.gitbook/assets/copy-a-list.png)
 
-* To copy multiple lists at once, use the checkboxes on the left of each list to select one or more lists. Then, you can copy selected lists using the **Copy All** option shown in the menu at the bottom of the page.
+* To copy multiple lists at once, use the checkboxes on the left of each list to select one or more lists. Then, you can copy all selected lists using the **Copy All** option shown at the bottom of the page.
 
 ![](../../../.gitbook/assets/copy-several-lists.png)
 
@@ -140,42 +140,50 @@ You can click **Copy List\(s\)** to make a copy of selected list\(s\) or click *
 
 ![](../../../.gitbook/assets/copy-all.png)
 
- For each copied list, a new list will be created with the same name as the original list and an underscore followed by a number. You should see a message at the top of the page informing you of the new list\(s\) created, and the copied list\(s\) will appear at the top of the **Lists** view page. You can then change the default name of the copied list\(s\) to any preferred name; please see [**Renaming lists**](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#renaming-lists) for more details. 
+ For each copied list, a new list will be created with the same name as the original list and an underscore followed by a number. You should see a message at the top of the page informing you of the new list\(s\) created, and the copied list\(s\) will appear at the top of the **Lists** view page. The default name of the copied list\(s\) can be changed to any preferred name; please see [**Renaming lists**](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#renaming-lists) for more details. 
 
-![](../../../.gitbook/assets/copy-list-2-edited.png)
+![](../../../.gitbook/assets/copied-list-default.png)
 
 ### Renaming lists
 
-To rename a list, you must be logged in to your user account. Click on the Edit list ✏ icon on the far right of the list's name. 
+To rename a list, you must be logged in to your user account. Click on the Edit list✏icon on the far right of the list's name. 
 
-![](../../../.gitbook/assets/edit-list-0.png)
+![](../../../.gitbook/assets/my-copied-list-0.png)
 
-A fillable form will be shown that you can use to change the title - the name of the list,  provide a description, and to add any tag\(s\). 
+A fillable form will be shown that you can use to change the title - the name of the list,  provide a description, and add any tag\(s\). Click **Save** to proceed or **Cancel** to exit the **Edit list** window. 
 
-![Rename a list](../../../.gitbook/assets/rename-a-list.png)
+![](../../../.gitbook/assets/rename-a-list-zoomed.png)
 
 ### Downloading lists
 
-Lists can be downloaded from the **Lists** view page. You can select any particular list, and you will be taken to the list's detailed results table page. 
+Lists can be downloaded from the **Lists** view page. You can click on any list you want, and you will be taken to the list's detailed results table page. 
 
-![](../../../.gitbook/assets/download-list.png)
+![](../../../.gitbook/assets/export-a-list.png)
 
-You can click the **Export** button on the right of the resulting table to download the results to your device. You can export the results ****in different formats, such as tsv, csv, or fasta.  
+Click the **Export** button on the right of the resulting table to download the results to your device. You can export the results ****in different formats, such as tsv, csv, or fasta.  
 
-![](../../../.gitbook/assets/download-list-2.png)
+![](../../../.gitbook/assets/download-list-2%20%281%29.png)
 
 ### Deleting lists
 
-You can delete a list from the **Lists** **view** page. 
+You can delete a list or several lists from the **Lists** **view** page.
 
-![](../../../.gitbook/assets/delete-a-list.png)
+* To delete a single list, lick on the delete ****icon on the right of your list of interest. 
+
+![](../../../.gitbook/assets/delete-a-list%20%281%29.png)
+
+* To delete multiple lists at once, use the checkboxes on the left of each list to select one or more lists. Then, you can delete all selected lists using the **Delete All** option shown at the bottom of the page.
+
+![](../../../.gitbook/assets/delete-many-lists.png)
 
 Select any list you want to delete and click on the **delete** icon to delete that list permanently.
 
-![Deleting a list](../../../.gitbook/assets/delete-a-list-1-edited.png)
+![](../../../.gitbook/assets/delete-one-list.png)
+
+![](../../../.gitbook/assets/delete-all.png)
 
 {% hint style="danger" %}
-Please note that deleting a list is an irreversible action, and it only applies to your own lists!
+Please note that deleting a list is an irreversible action, and it only applies to your private lists!
 {% endhint %}
 
 ### Creating folders

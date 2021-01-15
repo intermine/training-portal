@@ -10,7 +10,7 @@ A template search has a simple form with one or more entry fields. You can fill 
 
 ### Finding the template search that you want
 
-There is a long list of pre-defined searches, and checking all available templates can be time-consuming. To find any template of interest, you can filter the templates list by keyword/description or by data category. ****
+There is a long list of pre-defined searches, and checking all available templates can be time-consuming. To find any template of interest, you can filter the templates list by keyword/description or data category. ****
 
 ![Filtering templates](../../.gitbook/assets/template-filtering%20%282%29.png)
 
@@ -20,7 +20,7 @@ If you are unsure which category to use as a filter, category tags are shown at 
 
 ### Running a template search
 
-A template search provides you with a fillable form with one or more fields to set. Some entry fields may require entering a value; while others have a set of available choices in a drop-down list. Some templates offer optional search constraints that you can turn On and Off as desired. Once everything looks good, click **View &gt;&gt;** to expand the template details, including the results preview and the constraints window. 
+A template search provides you with a fillable form with one or more fields to set. Some entry fields may require entering a value; while others have a set of available choices in a drop-down list. Some templates offer optional search constraints that you can turn On and Off as desired. Once everything looks good, click **View &gt;&gt;** to expand the template details, including the results' preview and the constraints window. 
 
 ![](../../.gitbook/assets/view-templates.png)
 
@@ -36,7 +36,7 @@ You can run a template search with a more complex set of constraints - i.e. opti
 
 ### How do I run a template search with one of my lists or a public list?
 
-First, remember to **log in** to your account to view and use your saved lists. Every template can be run on relevant Lists of objects by selecting the **In list** option. When you run a template on a given list, you are technically searching the database for information related to every item in the used list. 
+First, remember to **log in** to your account to view and use your saved lists. Every template can be run on relevant Lists of objects by selecting the **In list** option. When you run a template on a given list, you are technically searching the database for information related to every item in that list. 
 
 ![](../../.gitbook/assets/in-list%20%282%29.png)
 

@@ -51,6 +51,7 @@
       * [List analysis](content/user-documentation/lists/list-analysis-pages.md)
     * [Regions Search](content/user-documentation/region-search.md)
     * [Report Pages](content/user-documentation/report-pages.md)
+    * [Account](content/user-documentation/account.md)
     * [InterMine Mobile](content/user-documentation/intermine-mobile.md)
     * [Contact Us](content/user-documentation/contact-us.md)
     * [Frequently Asked Questions](content/user-documentation/questions-faqs.md)

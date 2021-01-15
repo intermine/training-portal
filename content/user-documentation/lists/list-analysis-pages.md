@@ -5,14 +5,14 @@
 Every list has an associated list analysis page. A list analysis page is analogous to a gene report page that provides collated information about all objects in a particular list. When you upload a new list, you will be automatically taken to its list analysis page. To access the list analysis page for public lists available in the database, click on the [Lists](lists.md) tab. Clicking on a list name will display its associated analysis page. 
 
 {% hint style="info" %}
-Remember, you must be logged in to view your private lists!
+Remember, you must be logged in to your account to view your private lists!
 {% endhint %}
 
 ![](../../../.gitbook/assets/lists-analysis-edited.png)
 
 ### The list summary
 
-The list summary provides the main identifiers for the objects in your list. For example, the next screenshot shows 86 rows for all 86 genes in the selected list. The list summary page is a form of Query Results - [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables) that offers the full functionality of  Query Results - [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables) page. It also includes the List **Enrichment Statistics** on the right of the analysis page, and the **GO-term Visualizer** at the bottom of the page. 
+The list summary provides the main identifiers for the objects in your list. For example, the next screenshot shows 86 rows for all 86 genes in the selected list. The summary page is a form of Query Results - [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables) that offers the full functionality of  Query Results - [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables) page. It also includes the List **Enrichment Statistics** on the right of the analysis page, and the **GO-term Visualizer** at the bottom of the page. 
 
 ![](../../../.gitbook/assets/list-summary-1.png)
 

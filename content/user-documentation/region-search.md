@@ -2,11 +2,13 @@
 
 ### Overview
 
-The Region Search allows you to search for features that overlap a list of genome coordinates. It is found under the **Regions** tab in the main InterMine header.
+The regions search allows you to search for features that overlap a list of genome coordinates you enter. It is found under the **Regions** tab in the BlueGenes top navigation bar.
 
 ![](../../.gitbook/assets/regions-tab-1.png)
 
 ![](../../.gitbook/assets/regions-form.png)
+
+To conduct a regions search, you need to follow a few easy steps: 
 
 1. First, type in chromosome coordinates in the box with each input coordinates or genomic region needs to be on a separate line. The following formats are accepted:  
    * chromosome:start..end, e.g. 2:14615455..14619002 
@@ -18,12 +20,12 @@ The Region Search allows you to search for features that overlap a list of genom
 ![Running a regions search with sample coordinates](../../.gitbook/assets/regions-search-0.png)
 
 {% hint style="info" %}
-Like most genome portals, such as NCBI, bioinformatics software, such as BLAST, and annotation file formats like SAM and VCF, BlueGenes use the[ base coordinate system](http://bergmanlab.genetics.uga.edu/?s=coordinate), representing a feature starting at the first nucleotide as position 1. 
+Like most genome portals, such as NCBI, bioinformatics software, such as BLAST, and annotation file formats like SAM and VCF, BlueGenes use the[ Base Coordinate System](http://bergmanlab.genetics.uga.edu/?s=coordinate), which represents a feature starting at the first nucleotide as position 1.  
 {% endhint %}
 
 ### Regions Search Results
 
-The regions search provides results in a tabular format. The resulting table displays each of your regions in turn with all features found and their genomic location.  
+The regions search provides results in a tabular format or as a [Report Page](report-pages.md). The resulting table displays each of your regions in turn with all features found and their genomic location.  
 
 ![](../../.gitbook/assets/region-search-results.png)
 
@@ -34,6 +36,10 @@ You can click on any feature to expand more details about that feature. For exam
 The Data section provides more information about the selected feature using Results Tables. Check the [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables) section for more details on managing, saving or exporting each data table.
 
 ![](../../.gitbook/assets/regions-data-1.png)
+
+{% hint style="info" %}
+Check the [Report Pages](report-pages.md) section to understand the results of a Regions Search better. 
+{% endhint %}
 
 ### Troubleshooting
 

@@ -26,6 +26,8 @@ A template search provides you with a fillable form with one or more fields to s
 
 ![](../../.gitbook/assets/run-template%20%282%29.png)
 
+The “Lookup” means that you can use any sort of gene identifier or symbol. Genes usually have at least one identifier \(often more than one\) and an official symbol \(e.g the human PPAG gene also has the identifiers 5468, and ENSG0000013217\). The lookup constraint means you do not have to specify whether you are providing a symbol or any type of identifiers - you can give any of these.
+
 The previous screenshot is only a preview that doesn't display full results; to access all results of a given template, click **View Rows.**  
 
 ![](../../.gitbook/assets/template-results-table-edited.png)
@@ -36,13 +38,17 @@ You can run a template search with a more complex set of constraints - i.e. opti
 
 ### How do I run a template search with one of my lists or a public list?
 
-First, remember to **log in** to your account to view and use your saved lists. Every template can be run on relevant Lists of objects by selecting the **In list** option. When you run a template on a given list, you are technically searching the database for information related to every item in that list. 
+First, remember to **log in** to your account to view and use your saved lists. Every template can be run on relevant lists of objects by selecting the **In list** option. When you run a template on a given list, you are technically searching the database for information related to every item in that list. 
 
 ![](../../.gitbook/assets/in-list%20%282%29.png)
 
 If you have a list of the correct type \(e.g. a list of genes\) or a public one that matches your needs exists, you can select your preferred list from the shown drop-down set. 
 
 ![](../../.gitbook/assets/in-list-2%20%281%29.png)
+
+There is also a “Not in list” option which you can use to exclude items \(e.g. genes\) from your search. This will search all items except those in the list specified. 
+
+![](../../.gitbook/assets/not-in-list%20%281%29.png)
 
 ### Understanding your results
 

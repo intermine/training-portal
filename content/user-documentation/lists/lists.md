@@ -126,7 +126,7 @@ Copying a list or several lists can be done from the [**Lists** **view page**](h
 Remember to log in to your account to copy any list\(s\)
 {% endhint %}
 
-* To copy a single list, lick on the copy ****icon![](../../../.gitbook/assets/download-1-.png)on the right of your list of interest. 
+* To copy a single list, click on the copy ****icon![](../../../.gitbook/assets/download-1-.png)on the right of your list of interest. 
 
 ![](../../../.gitbook/assets/copy-a-list.png)
 
@@ -134,7 +134,7 @@ Remember to log in to your account to copy any list\(s\)
 
 ![](../../../.gitbook/assets/copy-several-lists.png)
 
-You can click **Copy List\(s\)** to make a copy of selected list\(s\) or click **Cancel** to exit the Copy list\(s\) window. 
+You can click **Copy List\(s\)** to make a copy of the selected list\(s\) or click **Cancel** to exit the Copy list\(s\) window. 
 
 {% hint style="info" %}
 Please note that lists can also be copied to a particular folder or sub-folder. Check the [**Creating folders** ](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#creating-folders)section for more details about how to make new folders and sub-folders. 
@@ -154,7 +154,7 @@ To rename a list, you must be logged in to your user account. Click on the Edit 
 
 ![](../../../.gitbook/assets/my-copied-list-0.png)
 
-A fillable form will be shown that you can use to change the title - the name of the list,  provide a description, and add any tag\(s\). Click **Save** to proceed or **Cancel** to exit the **Edit list** window. 
+A fillable form will be shown that you can use to change the title - the name of the list,  provide a description and add any tag\(s\). Click **Save** to proceed or **Cancel** to exit the **Edit list** window. 
 
 ![](../../../.gitbook/assets/rename-a-list-zoomed.png)
 
@@ -172,7 +172,7 @@ Click the **Export** button on the right of the resulting table to download the 
 
 You can delete a list or several lists from the **Lists** **view** page.
 
-* To delete a single list, lick on the delete ****icon on the right of your list of interest. 
+* To delete a single list, click on the delete ****icon on the right of your list of interest. 
 
 ![](../../../.gitbook/assets/delete-a-list%20%281%29.png)
 
@@ -180,7 +180,7 @@ You can delete a list or several lists from the **Lists** **view** page.
 
 ![](../../../.gitbook/assets/delete-many-lists.png)
 
-You can click Delete List\(s\) to romove selected list\(s\) permanently or click Cancel to exit the Delete list\(s\) window.
+You can click Delete List\(s\) to remove selected list\(s\) permanently or click Cancel to exit the Delete list\(s\) window.
 
 ![](../../../.gitbook/assets/delete-one-list.png)
 

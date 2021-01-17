@@ -26,7 +26,7 @@ A template search provides you with a fillable form with one or more fields to s
 
 ![](../../.gitbook/assets/run-template%20%282%29.png)
 
-The “Lookup” means that you can use any sort of gene identifier or symbol. Genes usually have at least one identifier \(often more than one\) and an official symbol \(e.g the human PPAG gene also has the identifiers 5468, and ENSG0000013217\). The lookup constraint means you do not have to specify whether you are providing a symbol or any type of identifiers - you can give any of these.
+The “Lookup” means that you can use any sort of gene identifier or symbol. Genes usually have at least one identifier \(often more than one\) and an official symbol \(e.g the human PPARG gene also has the identifiers 5468, and ENSG0000013217\). The lookup constraint means you do not have to specify whether you are providing a symbol or an identifier - you can give any of these.
 
 The previous screenshot is only a preview that doesn't display full results; to access all results of a given template, click **View Rows.**  
 

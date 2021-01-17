@@ -1,10 +1,20 @@
 # Account
 
+You need to create a different account for each InterMine database you use; we hope to support single sign-on in the future. You can access your account from the top navigation bar. 
+
+![](../../.gitbook/assets/account.png)
+
+![](../../.gitbook/assets/account-form.png)
+
 ### How do I create an account?
 
-Create an account through the Log in link:
+You can create an account through the Login tab in the top navigation bar. Click on the "**I don't have an account**" link in the previous screenshot to register by entering a valid email address and a password. 
 
-**NOTE - any information saved in your account is private. It will not be accessible by other users and we will not inspect your saved data beyond automatic performance optimisation and updates.**
+![](../../.gitbook/assets/create-account.png)
+
+{% hint style="info" %}
+Your account information is private, which will not be accessible by other users and we won't be inspected beyond automatic performance optimisation and updates. You can read our [Privacy Policy](https://intermine.readthedocs.io/en/latest/about/privacy-policy/) for more details. 
+{% endhint %}
 
 ### Password
 

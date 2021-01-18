@@ -11,7 +11,7 @@ The following is a breakdown of key fields in the list upload form:
 1. The type of list - you can select the type of list you are uploading from the drop-down menu, e.g. gene or protein. 
 2. The organism your items are from. You can select the organism from the available drop-down menu. However, It is still possible to upload a list containing items from more than one organism by setting the organism to ‘Any’.
 3. Check the box, if list identifiers are case sensitive. This option is useful in some cases, for example when entering gene symbols for Drosophila melanogaster, where the case matters.  
-4. You can type in your list or paste it as a text with identifiers seperated by a comma, space, tab or new line. see the screenshot under the **Free Text** tab below for an example. 
+4. You can type in your list or paste it as a text with identifiers separated by a comma, space, tab or a new line. see the screenshot under the **Free Text** tab below for an example. 
 5. If you are unsure how to add your list in text format, click the **Example** button for a sample text. 
 6. You can upload a list from a file; only .txt files are accepted. Although the type of items you are uploading must be the same, the type of identifier can differ. For example, you can enter a mixture of gene symbols, identifiers and names. Check the screenshot under the **File Upload** tab below.  
 7. You can click **Continue** to ****activate the identifier resolution system. A search will be performed for all the identifiers in your list. You can click **Reset** to cancel. 

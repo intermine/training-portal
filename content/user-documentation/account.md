@@ -24,7 +24,7 @@ The account details tab allows you to set various aspects of your account as fol
 
 **Inform me by email of newly shared lists:** Do you want to receive an email if someone shares a list with you? 
 
-**Allow other users to share lists with me without confirmation:** Do you want users to be able to share lists with you without asking first?
+**Allow other users to share lists with me without confirmation:** Do you want users to be able to share lists with you without asking first? 
 
 **Display name:** Set the name displayed in your InterMine interface.
 

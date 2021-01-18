@@ -42,7 +42,7 @@ By default, when you click on the **Lists** tab, all of your lists will be shown
 
 ![](../../../.gitbook/assets/list-filters.png)
 
-By default, all public and private lists/folders are shown, but it is possible to only view your private lists, public lists, lists saved in a particular folder first by using the dropdown menu. 
+By default, all public and private lists/folders are shown, but it is possible to only view your private lists, public lists, lists saved in a particular folder first by using the dropdown menu.  
 
 ![](../../../.gitbook/assets/list-filtering-2.png)
 

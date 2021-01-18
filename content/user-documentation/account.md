@@ -30,8 +30,10 @@ The account details tab allows you to set various aspects of your account as fol
 4. **Your preferred email address:** Set the email address you prefer to use for correspondence - for example**,** if someone shares a list with you. This could be different from the email you use to login to your account. 
 5. **The URL of your preferred Galaxy instance:** Results can be exported to [Galaxy](http://galaxyproject.org/) - see [Send results to the galaxy](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultsgalaxy). By default the main galaxy server is set; however, if you routinely use another galaxy instance, you can set this to be the default.
 
-{% hint style="info" %}
 Make sure to click **Save Changes** to update your user settings.
+
+{% hint style="info" %}
+Sharing lists is not yet implemented in the BlueGenes interface. However, if you set your email preferences here, they will be relevant should you use the old interface. We hope to implement the sharing lists feature in BlueGenes soon.
 {% endhint %}
 
 #### Change password:
@@ -46,7 +48,7 @@ You can change your password using the Change password form shown in the previou
 
 ![](../../.gitbook/assets/delete-account-code.png)
 
-To delete your account, you can click Start Account Deletion, which will direct you to a confirmation page. You need to copy and paste the confirmation code in the provided input field and click **Delete Account**. Once completed, you will no longer be able to login to your account and access your content and user preferences on this InterMine instance.
+To delete your account, you can click **Start Account Deletion**, which will direct you to a confirmation page. You need to copy and paste the confirmation code in the provided input field and click **Delete Account**. Once completed, you will no longer be able to login to your account and access your content and user preferences on this InterMine instance.
 
 {% hint style="danger" %}
 Account deletion cannot be undone. 

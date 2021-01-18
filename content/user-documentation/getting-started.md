@@ -39,7 +39,7 @@ Below is a quick description of different sections and their associated function
 * **Query Builder**: an advanced query building tool - you can use this to construct your own searches. You can even turn them into your own template searches.
 * \*\*\*\*[**Keyword Search**](keyword-search.md): a search box appears on the menu bar of all pages and the home page. You can search for any identifier, name, symbol or keyword.
 * \*\*\*\*[**HumanMine**](http://bluegenes.apps.intermine.org/humanmine): an integrated database of Homo sapiens genomic data. You can change HumanMine to a different InterMine instance. Check this [registry](http://registry.intermine.org/) for available instances.   
-* \*\*\*\*[**Account**](account.md): your personal InterMine account where you can manage your lists, queries, templates, etc.  
+* **Account**: your personal InterMine account where you can manage your lists, queries, templates, etc.  
 
 ### InterMine search tools
 

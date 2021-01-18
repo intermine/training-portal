@@ -66,5 +66,5 @@ Yes. When you have an account, any lists or queries you save are stored permanen
 
 #### 2. What happens to my lists and queries when you make a new database release?
 
-All lists and queries are transferred to the new database release. Sometimes identifiers in lists become outdated, and you will be asked to update your list \(see [I am being told to upgrade my lists - what does this mean?](https://flymine.readthedocs.io/en/latest/lists/overview/Documentationlists.html#listsupgrade)\). Occasionally we have to make changes to the underlying data model which may affect any queries you have saved. Please contact [Contact Us](contact-us.md) if you would require any further assistance. 
+All lists and queries are transferred to the new database release. Sometimes identifiers in lists become outdated, and you will be asked to update your list \(see the [Upgrading lists](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/lists/lists#upgrading-lists) section for more details\). Occasionally we have to make changes to the underlying data model which may affect any queries you have saved. Please contact [Contact Us](contact-us.md) if you would require any further assistance. 
 

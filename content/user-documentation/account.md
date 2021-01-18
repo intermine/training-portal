@@ -13,30 +13,44 @@ You can create an account through the Login tab in the top navigation bar. Click
 ![](../../.gitbook/assets/create-account.png)
 
 {% hint style="info" %}
-Your account information is private and won't be accessible by other users. Account information won't be inspected beyond automatic performance optimisation and updates. You can read our [Privacy Policy](https://intermine.readthedocs.io/en/latest/about/privacy-policy/) for more details. 
+Your account information is private and won't be accessible by other users or inspected beyond automatic performance optimisation and updates. You can read our [Privacy Policy](https://intermine.readthedocs.io/en/latest/about/privacy-policy/) for more details. 
 {% endhint %}
 
 ### Profile
 
 The account details tab allows you to set various aspects of your account as follows:
 
-#### User preferences
+#### User preferences:
 
-**Inform me by email of newly shared lists:** Do you want to receive an email if someone shares a list with you? 
+![](../../.gitbook/assets/user-preferences.png)
 
-**Allow other users to share lists with me without confirmation:** Do you want users to be able to share lists with you without asking first? 
+1. **Inform me by email of newly shared lists -** you can select✅ to receive an email if someone shares a list with you. 
+2. **Allow other users to share lists with me without confirmation -** you can allow✅users to share lists with you without asking first. 
+3. **Display name:** Set your public name displayed in your InterMine interface, which can be used when others share lists with you. 
+4. **Your preferred email address:** Set the email address you prefer to use for correspondence - for example**,** if someone shares a list with you. This could be different from the email you use to login to your account. 
+5. **The URL of your preferred Galaxy instance:** Results can be exported to [Galaxy](http://galaxyproject.org/) - see [Send results to the galaxy](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultsgalaxy). By default the main galaxy server is set; however, if you routinely use another galaxy instance, you can set this to be the default.
 
-**Display name:** Set the name displayed in your InterMine interface.
+{% hint style="info" %}
+Make sure to click **Save Changes** to update your user settings.
+{% endhint %}
 
-**Your preferred email address:** Set the email address you prefer to use for correspondence - for example**,** if someone shares a list with you. This could be different from the email you use to login to your account.
+#### Change password:
 
-**The URL of your preferred Galaxy instance:** Results can be exported to [Galaxy](http://galaxyproject.org/) \(see [Send results to the galaxy](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultsgalaxy)\). By default the main galaxy server is set, however, if you routinely use another galaxy instance you can set this to be the default here.
+![](../../.gitbook/assets/password.png)
 
-#### Password
+You can change your password using the Change password form shown in the previous screenshot. You just need to type in your old and new passwords and click Save Password to update your password. 
 
-You can change your password here.
+#### Delete account: 
 
-#### Delete account
+![](../../.gitbook/assets/delete-account%20%281%29.png)
+
+![](../../.gitbook/assets/delete-account-code.png)
+
+To delete your account, you can click Start Account Deletion, which will direct you to a confirmation page. You need to copy and paste the confirmation code in the provided input field and click **Delete Account**. Once completed, you will no longer be able to login to your account and access your content and user preferences on this InterMine instance.
+
+{% hint style="danger" %}
+Account deletion cannot be undone. 
+{% endhint %}
 
 **API access key:**
 

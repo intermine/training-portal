@@ -40,7 +40,7 @@ Sharing lists is not yet implemented in the BlueGenes interface. However, if you
 
 ![](../../.gitbook/assets/password.png)
 
-You can change your password using the Change password form shown in the previous screenshot. You just need to type in your old and new passwords and click Save Password to update your password. 
+You can change your password using the Change password form shown in the previous screenshot. You need to type in your old and new passwords and click Save Password to update your password. 
 
 #### Delete account: 
 
@@ -56,13 +56,15 @@ Account deletion cannot be undone.
 
 **API access key:**
 
-API keys are used to access the features of the [InterMine API](https://intermine.readthedocs.org/en/latest/web-services/) without having to use your username or password.
+API keys are used to access the [InterMine API](https://intermine.readthedocs.org/en/latest/web-services/) features without having to use your username or password.
 
-### Are my lists and searches stored permanently?
+### Troubleshooting
 
-Yes. When you have a MyMine account any lists or queries you save are stored permanently.
+#### 1. Are my lists and searches stored permanently?
 
-### What happens to my lists and queries when you make a new database release?
+Yes. When you have an account, any lists or queries you save are stored permanently.
 
-All lists and queries are transferred to the new database release. Sometimes identifiers in lists become outdated and you will be asked to update your list \(see [I am being told to upgrade my lists - what does this mean?](https://flymine.readthedocs.io/en/latest/lists/overview/Documentationlists.html#listsupgrade)\). Occasionally we have to make changes to the underlying data model which make affect any queries you have saved. Please contact the relevant InterMine \([Contact Us](https://flymine.readthedocs.io/en/latest/contact/Documentationcontact.html#contact)\) if you would like any further information or help about such a query.
+#### 2. What happens to my lists and queries when you make a new database release?
+
+All lists and queries are transferred to the new database release. Sometimes identifiers in lists become outdated, and you will be asked to update your list \(see [I am being told to upgrade my lists - what does this mean?](https://flymine.readthedocs.io/en/latest/lists/overview/Documentationlists.html#listsupgrade)\). Occasionally we have to make changes to the underlying data model which may affect any queries you have saved. Please contact [Contact Us](contact-us.md) if you would require any further assistance. 
 

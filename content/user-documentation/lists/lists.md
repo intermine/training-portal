@@ -158,6 +158,10 @@ A fillable form will be shown that you can use to change the title - the name of
 
 ![](../../../.gitbook/assets/rename-a-list-zoomed.png)
 
+### Upgrading lists
+
+to be added. 
+
 ### Downloading lists
 
 Lists can be downloaded from the **Lists** view page. You can click on any list you want, and you will be taken to the list's detailed results table page. 

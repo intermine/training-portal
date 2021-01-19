@@ -8,10 +8,16 @@ The Query Builder is InterMine’s custom query building interface,  allowing yo
 
 ### Constructing queries
 
-The main query builder page is divided into two main windows, the Model Browser and the Query Editor. There are three steps to construct a query that you need to repeat for any further data required:
+The main query builder page is divided into four main windows, the Model browser, the Query editor, the Preview window, and the Query history. 
+
+![](../../.gitbook/assets/data-model-edited.png)
+
+![](../../.gitbook/assets/query-window.png)
+
+There are three steps to construct a query that you need to repeat for any further data required:
 
 1. Navigate the data model to find the class or attribute you need.
-2. Add the appropriate constraints - or filters - to selecetd class/attribute
+2. Add the appropriate constraints - or filters - to selected class/attribute
 3. Decide on the columns you want to view in your results.
 
  These steps are explained in more detail below.

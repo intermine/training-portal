@@ -2,31 +2,31 @@
 
 ## The Query Builder
 
-The Query Builder is InterMine’s custom query building interface,  allowing you to create and save your own searches. Users usually use this flexible interface to construct their own data mining queries. The QueryBuilder lets you view the data model, apply constraints and select output. To access the query builder, click on the Query Builder tab in the top navigation bar. 
+The Query Builder is InterMine’s custom query building interface,  allowing you to create and save your own searches. Users usually use this flexible interface to construct their own data mining queries. The QueryBuilder lets you view the data model, apply constraints and select your preferred output. To access the query builder, click on the **Query Builder** tab in the top navigation bar. 
 
 ![](../../.gitbook/assets/query-tab.png)
 
 ### Constructing queries
 
-The main query builder page is divided into four main windows, the Model browser, the Query editor, the Preview window, and the Query history. 
+The main query builder page is divided into four main sections, the Model/data browser, the Query editor, the Preview window, and the Query history. 
 
 ![](../../.gitbook/assets/data-model-edited.png)
 
 ![](../../.gitbook/assets/query-window.png)
 
-There are three steps to construct a query that you need to repeat for any further data required:
+There are three steps to construct a query, which you need to repeat for any further data required:
 
-1. Navigate the data model to find the class or attribute you need.
+1. Navigate the model/data browser to find the class or attribute you need.
 2. Add the appropriate constraints - or filters - to selected class/attribute
 3. Decide on the columns you want to view in your results.
 
  These steps are explained in more detail below. 
 
-### Navigate the data model
+### Navigate the data browser
 
 The left-hand pane of the query builder is a model browser. This allows you to navigate through all the data classes from your defined starting point. The classes are linked through logical references - for instance from Gene you can navigate to Proteins, Transcripts and microarray data etc. The classes and references will of course vary for each InterMine. Every class of data has certain attributes \(fields\) associated with it. For instance, a gene has a primary identifier, name and symbol among others. Use the model browser to navigate to the data you are interested in searching. For example, to get to protein domains from the starting point ‘Gene’, you would expand the Protein class first and then the protein domain class. For each class and attribute in the model browser, there is a **show** button and a **constrain** button. These are used to add data to your results and add filters to the data as described below.
 
-### Add a constraint \(filter\) to your query
+### Add a constraint - filter - to your query
 
 Once you have navigated to the data you want to search, you can now add a constraint to return only the set of that data you are interested in. For example, if you want to return all genes which code for proteins with homeo domains, you would add a constraint to the ‘name’ attribute of the protein domain class. The type of constraint you can add depends on the class and attribute. For some, you may just have to add some text. Others may require you to select from a drop-down list. Some will allow you to choose a list of saved objects, e.g. a list of genes. You can add as many constraints as you wish to build up your query. Don’t forget you are building a query from scratch so you may need to put in constraints to limit the organism or the set of genes. The set of constraints you have added is shown in the right-hand pane of the query builder.
 
@@ -34,11 +34,11 @@ HINT: To navigate back to a place in the model browser click on the class name i
 
 ### Choose the data you want in your results
 
-Every attribute has a **show** button. Clicking on this will add that attribute to your select list \(shown below the query builder\). Each attribute will become a column in your results table when you run your search:
+Every attribute has a **Show** button. Clicking on this will add that attribute to your select list \(shown below the query builder\). Each attribute will become a column in your results table when you run your search:
 
 ### Run your search
 
-Once you are happy with your query and the attributes you have selected for your results, press **Show results** to run your search. Your results will be displayed in our [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables).
+Once you are happy with your query and the attributes you have selected for your results, press **Show All Rows** to run your search. Your results will be displayed in our [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables).
 
 ## Advanced features of the query builder
 

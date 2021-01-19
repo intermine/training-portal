@@ -2,17 +2,19 @@
 
 ## The Query Builder
 
-The Query Builder is InterMine’s custom query builder, allowing you to create and save your own searches. To access the query builder you must first decide on a starting point \(or class\) from which to start your query:
+The Query Builder is InterMine’s custom query building interface,  allowing you to create and save your own searches. Users usually use this flexible interface to construct their own data mining queries. The QueryBuilder lets you view the data model, apply constraints and select output. To access the query builder, click on the Query Builder tab in the top navigation bar. 
 
-### Three steps to construct a query
+![](../../.gitbook/assets/query-tab.png)
+
+### Constructing queries
+
+The main query builder page is divided into two main windows, the Model Browser and the Query Editor. There are three steps to construct a query that you need to repeat for any further data required:
 
 1. Navigate the data model to find the class or attribute you need.
-2. Add the appropriate constraint \(or filter\) to the class/attribute
+2. Add the appropriate constraints - or filters - to selecetd class/attribute
 3. Decide on the columns you want to view in your results.
 
-Repeat for any further data required.
-
-These steps are explained in more detail below.
+ These steps are explained in more detail below.
 
 ### Navigate the data model
 
@@ -89,17 +91,17 @@ This is often because just one part of your search does not contain results. If 
 
 ### I am not sure how to start building a search, it looks hard?
 
-Every template query can be displayed in the query builder. Try looking at some of the simpler template searches in the query builder and see how they have been constructed. Use this as a starting point to play around with changing a constraint or change what is shown in the results table. If you need extra help, please [Contact Us](https://flymine.readthedocs.io/en/latest/contact/Documentationcontact.html#contact).
+Every template query can be displayed in the query builder. Try looking at some of the simpler template searches in the query builder and see how they have been constructed. Use this as a starting point to play around with changing a constraint or change what is shown in the results table. If you need extra help, please [Contact Us](contact-us.md).
 
 To decide which class to select to begin building a query think about the data you are trying to return. For example, if you want to know about the expression of a set of genes, you can start your query from Gene, where you can define which genes you are interested in and from here navigate to the expression data, where you can define what expression data you which to see. However, you could construct the same query by starting from the expression data and defining this first. The expression data links to Genes and so you can then add your gene constraint.
 
 ### I can’t find the data I am looking for in the model browser
 
-The data model is based on the sequence ontology and so follows the logical relationships found in biological data - i.e. Exons are referenced from Gene and Protein domains are referenced from Protein. Many additional classes and fields have been added and these also follow logical biological relationships. So if you are looking for Gene expression data, you will find this referenced from Gene. For details of all the data sources loaded to see the [Data](https://flymine.readthedocs.io/en/latest/data/Documentationdata.html#data) tab. If you need additional help, please [Contact Us](https://flymine.readthedocs.io/en/latest/contact/Documentationcontact.html#contact).
+The data model is based on the sequence ontology and so follows the logical relationships found in biological data - i.e. Exons are referenced from Gene and Protein domains are referenced from Protein. Many additional classes and fields have been added and these also follow logical biological relationships. So if you are looking for Gene expression data, you will find this referenced from Gene. For details of all the data sources loaded to see the [Data](https://flymine.readthedocs.io/en/latest/data/Documentationdata.html#data) tab. If you need additional help, please [Contact Us](contact-us.md).
 
 ### I don’t understand what this field/class means.
 
-Some of the fields have an information icon which provides an additional description of the field. Otherwise, if you are unsure of the contents of a field, add it to your results and run the query. Most searches run very quickly so it is easy to move to and from the results while you fine-tune your query. It is also possible to do this from within the [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables). If need additional help, please [Contact Us](https://flymine.readthedocs.io/en/latest/contact/Documentationcontact.html#contact).
+Some of the fields have an information icon which provides an additional description of the field. Otherwise, if you are unsure of the contents of a field, add it to your results and run the query. Most searches run very quickly so it is easy to move to and from the results while you fine-tune your query. It is also possible to do this from within the [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables). If need additional help, please [Contact Us](contact-us.md).
 
 ### How do I navigate to a class I have constrained without having to go through the model?
 

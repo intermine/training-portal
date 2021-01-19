@@ -20,7 +20,7 @@ There are three steps to construct a query that you need to repeat for any furth
 2. Add the appropriate constraints - or filters - to selected class/attribute
 3. Decide on the columns you want to view in your results.
 
- These steps are explained in more detail below.
+ These steps are explained in more detail below. 
 
 ### Navigate the data model
 

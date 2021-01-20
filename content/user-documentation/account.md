@@ -8,7 +8,7 @@ You need to create a different account for each InterMine database you use; we h
 
 ### How do I create an account?
 
-You can create an account through the Login tab in the top navigation bar. Click on the "**I don't have an account**" link in the previous screenshot to register by entering a valid email address and a password. 
+You can create an account through the **Login** tab in the top navigation bar. Click on the "**I don't have an account**" link shown in the previous screenshot to register by entering a valid email address and a password. A confirmation email will be sent to your email address after you have successfully created an account.
 
 ![](../../.gitbook/assets/create-account.png)
 

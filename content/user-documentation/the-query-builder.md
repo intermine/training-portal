@@ -6,15 +6,27 @@ The Query Builder is InterMine’s custom query building interface,  allowing yo
 
 ![](../../.gitbook/assets/query-tab.png)
 
-### Constructing queries
+The main query builder page is divided into four main sections: 
 
-The main query builder page is divided into four main sections, the Model/data browser, the Query editor, the Preview window, and the Query history. 
+* The Model or data browser to find your data of interest.
 
 ![](../../.gitbook/assets/data-model-edited.png)
 
-![](../../.gitbook/assets/query-window.png)
+* The Query editor to edit and define the search and manage selected columns, including sorting columns alphabetically in ascending order. 
 
-There are three steps to construct a query, which you need to repeat for any further data required:
+![](../../.gitbook/assets/query-editor-edited.png)
+
+* The Preview window to preview the query under creation. The XML format can also be generated. 
+
+![](../../.gitbook/assets/preview-edited.png)
+
+* The Query history to show recent queries. You can also view saved queries and import query from XML. 
+
+![](../../.gitbook/assets/history-edited.png)
+
+### Constructing queries
+
+There are three steps to construct a query, which you can repeat for any additional data required:
 
 1. Navigate the model/data browser to find the class or attribute you need.
 2. Add the appropriate constraints - or filters - to selected class/attribute.
@@ -24,7 +36,7 @@ There are three steps to construct a query, which you need to repeat for any fur
 
 ### Navigate the data browser
 
-The left-hand pane of the query builder is a model browser. This allows you to navigate through all the data classes from your defined starting point. The classes are linked through logical references - for instance, you can navigate from Gene to Proteins, Transcripts and microarray data etc. The classes and references will, of course, vary for each InterMine. Every class of data has certain attributes \(fields\) associated with it. For instance, a gene has a primary identifier, name and symbol, among others. Use the model browser to navigate to the data you are interested in searching. For example, to get to protein domains from the starting point ‘Gene’, you would expand the Protein class first and then the protein domain class. For each class and attribute in the model browser, there is a **show** button and a **constrain** button. These are used to add data to your results and add filters to the data as described below.
+The left-hand pane of the query builder is a model browser. This allows you to navigate through all the data classes from your defined starting point. You must first decide on a starting point - or a class - from which you can start your query. The classes are linked through logical references - for instance, you can navigate from gene to proteins, transcripts and microarray data etc. Classes and references will vary for each InterMine. Every class of data has certain attributes - fields - associated with it; for instance, a gene has a primary identifier, name and symbol, among others. Use the model browser to navigate to the data you are interested in searching. For example, to get to protein domains from **Gene** as the starting point, you would expand the **Protein** class first and then the protein domain class. For each class and attribute in the model browser, there is a **checkbox** that you can use to add - or remove - a given class or attribute to your results.
 
 ### Add a constraint - filter - to your query
 

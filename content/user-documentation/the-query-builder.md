@@ -17,22 +17,22 @@ The main query builder page is divided into four main sections, the Model/data b
 There are three steps to construct a query, which you need to repeat for any further data required:
 
 1. Navigate the model/data browser to find the class or attribute you need.
-2. Add the appropriate constraints - or filters - to selected class/attribute
+2. Add the appropriate constraints - or filters - to selected class/attribute.
 3. Decide on the columns you want to view in your results.
 
  These steps are explained in more detail below. 
 
 ### Navigate the data browser
 
-The left-hand pane of the query builder is a model browser. This allows you to navigate through all the data classes from your defined starting point. The classes are linked through logical references - for instance from Gene you can navigate to Proteins, Transcripts and microarray data etc. The classes and references will of course vary for each InterMine. Every class of data has certain attributes \(fields\) associated with it. For instance, a gene has a primary identifier, name and symbol among others. Use the model browser to navigate to the data you are interested in searching. For example, to get to protein domains from the starting point ‘Gene’, you would expand the Protein class first and then the protein domain class. For each class and attribute in the model browser, there is a **show** button and a **constrain** button. These are used to add data to your results and add filters to the data as described below.
+The left-hand pane of the query builder is a model browser. This allows you to navigate through all the data classes from your defined starting point. The classes are linked through logical references - for instance, you can navigate from Gene to Proteins, Transcripts and microarray data etc. The classes and references will, of course, vary for each InterMine. Every class of data has certain attributes \(fields\) associated with it. For instance, a gene has a primary identifier, name and symbol, among others. Use the model browser to navigate to the data you are interested in searching. For example, to get to protein domains from the starting point ‘Gene’, you would expand the Protein class first and then the protein domain class. For each class and attribute in the model browser, there is a **show** button and a **constrain** button. These are used to add data to your results and add filters to the data as described below.
 
 ### Add a constraint - filter - to your query
 
-Once you have navigated to the data you want to search, you can now add a constraint to return only the set of that data you are interested in. For example, if you want to return all genes which code for proteins with homeo domains, you would add a constraint to the ‘name’ attribute of the protein domain class. The type of constraint you can add depends on the class and attribute. For some, you may just have to add some text. Others may require you to select from a drop-down list. Some will allow you to choose a list of saved objects, e.g. a list of genes. You can add as many constraints as you wish to build up your query. Don’t forget you are building a query from scratch so you may need to put in constraints to limit the organism or the set of genes. The set of constraints you have added is shown in the right-hand pane of the query builder.
+Once you have navigated to the data you want to search, you can now add a constraint to return only the set of that data you are interested in. For example, if you want to return all genes which code for proteins with homeo domains, you would add a constraint to the ‘name’ attribute of the protein domain class. The type of constraint you can add depends on the class and attribute. For some, you may have to add some text. Others may require you to select from a drop-down list. Some will allow you to choose a list of saved objects, e.g. a list of genes. You can add as many constraints as you wish to build up your query. Don’t forget you are building a query from scratch so you may need to put in constraints to limit the organism or the set of genes. The set of constraints you have added is shown in the right-hand pane of the query builder.
 
-HINT: To navigate back to a place in the model browser click on the class name in the right-hand pane:
+HINT: To navigate back to a place in the model browser, click on the class name in the right-hand pane:
 
-### Choose the data you want in your results
+### Choose the data you want in your results.
 
 Every attribute has a **Show** button. Clicking on this will add that attribute to your select list \(shown below the query builder\). Each attribute will become a column in your results table when you run your search:
 
@@ -48,7 +48,7 @@ Some classes have subclasses - i.e. more specialised sets of the main class. For
 
 ### Outer joins
 
-When adding a constraint to a query, you need to also consider whether you want this constraint to limit your results to just those items with that information or if you want your results to show all the items and the new feature if it exists. For example, if you are adding a constraint to the protein domain class for homeobox, and selecting to show genes and proteins in your results, do you want your results to show:
+When adding a constraint to a query, you also need to consider whether you want this constraint to limit your results to just those items with that information or if you want your results to show all the items and the new feature if it exists. For example, if you are adding a constraint to the protein domain class for homeobox, and selecting to show genes and proteins in your results, do you want your results to show:
 
 1. Only genes and proteins which contain a homeobox \(inner join\)
 2. All genes and proteins and indicate which contain a homeobox. \(outer join\)
@@ -59,11 +59,11 @@ Note that the column summary and filtering still applies to the results table as
 
 ### Loop queries
 
-It is possible to constrain a class to the result of a constraint in another class. For example, if you search for GO terms and their children, you need to constrain the Parents.GO term collection to the GO term you are searching for and ‘show’ the Ontology term.GO terms for the children. However in doing this, if you select to show the columns ‘Parents.Go term.name’ and ‘Ontology term.Go term.name’, the parent term will appear in both columns. However by putting in a loop constraint on the GO term that says this field should not be equal to the GO term parent field, then the parent will now only be shown in the parent column:
+It is possible to constrain a class to the result of a constraint in another class. For example, if you search for GO terms and their children, you need to constrain the Parents.GO term collection to the GO term you are searching for and ‘show’ the Ontology term.GO terms for the children. However, in doing this, if you select to show the columns ‘Parents.Go term.name’ and ‘Ontology term.Go term.name’, the parent term will appear in both columns. However by putting in a loop constraint on the GO term that says this field should not be equal to the GO term parent field, then the parent will now only be shown in the parent column:
 
 ### Constraint logic
 
-You can set the constraint logic for your query under the right-hand summary pane. Each constraint is assigned a letter - which can be found in the summary pane. The constraint logic accepts: AND and OR and NOT logic.
+You can set the constraint logic for your query under the right-hand Summary pane. Each constraint is assigned a letter - which can be found in the summary pane. The constraint logic accepts: AND and OR and NOT logic.
 
 ### Saving and exporting your query
 
@@ -91,27 +91,27 @@ Note: To add the “NULL” constraint, select “Filter query results on this f
 
 ## Troubleshooting
 
-### I keep getting ‘No results’ for my search.
+### Why do I keep getting “No results” for my search?
 
-Sometimes your search gives “No Results” because one part of your search does not yield results. If you have several constraints, try removing only one at a time to see if you will get results. Alternatively, toggle your constraints to an [outer join](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/~/drafts/-MRV1dETGFXxj_SCpAD8/content/user-documentation/the-query-builder#outer-joins) from your results to see if there is data fulfilling that constraint; you can check [Outer joins](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/~/drafts/-MRV1dETGFXxj_SCpAD8/content/user-documentation/the-query-builder#outer-joins) for more details. If you still need additional help, please [Contact Us](contact-us.md).
+Sometimes your search gives “No results” because one part of your search does not yield results. If you have several constraints, try removing only one at a time to see if you will get results. Alternatively, toggle your constraints to an [outer join](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/~/drafts/-MRV1dETGFXxj_SCpAD8/content/user-documentation/the-query-builder#outer-joins) from your results to see if there is data fulfilling that constraint; you can check [Outer joins](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/~/drafts/-MRV1dETGFXxj_SCpAD8/content/user-documentation/the-query-builder#outer-joins) for more details. If you still need additional help, please [Contact Us](contact-us.md).
 
-### I am not sure how to start building a search, it looks hard?
+### I am not sure how to start building a search, it looks hard!
 
-Every template query can be displayed in the query builder. Try looking at some of the simpler template searches in the query builder and see how they have been constructed. Use this as a starting point to play around with changing a constraint or change what is shown in the results table. If you need extra help, please [Contact Us](contact-us.md).
+Every template search can be displayed in the query builder. Try looking at some of the simple templates in the query builder and see how they have been constructed. Use this as a starting point to try changing a constraint or adjusting what is shown in the results table. If you need any help, please [Contact Us](contact-us.md).
 
-To decide which class to select to begin building a query think about the data you are trying to return. For example, if you want to know about the expression of a set of genes, you can start your query from Gene, where you can define which genes you are interested in and from here navigate to the expression data, where you can define what expression data you which to see. However, you could construct the same query by starting from the expression data and defining this first. The expression data links to Genes and so you can then add your gene constraint.
+To decide which class to select to begin building a query, think about the data you are trying to return. For example, suppose you want to know about the expression of a set of genes. In that case, you can start your query from Gene, where you can define which genes you are interested in and then navigate to the expression data, where you can determine what expression data you like to see. Similarly, you could construct the same query by defining the expression data. Expression data links to Genes, which allows you to add your gene constraints.
 
-### I can’t find the data I am looking for in the model browser
+### I can’t find the data I am looking for in the model browser!
 
-The data model is based on the sequence ontology and so follows the logical relationships found in biological data - i.e. Exons are referenced from Gene and Protein domains are referenced from Protein. Many additional classes and fields have been added and these also follow logical biological relationships. So if you are looking for Gene expression data, you will find this referenced from Gene. For details of all the data sources loaded to see the [Data](https://flymine.readthedocs.io/en/latest/data/Documentationdata.html#data) tab. If you need additional help, please [Contact Us](contact-us.md).
+The data browser is based on the sequence ontology and follows the logical relationships found in biological data. **For example, Exons are referenced from Gene and Protein domains are referenced from Protein**. Many additional classes and fields have been added that also follow logical biological relationships. So if you are looking for Gene expression data, you will find this referenced from Gene. For details of all the data sources loaded to see the **Data** tab. If you need additional help, please Contact Us.
 
-### I don’t understand what this field/class means.
+### I don’t understand what a field/class means.
 
-Some of the fields have an information icon which provides an additional description of the field. Otherwise, if you are unsure of the contents of a field, add it to your results and run the query. Most searches run very quickly so it is easy to move to and from the results while you fine-tune your query. It is also possible to do this from within the [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables). If need additional help, please [Contact Us](contact-us.md).
+Some fields have an information icon which provides an additional description of those fields. If you are unsure of a field’s contents, you can add it to your results and run the query. Most queries give results immediately, which allows you to adjust the columns you want to include in your results and fine-tune your query. It is also possible to do this from within the **Results Tables**. If you need additional help, please [Contact Us](contact-us.md). 
 
 ### How do I navigate to a class I have constrained without having to go through the model?
 
-### browser again?
+### Browser again?
 
-Clicking on a class name in the right-hand summary pane will open the model browser at that class.
+Clicking on a class name in the right-hand Summary pane will open the model browser at that class.
 

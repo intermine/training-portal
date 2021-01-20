@@ -93,7 +93,7 @@ Note: To add the “NULL” constraint, select “Filter query results on this f
 
 ### I keep getting ‘No results’ for my search.
 
-This is often because just one part of your search does not contain results. If you have several constraints, try removing just one at a time to see if you then get results. Alternatively, toggle your constraint to an outer join \(see [Outer joins]()\) - from your results, you will then be able to see if there is data fulfilling that constraint. If you need additional help please [Contact Us](https://flymine.readthedocs.io/en/latest/contact/Documentationcontact.html#contact). If you use the contact form on the query builder page, this will automatically send us the query you are working on.
+Sometimes your search gives “No Results” because one part of your search does not yield results. If you have several constraints, try removing only one at a time to see if you will get results. Alternatively, toggle your constraints to an [outer join](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/~/drafts/-MRV1dETGFXxj_SCpAD8/content/user-documentation/the-query-builder#outer-joins) from your results to see if there is data fulfilling that constraint; you can check [Outer joins](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/~/drafts/-MRV1dETGFXxj_SCpAD8/content/user-documentation/the-query-builder#outer-joins) for more details. If you still need additional help, please [Contact Us](contact-us.md).
 
 ### I am not sure how to start building a search, it looks hard?
 

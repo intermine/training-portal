@@ -48,7 +48,7 @@ You can change your password using the Change password form shown in the previou
 
 ![](../../.gitbook/assets/delete-account-code.png)
 
-To delete your account, you can click **Start Account Deletion**, which will direct you to a confirmation page. You need to copy and paste the confirmation code in the provided input field and click **Delete Account**. Once completed, you will no longer be able to login to your account and access your content and user preferences on this InterMine instance.
+To delete your account, you can click **Start Account Deletion**, which will direct you to a confirmation page. You need to copy and paste the confirmation code in the provided input field and click **Delete Account**. Once completed, you will no longer be able to login to your account and access your content and user preferences on this InterMine instance. 
 
 {% hint style="danger" %}
 Account deletion cannot be undone. 

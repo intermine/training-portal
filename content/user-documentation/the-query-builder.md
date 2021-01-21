@@ -8,21 +8,31 @@ The Query Builder is InterMine’s custom query building interface,  allowing yo
 
 The main query builder page is divided into four main sections: 
 
+{% tabs %}
+{% tab title="Model Browser" %}
 * The Model or data browser to find your data of interest.
 
 ![](../../.gitbook/assets/data-model-edited%20%281%29.png)
+{% endtab %}
 
+{% tab title="Query Editor" %}
 * The Query editor to edit and define the search and manage selected columns, including sorting columns alphabetically in ascending order. 
 
 ![](../../.gitbook/assets/query-editor-edited.png)
+{% endtab %}
 
+{% tab title="Query Preview" %}
 * The Preview window to preview the query under creation. You can also export queries in XML format to share them with others. 
 
 ![](../../.gitbook/assets/preview-edited.png)
+{% endtab %}
 
+{% tab title="Query History" %}
 * The Query history to show recent queries. You can also view saved queries and import query from XML. 
 
 ![](../../.gitbook/assets/history-edited.png)
+{% endtab %}
+{% endtabs %}
 
 ### Constructing queries
 

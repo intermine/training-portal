@@ -64,7 +64,7 @@ The **Model browser** helps you find and add your data of interest.
 ### Constructing queries
 
 {% hint style="info" %}
-To build a query, you must first decide on a starting point - or a class - to start your query. 
+To build a query, you must first decide on a starting point - or a class - to start your query. The class to begin a query defaults to **Gene** and can be changed with the dropdown list in the Model Browser. 
 {% endhint %}
 
 There are three steps to construct a query, which you can repeat for any additional data required:
@@ -147,6 +147,10 @@ It is possible to constrain a class to the result of a constraint in another cla
 ### Constraint logic
 
 You can set the constraint logic for your query under the right-hand Summary pane. Each constraint is assigned a letter - which can be found in the summary pane. The constraint logic accepts: AND and OR and NOT logic.
+
+### Sorting
+
+By default, results are sorted on the contents of the first column. However, this can be changed either in the ‘columns to display’ section of the query builder \(see [Choose the data you want in your results](https://flymine.readthedocs.io/en/latest/query-builder/Documentationquerybuilder.html#show)\) or the [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables):
 
 ### Saving and exporting your query
 

@@ -142,15 +142,15 @@ Note that the column summary and filtering still applies to the results table as
 
 ### Loop queries
 
-It is possible to constrain a class to the result of a constraint in another class. For example, if you search for GO terms and their children, you need to constrain the Parents.GO term collection to the GO term you are searching for and ‘show’ the Ontology term.GO terms for the children. However, in doing this, if you select to show the columns ‘Parents.Go term.name’ and ‘Ontology term.Go term.name’, the parent term will appear in both columns. However by putting in a loop constraint on the GO term that says this field should not be equal to the GO term parent field, then the parent will now only be shown in the parent column:
+Coming soon. 
 
 ### Constraint logic
 
-You can set the constraint logic for your query under the right-hand Summary pane. Each constraint is assigned a letter - which can be found in the summary pane. The constraint logic accepts: AND and OR and NOT logic.
+You can set the constraint logic for your query under **Query Editor** tab. Each constraint is assigned a letter - which can be found under **Query Editor** tab. The constraint logic accepts: **AND** and **OR** and **NOT** logic.
 
 ### Sorting
 
-By default, results are sorted on the contents of the first column. However, this can be changed either in the ‘columns to display’ section of the query builder \(see [Choose the data you want in your results](https://flymine.readthedocs.io/en/latest/query-builder/Documentationquerybuilder.html#show)\) or the [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables):
+By default, results are sorted on the contents of the first column. However, sorting and reordering columns can be changed under the **Manage Columns** tab. Check the **Query Editor** tab at the top of this page for more details about sorting and ordering columns. 
 
 ### Saving and exporting your query
 

@@ -15,7 +15,7 @@ The **Model browser** helps you find and add your data of interest.
 ![](../../.gitbook/assets/data-model-edited%20%281%29.png)
 
 1. The class field to browse through available classes. For example, the screenshot shows the **Gene** class with its associated attributes, such as **Length**, **Name**, **Primary Identifier**, etc. 
-2. You can click the **Browse** button to be directed to the **Data browser tree** where you can browse all class names. Clicking on any class name will take you back to the **Model browser** with that class selected in the class field. 
+2. You can click the **Browse** button to be directed to the **Data browser tree** to browse all class names. Clicking on any class name will take you back to the **Model browser** with that class selected in the class field. 
 3. You have some controls to manage the selected class's data. You can use **Summary** to summerise the selected class by adding its common attributes, **Expand** to expand the **Model browser tree** to show all selected attributes, **Collapse** to fold the **Model browser tree** to the top level and **Clear** to remove all selected attributes. 
 4. Use **checkboxes to** add individual fields - attributes - to your results. 
 5.  Expand more fields underneath class a using the➕sign. 
@@ -27,7 +27,7 @@ The **Model browser** helps you find and add your data of interest.
 
 ![](../../.gitbook/assets/editor-window%20%281%29.png)
 
-* While the **Manage Columns** tab lets you manage the order of selected columns in your results and sort data in each column alphabetically in ascending or descending order. 
+* The **Manage Columns** tab lets you manage the order of selected columns in your results and sort data in each column alphabetically in ascending or descending order. 
 
 ![](../../.gitbook/assets/manage-cols%20%281%29.png)
 {% endtab %}
@@ -51,6 +51,8 @@ The **Model browser** helps you find and add your data of interest.
 
 ![](../../.gitbook/assets/save-query-message.png)
 
+* To the right of each saved query, there are some available actions that you can use to Load or run that query, Rename it or Delete it if needed. 
+
 ![](../../.gitbook/assets/saved-queries.png)
 
 * You can also import query by pasting the query XML in the input field and click **Upload Query** under the **Import from XML** tab. 
@@ -60,6 +62,10 @@ The **Model browser** helps you find and add your data of interest.
 {% endtabs %}
 
 ### Constructing queries
+
+{% hint style="info" %}
+To build a query, you must first decide on a starting point - or a class - to start your query. 
+{% endhint %}
 
 There are three steps to construct a query, which you can repeat for any additional data required:
 
@@ -71,21 +77,49 @@ There are three steps to construct a query, which you can repeat for any additio
 
 ### Navigate the data browser
 
-The left-hand pane of the query builder is a model browser. This allows you to navigate through all the data classes from your defined starting point. You must first decide on a starting point - or a class - from which you can start your query. The classes are linked through logical references - for instance, you can navigate from gene to proteins, transcripts and microarray data etc. Classes and references will vary for each InterMine. Every class of data has certain attributes - fields - associated with it; for instance, a gene has a primary identifier, name and symbol, among others. Use the model browser to navigate to the data you are interested in searching. For example, to get to protein domains from **Gene** as the starting point, you would expand the **Protein** class first and then the protein domain class. For each class and attribute in the model browser, there is a **checkbox** that you can use to add - or remove - a given class or attribute from your results.
+As mentioned earlier, the query builder's left-hand pane is called the model browser, which allows you to navigate through all the data classes from your defined starting point. You must first decide on a starting point - or a class - from which you can start your query. The classes are linked through logical references - for instance, you can navigate from gene to proteins, transcripts and microarray data etc. Classes and references will vary for each InterMine. Every class of data has certain attributes - fields - associated with it. For instance, a gene has a primary identifier, name and symbol, among others. Use the model browser to navigate to the data you are interested in searching. For example, to get to protein domain from **Gene** as the starting point, you would expand the **Protein** class first and then the protein domain class. For each class and attribute in the model browser, there is a **checkbox** that you can use to add - or remove - a given class or attribute from your results.
+
+![](../../.gitbook/assets/navigate-the-data-model.png)
 
 ### Add a constraint - filter - to your query
 
-Once you have navigated to the data you want to search, you can now add a constraint to return only the set of that data you are interested in. For example, if you want to return all genes which code for proteins with homeo domains, you would add a constraint to the ‘name’ attribute of the protein domain class. The type of constraint you can add depends on the class and attribute. For some, you may have to add some text. Others may require you to select from a drop-down list. Some will allow you to choose a list of saved objects, e.g. a list of genes. You can add as many constraints as you wish to build up your query. Don’t forget you are building a query from scratch so you may need to put in constraints to limit the organism or the set of genes. The set of constraints you have added is shown in the right-hand pane of the query builder.
+Once you have navigated to the data you want to search, you can now add a constraint to filter your results and only return the data you are interested in. For example, if you want to return all genes which code for proteins with homeo domains, you would add a constraint to the ‘name’ attribute of the protein domain class. The type of constraint you can add depends on the class and attribute selected. For some, you may have to add some text; while others may require you to select from a drop-down list. Some will allow you to choose a list of saved objects, e.g. a list of genes. You can add as many constraints as you wish to build up your query. The set of constraints you add is shown in the right-hand pane of the Query Builder - specifically under the **Query Editor** and **XML** tabs. 
 
-HINT: To navigate back to a place in the model browser, click on the class name in the right-hand pane:
+Remember that you are building a query from scratch so you may need to put in constraints to limit the organism or the set of genes. For example, the following screenshot shows a query under construction - without any constraints, the expected results are 232429 rows. 
+
+![](../../.gitbook/assets/query-filter-0.png)
+
+Adding one constraint to lookup the **PPARG** gene in the previous query limits the search results to only three rows. 
+
+![](../../.gitbook/assets/query-filter-1.png)
+
+Constraints are also shown in the query's XML format as follows
+
+```text
+<query model="genomic" view="Gene.symbol 
+Gene.primaryIdentifier Gene.name 
+Gene.secondaryIdentifier 
+Gene.length" constraintLogic="(A)" sortOrder="">
+   <constraint path="Gene" value="PPARG" 
+    op="LOOKUP" code="A"/>
+</query>
+```
+
+{% hint style="info" %}
+To navigate back to a place in the model browser, click on the class name in the right-hand pane. 
+{% endhint %}
 
 ### Choose the data you want in your results.
 
-Every attribute has a **Show** button. Clicking on this will add that attribute to your select list \(shown below the query builder\). Each attribute will become a column in your results table when you run your search:
+Every attribute has a **checkbox** on the left that you can tick✅to add that attribute to your query output. All selected attributes will become columns in your results table when you run your search. 
+
+{% hint style="info" %}
+Columns are shown and can be removed under the Query Editor tab. 
+{% endhint %}
 
 ### Run your search
 
-Once you are happy with your query and the attributes you have selected for your results, press **Show All Rows** to run your search. Your results will be displayed in our [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables).
+Once you are happy with your query and the attributes you have selected for your results, press **Show All Rows** to run your search. Your results will be displayed in our [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables). 
 
 ## Advanced features of the query builder
 
@@ -142,7 +176,7 @@ Note: To add the “NULL” constraint, select “Filter query results on this f
 
 Sometimes your search gives “No results” because one part of your search does not yield results. If you have several constraints, try removing only one at a time to see if you will get results. Alternatively, toggle your constraints to an [outer join](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/~/drafts/-MRV1dETGFXxj_SCpAD8/content/user-documentation/the-query-builder#outer-joins) from your results to see if there is data fulfilling that constraint; you can check [Outer joins](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/~/drafts/-MRV1dETGFXxj_SCpAD8/content/user-documentation/the-query-builder#outer-joins) for more details. If you still need additional help, please [Contact Us](contact-us.md).
 
-### I am not sure how to start building a search, it looks hard!
+### I am not sure how to start building a search; it looks hard!
 
 Every template search can be displayed in the query builder. Try looking at some of the simple templates in the query builder and see how they have been constructed. Use this as a starting point to try changing a constraint or adjusting what is shown in the results table. If you need any help, please [Contact Us](contact-us.md).
 

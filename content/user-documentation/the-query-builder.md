@@ -114,7 +114,7 @@ To navigate back to a place in the model browser, click on the class name in the
 Every attribute has a **checkbox** on the left that you can tick✅to add that attribute to your query output. All selected attributes will become columns in your results table when you run your search. 
 
 {% hint style="info" %}
-Columns are shown and can be removed under the Query Editor tab. 
+Columns are shown - and can be removed - under the Query Editor tab. 
 {% endhint %}
 
 ### Run your search
@@ -125,7 +125,9 @@ Once you are happy with your query and the attributes you have selected for your
 
 ### Subclasses
 
-Some classes have subclasses - i.e. more specialised sets of the main class. For example, the Transcript class in FlyMine has the subclasses mRNA, miRNA, ncRNA, rRNA, snRNA, snoRNA and tRNA. To constrain a class to its subclass, click on the ‘constrain’ next to the class name and select the subclass from the drop-down list. Classes which have subclasses are indicated as shown below:
+Some classes have subclasses, which are more specialised sets of the main class. For example, the **UTRs class** in HumanMine has two subclasses **Five Prime UTR** and **Three Prime UTR**. To constrain a class to its subclass, click on the class name and select the subclass from the drop-down list. Classes which have subclasses are indicated as shown below. 
+
+![](../../.gitbook/assets/subclasses.png)
 
 ### Outer joins
 

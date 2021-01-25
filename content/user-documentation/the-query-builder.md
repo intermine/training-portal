@@ -131,7 +131,7 @@ Some classes have subclasses, which are more specialised sets of the main class.
 
 ### Outer joins
 
-When adding a constraint to a query, you also need to consider whether you want this constraint to limit your results to just those items with that information or if you want your results to show all the items and the new feature if it exists. For example, if you are adding a constraint to the gene class, and selecting to show any associated pathway\(s\) for a given gene \(or list of genes\), you need to consider whether you want your results to show:
+When adding a constraint to a query, you also need to consider whether you want this filter to limit your results to just show items that satisfy the added constraint or show all items in the query results while indicating which records satisfy the filter. For example, if you are adding a constraint to the gene class, and selecting to show any associated pathway\(s\) for a given gene \(or list of genes\), you need to consider whether you want your results to show:
 
 1. Only genes if they have a pathway \([**Inner join**](https://towardsdatascience.com/what-is-the-difference-between-an-inner-and-an-outer-join-in-sql-5b5ec8277377)\)
 2. All genes and pathways and indicate which genes that have associated pathway\(s\) \([**Outer join**](https://towardsdatascience.com/what-is-the-difference-between-an-inner-and-an-outer-join-in-sql-5b5ec8277377)\)

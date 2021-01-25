@@ -152,7 +152,9 @@ Coming soon.
 
 ### Constraint logic
 
-You can set the constraint logic for your query under the **Query Editor** tab. Each constraint is assigned a letter - which can be found under the **Query Editor** tab. The constraint logic accepts: **AND** and **OR** and **NOT** logic.
+You can set the constraint logic for your query under the **Query Editor** tab. Each constraint is assigned a letter, which is shown along with the constraint logic in the Query Editor. The constraint logic accepts: **AND** and **OR** and **NOT** logic and can be edited using the ✏icon as shown in the next screenshot: 
+
+![](../../.gitbook/assets/constraint-logic.png)
 
 ### Sorting
 

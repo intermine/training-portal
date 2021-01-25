@@ -162,13 +162,28 @@ Searching Null vs NOT EQUALS
 
 When using a “negative” search such as $$!=$$, it is important to understand the difference between a NULL value and an empty value. **NULL** means a value is either unknown or not applicable. **Empty** value means the value is known, but it is not present. This has implications for the way you construct a query.
 
-For Example, If you try a query that only shows all genes where the gene name doesn’t equal a given name \(e.g. $$!=$$ BHV4\), this constraint will also exclud NULL values from the results. In such a case, you probably want your query to return all genes where the name does not equal “$$!=$$ BHV4” **AND** also include genes that do not have a name in the results. For genes that do not have a name, the name field is **NULL,** which is different to empty.
+For Example, If you try a query that only shows all genes where the gene name doesn’t equal a given name \(e.g. $$!=$$ BHV4\), this constraint will also exclud NULL values from the results. In such a case, you probably want your query to return all genes where the name does not equal “BHV4” **AND** also include genes that do not have a name in the query results. For genes that do not have a name, the name field is **NULL,** which is different to empty.
 
 For example, try this query in HumanMine:
 
-It returns 7627 genes. So from the total fly genes, it has not returned the one gene that has the name ACXE AND all the genes which are “NULL” for gene name.
+```text
+<query model="genomic" view="Gene.symbol 
+       Gene.name Gene.primaryIdentifier 
+       Gene.secondaryIdentifier 
+       Gene.length Gene.organism.name" 
+       constraintLogic="(A and B)" sortOrder="">
+   <constraint path="Gene.name" 
+   value="BHV4" op="!=" code="A"/>
+   <constraint path="Gene.organism.name" 
+   value="Mus musculus" op="=" code="B"/>
+</query>
+```
 
-Now, if we add an additional constraint:
+![](../../.gitbook/assets/example-query.png)
+
+The query returns 59222 rows. So the results didn't return the one gene has a gene name of “BHV4” **AND** all genes with “**NULL**” for the gene name field. 
+
+Let's update the previous query and add an additional constraint as follows: 
 
 \(NOTE: also change the constraint logic to C or B\)
 

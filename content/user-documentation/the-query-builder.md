@@ -131,14 +131,20 @@ Some classes have subclasses, which are more specialised sets of the main class.
 
 ### Outer joins
 
-When adding a constraint to a query, you also need to consider whether you want this constraint to limit your results to just those items with that information or if you want your results to show all the items and the new feature if it exists. For example, if you are adding a constraint to the protein domain class for homeobox, and selecting to show genes and proteins in your results, do you want your results to show:
+When adding a constraint to a query, you also need to consider whether you want this constraint to limit your results to just those items with that information or if you want your results to show all the items and the new feature if it exists. For example, if you are adding a constraint to the gene class, and selecting to show any associated pathway\(s\) for a given gene \(or list of genes\), you need to consider whether you want your results to show:
 
-1. Only genes and proteins which contain a homeobox \(inner join\)
-2. All genes and proteins and indicate which contain a homeobox. \(outer join\)
+1. Only genes if they have a pathway \(**Inner join**\)
+2. All genes and show pathways if they are present \(**Outer join**\)
 
-The default constraint is always A \(inner join\). i.e. the record you are searching must have information in the field the path describes. However, you can change the logic to B using the outer-join. To do this, add your constraint in the usual way. The outer-join icon is found in the right-hand pane next to your constraint. Click on this to change the logic of your constraint:
+The default constraint is always **A,** or **inner joi**n, which means that only columns that satisfy the constraint are shown in the query results. You can change the logic to **B** using the **outer join**. To do this, add your constraint in the usual way, and edit the logic to outer join by clicking the intersection set symbol to the right of a class name in the Query Editor as shown in the following screenshots. 
 
+![](../../.gitbook/assets/inner-join.png)
+
+![](../../.gitbook/assets/outer-join%20%281%29.png)
+
+{% hint style="info" %}
 Note that the column summary and filtering still applies to the results table as a whole
+{% endhint %}
 
 ### Loop queries
 

@@ -160,11 +160,11 @@ If you are logged in you can save a query you have constructed permanently under
 
 Searching Null vs NOT EQUALS
 
-When using a “negative” search such as !=, it is important to understand the difference between a NULL value and an empty value. NUll means a value that is unknown or not applicable. Empty means known but not present. This has implications for the way you may construct a query.
+When using a “negative” search such as $$!=$$, it is important to understand the difference between a NULL value and an empty value. **NULL** means a value is either unknown or not applicable. **Empty** value means the value is known, but it is not present. This has implications for the way you construct a query.
 
-For Example: If you try a query such as “Give me all genes where the gene name doesn’t equal something \(e.g. ACXE\)” it excludes all the null values from the results too. In such a case you probably want the query to return all genes where the name does not equal “ACXE” AND those that do not have a name. For those that do not have a name, the field is NULL \(which is different to empty\).
+For Example, If you try a query that only shows all genes where the gene name doesn’t equal a given name \(e.g. $$!=$$ BHV4\), this constraint will also exclud NULL values from the results. In such a case, you probably want your query to return all genes where the name does not equal “$$!=$$ BHV4” **AND** also include genes that do not have a name in the results. For genes that do not have a name, the name field is **NULL,** which is different to empty.
 
-For example, try this query in FlyMine:
+For example, try this query in HumanMine:
 
 It returns 7627 genes. So from the total fly genes, it has not returned the one gene that has the name ACXE AND all the genes which are “NULL” for gene name.
 

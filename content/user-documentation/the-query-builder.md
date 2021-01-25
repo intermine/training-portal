@@ -166,9 +166,9 @@ If you are logged in you can save a query you have constructed permanently under
 
 Searching Null vs NOT EQUALS
 
-When using a “negative” search such as $$!=$$, it is important to understand the difference between a NULL value and an empty value. **NULL** means a value is either unknown or not applicable. **Empty** value means the value is known, but it is not present. This has implications for the way you construct a query.
+When using a “negative” search such as $$!=$$, it is important to understand the difference between a NULL value and an empty value. **NULL** means a value is either unknown or not applicable. An **Empty** value means the value is known, but it is not present. This has implications for the way you construct a query.
 
-For Example, If you try a query that only shows all genes where the gene name doesn’t equal a given name \(e.g. $$!=$$ BHV4\), this constraint will also exclud NULL values from the results. In such a case, you probably want your query to return all genes where the name does not equal “BHV4” **AND** also include genes that do not have a name in the query results. For genes that do not have a name, the name field is **NULL,** which is different to empty.
+For Example, If you try a query that only shows all genes where the gene name doesn’t equal a given name \(e.g. $$!=$$ BHV4\), this constraint will also exclude NULL values from the results. In such a case, you probably want your query to return all genes where the name does not equal “BHV4” **AND** also include genes that do not have a name in the query results. For genes that do not have a name, the name field is **NULL,** which is different to empty.
 
 For example, try this query in HumanMine:
 

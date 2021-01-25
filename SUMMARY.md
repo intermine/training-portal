@@ -52,6 +52,7 @@
     * [Regions Search](content/user-documentation/region-search.md)
     * [The Query Builder](content/user-documentation/the-query-builder.md)
     * [Report Pages](content/user-documentation/report-pages.md)
+    * [Results Tables](content/user-documentation/results-tables.md)
     * [Account](content/user-documentation/account.md)
     * [InterMine Mobile](content/user-documentation/intermine-mobile.md)
     * [Contact Us](content/user-documentation/contact-us.md)

@@ -93,7 +93,7 @@ Adding one constraint to lookup the **PPARG** gene in the previous query limits 
 
 ![](../../.gitbook/assets/query-filter-1.png)
 
-Constraints are also shown in the query's XML format as follows
+Constraints are also shown at the bottom of the query's XML format as follows:
 
 ```text
 <query model="genomic" view="Gene.symbol 
@@ -146,7 +146,7 @@ Coming soon.
 
 ### Constraint logic
 
-You can set the constraint logic for your query under **Query Editor** tab. Each constraint is assigned a letter - which can be found under **Query Editor** tab. The constraint logic accepts: **AND** and **OR** and **NOT** logic.
+You can set the constraint logic for your query under the **Query Editor** tab. Each constraint is assigned a letter - which can be found under the **Query Editor** tab. The constraint logic accepts: **AND** and **OR** and **NOT** logic.
 
 ### Sorting
 

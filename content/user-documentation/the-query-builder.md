@@ -154,7 +154,7 @@ By default, results are sorted on the contents of the first column. However, sor
 
 ### Saving and exporting your query
 
-If you are logged in you can save a query you have constructed permanently under your **Saved Queries** tab. The ‘Save Query’ option is found at the bottom of the **Query Builder** and **Manage Columns** tabs. You can also export your query as XML under the **XML** tab. You can share exported queries with your colleagues or with the [InterMine team](contact-us.md) if you have any problems.  Queries can be imported in XML under the **Import from XML** tab and also be used in [**GET**](https://www.w3schools.com/tags/ref_httpmethods.asp) ****and [**POST**](https://www.w3schools.com/tags/ref_httpmethods.asp) requests used by the [web services](http://iodocs.labs.intermine.org/). See the **Query Editor** tab at the top of the page for more information on saving and exporting queries. 
+If you are logged in you can save a query you have constructed permanently under the **Saved Queries** tab. The ‘Save Query’ option is found at the bottom of the **Query Editor** and **Manage Columns** tabs. You can also export your query in XML under the **XML** tab. You can share exported queries with your colleagues or with the [InterMine team](contact-us.md) if you have any problems.  Queries can be imported in XML under the **Import from XML** tab and also be used in [**GET**](https://www.w3schools.com/tags/ref_httpmethods.asp) ****and [**POST**](https://www.w3schools.com/tags/ref_httpmethods.asp) requests used by the [web services](http://iodocs.labs.intermine.org/). See the **Query Editor** tab at the top of the page for more information on saving and exporting queries. 
 
 ### The difference between NULL and NOT EQUALS
 

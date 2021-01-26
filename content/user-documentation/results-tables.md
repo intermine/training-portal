@@ -22,7 +22,7 @@ Columns showing certain object identifiers or symbols will be linked to the [Rep
 
 A summary of the data in each column of a results table can be accessed by clicking on the graph icon📊in the column header.
 
-![](../../.gitbook/assets/log-linear%20%281%29.png)
+![](../../.gitbook/assets/graph.png)
 
 The type of summary shown depends on the type of data in the column - whether it is text or numerical data. For example, the results table below is showing pathways associated with a list of fly genes. The summary for the pathway ‘Name’ column, therefore,  shows the number of each pathway in your list \(i.e. the number of genes annotated to that pathway\):
 

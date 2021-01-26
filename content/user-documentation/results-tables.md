@@ -1,10 +1,12 @@
 # Results Tables
 
-Running any search, whether from a template search or from the query builder will give you a results table. Results tables are also used to display the contents of lists on list analysis pages. Results tables not only display your results but are also a powerful analysis tool in themselves, allowing you to summarise, filter, add or remove columns, create lists and download data.
+Running any search from available [template searches ](template-search.md)or using the [query builder](the-query-builder.md) will return results as a results table. Results tables are also used to display the contents of a particular list on list analysis pages. Results tables are not limited to showing search results, but they are also considered powerful analysis tools. They allow you to summarise, filter, add or remove columns, create lists, and download data.
 
-## Understanding and navigating through the data
+### Understanding and navigating through the data
 
-The first thing to note on results tables is the number of rows returned by your query. The number of rows shown per page can be changed and for large results sets you can navigate through your results either one page at a time, five pages at a time or you can go straight to the last page. Alternatively, you can specify a specific page number.
+The first thing to note on results tables is the number of rows returned by your query. By default, the number of rows shown per page is is 10 and can be changed to 20, 50, 100, or 250 rows per page. For large data sets you can navigate through your results one page at a time using the backward/forward arrow icons◀▶or you can go straight to the last or first page using the skip icons.  
+
+![](../../.gitbook/assets/navigate-data-1.png)
 
 The second thing to note is the column headings. These give the field name for the data shown and in some cases the class that the data is from. For example, in the following results table, the first two columns give a gene secondary identifier and a gene symbol. The next column gives the pathway identifier and the pathway name. Mousing over the pathway name gives the full path that was taken through the data model to the data being shown:
 

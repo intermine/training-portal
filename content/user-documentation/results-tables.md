@@ -8,9 +8,11 @@ The first thing to note on results tables is the number of rows returned by your
 
 ![](../../.gitbook/assets/navigate-data-1.png)
 
-The second thing to note is the column headings. These give the field name for the data shown and in some cases the class that the data is from. For example, in the following results table, the first two columns give a gene secondary identifier and a gene symbol. The next column gives the pathway identifier and the pathway name. Mousing over the pathway name gives the full path that was taken through the data model to the data being shown:
+The second thing to note is the column headings, which give the field name for the data shown and - in some cases - the class the data comes from. For example, in the following results table, the first two columns give a gene primary identifier and a gene symbol. The next column gives the gene name and the pathway identifier. 
 
-## Finding out more - links
+![](../../.gitbook/assets/field-names.png)
+
+### Finding out more - links
 
 Columns showing certain object identifiers or symbols will be links to the [Report Pages](https://flymine.readthedocs.io/en/latest/report-pages/Documentationreportpages.html#reportpages) for that object. In addition, a pop-up summary of the object gives more details about its main attributes:
 

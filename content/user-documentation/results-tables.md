@@ -126,13 +126,9 @@ Results tables can be downloaded in various standard formats using the **Downloa
 
 ### I have added a new column of data but now I get ‘No results’
 
-The InterMine data model is made up of classes and fields - or attributes. Each class has a set of fields depending on the type of data. For example, _Gene_ is a class and has the fields _DB identifier_, _Name_ and _Symbol_ among others. If the new data you are adding to your results is a field from a class already in your results your new results table should be the same as your original results, but of course with the new column of data. If this field does not contain any data, it doesn’t matter, it will just say ‘No value’. However, if you are adding a field of data from a new class that is not already in your results there is a chance that your search will now return **No results** if it does not contain any data for the set of constraints you already have in your query.
+The InterMine data model is made up of classes and fields - or attributes - and each class has a set of fields depending on the type of data. For example, Gene is a class and has the Primary identifier, Name and Symbol fields_,_ among others. If the new data you are adding to your results is a field from a class already in your results your new results table should be the same as your original results, but of course with the new column of data. If this field does not contain any data, it doesn’t matter, it will just say "No value". However, if you are adding a field of data from a new class that is not already in your results there is a chance that your search will now return **No results** if it does not contain any data for the set of constraints you already have in your query.
 
 ### I can’t see my list in the drop-down when I use the **Add to existing list** function.
 
-First, make sure you are logged in so you can access your saved lists. In addition, make sure the type of the list \(eg genes, proteins\) is the same as the list you are trying to add to - the drop-down will only show lists of the same type of object.
-
-### I have a very large results table and want to compress the results before I download it.
-
-There is an option to compress your results in the download box:
+First, make sure you are logged in so you can access your saved lists. In addition, make sure the type of the list \(e.g. genes or proteins\) is the same as the list you are trying to add to because the drop-down menu only shows lists of the same type of objects.
 

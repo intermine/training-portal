@@ -8,15 +8,17 @@ The first thing to note on results tables is the number of rows returned by your
 
 ![](../../.gitbook/assets/navigate-data-1.png)
 
-The second thing to note is the column headings, which give the field name for the data shown and - in some cases - the class the data comes from. For example, in the following results table, the first two columns give a gene primary identifier and a gene symbol. The next column gives the gene name and the pathway identifier. 
+The second thing to note is the column headings, which give the field name for the data shown and - in some cases - the class the data comes from. For example, in the following results table, the first two columns give a gene primary identifier and a gene symbol. The next column gives the gene name and the pathway identifier and so on. 
 
 ![](../../.gitbook/assets/field-names.png)
 
 ### Finding out more - links
 
-Columns showing certain object identifiers or symbols will be links to the [Report Pages](https://flymine.readthedocs.io/en/latest/report-pages/Documentationreportpages.html#reportpages) for that object. In addition, a pop-up summary of the object gives more details about its main attributes:
+Columns showing certain object identifiers or symbols will be linked to the [Report Pages](report-pages.md) for that object. In addition, hovering over a given cell in the table shows a pop-up summary of the object, which gives more details about its main attributes
 
-## Column Summaries
+![](../../.gitbook/assets/links.png)
+
+### Column Summaries
 
 A summary of the data in each column of a results table can be accessed by clicking on the ‘graph’ icon in the column header:
 

@@ -4,7 +4,7 @@ Running any search from available [template searches ](template-search.md)or usi
 
 ### Understanding and navigating through the data
 
-The first thing to note on results tables is the number of rows returned by your query. By default, the number of rows shown per page is is 10 and can be changed to 20, 50, 100, or 250 rows per page. For large data sets you can navigate through your results one page at a time using the backward/forward arrow icons◀▶or you can go straight to the last or first page using the skip icons.  
+The first thing to note on results tables is the number of rows returned by your query. By default, the number of rows shown per page is10 and can be changed to 20, 50, 100, or 250 rows per page. For large data sets, you can navigate through your results one page at a time using the backward/forward arrow icons◀▶or you can go straight to the last or the first page using the skip icons.  
 
 ![](../../.gitbook/assets/navigate-data-1.png)
 
@@ -14,13 +14,13 @@ The second thing to note is the column headings, which give the field name for t
 
 ### Finding out more - links
 
-Columns showing certain object identifiers or symbols will be linked to the [Report Pages](report-pages.md) for that object. In addition, hovering over a given cell in the table shows a pop-up summary of the object, which gives more details about its main attributes
+Columns showing certain object identifiers or symbols will be linked to the [Report Pages](report-pages.md) for that object. In addition, hovering over a given cell in the table shows a pop-up summary of the object, which gives more details about its main attributes.
 
 ![](../../.gitbook/assets/links.png)
 
 ### Column Summaries
 
-A summary of the data in each column of a results table can be accessed by clicking on the graph icon📊in the column header
+A summary of the data in each column of a results table can be accessed by clicking on the graph icon📊in the column header.
 
 ![](../../.gitbook/assets/log-linear%20%281%29.png)
 

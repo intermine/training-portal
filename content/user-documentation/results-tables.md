@@ -20,7 +20,9 @@ Columns showing certain object identifiers or symbols will be linked to the [Rep
 
 ### Column Summaries
 
-A summary of the data in each column of a results table can be accessed by clicking on the ‘graph’ icon in the column header:
+A summary of the data in each column of a results table can be accessed by clicking on the graph icon📊in the column header
+
+![](../../.gitbook/assets/log-linear%20%281%29.png)
 
 The type of summary shown depends on the type of data in the column - whether it is text or numerical data. For example, the results table below is showing pathways associated with a list of fly genes. The summary for the pathway ‘Name’ column, therefore,  shows the number of each pathway in your list \(i.e. the number of genes annotated to that pathway\):
 
@@ -120,11 +122,11 @@ Results tables can be downloaded in various standard formats using the **Downloa
 
 [Galaxy](http://galaxyproject.org/) is a popular web-based bioinformatics analysis and workflow platform. InterMine results can be sent directly to Galaxy for further analysis. Under the **Download** function, configure the format and results you wish to send and select **Send to galaxy for analysis** under the **Destination** sub-tab AND click the green **Send to galaxy** button. The main public galaxy server is set by default. However, if you wish to use a different instance of galaxy or your own local galaxy installation you can set this here. You can also change the default setting for the galaxy server in your [MyMine](https://flymine.readthedocs.io/en/latest/mymine/DocumentationMyMine.html#mymine) account.
 
-## Troubleshooting
+### Troubleshooting
 
 ### I have added a new column of data but now I get ‘No results’
 
-The InterMine data model is made up of classes and fields \(or attributes\). Each class has a set of fields depending on the type of data. For example, _Gene_ is a class and has the fields _DB idenitifier_, _Name_ and _Symbol_ among others. If the new data you are adding to your results is a field from a class already in your results your new results table should be the same as your original results, but of course with the new column of data. If this field does not contain any data, it doesn’t matter, it will just say ‘No value’. However, if you are adding a field of data from a new class that is not already in your results there is a chance that your search will now return **No results** if it does not contain any data for the set of constraints you already have in your query.
+The InterMine data model is made up of classes and fields - or attributes. Each class has a set of fields depending on the type of data. For example, _Gene_ is a class and has the fields _DB identifier_, _Name_ and _Symbol_ among others. If the new data you are adding to your results is a field from a class already in your results your new results table should be the same as your original results, but of course with the new column of data. If this field does not contain any data, it doesn’t matter, it will just say ‘No value’. However, if you are adding a field of data from a new class that is not already in your results there is a chance that your search will now return **No results** if it does not contain any data for the set of constraints you already have in your query.
 
 ### I can’t see my list in the drop-down when I use the **Add to existing list** function.
 

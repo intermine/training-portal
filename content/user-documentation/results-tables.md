@@ -28,7 +28,9 @@ The type of summary shown depends on the type of data in the column - whether it
 
 ![](../../.gitbook/assets/pathways-number.png)
 
-whereas, the following column of numerical data \(gene expression scores from a microarray experiment\) shows the minimum and maximum values, the mean and standard deviation of data.
+Whereas, the following column of numerical data - gene lengths in the following screenshot - shows the minimum and maximum values, the mean, and the standard deviation of the data.
+
+![](../../.gitbook/assets/numerical-data.png)
 
 Note that your results can also be filtered through the column summary. Either select the relevant checkboxes or enter some text in the filter field AND THEN select the relevant checkboxes. For numerical data, use the sliders to select the range of data you wish to view and click apply. Click on the **filter** button to re-draw the table with your filters:
 

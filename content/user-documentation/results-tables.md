@@ -56,11 +56,11 @@ You have a public list of Pax6 genes, **PL\_Pax6\_Targets**, and want to know wh
 
 ![](../../.gitbook/assets/column-summary-application-1.png)
 
-1. Find the number of unique genes in your results
+* Find the number of unique genes in your results
 
 Often a results table will have multiple rows with information about several genes. By looking just through the table it will be difficult to know how many genes you have in your results. You can use the column summary to give you this information.
 
-For example, You run the template search _GO term name \(and children of this term\) → Genes in a specific organism_ to find all genes involved in DNA binding in _D. melanogaster_. The results table gives 1,043 rows but as there are multiple GO terms for each gene you do not know how many genes you have. By clicking on the **column summary** for either the gene secondary identifier \(the CGXXXX id\) or the gene symbol you can find the number of unique genes, in this example 829. In addition, the summary tells you how many GO terms are associated with each gene. Note that if you create a list of these genes \(see [Save a results set for further analysis]()\) you will create a list of 829 unique genes.
+For example, You run the template search _GO term name \(and children of this term\) → Genes in a specific organism_ to find all genes involved in DNA binding in _D. melanogaster_. The results table gives 1,043 rows but as there are multiple GO terms for each gene you do not know how many genes you have. By clicking on the **column summary** for either the gene secondary identifier \(the CGXXXX id\) or the gene symbol you can find the number of unique genes, in this example 829. In addition, the summary tells you how many GO terms are associated with each gene. Note that if you create a list of these genes \(see [Save a result set for further analysis](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/results-tables#save-a-result-set-for-further-analysis)\) you will create a list of 829 unique genes.
 
 ## Apply a filter to your results
 

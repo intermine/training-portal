@@ -52,7 +52,7 @@ Column summaries are useful for a number of reasons. The following are a few ide
 
 * For a list of genes, find how many have the same annotation, where annotation could be anything associated with your genes such as GO terms, pathways or diseases.
 
-You have a public list of Pax6 genes, **PL\_Pax6\_Targets**, and want to know which pathways they are involved in. You can run the $$Gene → Pathways  $$template with your list of genes. The results table shows your genes and the names of all pathways they are annotated with. By clicking on the **column summary** for the _pathway.name_ column you can now find out how many genes are associated with each pathway. In the example shown below, 44 of the genes in the list are associated with the **Signal Transduction** pathway. If wish to analyse this set of genes further, you can filter the table for this set and then create a new list with this set of genes. Check the [Save a result set for further analysis](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/results-tables#save-a-result-set-for-further-analysis) section for how to create a sub-list of genes. 
+You have a public list of Pax6 genes, **PL\_Pax6\_Targets**, and want to find out which pathways they are involved in. You can run the $$Gene → Pathways  $$template with your list of genes. The results table shows your genes and the names of all pathways they are annotated with. By clicking on the **column summary** for the _pathway.name_ column you can now find out how many genes are associated with each pathway. In the example shown below, 44 of the genes in the list are associated with the **Signal Transduction** pathway. If wish to analyse this set of genes further, you can filter the table for this set and then create a new list with this set of genes. Check the [Save a result set for further analysis](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/results-tables#save-a-result-set-for-further-analysis) section for how to create a sub-list of genes. 
 
 ![](../../.gitbook/assets/column-summary-application-1.png)
 
@@ -60,7 +60,13 @@ You have a public list of Pax6 genes, **PL\_Pax6\_Targets**, and want to know wh
 
 Often a results table will have multiple rows with information about several genes. By looking just through the table it will be difficult to know how many genes you have in your results. You can use the column summary to give you this information.
 
-For example, You run the template search _GO term name \(and children of this term\) → Genes in a specific organism_ to find all genes involved in DNA binding in _D. melanogaster_. The results table gives 1,043 rows but as there are multiple GO terms for each gene you do not know how many genes you have. By clicking on the **column summary** for either the gene secondary identifier \(the CGXXXX id\) or the gene symbol you can find the number of unique genes, in this example 829. In addition, the summary tells you how many GO terms are associated with each gene. Note that if you create a list of these genes \(see [Save a result set for further analysis](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/results-tables#save-a-result-set-for-further-analysis)\) you will create a list of 829 unique genes.
+For example, when you run the$$Gene → Pathways$$template search with the same public list - **PL\_Pax6\_Targets** - ****to find out which pathways the genes in the list are involved in, the results table gives 1,575 rows.  However, there are multiple genes associated with a single pathway, which means you do not know how many genes you have. When you click on the **column summary** for either the gene primary or secondary identifiers or the gene symbol, you can find the number of unique genes. As shown in the following screenshot, there are 153 genes. 
+
+![](../../.gitbook/assets/unique-genes.png)
+
+{% hint style="info" %}
+Note that if you want to create a list of these genes, you will create a list of 153 unique genes. Please see the [Save a result set for further analysis](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/results-tables#save-a-result-set-for-further-analysis) section for more deatils. 
+{% endhint %}
 
 ## Apply a filter to your results
 

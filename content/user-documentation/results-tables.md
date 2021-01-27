@@ -36,7 +36,9 @@ Results can also be filtered through the column summary depending on the type of
 
 ![](../../.gitbook/assets/filtering-graph.png)
 
-To remove a filter, either use the **UNDO** button at the top of the table or click on the green filter icon in the column header and remove the filter from there. 
+To remove a filter, either click the **UNDO** button at the top of the table or the filter icon in the column header and remove the filter from there. 
+
+![](../../.gitbook/assets/remove-filters.png)
 
 **Column summary graph:**
 

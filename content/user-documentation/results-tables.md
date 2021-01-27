@@ -48,11 +48,13 @@ The graph shown at the top of a column summary gives an idea of the linear and l
 
 ### Some applications of column summaries:
 
-Column summaries are, of course, useful for a number of reasons. However here are a few ideas for how they can be used:
+Column summaries are useful for a number of reasons. The following are a few ideas for how they can be used:
 
-1. For a list of genes, find how many have the same annotation \(where annotation could be anything associated with your genes such as GO terms, pathways or diseases\).
+* For a list of genes, find how many have the same annotation, where annotation could be anything associated with your genes such as GO terms, pathways or diseases.
 
-You have a list of D. melanogaster genes and want to know which pathways they are involved in. You have uploaded your list to FlyMine and now run the _Gene → Pathways_ template with your list of genes. The results table lists your genes and the names of all the pathways they are involved in. By clicking on the **column summary** for the _pathway.name_ column you can now find out how many genes are associated with each pathway. In the example shown below, 5 of the genes in the list are associated with the _Gene expression_ pathway. You may wish to analyse just this set of genes further. By filtering the table for this set you could then create a list of this set of genes - see [Save a results set for further analysis]() for how to create a list of genes.
+You have a public list of Pax6 genes, **PL\_Pax6\_Targets**, and want to know which pathways they are involved in. You can run the $$Gene → Pathways  $$template with your list of genes. The results table shows your genes and the names of all pathways they are annotated with. By clicking on the **column summary** for the _pathway.name_ column you can now find out how many genes are associated with each pathway. In the example shown below, 44 of the genes in the list are associated with the _Signal Transduction_ pathway. You may wish to analyse just this set of genes further. By filtering the table for this set you could then create a list of this set of genes - see [Save a results set for further analysis]() for how to create a list of genes.
+
+![](../../.gitbook/assets/column-summary-application-1.png)
 
 1. Find the number of unique genes in your results
 

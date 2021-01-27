@@ -42,7 +42,9 @@ To remove a filter, either click the **UNDO** button at the top of the table or 
 
 **Column summary graph:**
 
-The graph shown at the top of a column summary gives an idea of the distribution of the data. This graph is interactive - clicking on a bar in the graph will select that item in the table.
+The graph shown at the top of a column summary gives an idea of the linear and log distribution of the data. 
+
+![](../../.gitbook/assets/log-linear-graph.png)
 
 ### Some applications of column summaries:
 

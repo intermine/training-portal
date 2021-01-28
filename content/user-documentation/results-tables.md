@@ -70,21 +70,15 @@ Note that if you want to create a list of these genes, you will create a list of
 
 ### Apply a filter to your results
 
-Results tables allow you to explore your results by applying filters to any of the resulting data columns. Filters can be applied through the **Filters** box above the results table. Note that filters can also be applied through the [Column Summaries]().
+Results tables allow you to explore your results by applying filters to any of the resulting data columns. Filters can be applied through the **filter** icon in the column header and through the [Column Summaries](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/results-tables#column-summaries). The filter icon allows you to edit or remove any existing filters, and add additional filters to your results. Any active filters are shown and can only be removed or edited when you click the filter icon. 
 
-The ‘Filter’ feature allows you to edit or remove any existing filters and add new filters to your results. Any currently active filters are shown when you click on the **Filters** button. These can be removed or edited from here:
+![](../../.gitbook/assets/filters.png)
 
 **To add a new filter:**
 
-1. Click on **Define a new filter**
-2. Browse for the data field you want to filter on
-3. Select the field and click on **Choose**
-4. Define your filter
-5. Click on **Apply** to re-draw the results table with your filter in place
-
-**HINT:** If you are having trouble working out which field to filter, take a look at the column headers in your results table. If you click within the header the full path to the field is shown. Follow the same path through the model browser in the filter box.
-
->
+1. Click on the **filter icon** shown on all columns' headers
+2. Use the drop-down lists and input field to define your filter
+3. Click on **Apply** to re-draw the results table with your filter in place
 
 **Returning to your original results:**
 

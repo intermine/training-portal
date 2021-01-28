@@ -38,7 +38,7 @@ Results can also be filtered through the column summary depending on the type of
 
 To remove a filter, either click the **UNDO** button at the top of the table or the filter icon in the column header and remove the filter from there. 
 
-![](../../.gitbook/assets/remove-filters.png)
+![](../../.gitbook/assets/remove-filters%20%281%29.png)
 
 **Column summary graph:**
 
@@ -80,11 +80,17 @@ Results tables allow you to explore your results by applying filters to any of t
 2. Use the drop-down lists and input field to define your filter
 3. Click on **Apply** button to re-draw the results table with your filter in place
 
-![](../../.gitbook/assets/adding-a-filter.png)
+![](../../.gitbook/assets/adding-a-filter%20%281%29.png)
 
-**Returning to your original results:**
+### **Returning to your original results:**
 
-Filters can be removed through the filter box as shown above. Alternatively, you can use the **UNDO** button above the results to return to previous states - if you have added multiple filters, you can go back to any previous state of your results table or straight back to its original state. Note that the original state may still have filters applied - this refers to the original query run, not to a table with no filters applied:
+Filters can be removed by clicking on![](../../.gitbook/assets/screenshot-902-.png)icon and then click the delete icon![](../../.gitbook/assets/remove-filters-2-copy.png)shown below. Alternatively, you can use the **UNDO** button above the results to return to previous states. if you have added multiple filters, you can go back to any previous state of your results table or straight back to original table state.
+
+{% hint style="info" %}
+Note that the original state may still have filters applied. Original state refers to the original query run, not to a table with no filters applied. 
+{% endhint %}
+
+![](../../.gitbook/assets/remove-filters-2.png)
 
 ### Manage columns: Add, Remove, Rearrange and Sort
 
@@ -118,7 +124,7 @@ By default, the table is usually sorted according to the first column in your re
 
 Data fields are shown with their full path. Hint: check the last value and the second-to-last value to find the class and field that you want. Additionally, use the filter box to help you find the correct field. Fields can be added to the sort order by clicking on the ‘+’ or by picking up and dragging to the box at the top. Remove fields from the sort order using the ‘-’ or by dragging to the bottom:
 
-## Save a result set for further analysis[¶]()
+## Save a result set for further analysis
 
 Lists of objects can be saved from results tables to your InterMine account \(or temporarily for the duration of your session if you are not logged in\). A list of objects can contain only one type of object. For example,  if you have a results table showing both genes and proteins you can create a list of all or some of the genes and another list of all or some of the proteins. However, you cannot create a mixed list of genes or proteins or save the table maintaining the association between each gene and protein. You can, of course, download the full table or subsets of it - see [Download a set of results]().
 

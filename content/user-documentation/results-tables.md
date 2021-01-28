@@ -82,7 +82,7 @@ Results tables allow you to explore your results by applying filters to any of t
 
 ![](../../.gitbook/assets/adding-a-filter%20%281%29.png)
 
-### **Returning to your original results:**
+### **Returning to your original results**
 
 Filters can be removed by clicking on![](../../.gitbook/assets/screenshot-902-.png)icon and then click the delete icon![](../../.gitbook/assets/remove-filters-2-copy.png)shown below. Alternatively, you can use the **UNDO** button above the results to return to previous states. if you have added multiple filters, you can go back to any previous state of your results table or straight back to original table state.
 
@@ -92,33 +92,50 @@ Note that the original state may still have filters applied. Original state refe
 
 ![](../../.gitbook/assets/remove-filters-2.png)
 
-### Manage columns: Add, Remove, Rearrange and Sort
+### Adding additional columns of data to your results
 
-The Manage Columns feature allows you to add or remove columns, rearrange their order and sort them.
+Additional fields of data can be added to your results using the **Add Columns** button, which allows you to browse all fields available and select those you wish to add:
 
-## Manage columns: Removing and rearranging columns from your results
+1. Click on the **Add columns** button.
+2. Browse the fields to find the ones of interest. 
+3. Click on any field to add that data to your results.
+4. Click **Apply** to re-draw the results table.
 
-1. Click on **Manage columns**: a list of columns already in your results is shown.
-2. Remove a column by clicking on the **green circle**.
-3. Rearrange the column order by picking up the row and moving it.
+{% hint style="info" %}
+If you do not know which field contains the data you require, try adding one or more columns and re-draw the table - it is easy to remove them again. Alternatively, just [Contact Us](contact-us.md) and we should be able to help.
+{% endhint %}
 
-## Manage columns: Adding additional columns of data to your results
+![](../../.gitbook/assets/adding-new-columns.png)
 
-Additional fields of data can be added to your results using the **Manage Columns** feature. This feature allows you to browse all fields available and select those you wish to add:
+### Removing columns from your results
 
-1. Click on **Manage columns**
-2. Select **Add a new column**.
-3. Browse the fields to find the one you require.
-4. Click on the field to add that data to your results
-5. Click **Apply** to re-draw the results table
+To remove any column from the list of columns shown in your results: 
 
-**HINT**: If you do not know which field contains the data you require or how to navigate through the model to that data try looking at the column headers in your results table. If you click within the header the full path to the field is shown. If you are looking for additional fields for the same type of data, follow the same path through the model browser. If you are unsure which fields contain the data you are after, try adding one or more and re-drawing the table - it is easy to remove them again. Alternatively, just [Contact Us](https://flymine.readthedocs.io/en/latest/contact/Documentationcontact.html#contact) and we should be able to help.
+1. Click on the delete icon✖in the desired column's header.
 
-## Manage columns: Changing the sort order of columns in your results
+{% hint style="info" %}
+To add the deleted column back, click the **Undo** button to revert to the previous state.
+{% endhint %}
 
-There are two ways to change the sort order of the columns in your results tables. First, every column header has a sort ‘icon’ which allows you to sort on a specific column in either direction \(a-&gt;z; z-&gt;a etc.\):
+![](../../.gitbook/assets/adding-new-columns.png)
 
-The second way to set the sort order is through the **Manage columns** function. Here you can define the sort order of all columns in your table under the **Configure sort order** sub-tab:
+### Re-arranging columns in your results
+
+Re-arrange columns is done under the **Manage Columns** tab by dragging and dropping given columns to change their order. Check the [Query Builder](the-query-builder.md) section for more information. 
+
+![](../../.gitbook/assets/columns-order.png)
+
+### Changing the sort order of columns in your results
+
+There are two ways to change the sort order of the columns in your results tables. 
+
+* First, every column header has a sort icon which allows you to sort on a specific column in either direction $$a → z$$ or $$z → a$$ 
+
+![](../../.gitbook/assets/sorting-columns-2.png)
+
+* The second way to set the sort order is through the **Query Builder** tab, where you can define the sort order of all columns in your table under the **Manage Columns** sub-tab. 
+
+![](../../.gitbook/assets/sorting-cols.png)
 
 By default, the table is usually sorted according to the first column in your results \(occasionally a template search may be sorted on a column other than the first\). The column the table is currently sorted on is shown in the top of the ‘configure sort-order’ box. You can set your table to be sorted on any column present in the table, and also on additional fields of data not shown in your results. By default, only the columns in your table are shown. Additional fields can be shown by de-selecting the **Only show columns in the table** checkbox.
 

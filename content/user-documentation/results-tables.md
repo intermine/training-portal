@@ -78,9 +78,13 @@ Results tables allow you to explore your results by applying filters to any of t
 
 1. Click on the **filter** icon![](../../.gitbook/assets/screenshot-902-.png)shown on all columns' headers
 2. Use the drop-down lists and input field to define your filter
-3. Click on **Apply** button to re-draw the results table with your filter in place
+3. Click on **Apply** button to re-draw the results table with your filter in place. 
 
 ![](../../.gitbook/assets/adding-a-filter%20%281%29.png)
+
+You can also add, edit or remove filters using the **Manage Filters** button. 
+
+![](../../.gitbook/assets/manage-filters.png)
 
 ### **Returning to your original results**
 
@@ -137,13 +141,11 @@ There are two ways to change the sort order of the columns in your results table
 
 ![](../../.gitbook/assets/sorting-cols.png)
 
-By default, the table is usually sorted according to the first column in your results \(occasionally a template search may be sorted on a column other than the first\). The column the table is currently sorted on is shown in the top of the ‘configure sort-order’ box. You can set your table to be sorted on any column present in the table, and also on additional fields of data not shown in your results. By default, only the columns in your table are shown. Additional fields can be shown by de-selecting the **Only show columns in the table** checkbox.
+By default, the table is usually sorted according to the first column in your results; however, template searches may be sorted on a column other than the first. 
 
-Data fields are shown with their full path. Hint: check the last value and the second-to-last value to find the class and field that you want. Additionally, use the filter box to help you find the correct field. Fields can be added to the sort order by clicking on the ‘+’ or by picking up and dragging to the box at the top. Remove fields from the sort order using the ‘-’ or by dragging to the bottom:
+### Save a result set for further analysis
 
-## Save a result set for further analysis
-
-Lists of objects can be saved from results tables to your InterMine account \(or temporarily for the duration of your session if you are not logged in\). A list of objects can contain only one type of object. For example,  if you have a results table showing both genes and proteins you can create a list of all or some of the genes and another list of all or some of the proteins. However, you cannot create a mixed list of genes or proteins or save the table maintaining the association between each gene and protein. You can, of course, download the full table or subsets of it - see [Download a set of results]().
+Lists of objects can be saved from results tables to your private lists account or temporarily for the duration of your session if you are not logged in. A list of objects can contain only one type of object. For example,  if you have a results table showing both genes and proteins you can create a list of all or some of the genes and another list of all or some of the proteins. However, you cannot create a mixed list of genes or proteins or save the table maintaining the association between each gene and protein. You can, of course, download the full table or subsets of it - see [Download a set of results](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/~/drafts/-MS9qjd7kmcfzTt32-tC/content/user-documentation/results-tables#download-a-set-of-results).
 
 To create a list, or add objects to an existing list, use the **Create/Add to list** function: The default, create a new list, provides you with the sets of objects available to save - selecting one of these highlights the set of objects it refers to. The final option, **choose individual items from the table**, provides checkboxes for selecting the objects you wish to save.
 
@@ -151,13 +153,9 @@ Once you have made your selection, give your list a name and optional descriptio
 
 The **Add to existing list** works in exactly the same way, except instead of providing a new list name, you select the list you want to add to from a drop-down list.
 
-## Download a set of results
+### Download a set of results
 
 Results tables can be downloaded in various standard formats using the **Download** function. Here you can select the format and configure your table to download the parts that you require - columns can be added, removed or re-ordered and the rows can be selected. By default, results will be downloaded ‘uncompressed’ and will include the column headers. However, these options can be changed under the ‘Output’ sub-tab. In addition, results are saved to a file by default. However, under the **Destination file** sub-tab, you can save a URI, query XML or send your results to Galaxy, see [Send results to galaxy]()
-
-## Send results to Galaxy
-
-[Galaxy](http://galaxyproject.org/) is a popular web-based bioinformatics analysis and workflow platform. InterMine results can be sent directly to Galaxy for further analysis. Under the **Download** function, configure the format and results you wish to send and select **Send to galaxy for analysis** under the **Destination** sub-tab AND click the green **Send to galaxy** button. The main public galaxy server is set by default. However, if you wish to use a different instance of galaxy or your own local galaxy installation you can set this here. You can also change the default setting for the galaxy server in your [MyMine](https://flymine.readthedocs.io/en/latest/mymine/DocumentationMyMine.html#mymine) account.
 
 ### Troubleshooting
 

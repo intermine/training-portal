@@ -70,15 +70,17 @@ Note that if you want to create a list of these genes, you will create a list of
 
 ### Apply a filter to your results
 
-Results tables allow you to explore your results by applying filters to any of the resulting data columns. Filters can be applied through the **filter** icon in the column header and through the [Column Summaries](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/results-tables#column-summaries). The filter icon allows you to edit or remove any existing filters, and add additional filters to your results. Any active filters are shown and can only be removed or edited when you click the filter icon. 
+Results tables allow you to explore your results by applying filters to any of the resulting data columns. Filters can be applied through the **filter** icon![](../../.gitbook/assets/screenshot-902-.png)in the column header and through the [Column Summaries](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/results-tables#column-summaries). The filter icon allows you to edit or remove any existing filters, and add additional filters to your results. Any active filters are shown and can only be removed or edited when you click the filter icon. 
 
 ![](../../.gitbook/assets/filters.png)
 
 **To add a new filter:**
 
-1. Click on the **filter icon** shown on all columns' headers
+1. Click on the **filter** icon![](../../.gitbook/assets/screenshot-902-.png)shown on all columns' headers
 2. Use the drop-down lists and input field to define your filter
-3. Click on **Apply** to re-draw the results table with your filter in place
+3. Click on **Apply** button to re-draw the results table with your filter in place
+
+![](../../.gitbook/assets/adding-a-filter.png)
 
 **Returning to your original results:**
 

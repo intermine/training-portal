@@ -65,12 +65,12 @@ For example, when you run the$$Gene → Pathways$$template search with the same 
 ![](../../.gitbook/assets/unique-genes.png)
 
 {% hint style="info" %}
-Note that if you want to create a list of these genes, you will create a list of 153 unique genes. Please see the [Save a result set for further analysis](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/results-tables#save-a-result-set-for-further-analysis) section for more deatils. 
+Note that if you want to create a list of these genes, you will create a list of 153 unique genes. Please see the [Save a result set for further analysis](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/results-tables#save-a-result-set-for-further-analysis) section for more details. 
 {% endhint %}
 
-## Apply a filter to your results
+### Apply a filter to your results
 
-The results tables allow you to explore your results by applying filters to any of the columns of data. Filters can be applied through the **Filters** box above the results table. Note that filters can also be applied through the [Column Summaries]().
+Results tables allow you to explore your results by applying filters to any of the resulting data columns. Filters can be applied through the **Filters** box above the results table. Note that filters can also be applied through the [Column Summaries]().
 
 The ‘Filter’ feature allows you to edit or remove any existing filters and add new filters to your results. Any currently active filters are shown when you click on the **Filters** button. These can be removed or edited from here:
 

@@ -161,7 +161,9 @@ The new list will be saved, and a  message will appear at the bottom of the scre
 
 ### Download a set of results
 
-Results tables can be downloaded in various standard formats using the **Download** function. Here you can select the format and configure your table to download the parts that you require - columns can be added, removed or re-ordered and the rows can be selected. By default, results will be downloaded ‘uncompressed’ and will include the column headers. However, these options can be changed under the ‘Output’ sub-tab. In addition, results are saved to a file by default. However, under the **Destination file** sub-tab, you can save a URI, query XML or send your results to Galaxy, see [Send results to galaxy]()
+Results tables can be downloaded in various standard formats using the **Export** button at the top of the table's header. You can select whether to export your results table in **TSV**, **CSV**, or **FASTA** format.   By default, the ouput format is set to TSV, and the downloaded results table will be saved to a file. 
+
+![](../../.gitbook/assets/download-table.png)
 
 ### Troubleshooting
 

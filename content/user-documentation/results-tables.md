@@ -147,11 +147,17 @@ By default, the table is usually sorted according to the first column in your re
 
 Lists of objects can be saved from results tables to your private lists account or temporarily for the duration of your session if you are not logged in. A list of objects can contain only one type of object. For example,  if you have a results table showing both genes and proteins you can create a list of all or some of the genes and another list of all or some of the proteins. However, you cannot create a mixed list of genes or proteins or save the table maintaining the association between each gene and protein. You can, of course, download the full table or subsets of it - see [Download a set of results](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/~/drafts/-MS9qjd7kmcfzTt32-tC/content/user-documentation/results-tables#download-a-set-of-results).
 
-To create a list, or add objects to an existing list, use the **Create/Add to list** function: The default, create a new list, provides you with the sets of objects available to save - selecting one of these highlights the set of objects it refers to. The final option, **choose individual items from the table**, provides checkboxes for selecting the objects you wish to save.
+You can save a subset of the resulting data in a new list by clicking the **Save List** button at the top of the columns header. You can select from the sets of objects available to save or choose individual items from the table using their corresponding checkboxes. 
 
-Once you have made your selection, give your list a name and optional description in the box provided. If you are logged in you will also have the option to ‘tag’ your list. See [List Tags](https://flymine.readthedocs.io/en/latest/lists/overview/Documentationlists.html#listtags) for more information on tagging. Finally, click **create**. A message will appear at the top of the screen if your list creation was successful and this provides a link to view your list:
+![](../../.gitbook/assets/save-list.png)
 
-The **Add to existing list** works in exactly the same way, except instead of providing a new list name, you select the list you want to add to from a drop-down list.
+Once you have made your selection, a sample name will be given to your list, which may include the objects type in your list, e.g. gene,  the date, time of creation, and the time zone. You can edit this name as you wish and click **Save**. 
+
+![](../../.gitbook/assets/list-name.png)
+
+The new list will be saved, and a  message will appear at the bottom of the screen if your list creation was successful. 
+
+![](../../.gitbook/assets/success-message.png)
 
 ### Download a set of results
 

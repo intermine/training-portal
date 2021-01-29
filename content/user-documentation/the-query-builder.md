@@ -136,7 +136,7 @@ When adding a constraint to a query, you also need to consider whether you want 
 1. Only genes if they have a pathway \([**Inner join**](https://towardsdatascience.com/what-is-the-difference-between-an-inner-and-an-outer-join-in-sql-5b5ec8277377)\)
 2. All genes and pathways and indicate which genes that have associated pathway\(s\) \([**Outer join**](https://towardsdatascience.com/what-is-the-difference-between-an-inner-and-an-outer-join-in-sql-5b5ec8277377)\)
 
-The default constraint is always **A,** or **inner joi**n, which means that only columns that satisfy the constraint are shown in the query results. You can change the logic to **B** using the **outer join**. To do this, add your constraint in the usual way, and edit the logic to outer join by clicking the intersection set symbol to the right of a class name in the Query Editor as shown in the following screenshots. 
+The default constraint is always **A,** or **inner join**, which means that only columns that satisfy the constraint are shown in the query results. You can change the logic to **B** using the **outer join**. To do this, add your constraint in the usual way, and edit the logic to outer join by clicking the intersection set symbol to the right of a class name in the Query Editor as shown in the following screenshots. 
 
 ![](../../.gitbook/assets/inner-join.png)
 
@@ -152,9 +152,13 @@ Coming soon.
 
 ### Constraint logic
 
-You can set the constraint logic for your query under the **Query Editor** tab. Each constraint is assigned a letter, which is shown along with the constraint logic at the bottom of the Query Editor. The constraint logic accepts: **AND** and **OR** and **NOT** logic and can be edited using the ✏icon as shown in the next screenshot: 
+You can set the constraint logic for your query under the **Query Editor** tab. Each constraint is assigned a letter, which is shown along with the constraint logic at the bottom of the Query Editor tab. The constraint logic accepts: **AND** and **OR** and **NOT** logic and can be edited using the ✏icon as shown in the next screenshot: 
 
 ![](../../.gitbook/assets/constraint-logic.png)
+
+{% hint style="info" %}
+By default constraint logic is set to AND
+{% endhint %}
 
 ### Sorting
 
@@ -162,7 +166,17 @@ By default, results are sorted on the contents of the first column. However, sor
 
 ### Saving and exporting your query
 
-If you are logged in you can save a query you have constructed permanently under the **Saved Queries** tab. The ‘Save Query’ option is found at the bottom of the **Query Editor** and **Manage Columns** tabs. You can also export your query in XML under the **XML** tab. You can share exported queries with your colleagues or with the [InterMine team](contact-us.md) if you have any problems.  Queries can be imported in XML under the **Import from XML** tab and also be used in [**GET**](https://www.w3schools.com/tags/ref_httpmethods.asp) ****and [**POST**](https://www.w3schools.com/tags/ref_httpmethods.asp) requests used by the [web services](http://iodocs.labs.intermine.org/). See the **Query Editor** tab at the top of the page for more information on saving and exporting queries. 
+If you are logged in you can save a query you have constructed permanently under the **Saved Queries** tab. The **Save Query** button is found at the bottom of the **Query Editor** tab. 
+
+![](../../.gitbook/assets/save-1.png)
+
+You can also save a query under the **Manage Columns** tab. 
+
+![](../../.gitbook/assets/save-2.png)
+
+![](../../.gitbook/assets/save-query-message%20%281%29.png)
+
+You can also export your query in XML under the **XML** tab. You can share exported queries with your colleagues or with the [InterMine team](contact-us.md) if you have any problems.  Queries can be imported in XML under the **Import from XML** tab and also be used in [**GET**](https://www.w3schools.com/tags/ref_httpmethods.asp) ****and [**POST**](https://www.w3schools.com/tags/ref_httpmethods.asp) requests used by the [web services](http://iodocs.labs.intermine.org/). See the **Query Editor** tab at the top of the page for more information on saving and exporting queries. 
 
 ### The difference between NULL and NOT EQUALS
 

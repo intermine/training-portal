@@ -203,15 +203,38 @@ For example, try this query in HumanMine:
 
 ![](../../.gitbook/assets/example-query.png)
 
-The query returns 59222 rows. So the results didn't return the one gene has a gene name of “BHV4” **AND** all genes with “**NULL**” for the gene name field. 
+The query returns 59222 rows. So the results didn't return the one gene with a gene name of “BHV4” **AND** all genes with “**NULL**” for the gene name field. 
 
 Let's update the previous query and add an additional constraint as follows: 
 
-\(NOTE: also change the constraint logic to C or B\)
+```text
+<query model="genomic" view="Gene.symbol 
+Gene.name Gene.primaryIdentifier 
+Gene.secondaryIdentifier 
+Gene.length Gene.organism.name" 
+constraintLogic="((A or C) and B)" sortOrder="">
+   <constraint path="Gene.name" value="BHV4" 
+   op="!=" code="A"/>
+   <constraint path="Gene.name" op="IS NULL" 
+   code="C"/>
+   <constraint path="Gene.organism.name" 
+   value="Mus musculus" op="=" code="B"/>
+</query>
+```
 
-We now get 18, 059 rows - this is all the genes which do not have name ACXE and all genes which have a NULL name.
+![](../../.gitbook/assets/null-names.png)
 
-Note: To add the “NULL” constraint, select “Filter query results on this field having any value or not” and select the “Has no value” checkbox:
+{% hint style="info" %}
+Remember to change the constraint logic to \(A or C\) and B.
+{% endhint %}
+
+We now get 78, 679 rows - this result includes all genes where the gene name is not BHV4, including genes which have a NULL name.
+
+{% hint style="info" %}
+To add the **NULL** constraint, use the filter![](../../.gitbook/assets/screenshot-902-.png)icon to add a new constraint and select the **NULL** from the drop-down menu. 
+{% endhint %}
+
+![](../../.gitbook/assets/selecting-null.png)
 
 ## Troubleshooting
 

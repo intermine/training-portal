@@ -106,7 +106,7 @@ Gene.length" constraintLogic="(A)" sortOrder="">
 ```
 
 {% hint style="info" %}
-To navigate back to a place in the model browser, click on the class name in the right-hand pane. 
+Constraints are assigned capital letter labels; so, your first added constraint will be called A, the second will be called B, and so on.
 {% endhint %}
 
 ### Choose the data you want in your results.
@@ -136,7 +136,7 @@ When adding a constraint to a query, you also need to consider whether you want 
 1. Only genes if they have a pathway \([**Inner join**](https://towardsdatascience.com/what-is-the-difference-between-an-inner-and-an-outer-join-in-sql-5b5ec8277377)\)
 2. All genes and pathways and indicate which genes that have associated pathway\(s\) \([**Outer join**](https://towardsdatascience.com/what-is-the-difference-between-an-inner-and-an-outer-join-in-sql-5b5ec8277377)\)
 
-The default constraint is always **A,** or **inner join**, which means that only columns that satisfy the constraint are shown in the query results. You can change the logic to **B** using the **outer join**. To do this, add your constraint in the usual way, and edit the logic to outer join by clicking the intersection set symbol to the right of a class name in the Query Editor as shown in the following screenshots. 
+The default constraint is always **1,** or **inner join**, which means that only columns that satisfy the constraint\(s\) are shown in the query results. You can change the logic to **2** using the **outer join**. To do this, add your constraint in the usual way, and edit the logic to outer join by clicking the intersection set symbol to the right of a class name in the Query Editor as shown in the following screenshots. 
 
 ![](../../.gitbook/assets/inner-join.png)
 

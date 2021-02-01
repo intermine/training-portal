@@ -116,7 +116,7 @@ Constraints are assigned capital letter labels; so, your first added constraint 
 Every attribute has a **checkbox** on the left that you can tick✅to add that attribute to your query output. All selected attributes will become columns in your results table when you run your search. 
 
 {% hint style="info" %}
-Columns are shown - and can be removed - under the Query Editor tab. 
+Columns are shown - and can be removed - under the [Query Editor](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/the-query-builder#the-query-builder-sections) tab. 
 {% endhint %}
 
 ### Run your search
@@ -154,7 +154,7 @@ Coming soon.
 
 ### Constraint logic
 
-You can set the constraint logic for your query under the **Query Editor** tab. Each constraint is assigned a letter, which is shown along with the constraint logic at the bottom of the Query Editor tab. The constraint logic accepts: **AND** and **OR** and **NOT** logic and can be edited using the ✏icon as shown in the next screenshot: 
+You can set the constraint logic for your query under the [**Query Editor**](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/the-query-builder#the-query-builder-sections) tab. Each constraint is assigned a letter, which is shown along with the constraint logic at the bottom of the [Query Editor](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/the-query-builder#the-query-builder-sections) tab. The constraint logic accepts: **AND** and **OR** and **NOT** logic and can be edited using the ✏icon as shown in the next screenshot: 
 
 ![](../../.gitbook/assets/constraint-logic.png)
 
@@ -164,11 +164,11 @@ By default constraint logic is set to AND
 
 ### Sorting
 
-By default, results are sorted on the contents of the first column. However, sorting and reordering columns can be changed under the **Manage Columns** tab. Check the **Query Editor** tab at the top of this page for more details about sorting and ordering columns. 
+By default, results are sorted on the contents of the first column. However, sorting and reordering columns can be changed under the **Manage Columns** tab. Check the [**Query Editor**](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/the-query-builder#the-query-builder-sections) tab at the top of this page for more details about sorting and ordering columns. 
 
 ### Saving and exporting your query
 
-If you are logged in you can save a query you have constructed permanently under the **Saved Queries** tab. The **Save Query** button is found at the bottom of the **Query Editor** tab. 
+If you are logged in you can save a query you have constructed permanently under the **Saved Queries** tab. The **Save Query** button is found at the bottom of the [**Query Editor** ](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/the-query-builder#the-query-builder-sections)tab. 
 
 ![](../../.gitbook/assets/save-1.png)
 
@@ -178,7 +178,7 @@ You can also save a query under the **Manage Columns** tab.
 
 ![](../../.gitbook/assets/save-query-message%20%281%29.png)
 
-You can also export your query in XML under the **XML** tab. You can share exported queries with your colleagues or with the [InterMine team](contact-us.md) if you have any problems.  Queries can be imported in XML under the **Import from XML** tab and also be used in [**GET**](https://www.w3schools.com/tags/ref_httpmethods.asp) ****and [**POST**](https://www.w3schools.com/tags/ref_httpmethods.asp) requests used by the [web services](http://iodocs.labs.intermine.org/). See the **Query Editor** tab at the top of the page for more information on saving and exporting queries. 
+You can also export your query in XML under the **XML** tab. You can share exported queries with your colleagues or with the [InterMine team](contact-us.md) if you have any problems.  Queries can be imported in XML under the **Import from XML** tab and also be used in [**GET**](https://www.w3schools.com/tags/ref_httpmethods.asp) ****and [**POST**](https://www.w3schools.com/tags/ref_httpmethods.asp) requests used by the [web services](http://iodocs.labs.intermine.org/). See the [Query Builder sections - Query Editor](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/the-query-builder#the-query-builder-sections) ****tab at the top of the page for more information on saving and exporting queries. 
 
 ### The difference between NULL and NOT EQUALS
 

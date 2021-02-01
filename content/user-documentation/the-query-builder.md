@@ -184,7 +184,7 @@ Searching Null vs NOT EQUALS
 
 When using a “negative” search such as $$!=$$, it is important to understand the difference between a NULL value and an empty value. **NULL** means a value is either unknown or not applicable. An **Empty** value means the value is known, but it is not present. This has implications for the way you construct a query.
 
-For Example, If you try a query that only shows all genes where the gene name doesn’t equal a given name \(e.g. $$!=$$ BHV4\), this constraint will also exclude NULL values from the results. In such a case, you probably want your query to return all genes where the name does not equal “BHV4” **AND** also include genes that do not have a name in the query results. For genes that do not have a name, the name field is **NULL,** which is different to empty.
+For Example, If you try a query that only shows all genes where the gene name doesn’t equal a given name \(e.g. $$!=$$ BHV4\), this constraint will also exclude NULL values from the results. In such a case, you probably want your query to return all genes where the name does not equal “BHV4” **AND** also include genes that do not have a name in the query results. For genes that do not have a name, the name field is **NULL** or **No Value,** which is different to empty.
 
 For example, try this query in HumanMine:
 
@@ -203,7 +203,7 @@ For example, try this query in HumanMine:
 
 ![](../../.gitbook/assets/example-query.png)
 
-The query returns 59222 rows. So the results didn't return the one gene with a gene name of “BHV4” **AND** all genes with “**NULL**” for the gene name field. 
+The query returns 59222 rows. So the results didn't return the one gene with a gene name of “BHV4” **AND** all genes with **NULL** **- No Value -** for the gene name field. 
 
 Let's update the previous query and add an additional constraint as follows: 
 
@@ -228,7 +228,9 @@ constraintLogic="((A or C) and B)" sortOrder="">
 Remember to change the constraint logic to \(A or C\) and B.
 {% endhint %}
 
-We now get 78, 679 rows - this result includes all genes where the gene name is not BHV4, including genes which have a NULL name.
+We now get 78, 679 rows - this result includes all genes where the gene name is not BHV4, including genes which have a NULL or No Vlaue in name field.
+
+![](../../.gitbook/assets/null-values.png)
 
 {% hint style="info" %}
 To add the **NULL** constraint, use the filter![](../../.gitbook/assets/screenshot-902-.png)icon to add a new constraint and select the **NULL** from the drop-down menu. 

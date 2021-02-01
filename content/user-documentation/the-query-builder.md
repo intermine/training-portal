@@ -6,7 +6,9 @@ The Query Builder is InterMine’s custom query building interface,  allowing yo
 
 ![](../../.gitbook/assets/query-tab.png)
 
-The main query builder page is divided into four main sections: 
+### The Query Builder sections
+
+The query builder page is divided into four main sections: 
 
 {% tabs %}
 {% tab title="Model Browser" %}

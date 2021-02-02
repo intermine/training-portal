@@ -24,9 +24,9 @@ A summary of the data in each column of a results table can be accessed by click
 
 ![](../../.gitbook/assets/graph.png)
 
-The type of summary shown depends on the type of data in the column - whether it is text or numerical data. For example, the results table below is showing pathways associated with the PPARG gene. Therefore, the summary for the pathway **Name** column shows the number of pathways associated with this gene. 
+The type of summary shown depends on the type of data in the column - whether it is text or numerical data. For example, the results table below is showing pathways associated with the Pax6 targets list. Therefore, the summary for the pathway **Name** column shows how many genes are associated with the same pathway. 
 
-![](../../.gitbook/assets/pathways-number.png)
+![](../../.gitbook/assets/pathway-names-2.png)
 
 Whereas, the following column of numerical data - gene lengths in the following screenshot - shows the minimum and maximum values, the mean, and the standard deviation of the data.
 

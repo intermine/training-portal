@@ -131,7 +131,7 @@ Columns are shown - and can be removed - under the [Query Editor](https://app.gi
 
 ### Run your search
 
-Once you are happy with your query and the attributes you have selected for your results, press **Show All Rows** to run your search. Your results will be displayed in our [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables). 
+Once you are happy with your query and the attributes you have selected for your results, press **Show All Rows** to run your search. Your results will be displayed in our [Results Tables](results-tables.md). 
 
 ## Advanced features of the query builder
 
@@ -143,19 +143,20 @@ Some classes have subclasses, which are more specialised sets of the main class.
 
 ### Outer joins
 
-When adding a constraint to a query, you also need to consider whether you want this filter to limit your results to just show items that satisfy the added constraint or show all items in the query results while indicating which records satisfy the filter. For example, if you are adding a constraint to the gene class, and selecting to show any associated pathway\(s\) for a given gene \(or list of genes\), you need to consider whether you want your results to show:
+When adding a constraint to a query, you also need to consider whether you want this filter to limit your results to just show items that satisfy the added constraint or show all items in the query results while indicating which records satisfy the filter. For example, if you are adding a constraint to the Gene class, and selecting to show any associated pathway\(s\) for a given gene \(or list of genes\), you need to consider whether you want your results to show:
 
 1. Only genes if they have a pathway \([**Inner join**](https://towardsdatascience.com/what-is-the-difference-between-an-inner-and-an-outer-join-in-sql-5b5ec8277377)\)
 2. All genes and pathways and indicate which genes that have associated pathway\(s\) \([**Outer join**](https://towardsdatascience.com/what-is-the-difference-between-an-inner-and-an-outer-join-in-sql-5b5ec8277377)\)
 
-The default constraint is always **1,** or **inner join**, which means that only columns that satisfy the constraint\(s\) are shown in the query results. You can change the logic to **2** using the **outer join**. To do this, add your constraint in the usual way, and edit the logic to outer join by clicking the intersection set symbol to the right of a class name in the Query Editor as shown in the following screenshots. 
+The default constraint is always **1,** or **inner join**, which means that only columns that satisfy the constraint\(s\) are shown in the query results. You can change the logic to **2** using the **outer join**. To do this, add your constraint in the usual way, and edit the logic to outer join by clicking the intersection set symbol to the right of a class name in the **Query Editor** as shown in the following screenshots. 
 
 ![](../../.gitbook/assets/inner-join.png)
 
 ![](../../.gitbook/assets/outer-join%20%281%29.png)
 
 {% hint style="info" %}
-Note that the column summary and filtering still applies to the results table as a whole. 
+* Note that the column summary and filtering still applies to the results table as a whole. 
+* The outer join constraint represents a [full outer join](https://en.wikipedia.org/wiki/Join_%28SQL%29) in database systems.  
 {% endhint %}
 
 ### Loop queries

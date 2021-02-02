@@ -63,8 +63,10 @@ The **Model browser** helps you find and add your data of interest.
 
 ### Constructing queries
 
+To build a query, you must first decide on a starting point - class - to start your query.
+
 {% hint style="info" %}
-To build a query, you must first decide on a starting point - or a class - to start your query. The class to begin a query defaults to **Gene** and can be changed with the dropdown list in the Model Browser. 
+The class to begin a query defaults to **Gene** and can be changed with the dropdown list in the **Model Browser**. 
 {% endhint %}
 
 There are three steps to construct a query, which you can repeat for any additional data required:
@@ -73,17 +75,25 @@ There are three steps to construct a query, which you can repeat for any additio
 2. Add the appropriate constraints - or filters - to selected class/attribute.
 3. Decide on the columns you want to view in your results.
 
- These steps are explained in more detail below. 
+ These steps are explained in more details below. 
 
 ### Navigate the data browser
 
-As mentioned earlier, the query builder's left-hand pane is called the model browser, which allows you to navigate through all the data classes from your defined starting point. You must first decide on a starting point - or a class - from which you can start your query. The classes are linked through logical references - for instance, you can navigate from gene to proteins, transcripts and microarray data etc. Classes and references will vary for each InterMine. Every class of data has certain attributes - fields - associated with it. For instance, a gene has a primary identifier, name and symbol, among others. Use the model browser to navigate to the data you are interested in searching. For example, to get to protein domain from **Gene** as the starting point, you would expand the **Protein** class first and then the protein domain class. For each class and attribute in the model browser, there is a **checkbox** that you can use to add - or remove - a given class or attribute from your results.
+As mentioned earlier, the query builder's left-hand pane is called the **Model Browser**, which allows you to navigate through all the data classes from your defined starting point. So, you must first decide on a starting point - or a class - from which you can start your query. Classes are linked through logical references - for instance, you can navigate from genes to proteins, transcripts and microarray data etc. Classes and references will vary for each InterMine. Every class of data has certain attributes - fields - associated with it. For example, a gene has a primary identifier, name and symbol, among others. Use the model browser to navigate to the data you are interested in. For example, to get to **Protein domain** from **Gene** as the starting point, you would expand the **Protein** class first and then the **Protein domain** class. For each class and attribute in the model browser, there is a **checkbox** that you can use to add - or remove - a given class or attribute from your results.
 
 ![](../../.gitbook/assets/navigate-the-data-model.png)
 
 ### Add a constraint - filter - to your query
 
-Once you have navigated to the data you want to search, you can now add a constraint to filter your results and only return the data you are interested in. For example, if you want to return all genes which code for proteins with homeo domains, you would add a constraint to the ‘name’ attribute of the protein domain class. The type of constraint you can add depends on the class and attribute selected. For some, you may have to add some text; while others may require you to select from a drop-down list. Some will allow you to choose a list of saved objects, e.g. a list of genes. You can add as many constraints as you wish to build up your query. The set of constraints you add is shown in the right-hand pane of the Query Builder - specifically under the **Query Editor** and **XML** tabs. 
+Once you have navigated to the data you want to search, you can now add a constraint to filter your results and only return the data you are interested in. For example, if you want to return all genes involved in diabetes, you would first select the **Gene** and **Diseases** classes through the **Modal Browser**. 
+
+![](../../.gitbook/assets/gene-class.png)
+
+Then add a constraint to the **Name** attribute of the **Diseases** class. 
+
+![](../../.gitbook/assets/diabetes-constraint.png)
+
+The type of constraint you can add depends on the class and attribute selected. For some constraints, you may have to type in some text; while others may require you to select from a drop-down list. Some will allow you to choose a list of saved objects, such as a list of genes. You can add as many constraints as you wish to build up your query. The set of constraints you add is shown in the right-hand pane of the Query Builder - specifically under the **Query Editor** and **XML** tabs. 
 
 Remember that you are building a query from scratch so you may need to put in constraints to limit the organism or the set of genes. For example, the following screenshot shows a query under construction - without any constraints, the expected results are 232429 rows. 
 

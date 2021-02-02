@@ -66,7 +66,7 @@ The **Model browser** helps you find and add your data of interest.
 To build a query, you must first decide on a starting point - class - to start your query.
 
 {% hint style="info" %}
-The class to begin a query defaults to **Gene** and can be changed with the dropdown list in the **Model Browser**. 
+By default, the query starting point defaults to **Gene** and can be changed with the **Model Browser's** dropdown list. 
 {% endhint %}
 
 There are three steps to construct a query, which you can repeat for any additional data required:
@@ -89,7 +89,7 @@ Once you have navigated to the data you want to search, you can now add a constr
 
 ![](../../.gitbook/assets/gene-class.png)
 
-Then add a constraint to the **Name** attribute of the **Diseases** class,  limiting your results to only those genes associated with diabetes.
+Then add a constraint to the **Diseases** class's **Name** attribute,  limiting your results to only those genes associated with diabetes.
 
 ![](../../.gitbook/assets/diabetes-constraint.png)
 
@@ -116,12 +116,12 @@ Gene.length" constraintLogic="(A)" sortOrder="">
 ```
 
 {% hint style="info" %}
-Constraints are assigned capital letter labels; so, your first added constraint will be called A, the second will be called B, and so on.
+Constraints are assigned capital letters as their labels; so, your first added constraint will be called A, the second will be called B, and so on.
 {% endhint %}
 
 ### Choose the data you want in your results.
 
-Every attribute has a **checkbox** on the left that you can tick✅to add that attribute to your query output. All selected attributes will become columns in your results table when you run your search. For example, if you want to return all genes involved in diabetes, you would first select the **Gene** and its common attributes using the **Summary** button. You can then add the **Diseases** class and its name attribute using the checkbox as shown in the screenshot below. 
+Every attribute has a **checkbox** on the left that you can tick✅to add that attribute to your query output. All selected attributes will become columns in your results table when you run your search. For example, if you want to return all genes involved in diabetes, you would first select the **Gene** and its common attributes using the **Summary** button. You can then add the **Diseases** class and its name attribute using the checkbox shown in the screenshot below. 
 
 ![](../../.gitbook/assets/checkboxes.png)
 
@@ -143,7 +143,7 @@ Some classes have subclasses, which are more specialised sets of the main class.
 
 ### Outer joins
 
-When adding a constraint to a query, you also need to consider whether you want this filter to limit your results to just show items that satisfy the added constraint or show all items in the query results while indicating which records satisfy the filter. For example, if you are adding a constraint to the Gene class, and selecting to show any associated pathway\(s\) for a given gene \(or list of genes\), you need to consider whether you want your results to show:
+When adding a constraint to a query, you also need to consider whether you want this filter to limit your results to only show items that satisfy the added constraint or show all items in the query results while indicating which records satisfy the filter. For example, if you are adding a constraint to the Gene class, and selecting to show any associated pathway\(s\) for a given gene \(or list of genes\), you need to consider whether you want your results to show:
 
 1. Only genes if they have a pathway \([**Inner join**](https://towardsdatascience.com/what-is-the-difference-between-an-inner-and-an-outer-join-in-sql-5b5ec8277377)\)
 2. All genes and pathways and indicate which genes that have associated pathway\(s\) \([**Outer join**](https://towardsdatascience.com/what-is-the-difference-between-an-inner-and-an-outer-join-in-sql-5b5ec8277377)\)
@@ -170,7 +170,7 @@ You can set the constraint logic for your query under the [**Query Editor**](htt
 ![](../../.gitbook/assets/constraint-logic.png)
 
 {% hint style="info" %}
-By default constraint logic is set to AND
+By default constraint logic is set to AND 
 {% endhint %}
 
 ### Sorting
@@ -179,7 +179,7 @@ By default, results are sorted on the contents of the first column. However, sor
 
 ### Saving and exporting your query
 
-If you are logged in you can save a query you have constructed permanently under the **Saved Queries** tab. The **Save Query** button is found at the bottom of the [**Query Editor** ](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/the-query-builder#the-query-builder-sections)tab. 
+If you are logged in, you can save a query you have constructed permanently under the **Saved Queries** tab. The **Save Query** button is found at the bottom of the [**Query Editor** ](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/the-query-builder#the-query-builder-sections)tab. 
 
 ![](../../.gitbook/assets/save-1.png)
 
@@ -189,7 +189,7 @@ You can also save a query under the **Manage Columns** tab.
 
 ![](../../.gitbook/assets/save-query-message%20%281%29.png)
 
-You can also export your query in XML under the **XML** tab. You can share exported queries with your colleagues or with the [InterMine team](contact-us.md) if you have any problems.  Queries can be imported in XML under the **Import from XML** tab and also be used in [**GET**](https://www.w3schools.com/tags/ref_httpmethods.asp) ****and [**POST**](https://www.w3schools.com/tags/ref_httpmethods.asp) requests used by the [web services](http://iodocs.labs.intermine.org/). See the [Query Builder sections - Query Editor](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/the-query-builder#the-query-builder-sections) ****tab at the top of the page for more information on saving and exporting queries. 
+Further, you can export your query in XML under the **XML** tab. You can share exported queries with your colleagues or with the [InterMine team](contact-us.md) if you have any problems.  Queries can be imported in XML under the **Import from XML** tab and also be used in [**GET**](https://www.w3schools.com/tags/ref_httpmethods.asp) ****and [**POST**](https://www.w3schools.com/tags/ref_httpmethods.asp) requests used by the [web services](http://iodocs.labs.intermine.org/). See the[ Query Editor](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/~/drafts/-MSYkZresZ229V1rlQ7V/content/user-documentation/the-query-builder#overview) ****tab at the top of the page for more information on saving and exporting queries. 
 
 ### The difference between NULL and NOT EQUALS
 
@@ -241,7 +241,7 @@ constraintLogic="((A or C) and B)" sortOrder="">
 Remember to change the constraint logic to \(A or C\) and B.
 {% endhint %}
 
-We now get 78, 679 rows - this result includes all genes where the gene name is not BHV4, including genes which have a NULL or No Vlaue in name field.
+We now get 78, 679 rows - this result includes all genes where the gene name is not BHV4, including genes with a NULL or No Value in the name field.
 
 ![](../../.gitbook/assets/null-values.png)
 

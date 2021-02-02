@@ -68,6 +68,8 @@ For example, when you run the$$Gene → Pathways$$template search with the same 
 Note that if you want to create a list of these genes, you will create a list of 153 unique genes. Please see the [Save a result set for further analysis](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/results-tables#save-a-result-set-for-further-analysis) section for more details. 
 {% endhint %}
 
+Results by default are always returned with what we call an inner join. So, in the example above, if a gene in the list does not have associated pathway data then it will not appear in the results. This can be changed - see the [Query Builder - Outer joins](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/~/drafts/-MSZ-rWrsFFJa1oY4hb_/content/user-documentation/the-query-builder#outer-joins) section for more details. 
+
 ### Apply a filter to your results
 
 Results tables allow you to explore your results by applying filters to any of the resulting data columns. Filters can be applied through the **filter** icon![](../../.gitbook/assets/screenshot-902-.png)in the column header and the [Column summaries](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/results-tables#column-summaries). The filter icon allows you to edit or remove any existing filters, and add additional filters to your results. Any active filters are shown and can only be removed or edited when you click the filter icon. 

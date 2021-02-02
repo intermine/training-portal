@@ -1,12 +1,10 @@
 # The Query Builder
 
-## The Query Builder
-
-The Query Builder is InterMine’s custom query building interface,  allowing you to create and save your own searches. Users usually use this flexible interface to construct their own data mining queries. The QueryBuilder lets you view the data model, apply constraints and select your preferred output. To access the query builder, click on the **Query Builder** tab in the top navigation bar. 
+The Query Builder is InterMine’s custom query building interface,  allowing you to create and save your own searches. Users usually use this flexible interface to construct their own data mining queries. The QueryBuilder lets you view the data model, apply constraints, and select your preferred output. To access the query builder, click on the **Query Builder** tab in the top navigation bar. 
 
 ![](../../.gitbook/assets/query-tab.png)
 
-### The Query Builder sections
+### Overview
 
 The query builder page is divided into four main sections: 
 
@@ -18,14 +16,14 @@ The **Model browser** helps you find and add your data of interest.
 
 1. The class field to browse through available classes. For example, the screenshot shows the **Gene** class with its associated attributes, such as **Length**, **Name**, **Primary Identifier**, etc. 
 2. You can click the **Browse** button to be directed to the **Data browser tree** to browse all class names. Clicking on any class name will take you back to the **Model browser** with that class selected in the class field. 
-3. You have some controls to manage the selected class's data. You can use **Summary** to summerise the selected class by adding its common attributes, **Expand** to expand the **Model browser tree** to show all selected attributes, **Collapse** to fold the **Model browser tree** to the top level and **Clear** to remove all selected attributes. 
+3. You have some controls to manage the selected class's data. You can use **Summary** to summerise the selected class by adding its common attributes, **Expand** to expand the **Model browser tree** showing all selected attributes, **Collapse** to fold the **Model browser tree** to the top level and **Clear** to remove all selected attributes. 
 4. Use **checkboxes to** add individual fields - attributes - to your results. 
 5.  Expand more fields underneath class a using the➕sign. 
 6. Click **Summary** to add a summary of common fields to the results table.  
 {% endtab %}
 
 {% tab title="Query Editor" %}
-* The **Query Editor** tab allows you to edit your query by adding filters - constraints - or remove selected classes or attributes. 
+* The **Query Editor** tab allows you to edit your query by adding filters - constraints - to any column or remove selected classes or attributes. 
 
 ![](../../.gitbook/assets/editor-window%20%281%29.png)
 
@@ -35,11 +33,11 @@ The **Model browser** helps you find and add your data of interest.
 {% endtab %}
 
 {% tab title="Query Preview" %}
-* The **Preview** tab lets you preview how the results of the query under creation will look like. 
+* The **Preview** tab lets you preview how the results of the query under construction will look like. 
 
 ![](../../.gitbook/assets/preview-2.png)
 
-* The **XML** tab lets you view and copy queries in XML format to share them with others.  
+* The **XML** tab lets you view and copy queries in XML format to share them with others or save them for later. 
 
 ![](../../.gitbook/assets/xml%20%281%29.png)
 {% endtab %}
@@ -53,11 +51,11 @@ The **Model browser** helps you find and add your data of interest.
 
 ![](../../.gitbook/assets/save-query-message.png)
 
-* To the right of each saved query, there are some available actions that you can use to Load or run that query, Rename it or Delete it if needed. 
+* To the right of each saved query, there are some available actions that you can use to Load or run that query, Rename it, or Delete it if needed. 
 
 ![](../../.gitbook/assets/saved-queries.png)
 
-* You can also import query by pasting the query XML in the input field and click **Upload Query** under the **Import from XML** tab. 
+* You can also import a query by pasting the query XML in the input field and click **Upload Query** under the **Import from XML** tab. 
 
 ![](../../.gitbook/assets/import-xml-query.png)
 {% endtab %}

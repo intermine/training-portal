@@ -1,6 +1,6 @@
 # Account
 
-You need to create a different account for each InterMine database you use; we hope to support single sign-on in the future. You can access your account from the top navigation bar. 
+Your personal InterMine account allows you to create and manage your private lists, queries, templates etc. You need to create a different account for each InterMine database you use; we hope to support single sign-on in the future. You can access your account from the top navigation bar. 
 
 ![](../../.gitbook/assets/account.png)
 
@@ -40,15 +40,15 @@ Sharing lists is not yet implemented in the BlueGenes interface. However, if you
 
 ![](../../.gitbook/assets/password.png)
 
-You can change your password using the Change password form shown in the previous screenshot. You need to type in your old and new passwords and click Save Password to update your password. 
+You can change your password using the Change password form shown in the previous screenshot. You need to type in your old and new passwords and click **Save Password** to update your password. 
 
-#### Delete account: 
+#### Delete account:
 
 ![](../../.gitbook/assets/delete-account%20%281%29.png)
 
 ![](../../.gitbook/assets/delete-account-code.png)
 
-To delete your account, you can click **Start Account Deletion**, which will direct you to a confirmation page. You need to copy and paste the confirmation code in the provided input field and click **Delete Account**. Once completed, you will no longer be able to login to your account and access your content and user preferences on this InterMine instance. 
+To delete your account, you can click **Start Account Deletion**, which will direct you to a confirmation page. You need to copy and paste the confirmation code in the provided input field and click **Delete Account**. Once completed, you will no longer be able to login to your account and access your content or user preferences on this InterMine instance. 
 
 {% hint style="danger" %}
 Account deletion cannot be undone. 

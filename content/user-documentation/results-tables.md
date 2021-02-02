@@ -84,7 +84,7 @@ Results tables allow you to explore your results by applying filters to any of t
 
 ![](../../.gitbook/assets/adding-a-filter%20%281%29.png)
 
-You can also add, edit or remove filters using the **Manage Filters** button. 
+You can also add, edit or remove filters using the **Manage Filters** button, which provides information on filters added to all columns in the results. 
 
 ![](../../.gitbook/assets/manage-filters.png)
 

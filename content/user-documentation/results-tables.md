@@ -1,6 +1,6 @@
 # Results Tables
 
-Running any search from available [template searches ](template-search.md)or using the [query builder](the-query-builder.md) will return results as a results table. Results tables are also used to display the contents of a particular list on list analysis pages. Results tables are not limited to displaying search results, but they are also considered powerful analysis tools. They allow you to summarise, filter, add or remove columns, create lists, and download data.
+Running any search from the available [template searches ](template-search.md)or using the [query builder](the-query-builder.md) will return results as a results table. Results tables are also used to display the contents of a particular list on list analysis pages. Results tables are not limited to displaying search results, but they are also considered powerful analysis tools. They allow you to summarise, filter, add or remove columns, create lists, and download data.
 
 ### Understanding and navigating through the data
 
@@ -18,7 +18,7 @@ Columns showing certain object identifiers or symbols will be linked to the [Rep
 
 ![](../../.gitbook/assets/links.png)
 
-### Column Summaries
+### Column summaries
 
 A summary of the data in each column of a results table can be accessed by clicking on the graph icon📊in the column header.
 
@@ -70,7 +70,7 @@ Note that if you want to create a list of these genes, you will create a list of
 
 ### Apply a filter to your results
 
-Results tables allow you to explore your results by applying filters to any of the resulting data columns. Filters can be applied through the **filter** icon![](../../.gitbook/assets/screenshot-902-.png)in the column header and the [Column Summaries](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/results-tables#column-summaries). The filter icon allows you to edit or remove any existing filters, and add additional filters to your results. Any active filters are shown and can only be removed or edited when you click the filter icon. 
+Results tables allow you to explore your results by applying filters to any of the resulting data columns. Filters can be applied through the **filter** icon![](../../.gitbook/assets/screenshot-902-.png)in the column header and the [Column summaries](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/results-tables#column-summaries). The filter icon allows you to edit or remove any existing filters, and add additional filters to your results. Any active filters are shown and can only be removed or edited when you click the filter icon. 
 
 ![](../../.gitbook/assets/filters.png)
 

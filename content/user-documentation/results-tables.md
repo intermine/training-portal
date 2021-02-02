@@ -14,7 +14,7 @@ The second thing to note is the column headings, which give the field name for t
 
 ### Finding out more - links
 
-Columns showing certain object identifiers or symbols will be linked to the [Report Pages](report-pages.md) for that object. In addition, hovering over a given cell in the table shows a pop-up summary of the object, which gives more details about its main attributes.
+Columns showing certain object identifiers or symbols will be linked to the [Report Pages](report-pages.md) for that object. In addition, hovering over a given cell in the table shows a pop-up summary of the object, which gives more details about its main attributes. 
 
 ![](../../.gitbook/assets/links.png)
 

@@ -89,7 +89,7 @@ Once you have navigated to the data you want to search, you can now add a constr
 
 ![](../../.gitbook/assets/gene-class.png)
 
-Then add a constraint to the **Name** attribute of the **Diseases** class. 
+Then add a constraint to the **Name** attribute of the **Diseases** class,  limiting your results to only those genes associated with diabetes.
 
 ![](../../.gitbook/assets/diabetes-constraint.png)
 

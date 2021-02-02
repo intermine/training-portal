@@ -121,7 +121,9 @@ Constraints are assigned capital letter labels; so, your first added constraint 
 
 ### Choose the data you want in your results.
 
-Every attribute has a **checkbox** on the left that you can tick✅to add that attribute to your query output. All selected attributes will become columns in your results table when you run your search. 
+Every attribute has a **checkbox** on the left that you can tick✅to add that attribute to your query output. All selected attributes will become columns in your results table when you run your search. For example, if you want to return all genes involved in diabetes, you would first select the **Gene** and its common attributes using the **Summary** button. You can then add the **Diseases** class and its name attribute using the checkbox as shown in the screenshot below. 
+
+![](../../.gitbook/assets/checkboxes.png)
 
 {% hint style="info" %}
 Columns are shown - and can be removed - under the [Query Editor](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/the-query-builder#the-query-builder-sections) tab. 

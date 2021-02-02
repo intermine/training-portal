@@ -5,7 +5,7 @@
 The InterMine core team is based in Cambridge, UK, with 8 ****am to 5 pm business hours during the week. 
 
 {% hint style="info" %}
-First, check out our [Frequently Asked Questions](questions-faqs.md) for the commonly asked questions and their answers  
+First, check out our [Frequently Asked Questions](questions-faqs.md) for the commonly asked questions and their answers.  
 {% endhint %}
 
 If you still can't find what you're looking for, you can contact us in several ways!
@@ -51,6 +51,4 @@ Please contact us first, so we can get ready to have you! ****
 ### Roadmap 🗺 
 
 For more information about the upcoming releases, please visit the InterMine roadmap [**here**](https://github.com/intermine/bluegenes/projects/5)**.**
-
-#### Improve this page **** 
 

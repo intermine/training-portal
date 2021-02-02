@@ -20,7 +20,7 @@ Columns showing certain object identifiers or symbols will be linked to the [Rep
 
 ### Column summaries
 
-A summary of the data in each column of a results table can be accessed by clicking on the graph icon📊in the column header.
+A summary of the data in each column of a results table can be accessed by clicking on the graph icon![](../../.gitbook/assets/bar-chart.png)in the column header.
 
 ![](../../.gitbook/assets/graph.png)
 

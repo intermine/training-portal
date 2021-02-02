@@ -4,7 +4,7 @@ Running any search from available [template searches ](template-search.md)or usi
 
 ### Understanding and navigating through the data
 
-The first thing to note on results tables is the number of rows returned by your query. By default, the number of rows shown per page is10 and can be changed to 20, 50, 100, or 250 rows per page. For large data sets, you can navigate through your results one page at a time using the backward/forward arrow icons◀▶, or you can go straight to the last or the first page using the skip icons.  
+The first thing to note on results tables is the number of rows returned by your query. By default, the number of rows shown per page is10 and can be changed to 20, 50, 100, or 250 rows per page. For large data sets, you can navigate through your results one page at a time using the backward and forward arrow icons◀▶, or you can go straight to the last or the first pages using the skip icons![](../../.gitbook/assets/previous2.png)![](../../.gitbook/assets/next2.png) .  
 
 ![](../../.gitbook/assets/navigate-data-1.png)
 

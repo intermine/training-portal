@@ -139,7 +139,7 @@ There are two ways to change the sort order of the columns in your results table
 
 ![](../../.gitbook/assets/sorting-columns-2.png)
 
-* The second way to set the sort order is through the **Query Builder** tab, where you can define the sort order of all columns in your table under the **Manage Columns** sub-tab. 
+* The second way to set the sort order is through the [**Query Builder**](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/the-query-builder#overview) ****tab, where you can define the sort order of all columns in your table under the [**Manage Columns**](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/the-query-builder#overview) sub-tab. 
 
 ![](../../.gitbook/assets/sorting-cols.png)
 

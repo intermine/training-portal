@@ -30,7 +30,7 @@ The type of summary shown depends on the type of data in the column - whether it
 
 Whereas, the following column of numerical data - gene lengths in the following screenshot - shows the minimum and maximum values, the mean, and the standard deviation of the data.
 
-![](../../.gitbook/assets/numerical-data.png)
+![](../../.gitbook/assets/numerical-data-2.png)
 
 Results can also be filtered through the column summary depending on the type of data. For text data, you can filter by selecting the relevant checkbox\(s\) or enter some text value in the search field and then select the relevant checkbox\(s\). For numerical data, use the sliders to select the range of data you wish to view. Click the **Filter** button to re-draw the table with your added filters. 
 

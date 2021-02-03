@@ -30,20 +30,10 @@ The **Model browser** helps you find and add your data of interest.
 {% endtab %}
 {% endtabs %}
 
+* The Query Editor tab
+* The Manage Columns tab
+
 {% tabs %}
-{% tab title="Model Browser" %}
-The **Model browser** helps you find and add your data of interest. 
-
-![](../../.gitbook/assets/data-model-edited%20%281%29.png)
-
-1. The class field to browse through available classes. For example, the screenshot shows the **Gene** class with its associated attributes, such as **Length**, **Name**, **Primary Identifier**, etc. 
-2. You can click the **Browse** button to be directed to the **Data browser tree** to browse all class names. Clicking on any class name will take you back to the **Model browser** with that class selected in the class field. 
-3. You have some controls to manage the selected class's data. You can use **Summary** to summerise the selected class by adding its common attributes, **Expand** to expand the **Model browser tree** showing all selected attributes, **Collapse** to fold the **Model browser tree** to the top level and **Clear** to remove all selected attributes. 
-4. Use **checkboxes to** add individual fields - attributes - to your results. 
-5.  Expand more fields underneath class a using the➕sign. 
-6. Click **Summary** to add a summary of common fields to the results table.  
-{% endtab %}
-
 {% tab title="Query Editor" %}
 * The **Query Editor** tab allows you to edit your query by adding filters - constraints - to any column or remove selected classes or attributes. 
 
@@ -54,21 +44,42 @@ The **Model browser** helps you find and add your data of interest.
 ![](../../.gitbook/assets/manage-cols%20%281%29.png)
 {% endtab %}
 
-{% tab title="Query Preview" %}
-* The **Preview** tab lets you preview how the results of the query under construction will look like. 
+{% tab title="Manage Columns" %}
+* The **Manage Columns** tab lets you manage the order of selected columns in your results and sort data in each column alphabetically in ascending or descending order. 
+
+![](../../.gitbook/assets/manage-cols%20%281%29.png)
+{% endtab %}
+{% endtabs %}
+
+* The Preview tab
+* The XML tab
+
+{% tabs %}
+{% tab title="Preview" %}
+* The **Preview** tab lets you view how the results of the query under construction will look like. 
 
 ![](../../.gitbook/assets/preview-2.png)
-
-* The **XML** tab lets you view and copy queries in XML format to share them with others or save them for later. 
-
-![](../../.gitbook/assets/xml%20%281%29.png)
 {% endtab %}
 
-{% tab title="Query History" %}
+{% tab title="XML" %}
+* The **XML** tab lets you view and copy queries in XML format to share them with others or save them for later. 
+
+![](../../.gitbook/assets/xml.png)
+{% endtab %}
+{% endtabs %}
+
+* The Recent Queries tab
+* The Saved Queries tab
+* The Import from XML tab
+
+{% tabs %}
+{% tab title="Recent Queries" %}
 * The **Recent Queries** tab displays recent queries you run. 
 
 ![](../../.gitbook/assets/recent.png)
+{% endtab %}
 
+{% tab title="Saved Queries" %}
 * When you successfully save a query, a confirmation message will be shown, and you can view saved queries under the **Saved Queries** tab. 
 
 ![](../../.gitbook/assets/save-query-message.png)
@@ -76,8 +87,10 @@ The **Model browser** helps you find and add your data of interest.
 * To the right of each saved query, there are some available actions that you can use to Load or run that query, Rename it, or Delete it if needed. 
 
 ![](../../.gitbook/assets/saved-queries.png)
+{% endtab %}
 
-* You can also import a query by pasting the query XML in the input field and click **Upload Query** under the **Import from XML** tab. 
+{% tab title="Import from XML" %}
+* You can also import a query by pasting the query XML in the input field and click **Load Query** under the **Import from XML** tab. 
 
 ![](../../.gitbook/assets/import-xml-query.png)
 {% endtab %}

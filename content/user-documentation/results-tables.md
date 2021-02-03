@@ -34,7 +34,7 @@ Whereas, the following column of numerical data - gene lengths - shows the minim
 
 Results can also be filtered through the column summary depending on the type of data. For text data, you can filter by selecting the relevant checkbox\(s\) or enter some text value in the search field and then select the relevant checkbox\(s\). For numerical data, use the sliders to select the range of data you wish to view. Click the **Filter** button to re-draw the table with your added filters. 
 
-![](../../.gitbook/assets/filtering-graph.png)
+![](../../.gitbook/assets/filtering-a-graph.png)
 
 To remove a filter, either click the **UNDO** button at the top of the table or the filter icon in the column header and remove it from there. 
 

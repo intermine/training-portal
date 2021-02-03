@@ -1,6 +1,6 @@
 # Data Sources
 
-#### Browse data sources
+### Browse data sources
 
 The BlueGenes application includes a link to all data sources on the homepage, which provides details of all data included in the database. This link applies to all InterMine instances. You can browse the full set of data available, including data set name, publications and links to the original data by clicking **Show Sources** button. The data sources will be displayed as a standard results table, as shown below. 
 

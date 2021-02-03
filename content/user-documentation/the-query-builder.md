@@ -26,7 +26,9 @@ The **Model browser** helps you find and add your data of interest.
 {% endtab %}
 
 {% tab title="Data Browser" %}
+* when you click the **Browse** button in the **Model browser**, you are directed to the **Data browser tree** to browse all class names. Clicking on any class name will take you back to the Model browser with that class selected in the class field. You can also switch back to Model browser when you click the **Back To Model** button.  ****
 
+![](../../.gitbook/assets/data-tree.png)
 {% endtab %}
 {% endtabs %}
 
@@ -38,10 +40,6 @@ The **Model browser** helps you find and add your data of interest.
 * The **Query Editor** tab allows you to edit your query by adding filters - constraints - to any column or remove selected classes or attributes. 
 
 ![](../../.gitbook/assets/editor-window%20%281%29.png)
-
-* The **Manage Columns** tab lets you manage the order of selected columns in your results and sort data in each column alphabetically in ascending or descending order. 
-
-![](../../.gitbook/assets/manage-cols%20%281%29.png)
 {% endtab %}
 
 {% tab title="Manage Columns" %}

@@ -152,17 +152,22 @@ Constraints are also shown at the bottom of the query's XML format as follows:
 
 ```text
 <query model="genomic" view="Gene.symbol 
-Gene.primaryIdentifier Gene.name 
-Gene.secondaryIdentifier 
-Gene.length" constraintLogic="(A)" sortOrder="">
+       Gene.primaryIdentifier Gene.name 
+       Gene.secondaryIdentifier 
+       Gene.length" constraintLogic="(A)" 
+       sortOrder="">
    <constraint path="Gene" value="PPARG" 
-    op="LOOKUP" code="A"/>
+       op="LOOKUP" code="A"/>
 </query>
 ```
 
 {% hint style="info" %}
 Constraints are assigned capital letters as their labels; so, your first added constraint will be called A, the second will be called B, and so on.
 {% endhint %}
+
+Most InterMine instances contain gene data from more than one organism even if their data focus is a specific organism. For example, HumanMine has gene data for human, mouse and rats. Therefore, when constructing a query from scratch, it often makes sense to add an organism constraint. For instance, we can add an extra constraint to the previous example to limit the data to the **Homo Sapiens** organism only as shown in the following screenshot. 
+
+![](../../.gitbook/assets/organism-name-constraint.png)
 
 ### Choose the data you want in your results.
 

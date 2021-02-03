@@ -82,7 +82,7 @@ The **Model browser** helps you find and add your data of interest.
 
 ![](../../.gitbook/assets/save-query-message.png)
 
-* To the right of each saved query, there are some available actions. For example, you can use the **Load** action to load a query in the **Query Editor** tab.
+* To the right of each saved query, there are three actions associated with each saved query - **Load**, **Rename** and **Delete**. For example, you can use the **Load** action to load a query in the **Query Editor** tab.
 
 ![](../../.gitbook/assets/saved-queries.png)
 

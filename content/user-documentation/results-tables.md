@@ -127,7 +127,7 @@ To add the deleted column back, click the **Undo** button to revert to the previ
 
 ### Re-arranging columns in your results
 
-Re-arranging columns is done under the **Manage Columns** tab by dragging and dropping given columns to change their order. Check the [Query Builder](the-query-builder.md) section for more information. 
+Re-arranging columns can be done under the **Manage Columns** tab by dragging and dropping any columns to change their order. Check the [Query Builder](the-query-builder.md) section for more information. 
 
 ![](../../.gitbook/assets/columns-order.png)
 

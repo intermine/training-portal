@@ -130,7 +130,7 @@ As mentioned earlier, the query builder's left-hand pane is called the **Model B
 
 ### Add a constraint - filter - to your query
 
-Once you have navigated to the data you want to search, you can now add a constraint to filter your results and only return the data you are interested in. For example, if you want to return all genes involved in diabetes, you would first select the **Gene** and **Diseases** classes through the **Modal Browser**. 
+Once you have navigated to the data you want to search, you can now add a constraint to filter your results and only return the data you are interested in. For example, if you want to return all genes involved in diabetes, you would first select the **Gene** and **Diseases** classes through the **Model Browser**. 
 
 ![](../../.gitbook/assets/gene-class.png)
 

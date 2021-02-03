@@ -82,7 +82,7 @@ The **Model browser** helps you find and add your data of interest.
 
 ![](../../.gitbook/assets/save-query-message.png)
 
-* To the right of each saved query, there are some available actions. For example, you can use the **Load** option to load that query in the Query Editor tab, Rename it, or Delete it if needed. 
+* To the right of each saved query, there are some available actions. For example, you can use the **Load** action to load a query in the **Query Editor** tab.
 
 ![](../../.gitbook/assets/saved-queries.png)
 
@@ -90,7 +90,7 @@ The **Model browser** helps you find and add your data of interest.
 
 ![](../../.gitbook/assets/rename-a-query.png)
 
-* You can remove a query through the **Delete** action. You can undo this action through the link in the confirmation message shown in the following screenshot.  
+* You can remove a query through the **Delete** action. The deleted query can be restored through the link in the confirmation message shown in the following screenshot.  
 
 ![](../../.gitbook/assets/delete-a-query.png)
 

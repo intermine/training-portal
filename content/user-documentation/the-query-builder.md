@@ -8,8 +8,8 @@ The Query Builder is InterMine’s custom query building interface,  allowing yo
 
 The query builder page is divided into several sections as follows:
 
-* Model Browser
-* Data Browser
+* **The Model Browser**
+* **The Data Browser**
 
 {% tabs %}
 {% tab title="Model Browser" %}
@@ -30,8 +30,8 @@ The **Model browser** helps you find and add your data of interest.
 {% endtab %}
 {% endtabs %}
 
-* The Query Editor tab
-* The Manage Columns tab
+* **The Query Editor tab**
+* **The Manage Columns tab**
 
 {% tabs %}
 {% tab title="Query Editor" %}
@@ -51,8 +51,8 @@ The **Model browser** helps you find and add your data of interest.
 {% endtab %}
 {% endtabs %}
 
-* The Preview tab
-* The XML tab
+* **The Preview tab**
+* **The XML tab**
 
 {% tabs %}
 {% tab title="Preview" %}
@@ -68,9 +68,9 @@ The **Model browser** helps you find and add your data of interest.
 {% endtab %}
 {% endtabs %}
 
-* The Recent Queries tab
-* The Saved Queries tab
-* The Import from XML tab
+* **The Recent Queries tab**
+* **The Saved Queries tab**
+* **The Import from XML tab**
 
 {% tabs %}
 {% tab title="Recent Queries" %}

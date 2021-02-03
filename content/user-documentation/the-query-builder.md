@@ -6,11 +6,33 @@ The Query Builder is InterMine’s custom query building interface,  allowing yo
 
 ### Overview
 
-The query builder page is divided into four main sections: 
+The query builder page is divided into several sections as follows:
+
+* Model Browser
+* Data Browser
 
 {% tabs %}
 {% tab title="Model Browser" %}
 The **Model browser** helps you find and add your data of interest.
+
+![](../../.gitbook/assets/data-model-edited%20%281%29.png)
+
+1. The class field to browse through available classes. For example, the screenshot shows the **Gene** class with its associated attributes, such as **Length**, **Name**, **Primary Identifier**, etc. 
+2. You can click the **Browse** button to be directed to the **Data browser tree** to browse all class names. Clicking on any class name will take you back to the **Model browser** with that class selected in the class field. 
+3. You have some controls to manage the selected class's data. You can use **Summary** to summerise the selected class by adding its common attributes, **Expand** to expand the **Model browser tree** showing all selected attributes, **Collapse** to fold the **Model browser tree** to the top level and **Clear** to remove all selected attributes. 
+4. Use **checkboxes to** add individual fields - attributes - to your results. 
+5.  Expand more fields underneath class a using the➕sign. 
+6. Click **Summary** to add a summary of common fields to the results table.  
+{% endtab %}
+
+{% tab title="Data Browser" %}
+
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Model Browser" %}
+The **Model browser** helps you find and add your data of interest. 
 
 ![](../../.gitbook/assets/data-model-edited%20%281%29.png)
 

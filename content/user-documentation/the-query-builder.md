@@ -243,13 +243,11 @@ Further, you can export your query in XML under the **XML** tab. You can share e
 
 ### The difference between NULL and NOT EQUALS
 
-Searching Null vs NOT EQUALS
+When using a “negative” search such as$$!=$$, it is important to also consider **NULL** values. **NULL** means a value is either unknown or not applicable. When using the$$!=$$constraint, the search will not consider fields which have a **NULL** or **NO VALUE**. For instance, the Gene class has a symbol field. In most cases, this field is populated with the gene symbol; however, if a particular gene does not have a symbol, then this field will have **NO VALUE** in the symbol field. The$$!=$$constraint will include all genes that satisfy the search condition while excluding genes which do not match the search term, including genes without a symbol. However, if you are trying to exclude a defined gene or set of genes, you probably also want to include genes where the gene symbol **IS NULL**. 
 
-When using a “negative” search such as $$!=$$, it is important to understand the difference between a **NULL** value and an empty value. **NULL** means a value is either unknown or not applicable. An **Empty** value means the value is known, but it is not present. This has implications for the way you construct a query.
+* For Example, If you try a query that only shows all genes where the gene name doesn’t equal a given name \(e.g. $$!=$$ BHV4\), this constraint will also exclude **NULL** values from the results. In such a case, you probably want your query to return all genes where the name does not equal “BHV4” **AND** also include genes that do not have a name in your query results. For genes that do not have a name, the name field shows **NO VALUE,** which is different to empty.
 
-For Example, If you try a query that only shows all genes where the gene name doesn’t equal a given name \(e.g. $$!=$$ BHV4\), this constraint will also exclude NULL values from the results. In such a case, you probably want your query to return all genes where the name does not equal “BHV4” **AND** also include genes that do not have a name in the query results. For genes that do not have a name, the name field is **NULL,** which is different to empty.
-
-For example, try this query in HumanMine:
+You can try this query in HumanMine by pasting the query's XML under the [XML](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/~/drafts/-MShHhOJ-sA3leT4UY29/content/user-documentation/the-query-builder#overview) tab: 
 
 ```text
 <query model="genomic" view="Gene.symbol 

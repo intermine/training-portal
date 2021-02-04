@@ -241,7 +241,7 @@ You can also save a query under the **Manage Columns** tab.
 
 Further, you can export your query in XML under the **XML** tab. You can share exported queries with your colleagues or with the [InterMine team](contact-us.md) if you have any problems.  Queries can be imported in XML under the **Import from XML** tab and used in [**GET**](https://www.w3schools.com/tags/ref_httpmethods.asp) ****and [**POST**](https://www.w3schools.com/tags/ref_httpmethods.asp) requests used by the [web services](http://iodocs.labs.intermine.org/). See the[ Overview - Query Editor](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/~/drafts/-MSYkZresZ229V1rlQ7V/content/user-documentation/the-query-builder#overview) ****tab for more information on saving and exporting queries. 
 
-### The difference between NULL and NOT EQUALS
+### Including NULL or NO VALUE in your search results
 
 When using a “negative” search such as$$!=$$, it is important to also consider **NULL** values. **NULL** means a value is either unknown or not applicable. When using the$$!=$$constraint, the search will not consider fields which have a **NULL** or **NO VALUE**. For instance, the Gene class has a symbol field. In most cases, this field is populated with the gene symbol; however, if a particular gene does not have a symbol, then this field will have **NO VALUE** in the symbol field. The$$!=$$constraint will include all genes that satisfy the search condition while excluding genes which do not match the search term, including genes without a symbol. However, if you are trying to exclude a defined gene or set of genes, you probably also want to include genes where the gene symbol **IS NULL**. 
 

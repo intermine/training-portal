@@ -29,3 +29,9 @@ Every time we make a new release of an InterMine database, it is possible that s
 
 A message appears at the top of any page informing you that you have lists that need an update. To update your lists, you must be logged in to your user account. Within the Lists view page, lists that need to be updated will be shown first. The list upgrade system is the same as The Identifier Resolution page you see when you upload a list.
 
+## [Regions Search](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/region-search)
+
+### 1. I have saved my genomic regions from a query - how do I upload them to the region search?
+
+BlueGenes does not support uploading genomic regions directly from the results of an InterMine search into regions search. You first need to download the regions, and then reformat them to one of the accepted formats. 
+

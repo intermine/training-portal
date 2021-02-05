@@ -25,7 +25,7 @@ A public list is a list that has been created by InterMine developers and is ava
 ![](../../../.gitbook/assets/public-list%20%281%29.png)
 
 {% hint style="info" %}
-You can't modify a public list. Instead, make your own copy of that list to be able to edit it. Please check [**Copying lists**](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#copying-lists) for more details.
+You can't modify a public list. Instead, make your own copy of that list to be able to edit it. Please check [Copying lists](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#copying-lists) for more details.
 {% endhint %}
 
 ### Creating lists
@@ -42,14 +42,14 @@ By default, when you click on the **Lists** tab, all of your lists will be shown
 
 ![](../../../.gitbook/assets/list-filters.png)
 
-By default, all public and private lists/folders are shown, but it is possible to only view your private lists, public lists, lists saved in a particular folder first by using the dropdown menu.  
+By default, all public and private lists/folders are shown, but it is possible to view your private lists only, public lists, and lists saved in a particular folder first using the dropdown menu.  
 
 ![](../../../.gitbook/assets/list-filtering-2.png)
 
 ![Displaying private lists only](../../../.gitbook/assets/private-lists-only%20%281%29.png)
 
 {% hint style="info" %}
-Remember to log in to your account to view and manage your private lists
+Remember to log in to your account to view and manage your private lists.
 {% endhint %}
 
 ### Managing lists
@@ -100,27 +100,27 @@ For example, you can combine two lists, public and private lists, and save the n
 
 ![](../../../.gitbook/assets/new-list.png)
 
-The BlueGenes interface offers four operations on sets for constructing new lists from given lists
+The BlueGenes interface offers four operations on sets for constructing new lists from given lists.
 
 {% hint style="success" %}
-**Combine lists**: this is more of a traditional ‘**add**’ function, in that the resulting list will contain **all objects** from all selected lists. The mathematical symbol for the Combine operation is$$A ∪ B$$. For example, if you have list A and list B, you can use the Combine function to create a new list containing all items in both lists - i.e. A + B. 
+**Combine lists**: this is more of a traditional ‘add’ function, in that the resulting list will contain all objects from all selected lists. The mathematical symbol for the Combine operation is$$A ∪ B$$. For example, if you have list A and list B, you can use the Combine function to create a new list containing all items in both lists - i.e. A + B. 
 {% endhint %}
 
 {% hint style="success" %}
-**Intersect lists**: this function creates a list that includes only items **common** to all given lists. The mathematical symbol for the Intersect operation is $$A ∩ B$$. For example, if you have list A and list B, you can use the Intersect function to create a new list containing only elements that exist in both A and B.
+**Intersect lists**: this function creates a list that includes only items common to all given lists. The mathematical symbol for the Intersect operation is $$A ∩ B$$. For example, if you have list A and list B, you can use the Intersect function to create a new list containing only elements that exist in both A and B.
 {% endhint %}
 
 {% hint style="success" %}
-* **Difference lists**: this function performs a [**mathematical symmetric difference**](https://en.wikipedia.org/wiki/Symmetric_difference) ****on all selected lists, and the resulting list will contain only items unique to each of those lists. This operation is more like the opposite of an intersection operation, which is represented mathematically as$$A ∆ B $$. For example, if you have list A and list B, you can use the Difference function to create a new list that includes objects only appearing in either A or B.
+* **Difference lists**: this function performs a [mathematical symmetric difference](https://en.wikipedia.org/wiki/Symmetric_difference) ****on all selected lists, and the resulting list will contain only items unique to each of those lists. This operation is more like the opposite of an intersection operation, which is represented mathematically as$$A ∆ B $$. For example, if you have list A and list B, you can use the Difference function to create a new list that includes objects only appearing in either A or B.
 {% endhint %}
 
 {% hint style="success" %}
-* **Subtract lists:** this is more of a traditional ‘**subtract**’ function, in that the resulting list will contain objects that exist in one \(_**or group**_\) of the lists only. The mathematical symbol for the Subtract operation is $$A ∩ B$$.  For example, if you have list A and list B, you can use the Subtract function to find unique items in list B. Note that this function gives you the option to perform the subtraction either way - i.e., A-B or B-A.
+* **Subtract lists:** this is more of a traditional ‘subtract’ function, in that the resulting list will contain objects that exist in one \(or group\) of the lists only. The mathematical symbol for the Subtract operation is $$A ∩ B$$.  For example, if you have list A and list B, you can use the Subtract function to find unique items in list B. Note that this function gives you the option to perform the subtraction either way - i.e., A-B or B-A.
 {% endhint %}
 
 ### Copying lists
 
-Copying a list or several lists can be done from the [**Lists** **view page**](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#viewing-lists). 
+Copying a list or several lists can be done from the [Lists view page](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#viewing-lists). 
 
 {% hint style="info" %}
 Remember to log in to your account to copy any list\(s\)
@@ -137,14 +137,14 @@ Remember to log in to your account to copy any list\(s\)
 You can click **Copy List\(s\)** to make a copy of the selected list\(s\) or click **Cancel** to exit the Copy list\(s\) window. 
 
 {% hint style="info" %}
-Please note that lists can also be copied to a particular folder or sub-folder. Check the [**Creating folders** ](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#creating-folders)section for more details about how to make new folders and sub-folders. 
+Please note that lists can also be copied to a particular folder or sub-folder. Check the [Creating folders ****](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#creating-folders)section for more details about how to make new folders and sub-folders. 
 {% endhint %}
 
 ![](../../../.gitbook/assets/copy-one.png)
 
 ![](../../../.gitbook/assets/copy-all.png)
 
-For each copied list, a new list will be created with the same name as the original list and an underscore followed by a number. You should see a message at the top of the page informing you of the new list\(s\) created, and the copied list\(s\) will appear at the top of the **Lists** view page. The default name of the copied list\(s\) can be changed to any preferred name; please see [**Renaming lists**](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#renaming-lists) for more details. 
+For each copied list, a new list will be created with the same name as the original list and an underscore followed by a number. You should see a message at the top of the page informing you of the new list\(s\) created, and the copied list\(s\) will appear at the top of the **Lists** view page. The default name of the copied list\(s\) can be changed to any preferred name; please see [Renaming lists](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#renaming-lists) for more details. 
 
 ![](../../../.gitbook/assets/copied-list-default.png)
 
@@ -242,7 +242,7 @@ To view the contents of any folder, click on the folder's name or the➕icon to 
 
 ![](../../../.gitbook/assets/create-folder-6.png)
 
-Folders and sub-folders can only be deleted by deleting their content. For example, if you wish to delete your newly created sub-folder, you can remove the content inside it, or **My\_Copied\_List.** You can take a look at [**Deleting lists**](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#deleting-lists) to know how to delete a list or several lists. 
+Folders and sub-folders can only be deleted by deleting their content. For example, if you wish to delete your newly created sub-folder, you can remove the content inside it, i.e. **My\_Copied\_List.** You can take a look at [Deleting lists](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#deleting-lists) to know how to delete a list or several lists. 
 
 ![](../../../.gitbook/assets/delete-subfolder.png)
 

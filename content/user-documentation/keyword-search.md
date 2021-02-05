@@ -6,7 +6,7 @@ A search box appears in the top navigation bar of all pages and the home page. Y
 
 ![Search bars in the homepage](../../.gitbook/assets/homepage-search%20%281%29.png)
 
-Examples of what you can search for:
+Examples of what you can search:
 
 * **Single terms:** to search for one term, such as Gene identifiers \(e.g. ENSG00000165695\), Gene names \(e.g. Adenylate kinase 8\), Gene symbols \(e.g. AK8\), Keywords \(e.g. Diabetes\), etc. 
 * **Two terms:** to search for either of two keywords, use **OR** \(e.g. Gene OR PPARG\)

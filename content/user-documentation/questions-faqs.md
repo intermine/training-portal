@@ -53,9 +53,7 @@ The data browser is based on the sequence ontology and follows the logical relat
 
 Some fields have an information icon which provides an additional description of those fields. If you are unsure of a field’s contents, you can add it to your results and run the query. Most queries give results immediately, which allows you to adjust the columns you want to include in your results and fine-tune your query. It is also possible to do this from within the **Results Tables**. If you need additional help, please [Contact Us](contact-us.md). 
 
-### 5. How do I navigate to a class I have constrained without having to go through the model?
-
-### Browser again?
+### 5. How do I navigate to a class I have constrained without having to go through the model browser again?
 
 Clicking on a class name in the right-hand Summary pane will open the model browser at that class.
 

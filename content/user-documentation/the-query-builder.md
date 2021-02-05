@@ -241,15 +241,13 @@ You can also save a query under the **Manage Columns** tab.
 
 Further, you can export your query in XML under the **XML** tab. You can share exported queries with your colleagues or with the [InterMine team](contact-us.md) if you have any problems.  Queries can be imported in XML under the **Import from XML** tab and used in [**GET**](https://www.w3schools.com/tags/ref_httpmethods.asp) ****and [**POST**](https://www.w3schools.com/tags/ref_httpmethods.asp) requests used by the [web services](http://iodocs.labs.intermine.org/). See the[ Overview - Query Editor](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/~/drafts/-MSYkZresZ229V1rlQ7V/content/user-documentation/the-query-builder#overview) ****tab for more information on saving and exporting queries. 
 
-### The difference between NULL and NOT EQUALS
+### Including NULL or NO VALUE in your search results
 
-Searching Null vs NOT EQUALS
+When using a “negative” search such as$$!=$$, it is important to also consider **NULL** values. **NULL** means a value is either unknown or not applicable. When using the$$!=$$constraint, the search will not consider fields which have a **NULL** or **NO VALUE**. For instance, the Gene class has a symbol field. In most cases, this field is populated with the gene symbol; however, if a particular gene does not have a symbol, then this field will have **NO VALUE** in the symbol field. The$$!=$$constraint will include all genes that satisfy the search condition while excluding genes which do not match the search term, including genes without a symbol. However, if you are trying to exclude a defined gene or set of genes, you probably also want to include genes where the gene symbol **IS NULL**. 
 
-When using a “negative” search such as $$!=$$, it is important to understand the difference between a **NULL** value and an empty value. **NULL** means a value is either unknown or not applicable. An **Empty** value means the value is known, but it is not present. This has implications for the way you construct a query.
+* For Example, If you try a query that only shows all genes where the gene name doesn’t equal a given name \(e.g. $$!=$$ BHV4\), this constraint will also exclude **NULL** values from the results. In such a case, you probably want your query to return all genes where the name does not equal “BHV4” **AND** also include genes that do not have a name in your query results. For genes that do not have a name, the name field shows **NO VALUE,** which is different to empty.
 
-For Example, If you try a query that only shows all genes where the gene name doesn’t equal a given name \(e.g. $$!=$$ BHV4\), this constraint will also exclude NULL values from the results. In such a case, you probably want your query to return all genes where the name does not equal “BHV4” **AND** also include genes that do not have a name in the query results. For genes that do not have a name, the name field is **NULL,** which is different to empty.
-
-For example, try this query in HumanMine:
+You can try this query in HumanMine by pasting the query's XML under the [XML](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/~/drafts/-MShHhOJ-sA3leT4UY29/content/user-documentation/the-query-builder#overview) tab: 
 
 ```text
 <query model="genomic" view="Gene.symbol 
@@ -321,9 +319,7 @@ The data browser is based on the sequence ontology and follows the logical relat
 
 Some fields have an information icon which provides an additional description of those fields. If you are unsure of a field’s contents, you can add it to your results and run the query. Most queries give results immediately, which allows you to adjust the columns you want to include in your results and fine-tune your query. It is also possible to do this from within the **Results Tables**. If you need additional help, please [Contact Us](contact-us.md). 
 
-### How do I navigate to a class I have constrained without having to go through the model?
-
-### Browser again?
+### How do I navigate to a class I have constrained without having to go through the model browser again?
 
 Clicking on a class name in the right-hand Summary pane will open the model browser at that class.
 

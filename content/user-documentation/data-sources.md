@@ -2,7 +2,7 @@
 
 ### Browse data sources
 
-The BlueGenes application includes a link to all data sources on the homepage, which provides details of all data included in the database. This link applies to all InterMine instances. You can browse the full set of data available, including data set name, publications and links to the original data source by clicking the **Show Sources** button. The data sources will be displayed as a standard results table, as shown below. 
+The BlueGenes application includes a link to all data sources on the homepage, which provides details of all data included in the database. This link applies to all InterMine instances. You can browse the full set of data available, including data set name, publications and links to the original data by clicking **Show Sources** button. The data sources will be displayed as a standard results table, as shown below. 
 
 ![](../../.gitbook/assets/data-sources%20%281%29.png)
 
@@ -12,7 +12,7 @@ The source of all data is stored in the data source and data set classes within 
 
 ![](../../.gitbook/assets/data-sets.png)
 
-Data sets and data sources can be included in queries results;  this is particularly useful if the same type of data is loaded from different sources. For example, HumanMine loads interaction data from two data sources, **IntAct** and **BioGRID**. 
+Data sets and data sources can be included in the results of queries;  this is particularly useful if the same type of data is loaded from different sources. For example, HumanMine loads interaction data from two data sources, **IntAct** and **BioGRID**. 
 
 ![](../../.gitbook/assets/interaction-data.png)
 

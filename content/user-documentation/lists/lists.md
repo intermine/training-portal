@@ -30,7 +30,7 @@ You can't modify a public list. Instead, make your own copy of that list to be a
 
 ### Creating lists
 
-Lists can be created internally - for example, from [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables) or [Regions Search](../region-search.md). They also can be uploaded from an external source via [Upload a list](upload-a-list.md). 
+Lists can be created internally - for example, from [Results Tables](../results-tables.md) or [Regions Search](../region-search.md). They also can be uploaded from an external source via [Upload a list](upload-a-list.md). 
 
 {% hint style="info" %}
 Remember that you need to have an account prior to copying or storing any lists.
@@ -78,7 +78,7 @@ You can run searches on a list, such as a [template search](../template-search.m
 
 ### List analysis
 
-All lists have an associated [List analysis page](list-analysis-pages.md), which provide a summary of your lists and several analysis tools. Besides, it is possible to carry out powerful analysis using lists' set operations, including union, intersect, subtract and symmetric difference. Please see [List set operations](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#list-set-operations) for more details.
+All lists have an associated [list analysis page](list-analysis-pages.md), which displays a summary of your lists and provides some analysis tools. Besides, it is possible to carry out powerful analysis using lists' set operations, including union, intersect, subtract and symmetric difference. Please see [List set operations](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#list-set-operations) for more details.
 
 ### List set operations
 

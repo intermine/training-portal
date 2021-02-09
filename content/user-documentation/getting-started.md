@@ -31,12 +31,12 @@ Below is a quick description of different sections and their associated function
 
 ![The BlueGenes UI Homepage](../../.gitbook/assets/homepage%20%282%29.png)
 
-* \*\*\*\*[**Home**](http://bluegenes.apps.intermine.org/humanmine): the main page of the interface offering a search feature for any term, access to popular queries, documentation, the InterMine blog, external tools, and more.  
+* \*\*\*\*[**Home**](http://bluegenes.apps.intermine.org/humanmine): The homepage of the interface offers a search feature for any term, access to popular queries, documentation, the InterMine blog, external tools, and more.
 * \*\*\*\*[**Upload**](lists/upload-a-list.md): to upload a new list as a free text or from an existing file. 
 * \*\*\*\*[**Lists**](lists/): A list in InterMine refers to multiple items of the same type - for example, a list of genes or a list of binding sites. 
 * \*\*\*\*[**Templates**](template-search.md): a pre-defined query which offers a simple form with one or more variables for you to define; defaults are always provided so you can see exactly how the template works.
 * \*\*\*\*[**Regions**](region-search.md): a tool for looking at genomic regions and the features they contain. Allows you to upload a set of regions and search for features mapped to these regions.
-* **Query Builder**: an advanced query building tool - you can use this to construct your own searches. You can even turn them into your own template searches.
+* \*\*\*\*[**Query Builder**](the-query-builder.md): an advanced query building tool - you can use this to construct your own searches. You can even turn them into your own template searches.
 * \*\*\*\*[**Keyword Search**](keyword-search.md): a search box appears on the menu bar of all pages and the home page. You can search for any identifier, name, symbol or keyword.
 * \*\*\*\*[**HumanMine**](http://bluegenes.apps.intermine.org/humanmine): an integrated database of Homo sapiens genomic data. You can change HumanMine to a different InterMine instance. Check this [registry](http://registry.intermine.org/) for available instances.   
 * \*\*\*\*[**Account**](account.md): your personal InterMine account where you can manage your lists, queries, templates, etc.  

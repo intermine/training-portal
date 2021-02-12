@@ -1,6 +1,6 @@
 # Upload a list
 
-The BlueGenes application gives users the ability to create new lists by filling in a simple upload form. To upload a list, click on the **‘Upload’** tab. 
+The BlueGenes application gives users the ability to create new lists by filling in a simple upload form. However, you need to be logged in to your intermine account to create a new list. To upload a list, click on the **‘Upload’** tab. 
 
 ![](../../../.gitbook/assets/upload-tab.png)
 

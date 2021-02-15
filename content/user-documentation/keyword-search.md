@@ -16,6 +16,10 @@ Examples of what you can search for:
 
 * **Boolean:** Boolean search syntax is supported using Boolean expressions, \(e.g. gen\*\) for partial matches or \(e.g. gene AND NOT LOC644563\) to exclude a term
 
+{% hint style="info" %}
+Only use “**all capital letters**” boolean expressions to conduct a Boolean search. 
+{% endhint %}
+
 ![Phrases search](../../.gitbook/assets/dna-binding.png)
 
 ![Boolean search](../../.gitbook/assets/gene-and-not-loc644563.png)

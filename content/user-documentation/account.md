@@ -4,13 +4,15 @@ Your personal InterMine account allows you to create and manage your private lis
 
 ![](../../.gitbook/assets/account.png)
 
-![](../../.gitbook/assets/account-form.png)
-
 ### How do I create an account?
 
-You can create an account through the **LOGIN** tab in the top navigation bar. Click on the "**I don't have an account**" link shown in the previous screenshot to register by entering a valid email address and a password. A confirmation email will be sent to your email address after you have successfully created an account.
+You can create an account through the **LOGIN** tab in the top navigation bar. 
 
-![](../../.gitbook/assets/create-account.png)
+![](../../.gitbook/assets/login.png)
+
+Click on the "**Create new account**" link shown in the previous screenshot to register by entering a valid email address and a password. A confirmation email will be sent to your email address after you have successfully created an account.
+
+![](../../.gitbook/assets/register.png)
 
 {% hint style="info" %}
 Your account information is private and won't be accessible by other users or inspected beyond automatic performance optimisation and updates. You can read our [Privacy Policy](https://intermine.readthedocs.io/en/latest/about/privacy-policy/) for more details. 
@@ -48,7 +50,7 @@ API keys are used to access the features of the [InterMine API](https://intermin
 
 To create an API key, click on the button shown below to generate a new token. If you wish to reuse an API key, you should save it in a safe place. You will only be able to view the API key for the length of this session.
 
-![](../../.gitbook/assets/api-key.png)
+![](../../.gitbook/assets/api-key%20%281%29.png)
 
 {% hint style="info" %}
 Generating a new API key will invalidate any existing one. 

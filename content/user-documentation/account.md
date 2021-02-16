@@ -18,7 +18,7 @@ Your account information is private and won't be accessible by other users or in
 
 ### Profile
 
-The account details tab allows you to set various aspects of your account as follows:
+The profile sub-tab allows you to set various aspects of your account as follows:
 
 #### User preferences:
 

@@ -47,13 +47,13 @@ For example, for the **New Uploaded List** created in the previous section, we h
 
 {% tabs %}
 {% tab title="Matches" %}
-**Exact matches:** some exact matches were found for the listed identifiers
+**Exact matches:** some exact matches were found for the listed identifiers.
 
 ![](../../../.gitbook/assets/matches-2-.png)
 {% endtab %}
 
 {% tab title="Converted" %}
-**Converted types:** these identifiers matched non-Gene records from which a relationship to a Gene was found. For example, we have selected to upload a list of genes, but one of the identifiers is for a protein, uncoupling protein 3. The gene identifier for this protein is given.
+**Converted types:** these identifiers matched non-Gene records from which a relationship to a Gene was found. For example, we have selected to upload a list of genes, but one of the identifiers is for a protein, **uncoupling protein 3**. The gene identifier for this protein is given.
 
 ![](../../../.gitbook/assets/converted-2-.png)
 {% endtab %}

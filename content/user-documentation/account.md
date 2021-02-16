@@ -42,6 +42,18 @@ Sharing lists is not yet implemented in the BlueGenes interface. However, if you
 
 You can change your password using the Change password form shown in the previous screenshot. You need to type in your old and new passwords and click **Save Password** to update your password. 
 
+**API access key:**
+
+API keys are used to access the features of the [InterMine API](https://intermine.readthedocs.org/en/latest/web-services/) without having to use your username or password. You can change, or delete your API key, without having to change your password. 
+
+To create an API key, click on the button shown below to generate a new token. If you wish to reuse an API key, you should save it in a safe place. You will only be able to view the API key for the length of this session.
+
+![](../../.gitbook/assets/api-key.png)
+
+{% hint style="info" %}
+Generating a new API key will invalidate any existing one. 
+{% endhint %}
+
 #### Delete account:
 
 ![](../../.gitbook/assets/delete-account%20%281%29.png)

@@ -27,7 +27,7 @@ The account details tab allows you to set various aspects of your account as fol
 1. **Inform me by email of newly shared lists -** you can select✅ to receive an email if someone shares a list with you. 
 2. **Allow other users to share lists with me without confirmation -** you can allow✅users to share lists with you without asking first. 
 3. **Display name:** Set your public name displayed in your InterMine interface, which can be used when others share lists with you. 
-4. **Your preferred email address:** Set the email address you prefer to use for correspondence - for example**,** if someone shares a list with you. This could be different from the email you use to login to your account. 
+4. **Your preferred email address:** Set the email address you prefer to use for correspondence - for example**,** if someone shares a list with you. This could be different from the email you use to log in to your account. 
 5. **The URL of your preferred Galaxy instance:** Results can be exported to [Galaxy](http://galaxyproject.org/) - see [Send results to the galaxy](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultsgalaxy). By default the main galaxy server is set; however, if you routinely use another galaxy instance, you can set this to be the default.
 
 Make sure to click **Save Changes** to update your user preferences.

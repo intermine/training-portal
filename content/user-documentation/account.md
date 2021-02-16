@@ -40,7 +40,7 @@ Sharing lists is not yet implemented in the BlueGenes interface. However, if you
 
 ![](../../.gitbook/assets/password.png)
 
-You can change your password using the Change password form shown in the previous screenshot. You need to type in your old and new passwords and click **Save Password** to update your password. 
+You can change your password using the **Change password** form shown in the previous screenshot. You need to type in your old and new passwords and click **Save Password** to update your password. 
 
 **API access key:**
 

@@ -42,11 +42,11 @@ First, remember to **log in** to your account to view and use your saved lists. 
 
 ![](../../.gitbook/assets/in-list%20%282%29.png)
 
-If you have a list of the correct type \(e.g. a list of genes\) or a public one that matches your needs exists, you can select your preferred list from the shown drop-down set. 
+If you have a private list of the correct type \(e.g. a list of genes\) or a public one that matches your needs exists, you can select your preferred list from the shown drop-down menu. 
 
 ![](../../.gitbook/assets/in-list-2%20%281%29.png)
 
-There is also a “Not in list” option which you can use to exclude items \(e.g. genes\) from your search. This will search all items except those in the list specified. 
+There is also a “Not in list” option which you can use to exclude items \(e.g. genes\) from your search. This will search the database for all items except those in the list specified. 
 
 ![](../../.gitbook/assets/not-in-list%20%281%29.png)
 

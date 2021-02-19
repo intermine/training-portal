@@ -20,7 +20,7 @@ The following is a breakdown of what each key item in the **Lists view page** me
 
 ### Public lists![](../../../.gitbook/assets/download-removebg-preview.png) 
 
-A public list is a list that has been created by InterMine developers and is available to all users. For example, HumanMine has public lists for Pax6 \(\(Paired Box 6\) gene targets. You can use these publicly available lists for analysis or run a particular search. 
+A public list is a list that has been created by InterMine developers and is available to all users. For example, HumanMine has public lists for Pax6 \(Paired Box 6\) gene targets. You can use these publicly available lists for analysis or run a particular search. 
 
 ![](../../../.gitbook/assets/public-list%20%281%29.png)
 

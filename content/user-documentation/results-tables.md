@@ -125,12 +125,6 @@ To add the deleted column back, click the **Undo** button to revert to the previ
 
 ![](../../.gitbook/assets/remove-columns.png)
 
-### Re-arranging columns in your results
-
-Re-arranging columns can be done under the **Manage Columns** tab by dragging and dropping any columns to change their order. Check the [Query Builder](the-query-builder.md) section for more information. 
-
-![](../../.gitbook/assets/columns-order.png)
-
 ### Changing the sort order of columns in your results
 
 There are two ways to change the sort order of the columns in your results tables. 

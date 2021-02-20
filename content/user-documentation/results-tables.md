@@ -90,7 +90,7 @@ You can also add, edit or remove filters using the **Manage Filters** button, wh
 
 ### **Returning to your original results**
 
-Filters can be removed by clicking on![](../../.gitbook/assets/screenshot-902-.png)icon and then click the delete icon![](../../.gitbook/assets/remove-filters-2-copy.png)shown below. Alternatively, you can use the **UNDO** button above the results to return to previous states. If you have added multiple filters, you can go back to any previous state of your results table or straight back to original table state.
+Filters can be removed by clicking on![](../../.gitbook/assets/screenshot-902-.png)icon and then click the delete icon![](../../.gitbook/assets/remove-filters-2-copy.png)shown below. Alternatively, you can use the **UNDO** button above the results to return to previous states. If you have added multiple filters, you can go back to any previous state of your results table or straight back to the original table state.
 
 {% hint style="info" %}
 Note that the original state may still have filters applied. Original state refers to the original query run, not to a table with no filters applied. 

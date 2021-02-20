@@ -123,7 +123,7 @@ To remove any column from the list of columns shown in your results:
 To add the deleted column back, click the **Undo** button to revert to the previous state.
 {% endhint %}
 
-![](../../.gitbook/assets/adding-new-columns.png)
+![](../../.gitbook/assets/remove-columns.png)
 
 ### Re-arranging columns in your results
 

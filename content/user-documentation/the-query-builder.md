@@ -122,7 +122,7 @@ There are three steps to construct a query, which you can repeat for any additio
 
  These steps are explained in more details below. 
 
-### Navigate the data browser
+### Navigate the Model Browser
 
 As mentioned earlier, the query builder's left-hand pane is called the **Model Browser**, which allows you to navigate through all the data classes from your defined starting point. So, you must first decide on a starting point - or a class - from which you can start your query. Classes are linked through logical references - for instance, you can navigate from genes to proteins, transcripts and microarray data etc. Classes and references will vary for each InterMine. Every class of data has certain attributes - fields - associated with it. For example, a gene has a primary identifier, name and symbol, among others. Use the model browser to navigate to the data you are interested in. For example, to get to the **Protein domain** from **Gene** as the starting point, you would expand the **Protein** class first and then the **Protein domain** class. For each class and attribute in the model browser, there is a **checkbox** that you can use to add - or remove - a given class or attribute from your results.
 

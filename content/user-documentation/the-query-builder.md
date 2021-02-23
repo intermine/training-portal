@@ -1,6 +1,6 @@
 # The Query Builder
 
-The Query Builder is InterMine’s custom query building interface,  allowing you to create and save your own searches. Users usually use this flexible interface to construct their own data mining queries. The QueryBuilder lets you view the data model, apply constraints, and select your preferred output. To access the query builder, click on the **Query Builder** tab in the top navigation bar. 
+The Query Builder is InterMine’s custom query building interface,  allowing you to create and save your own searches. Users usually use this flexible interface to construct their own data mining queries. The Query Builder lets you view the data model, apply constraints, and select your preferred output. To access the query builder, click on the **Query Builder** tab in the top navigation bar. 
 
 ![](../../.gitbook/assets/query-tab.png)
 

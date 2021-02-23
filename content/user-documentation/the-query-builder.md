@@ -26,7 +26,7 @@ The **Model browser** helps you find and add your data of interest.
 {% endtab %}
 
 {% tab title="Data Browser" %}
-* when you click the **Browse** button in the **Model browser**, you are directed to the **Data browser tree** to browse all class names. Clicking on any class name will take you back to the Model browser with that class selected in the class field. You can also switch back to the Model browser when you click the **Back To Model** button.  ****
+* When you click the **Browse** button in the **Model browser**, you are directed to the **Data browser tree** to browse all class names. Clicking on any class name will take you back to the Model browser with that class selected in the class field. You can also switch back to the Model browser when you click the **Back To Model** button.  ****
 
 ![](../../.gitbook/assets/data-tree.png)
 {% endtab %}
@@ -111,7 +111,7 @@ Deleting a saved query cannot be undone once the confirmation message is no long
 To build a query, you must first decide on a starting point - class - to start your query.
 
 {% hint style="info" %}
-By default, the query starting point defaults to **Gene** and can be changed with the **Model Browser's** dropdown list. 
+The query starting point defaults to **Gene** and can be changed with the **Model Browser's** dropdown list. 
 {% endhint %}
 
 There are three steps to construct a query, which you can repeat for any additional data required:

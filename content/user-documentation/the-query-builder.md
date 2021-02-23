@@ -215,7 +215,7 @@ Coming soon.
 
 ### Constraint logic
 
-You can set the constraint logic for your query under the [**Query Editor**](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/the-query-builder#the-query-builder-sections) tab. Each constraint is assigned a letter, which is shown along with the constraint logic at the bottom of the [Query Editor](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/the-query-builder#the-query-builder-sections) tab. The constraint logic accepts: **AND** and **OR** and **NOT** logic and can be edited using the✏icon as shown in the next screenshot: 
+You can set the constraint logic for your query under the [**Query Editor**](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/the-query-builder#the-query-builder-sections) tab. Each constraint is assigned a letter, which is shown along with the constraint logic at the bottom of the [Query Editor](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/the-query-builder#the-query-builder-sections) tab. The constraint logic accepts: **AND**, **OR**, ****and **NOT** logic and can be edited using the✏icon as shown in the next screenshot: 
 
 ![](../../.gitbook/assets/constraint-logic.png)
 

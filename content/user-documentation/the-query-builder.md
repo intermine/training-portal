@@ -6,7 +6,7 @@ The Query Builder is InterMine’s custom query building interface,  allowing yo
 
 ### Overview
 
-The query builder page is divided into several sections as follows:
+The query builder page is divided into several sections, as follows:
 
 * **The Model Browser**
 * **The Data Browser**
@@ -21,12 +21,12 @@ The **Model browser** helps you find and add your data of interest.
 2. You can click the **Browse** button to be directed to the **Data browser tree** to browse all class names. Clicking on any class name will take you back to the **Model browser** with that class selected in the class field. 
 3. You have some controls to manage the selected class's data. You can use **Summary** to summerise the selected class by adding its common attributes, **Expand** to expand the **Model browser tree** showing all selected attributes, **Collapse** to fold the **Model browser tree** to the top level and **Clear** to remove all selected attributes. 
 4. Use **checkboxes to** add individual fields - attributes - to your results. 
-5.  Expand more fields underneath class a using the➕sign. 
+5.  Expand more fields underneath any class using the➕sign. 
 6. Click **Summary** to add a summary of common fields to the results table.  
 {% endtab %}
 
 {% tab title="Data Browser" %}
-* when you click the **Browse** button in the **Model browser**, you are directed to the **Data browser tree** to browse all class names. Clicking on any class name will take you back to the Model browser with that class selected in the class field. You can also switch back to Model browser when you click the **Back To Model** button.  ****
+* when you click the **Browse** button in the **Model browser**, you are directed to the **Data browser tree** to browse all class names. Clicking on any class name will take you back to the Model browser with that class selected in the class field. You can also switch back to the Model browser when you click the **Back To Model** button.  ****
 
 ![](../../.gitbook/assets/data-tree.png)
 {% endtab %}
@@ -117,14 +117,14 @@ By default, the query starting point defaults to **Gene** and can be changed wit
 There are three steps to construct a query, which you can repeat for any additional data required:
 
 1. Navigate the model/data browser to find the class or attribute you need.
-2. Add the appropriate constraints - or filters - to selected class/attribute.
+2. Add the appropriate constraints - or filters - to the selected class/attribute.
 3. Decide on the columns you want to view in your results.
 
  These steps are explained in more details below. 
 
 ### Navigate the data browser
 
-As mentioned earlier, the query builder's left-hand pane is called the **Model Browser**, which allows you to navigate through all the data classes from your defined starting point. So, you must first decide on a starting point - or a class - from which you can start your query. Classes are linked through logical references - for instance, you can navigate from genes to proteins, transcripts and microarray data etc. Classes and references will vary for each InterMine. Every class of data has certain attributes - fields - associated with it. For example, a gene has a primary identifier, name and symbol, among others. Use the model browser to navigate to the data you are interested in. For example, to get to **Protein domain** from **Gene** as the starting point, you would expand the **Protein** class first and then the **Protein domain** class. For each class and attribute in the model browser, there is a **checkbox** that you can use to add - or remove - a given class or attribute from your results.
+As mentioned earlier, the query builder's left-hand pane is called the **Model Browser**, which allows you to navigate through all the data classes from your defined starting point. So, you must first decide on a starting point - or a class - from which you can start your query. Classes are linked through logical references - for instance, you can navigate from genes to proteins, transcripts and microarray data etc. Classes and references will vary for each InterMine. Every class of data has certain attributes - fields - associated with it. For example, a gene has a primary identifier, name and symbol, among others. Use the model browser to navigate to the data you are interested in. For example, to get to the **Protein domain** from **Gene** as the starting point, you would expand the **Protein** class first and then the **Protein domain** class. For each class and attribute in the model browser, there is a **checkbox** that you can use to add - or remove - a given class or attribute from your results.
 
 ![](../../.gitbook/assets/navigate-the-data-model.png)
 
@@ -138,9 +138,9 @@ Then add a constraint to the **Diseases** class's **Name** attribute,  limiting 
 
 ![](../../.gitbook/assets/diabetes-constraint.png)
 
-The type of constraint you can add depends on the class and attribute selected. For some constraints, you may have to type in some text; while others may require you to select from a drop-down list. Some will allow you to choose a list of saved objects, such as a list of genes. You can add as many constraints as you wish to build up your query. The set of constraints you add is shown in the right-hand pane of the Query Builder - specifically under the **Query Editor** and **XML** tabs. 
+The type of constraint you can add depends on the class and attribute selected. For some constraints, you may have to type in some text; while,  others may require you to select from a drop-down list. Some will allow you to choose a list of saved objects, such as a list of genes. You can add as many constraints as you wish to build up your query. The set of constraints you add is shown in the right-hand pane of the Query Builder - specifically under the **Query Editor** and **XML** tabs. 
 
-Remember that you are building a query from scratch so you may need to put in constraints to limit the organism or the set of genes. For example, the following screenshot shows a query under construction - without any constraints, the expected results are 232429 rows. 
+Remember that you are building a query from scratch, so you may need to put in constraints to limit the organism or the set of genes. For example, the following screenshot shows a query under construction - without any constraints, the expected results are 232429 rows. 
 
 ![](../../.gitbook/assets/query-filter-0.png)
 
@@ -165,7 +165,7 @@ Constraints are also shown at the bottom of the query's XML format as follows:
 Constraints are assigned capital letters as their labels; so, your first added constraint will be called A, the second will be called B, and so on.
 {% endhint %}
 
-Most InterMine instances contain gene data from more than one organism even if their data focus is a specific organism. For example, HumanMine has gene data for human, mouse and rats. Therefore, when constructing a query from scratch, it often makes sense to add an organism constraint. For instance, we can add an extra constraint to the previous example to limit the data to the **Homo Sapiens** organism only as shown in the following screenshot. 
+Most InterMine instances contain gene data from more than one organism, even if their data focus is a specific organism. For example, HumanMine has gene data for human, mouse and rats. Therefore, when constructing a query from scratch, it often makes sense to add an organism constraint. For instance, we can add an extra constraint to the previous example to limit the data to the **Homo Sapiens** organism only, as shown in the following screenshot. 
 
 ![](../../.gitbook/assets/organism-name-constraint.png)
 
@@ -187,18 +187,18 @@ Once you are happy with your query and the attributes you have selected for your
 
 ### Subclasses
 
-Some classes have subclasses, which are more specialised sets of the main class. For example, the **UTRs class** in HumanMine has two subclasses **Five Prime UTR** and **Three Prime UTR**. To constrain a class to its subclass, click on the class name and select the subclass from the drop-down list. Classes which have subclasses are indicated as shown below. 
+Some classes have subclasses, which are more specialised sets of the main class. For example, the **UTRs class** in HumanMine has two subclasses, **Five Prime UTR** and **Three Prime UTR**. To constrain a class to its subclass, click on the class name and select the subclass from the drop-down list. Classes that have subclasses are indicated, as shown below. 
 
 ![](../../.gitbook/assets/subclasses.png)
 
 ### Outer joins
 
-When adding a constraint to a query, you also need to consider whether you want this filter to limit your results to only show items that satisfy the added constraint or show all items in the query results while indicating which records satisfy the filter. For example, if you are adding a constraint to the Gene class, and selecting to show any associated pathway\(s\) for a given gene \(or list of genes\), you need to consider whether you want your results to show:
+When adding a constraint to a query, you also need to consider whether you want this filter to limit your results to only show items that satisfy the added constraint or show all items in the query results while indicating which records satisfy the filter. For example, if you are adding a constraint to the Gene class and selecting to show any associated pathway\(s\) for a given gene \(or list of genes\), you need to consider whether you want your results to show:
 
 1. Only genes if they have a pathway \([**Inner join**](https://towardsdatascience.com/what-is-the-difference-between-an-inner-and-an-outer-join-in-sql-5b5ec8277377)\)
-2. All genes and pathways and indicate which genes that have associated pathway\(s\) \([**Outer join**](https://towardsdatascience.com/what-is-the-difference-between-an-inner-and-an-outer-join-in-sql-5b5ec8277377)\)
+2. All genes and pathways and indicate which genes have associated pathway\(s\) \([**Outer join**](https://towardsdatascience.com/what-is-the-difference-between-an-inner-and-an-outer-join-in-sql-5b5ec8277377)\)
 
-The default constraint is always **1,** or **inner join**, which means that only columns that satisfy the constraint\(s\) are shown in the query results. You can change the logic to **2** using the **outer join**. To do this, add your constraint in the usual way, and edit the logic to outer join by clicking the intersection set symbol to the right of a class name in the **Query Editor** as shown in the following screenshots. 
+The default constraint is always **1,** or **inner join**, which means that only columns that satisfy the constraint\(s\) are shown in the query results. You can change the logic to **2** using the **outer join**. To do this, add your constraint in the usual way, and edit the logic to outer join by clicking the intersection set symbol to the right of a class name in the **Query Editor,** as shown in the following screenshots. 
 
 ![](../../.gitbook/assets/inner-join.png)
 
@@ -220,7 +220,7 @@ You can set the constraint logic for your query under the [**Query Editor**](htt
 ![](../../.gitbook/assets/constraint-logic.png)
 
 {% hint style="info" %}
-By default constraint logic is set to AND 
+By default, constraint logic is set to AND 
 {% endhint %}
 
 ### Sorting
@@ -243,7 +243,7 @@ Further, you can export your query in XML under the **XML** tab. You can share e
 
 ### Including NULL or NO VALUE in your search results
 
-When using a “negative” search such as$$!=$$, it is important to also consider **NULL** values. **NULL** means a value is either unknown or not applicable. When using the$$!=$$constraint, the search will not consider fields which have a **NULL** or **NO VALUE**. For instance, the Gene class has a symbol field. In most cases, this field is populated with the gene symbol; however, if a particular gene does not have a symbol, then this field will have **NO VALUE** in the symbol field. The$$!=$$constraint will include all genes that satisfy the search condition while excluding genes which do not match the search term, including genes without a symbol. However, if you are trying to exclude a defined gene or set of genes, you probably also want to include genes where the gene symbol **IS NULL**. 
+When using a “negative” search such as$$!=$$, it is important to - also -  consider **NULL** values. **NULL** means a value is either unknown or not applicable. When using the$$!=$$constraint, the search will not consider fields with a **NULL** or **NO VALUE**. For instance, the Gene class has a symbol field. In most cases, this field is populated with the gene symbol; however, if a particular gene does not have a symbol, it will have **NO VALUE** in the symbol field. The$$!=$$constraint will include all genes that satisfy the search condition while excluding genes that do not match the search term, including genes without a symbol. However, if you are trying to exclude a defined gene or set of genes, you probably also want to include genes where the gene symbol **IS NULL**. 
 
 * For Example, If you try a query that only shows all genes where the gene name doesn’t equal a given name \(e.g. $$!=$$ BHV4\), this constraint will also exclude **NULL** values from the results. In such a case, you probably want your query to return all genes where the name does not equal “BHV4” **AND** also include genes that do not have a name in your query results. For genes that do not have a name, the name field shows **NO VALUE,** which is different to empty.
 
@@ -289,7 +289,7 @@ constraintLogic="((A or C) and B)" sortOrder="">
 Remember to change the constraint logic to \(A or C\) and B.
 {% endhint %}
 
-We now get 78, 679 rows - this result includes all genes where the gene name is not BHV4, including genes with a NULL or No Value in the name field.
+We now get 78679 rows - this result includes all genes where the gene name is not BHV4, including genes with a NULL or No Value in the name field.
 
 ![](../../.gitbook/assets/null-values.png)
 
@@ -317,9 +317,9 @@ The data browser is based on the sequence ontology and follows the logical relat
 
 ### I don’t understand what a field/class means.
 
-Some fields have an information icon which provides an additional description of those fields. If you are unsure of a field’s contents, you can add it to your results and run the query. Most queries give results immediately, which allows you to adjust the columns you want to include in your results and fine-tune your query. It is also possible to do this from within the **Results Tables**. If you need additional help, please [Contact Us](contact-us.md). 
+Some fields have an information icon, which provides an additional description of those fields. If you are unsure of a field’s contents, you can add it to your results and run the query. Most queries give results immediately, which allows you to adjust the columns you want to include in your results and fine-tune your query. It is also possible to do this from within the **Results Tables**. If you need additional help, please [Contact Us](contact-us.md). 
 
-### How do I navigate to a class I have constrained without having to go through the model browser again?
+### How do I navigate to a class I have constrained without going through the model browser again?
 
 Clicking on a class name in the right-hand Summary pane will open the model browser at that class.
 

@@ -147,9 +147,13 @@ You can save a subset of the resulting data in a new list by clicking the **Save
 
 ![](../../.gitbook/assets/save-list.png)
 
-Once you have made your selection, a sample name will be given to your list, including the objects' type in your list, e.g. gene, the date, time of creation, and the time zone. You can edit this name as you wish and click **Save**. 
+Once you have made your selection, a default name will be given to your list, including the type of the objects in your list, e.g. genes, the date, time of creation, and the time zone. There is also an optional description filed to add a short description of your list. 
 
-![](../../.gitbook/assets/list-name.png)
+![](../../.gitbook/assets/save-list-default.png)
+
+You can edit the default name and a description, if desires, and then click **Save**. 
+
+![](../../.gitbook/assets/save-a-list-new.png)
 
 The new list will be saved, and a  message will appear at the bottom of the screen if your list creation was successful. 
 

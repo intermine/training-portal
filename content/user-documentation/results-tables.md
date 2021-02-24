@@ -28,7 +28,7 @@ The type of summary shown depends on the type of data in the column - whether it
 
 ![](../../.gitbook/assets/pathway-names-2%20%281%29.png)
 
-Whereas, the following column of numerical data - gene lengths - shows the minimum and maximum values, the mean, and the standard deviation of the data.
+Whereas the following column of numerical data - gene lengths - shows the minimum and maximum values, the mean, and the standard deviation of the data.
 
 ![](../../.gitbook/assets/numerical-data-2.png)
 
@@ -52,7 +52,7 @@ Column summaries are useful for several reasons. The following are a few ideas f
 
 * For a list of genes, find how many have the same annotation, where annotation could be anything associated with your genes such as GO terms, pathways or diseases.
 
-You have a public list of Pax6 genes, **PL\_Pax6\_Targets**, and want to find out which pathways they are involved in. You can run the $$Gene → Pathways  $$template with your list of genes. The results table shows your genes and the names of all pathways they are annotated with. By clicking on the **column summary** for the _pathway.name_ column you can now find out how many genes are associated with each pathway. In the example shown below, 44 of the genes in the list are associated with the **Signal Transduction** pathway. If you wish to analyse this set of genes further, you can filter the table for this set and then create a new list with this set of genes. Check the [Save a result set for further analysis](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/results-tables#save-a-result-set-for-further-analysis) section for how to create a sub-list of genes. 
+You have a public list of Pax6 genes, **PL\_Pax6\_Targets**, and want to find out which pathways they are involved in. You can run the $$Gene → Pathways  $$template with your list of genes. The results table shows your genes and the names of all pathways they are annotated with. By clicking on the **column summary** for the _pathway.name_ column, you can now find out how many genes are associated with each pathway. In the example shown below, 44 of the genes in the list are associated with the **Signal Transduction** pathway. If you wish to analyse this set of genes further, you can filter the table for this set and then create a new list with this set of genes. Check the [Save a result set for further analysis](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/results-tables#save-a-result-set-for-further-analysis) section for how to create a sub-list of genes. 
 
 ![](../../.gitbook/assets/column-summary-application-1-cut.png)
 
@@ -72,7 +72,7 @@ Results by default are always returned with what we call an inner join. So, in t
 
 ### Apply a filter to your results
 
-Results tables allow you to explore your results by applying filters to any of the resulting data columns. Filters can be applied through the **filter** icon![](../../.gitbook/assets/screenshot-902-.png)in the column header and the [Column summaries](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/results-tables#column-summaries). The filter icon allows you to edit or remove any existing filters, and add additional filters to your results. Any active filters are shown and can only be removed or edited when you click the filter icon. 
+Results tables allow you to explore your results by applying filters to any of the resulting data columns. Filters can be applied through the **filter** icon![](../../.gitbook/assets/screenshot-902-.png)in the column header and the [Column summaries](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/results-tables#column-summaries). The filter icon allows you to edit or remove any existing filters and add additional filters to your results. Any active filters are shown and can only be removed or edited when you click the filter icon. 
 
 ![](../../.gitbook/assets/filters.png)
 
@@ -159,7 +159,7 @@ The new list will be saved, and a  message will appear at the bottom of the scre
 
 Results tables can be downloaded in various formats using the **Export** button at the top of the table's header. You can select whether to export your results table in **tsv**, **csv**, or **fasta** format.   By default, the output format is set to tsv, and the downloaded results table will be saved to a file. 
 
-You can also export your results as a **Frictionless Data Package**, which uses the **ZIP Compression** to download your results as a "**.zip**" file. By default, results will be downloaded uncompressed; however, you can use the **Compression** option to compress your results as shown in the following screenshot.  
+You can also export your results as a **Frictionless Data Package**, which uses the **ZIP Compression** to download your results as a "**.zip**" file. By default, results will be downloaded uncompressed; however, you can use the **Compression** option to compress your results, as shown in the following screenshot.  
 
 ![](../../.gitbook/assets/export-new.png)
 
@@ -167,7 +167,7 @@ You can also export your results as a **Frictionless Data Package**, which uses 
 
 ### I have added a new column of data, but now I get ‘No results’
 
-The InterMine data model comprises classes and fields - or attributes - Each class has a set of fields depending on the type of data. For example, Gene is a class and has the Primary identifier, Name and Symbol fields_,_ among others. If the new data you are adding to your results is a field from a class already in your results your new results table should be the same as your original results, but of course with the new column of data. If this field does not contain any data, it doesn’t matter, and it will just say "No value". However, if you are adding a field of data from a new class that is not already in your results, there is a chance that your search will now return **No results** if it does not contain any data for the set of constraints you already have in your query.
+The InterMine data model comprises classes and fields - or attributes - Each class has a set of fields depending on the type of data. For example, Gene is a class and has the Primary identifier, Name and Symbol fields_,_ among others. If the new data you are adding to your results is a field from a class already in your results, your new results table should be the same as your original results, but of course, with the new data column. If this field does not contain any data, it doesn’t matter, and it will just say "No value". However, if you are adding a field of data from a new class that is not already in your results, there is a chance that your search will now return **No results** if it does not contain any data for the set of constraints you already have in your query.
 
 ### I can’t see my list in the drop-down when I use the **Add to existing list** function.
 

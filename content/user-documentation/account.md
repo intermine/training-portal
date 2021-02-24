@@ -16,15 +16,11 @@ Click on the "**Create new account**" link shown in the previous screenshot to r
 Your account information is private and won't be accessible by other users or inspected beyond automatic performance optimisation and updates. You can read our [Privacy Policy](https://intermine.readthedocs.io/en/latest/about/privacy-policy/) for more details. 
 {% endhint %}
 
-### Logging into your account
+### Loging in to your account
 
-If you have an existing account, you can sign in to your account using the same email and password used for registration. 
+If you have an exsiting account, you can sign in to your account using the same email and password used for registeration. 
 
 ![](../../.gitbook/assets/email-login.png)
-
-You can also use **Google** or **Elixir** accounts to log in. 
-
-![](../../.gitbook/assets/google.png)
 
 ### Profile
 

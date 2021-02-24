@@ -27,7 +27,7 @@ You can also use **Google** or **Elixir** accounts to log in by clicking on eith
 ![](../../.gitbook/assets/google.png)
 
 {% hint style="info" %}
-Remember that you are logged in through an external authentication provider when using Google or Elixir accounts to log in. So, you have to use their services to change your password.
+Remember that you are logged in through an external authentication provider when using Google or Elixir accounts to log in. 
 {% endhint %}
 
 ### Profile
@@ -55,6 +55,10 @@ Sharing lists is not yet implemented in the BlueGenes interface. However, if you
 ![](../../.gitbook/assets/password.png)
 
 You can change your password using the **Change password** form shown in the previous screenshot. You need to type in your old and new passwords and click **Save Password** to update your password. 
+
+{% hint style="info" %}
+Remember if you are logged in through an external authentication provider, such as Google or Elixir, you have to use their services to change your password.
+{% endhint %}
 
 **API access key:**
 

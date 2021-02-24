@@ -27,7 +27,7 @@ You can also use **Google** or **Elixir** accounts to log in by clicking on eith
 ![](../../.gitbook/assets/google.png)
 
 {% hint style="info" %}
-Remember, when using Google or Elixir to log in, you are logged in through an external authentication provider. So, you have to use their services to change your password.
+Remember that you are logged in through an external authentication provider when using Google or Elixir accounts to log in. So, you have to use their services to change your password.
 {% endhint %}
 
 ### Profile

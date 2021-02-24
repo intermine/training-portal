@@ -8,7 +8,7 @@ You can create an account through the **LOGIN** tab in the top navigation bar.
 
 ![](../../.gitbook/assets/login.png)
 
-Click on the "**Create new account**" link shown in the previous screenshot to register by entering a valid email address and a password. A confirmation email will be sent to your email address after you have successfully created an account.
+Click on the "**Create new account**" link shown in the previous screenshot to register by entering a valid email address and a password. You will receive a confirmation email to your email address after you have successfully created an account.
 
 ![](../../.gitbook/assets/register.png)
 
@@ -42,7 +42,7 @@ The profile sub-tab allows you to set various aspects of your account as follows
 2. **Allow other users to share lists with me without confirmation -** you can allow✅users to share lists with you without asking first. 
 3. **Display name:** Set your public name displayed in your InterMine interface, which can be used when others share lists with you. 
 4. **Your preferred email address:** Set the email address you prefer to use for correspondence - for example**,** if someone shares a list with you. This could be different from the email you use to log in to your account. 
-5. **The URL of your preferred Galaxy instance:** Results can be exported to [Galaxy](http://galaxyproject.org/) - see [Send results to the galaxy](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultsgalaxy). By default the main galaxy server is set; however, if you routinely use another galaxy instance, you can set this to be the default.
+5. **The URL of your preferred Galaxy instance:** Results can be exported to [Galaxy](http://galaxyproject.org/) - see [Send results to the galaxy](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultsgalaxy). By default, the main galaxy server is set; however, if you routinely use another galaxy instance, you can set this to be the default.
 
 Make sure to click **Save Changes** to update your user preferences.
 
@@ -57,12 +57,12 @@ Sharing lists is not yet implemented in the BlueGenes interface. However, if you
 You can change your password using the **Change password** form shown in the previous screenshot. You need to type in your old and new passwords and click **Save Password** to update your password. 
 
 {% hint style="info" %}
-Remember if you are logged in through an external authentication provider, such as Google or Elixir, you have to use their services to change your password.
+Remember, if you are logged in through an external authentication provider, such as Google or Elixir, you have to use their services to change your password.
 {% endhint %}
 
 **API access key:**
 
-API keys are used to access the features of the [InterMine API](https://intermine.readthedocs.org/en/latest/web-services/) without having to use your username or password. You can change, or delete your API key, without having to change your password. 
+API keys are used to access the [InterMine API](https://intermine.readthedocs.org/en/latest/web-services/) features without having to use your username or password. You can change or delete your API key without having to change your password. 
 
 To create an API key, click on the button shown below to generate a new token. If you wish to reuse an API key, you should save it in a safe place. You will only be able to view the API key for the length of this session.
 
@@ -92,5 +92,5 @@ Yes. When you have an account, any lists or queries you save are stored permanen
 
 #### 2. What happens to my lists and queries when you make a new database release?
 
-All lists and queries are transferred to the new database release. Sometimes identifiers in lists become outdated, and you will be asked to update your list \(see the [Upgrading lists](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/lists/lists#upgrading-lists) section for more details\). Occasionally we have to make changes to the underlying data model which may affect any queries you have saved. Please contact [Contact Us](contact-us.md) if you would require any further assistance. 
+All lists and queries are transferred to the new database release. Sometimes identifiers in lists become outdated, and you will be asked to update your list \(see the [Upgrading lists](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/lists/lists#upgrading-lists) section for more details\). Occasionally we have to make changes to the underlying data model, affecting any queries you have saved. Please contact [Contact Us](contact-us.md) if you would require any further assistance. 
 

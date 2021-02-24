@@ -2,9 +2,7 @@
 
 Your personal InterMine account allows you to create and manage your private lists, queries, templates etc. You need to create a separate account for each InterMine database you use; we hope to support single sign-on in the future. You can access your account from the top navigation bar.  
 
-![](../../.gitbook/assets/account.png)
-
-### How do I create an account?
+### Creating an account
 
 You can create an account through the **LOGIN** tab in the top navigation bar. 
 
@@ -17,6 +15,16 @@ Click on the "**Create new account**" link shown in the previous screenshot to r
 {% hint style="info" %}
 Your account information is private and won't be accessible by other users or inspected beyond automatic performance optimisation and updates. You can read our [Privacy Policy](https://intermine.readthedocs.io/en/latest/about/privacy-policy/) for more details. 
 {% endhint %}
+
+### Loging in to your account
+
+If you have an exsiting account, you can sign in to your account using the same email and password used for registeration. 
+
+![](../../.gitbook/assets/email-login.png)
+
+You can also use **Google** or **Elixir** accounts to log in. 
+
+![](../../.gitbook/assets/google.png)
 
 ### Profile
 

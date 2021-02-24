@@ -157,9 +157,11 @@ The new list will be saved, and a  message will appear at the bottom of the scre
 
 ### Download a set of results
 
-Results tables can be downloaded in various standard formats using the **Export** button at the top of the table's header. You can select whether to export your results table in **TSV**, **CSV**, or **FASTA** format.   By default, the output format is set to TSV, and the downloaded results table will be saved to a file. 
+Results tables can be downloaded in various formats using the **Export** button at the top of the table's header. You can select whether to export your results table in **tsv**, **csv**, or **fasta** format.   By default, the output format is set to tsv, and the downloaded results table will be saved to a file. 
 
-![](../../.gitbook/assets/download-table.png)
+You can also export your results as a **Frictionless Data Package**, which uses the **ZIP Compression** to download your results as a "**.zip**" file. By default, results will be downloaded uncompressed; however, you can use the **Compression** option to compress your results as shown in the following screenshot.  
+
+![](../../.gitbook/assets/export-new.png)
 
 ### Troubleshooting
 

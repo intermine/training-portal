@@ -4,13 +4,13 @@
 
 A template search is a pre-defined query that has been created and is ready to be used. Template searches allow you to search the database without constructing your own queries from scratch or understanding the underlying data structure. A library of template searches covering a full range of data is available.
 
-A template search has a simple form with one or more entry fields. You can fill in these fields with your data or select a value from the available options. Each template uses default values for all required fields, allowing you to immediately run the query and check whether the search returns the data you want. Each template has a short name and an extended description underneath. The title helps you quickly scan available searches and find the one you need; while the description provides more details, including any restrictions on the values you can use to run the query. To access the template library, click on the Templates tab in the main menu bar. 
+A template search has a simple form with one or more entry fields. You can fill in these fields with your data or select a value from the available options. Each template uses default values for all required fields, allowing you to immediately run the query and check whether the search returns the data you want. Each template has a short name and an extended description underneath. The title helps you quickly scan available searches and find the one you need, while the description provides more details, including any restrictions on the values you can use to run the query. To access the template library, click on the Templates tab in the main menu bar. 
 
 ![Templates tab](../../.gitbook/assets/templates-tab-updated.png)
 
 ### Finding the template search that you want
 
-There is a long list of pre-defined searches, and checking all available templates can be time-consuming. To find any template of interest, you can filter the templates list by keyword/description or data category. ****
+There is a long list of pre-defined searches, and checking all available templates can be time-consuming. To find a template of interest, you can filter the templates list by keyword/description or data category. ****
 
 ![Filtering templates](../../.gitbook/assets/template-filtering%20%282%29.png)
 
@@ -20,13 +20,13 @@ If you are unsure which category to use as a filter, category tags are shown at 
 
 ### Running a template search
 
-A template search provides you with a fillable form with one or more fields to set. Some entry fields may require entering a value; while others have a set of available choices in a drop-down list. Some templates offer optional search constraints that you can turn On and Off as desired. Once everything looks good, click **View &gt;&gt;** to expand the template details, including the results' preview and the constraints window. 
+A template search provides you with a fillable form with one or more fields to set. Some entry fields may require entering a value, while others have a set of available choices in a drop-down list. Some templates offer optional search constraints that you can turn On and Off as desired. Once everything looks good, click **View &gt;&gt;** to expand the template details, including the results' preview and the constraints window. 
 
 ![](../../.gitbook/assets/view-templates.png)
 
 ![](../../.gitbook/assets/run-template%20%282%29.png)
 
-The “Lookup” means that you can use any sort of gene identifier or symbol. Genes usually have at least one identifier \(often more than one\) and an official symbol \(e.g the human PPARG gene also has the identifiers 5468, and ENSG0000013217\). The lookup constraint means you do not have to specify whether you are providing a symbol or an identifier - you can give any of these.
+The “Lookup” means that you can use any sort of gene identifier or symbol. Genes usually have at least one identifier \(often more than one\) and an official symbol \(e.g. the human PPARG gene also has the identifiers 5468 and ENSG0000013217\). The lookup constraint means you do not have to specify whether you are providing a symbol or an identifier - you can give any of these.
 
 The previous screenshot is only a preview that doesn't display full results; to access all results of a given template, click **View Rows.**  
 
@@ -46,7 +46,7 @@ If you have a private list of the correct type \(e.g. a list of genes\) or a pub
 
 ![](../../.gitbook/assets/in-list-2%20%281%29.png)
 
-There is also a “Not in list” option which you can use to exclude items \(e.g. genes\) from your search. This will search the database for all items except those in the list specified. 
+There is also a “Not in list” option that you can use to exclude items \(e.g. genes\) from your search. This will search the database for all items except those in the list specified. 
 
 ![](../../.gitbook/assets/not-in-list%20%281%29.png)
 
@@ -66,7 +66,7 @@ You need to understand how to use the query builder to modify your template - pl
 
 ### Can’t find what you want - let us know!
 
-If you can’t find a template search that you want or available ones don’t entirely return everything you need, please do not hesitate to [Contact Us](contact-us.md). We can create a custom template for you or modify an existing one; assuming that the data is available in the database!
+If you can’t find a template search that you want or the available ones don’t entirely return everything you need, please do not hesitate to [Contact Us](contact-us.md). We can create a custom template for you or modify an existing one, assuming that the data is available in the database!
 
 ### TroubleShooting
 

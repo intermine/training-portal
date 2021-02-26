@@ -13,9 +13,9 @@ The following is a breakdown of what each key item in the **Lists view page** me
 3. You can analyse your lists using the given set operations. These operations are inactive by default, and you need two or more lists to activate them. Please check [List set operations](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#list-set-operations) ****for more details.
 4. You can control the number of rows shown per page to 20, 50, or 100
 5. You can sort lists by date, type, tags, etc. 
-6. You can use ![](../../../.gitbook/assets/refresh.png)to refresh your lists
-7. This icon![](../../../.gitbook/assets/download-removebg-preview.png)represents a public list; while the yellow user ![](../../../.gitbook/assets/61205.png) icon represents a private list/folder. 
-8. You can create folders and subfolders to save your lists
+6. You can use![](../../../.gitbook/assets/refresh.png)to refresh your lists
+7. This icon![](../../../.gitbook/assets/download-removebg-preview.png)represents a public list, while the yellow user ![](../../../.gitbook/assets/61205.png) icon represents a private list/folder. 
+8. You can create folders and subfolders to save your lists.
 9. Controls to copy, move or delete a given list or a group of lists
 
 ### Public lists![](../../../.gitbook/assets/download-removebg-preview.png) 
@@ -25,7 +25,7 @@ A public list is a list that has been created by InterMine developers and is ava
 ![](../../../.gitbook/assets/public-list%20%281%29.png)
 
 {% hint style="info" %}
-You can't modify a public list. Instead, make your own copy of that list to be able to edit it. Please check [Copying lists](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#copying-lists) for more details.
+You can't modify a public list. Instead, please make your own copy of that list to be able to edit it. Please check the [Copying lists](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#copying-lists) section for more details.
 {% endhint %}
 
 ### Creating lists
@@ -33,7 +33,7 @@ You can't modify a public list. Instead, make your own copy of that list to be a
 Lists can be created internally - for example, from [Results Tables](../results-tables.md) or [Regions Search](../region-search.md). They also can be uploaded from an external source via [Upload a list](upload-a-list.md). 
 
 {% hint style="info" %}
-Remember that you need to have an account prior to copying or storing any lists.
+Remember that you need to have an account before copying or storing any lists.
 {% endhint %}
 
 ### Viewing lists
@@ -42,7 +42,7 @@ By default, when you click on the **Lists** tab, all of your lists will be shown
 
 ![](../../../.gitbook/assets/list-filters.png)
 
-By default, all public and private lists/folders are shown, but it is possible to view your private lists only, public lists, and lists saved in a particular folder first using the dropdown menu.  
+By default, all public and private lists/folders are shown, but it is possible to view your private lists only, public lists, or lists saved in a particular folder first using the dropdown menu.  
 
 ![](../../../.gitbook/assets/list-filtering-2.png)
 
@@ -58,7 +58,7 @@ You can manage your lists through the **Lists** view page. While logged in to yo
 
 ### List tags
 
-Tags can be used to organise your lists into categories. You can add your preferred tags to your saved lists by clicking on the **Edit list** icon✏in the **Lists** view page. 
+Tags can be used to organise your lists into categories. You can add your preferred tags to your saved lists by clicking on the **Edit list** icon✏on the **Lists** view page. 
 
 ![](../../../.gitbook/assets/private-list-no-tag.png)
 
@@ -66,7 +66,7 @@ Tags can be used to organise your lists into categories. You can add your prefer
 
 ![Adding a tag](../../../.gitbook/assets/mytag-cut.png)
 
-You can then filter your lists by one of the available tags in the **Lists** view page. 
+You can then filter your lists by one of the available tags on the **Lists** view page. 
 
 ![](../../../.gitbook/assets/filtering-by-tag.png)
 
@@ -74,7 +74,7 @@ You can then filter your lists by one of the available tags in the **Lists** vie
 
 ### Using lists in searches
 
-You can run searches on a list, such as a [template search](../template-search.md) or a search you have built using the query builder. For example, you may want to run a search to find all the GO terms for a list of genes. You can use lists in your searches in the template form - in list option. Check [How do I run a template search with one of my lists or a public list?](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/template-search#how-do-i-run-a-template-search-with-one-of-my-lists-or-a-public-list) for more information.
+You can run searches on a list, such as a [template search](../template-search.md) or a search you have built using the query builder. For example, you may want to run a search to find all the GO terms for a list of genes. You can use lists in your searches in the template form - in list option. Check [How do I run a template search with one of my lists or a public list?](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/template-search#how-do-i-run-a-template-search-with-one-of-my-lists-or-a-public-list) section for more information.
 
 ### List analysis
 
@@ -82,7 +82,7 @@ All lists have an associated [list analysis page](list-analysis-pages.md), which
 
 ### List set operations
 
-Sets of lists can be analysed using the **Combine**, **Intersect**, **Subtract** and **Difference** functions. These set operations are available in the Lists view page. 
+Sets of lists can be analysed using the **Combine**, **Intersect**, **Subtract** and **Difference** functions. These set operations are available on the Lists view page.  
 
 ![Lists set operations](../../../.gitbook/assets/set-operations.png)
 
@@ -103,7 +103,7 @@ For example, you can combine two lists, public and private lists, and save the n
 The BlueGenes interface offers four operations on sets for constructing new lists from given lists.
 
 {% hint style="success" %}
-**Combine lists**: this is more of a traditional ‘add’ function, in that the resulting list will contain all objects from all selected lists. The mathematical symbol for the Combine operation is$$A ∪ B$$. For example, if you have list A and list B, you can use the Combine function to create a new list containing all items in both lists - i.e. A + B. 
+**Combine lists**: this is more of a traditional ‘add’ function in that the resulting list will contain all objects from all selected lists. The mathematical symbol for the Combine operation is$$A ∪ B$$. For example, if you have list A and list B, you can use the Combine function to create a new list containing all items in both lists - i.e. A + B. 
 {% endhint %}
 
 {% hint style="success" %}
@@ -111,7 +111,7 @@ The BlueGenes interface offers four operations on sets for constructing new list
 {% endhint %}
 
 {% hint style="success" %}
-* **Difference lists**: this function performs a [mathematical symmetric difference](https://en.wikipedia.org/wiki/Symmetric_difference) ****on all selected lists, and the resulting list will contain only items unique to each of those lists. This operation is more like the opposite of an intersection operation, which is represented mathematically as$$A ∆ B $$. For example, if you have list A and list B, you can use the Difference function to create a new list that includes objects only appearing in either A or B.
+* **Difference lists**: this function performs a [mathematical symmetric difference](https://en.wikipedia.org/wiki/Symmetric_difference) ****on all selected lists, and the resulting list will contain only items unique to each of those lists. This operation is more like the opposite of an intersection operation, and it is represented mathematically as$$A ∆ B $$. For example, if you have list A and list B, you can use the Difference function to create a new list that includes objects only appearing in either A or B.
 {% endhint %}
 
 {% hint style="success" %}
@@ -160,7 +160,7 @@ A fillable form will be shown that you can use to change the title - the name of
 
 ### Upgrading lists
 
-to be added. 
+To be added. 
 
 ### Downloading lists
 
@@ -170,7 +170,7 @@ Lists can be downloaded from the **Lists** view page. You can click on any list 
 
 Click the **Export** button on the right of the resulting table to download the results to your device. You can export the results ****in different formats, such as tsv, csv, or fasta.  
 
-![](../../../.gitbook/assets/download-list-2%20%281%29.png)
+![](../../../.gitbook/assets/export-new.png)
 
 ### Deleting lists
 
@@ -196,7 +196,7 @@ Please note that deleting a list is an irreversible action, and it only applies 
 
 ### Creating folders
 
-The BlueGenes application allows users to create folders and sub-folders to organise their lists. Lists can be either copied or moved into a folder or sub-folder. By default, all public and private lists are shown in the **Lists** view page, and no folders exist. 
+The BlueGenes application allows users to create folders and sub-folders to organise their lists. Lists can be either copied or moved into a folder or sub-folder. By default, all public and private lists are shown on the **Lists** view page, and no folders exist. 
 
 ![](../../../.gitbook/assets/create-folder-1%20%281%29.png)
 

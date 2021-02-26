@@ -168,7 +168,9 @@ Lists can be downloaded from the **Lists** view page. You can click on any list 
 
 ![](../../../.gitbook/assets/export-a-list.png)
 
-Click the **Export** button on the right of the resulting table to download the results to your device. You can export the results ****in different formats, such as tsv, csv, or fasta.  
+Click the **Export** button on the right of the resulting table to download the results to your device. You can export the results ****in different formats, such as tsv, csv, or fasta. By default, the output format is set to tsv, and the downloaded results table will be saved to a file. 
+
+You can also export your results as a **Frictionless Data Package**, which uses the **ZIP Compression** to download your results as a ".zip" file. By default, results will be downloaded uncompressed; however, you can use the **Compression** option to compress your results, as shown in the following screenshot.
 
 ![](../../../.gitbook/assets/export-new.png)
 

@@ -2,17 +2,19 @@
 
 In InterMine, there are two account types, **User and Admin**, that define your level of access to the interface and your permissions. By default, when you first create an account, you'll have the [User](account.md) role permissions. You can check the [account ](account.md)section for more details about the User role and its privileges. 
 
-The Admin or Superuser role has all [user](account.md) role permissions plus additional administrative capabilities that include access to the [Admin Pages](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/admin-account#the-admin-pages) and the [Tools Store](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/admin-account#the-tools-store). 
+The Admin or Superuser role has all of the [user](account.md) role permissions plus additional administrative capabilities that include access to the [Admin Pages](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/admin-account#the-admin-pages) and the [Tools Store](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/admin-account#the-tools-store). 
 
 ![](../../.gitbook/assets/admin-menu-updated.png)
 
 ### The Admin Pages
 
+The Admin tab allows you to set and edit the Report Pages layout and create a notice at the top of the homepage to communicate any urgent updates, including maintenance or downtime.   
+
 #### Report pages layout
 
 Administrators can add categories containing classes - references or collections in the model, visualizations tools, and templates, to be used to determine the report pages' layout. Each layout applies to all report pages for a specific class, such as the Gene or Protein classes. 
 
-To manage a layout, you need to select a class from the drop-down list. Then, you can add a new category as shown below. 
+To manage a layout, you need to select a class from the drop-down list. Then, you can add a new category, as shown below. 
 
 ![](../../.gitbook/assets/page-layout-zoomed-in.png)
 
@@ -36,7 +38,7 @@ Markdown is supported, so you'll probably want to use a Heading 3 or prepend you
 
 ### The Tools Store
 
-The Tools Store allows you to install analysis tools, view details about the previously installed ones, update all installed tools at once, or remove a particular tool. 
+The Tools tab will direct you to the Tool Store, allowing you to install analysis tools, view details about the previously installed ones, update all installed tools at once, or remove a particular tool. 
 
 ![](../../.gitbook/assets/tools-store-updated.png)
 

@@ -8,7 +8,7 @@ The administrator account has all [user](account.md) role permissions plus addit
 
 ### The Admin Pages
 
-
+![](../../.gitbook/assets/homepage-notice.png)
 
 ### The Tools Store
 

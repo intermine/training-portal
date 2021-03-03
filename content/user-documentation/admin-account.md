@@ -22,5 +22,5 @@ Markdown is supported, so you'll probably want to use heading 3 or prepend with 
 
 ### The Tools Store
 
-
+The Tools Store allows you to install analysis tools, view details about the previously installed ones, update all installed tools at once, or remove a particular tool. 
 

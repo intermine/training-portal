@@ -4,13 +4,13 @@ In InterMine, there are two account types, **User and Admin**, that define your 
 
 The administrator account has all [user](account.md) role permissions plus additional administrative capabilities that include access to the Admin Pages and the Tools Store. 
 
-![](../../.gitbook/assets/admin-menu.png)
+![](../../.gitbook/assets/admin-menu-updated.png)
 
 ### The Admin Pages
 
 
 
-### The Tool Store
+### The Tools Store
 
 
 

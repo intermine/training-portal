@@ -4,5 +4,9 @@ In InterMine, there are two account types, **User and Admin**, that define your 
 
 The administrator account has a set of administrative capabilities that includes access to the Admin Page and the Tools Store. 
 
+### The Admin Pages
+
+### The Tool Store
+
 
 

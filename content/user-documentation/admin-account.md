@@ -24,3 +24,5 @@ Markdown is supported, so you'll probably want to use a Heading 3 or prepend you
 
 The Tools Store allows you to install analysis tools, view details about the previously installed ones, update all installed tools at once, or remove a particular tool. 
 
+![](../../.gitbook/assets/tools-store-updated.png)
+

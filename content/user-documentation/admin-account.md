@@ -14,7 +14,7 @@ Administrators can add categories containing classes - references or collections
 
 To manage a layout, you need to select a class from the drop-down list. Then, you can add a new category as shown below. 
 
-![](../../.gitbook/assets/manage-layout.png)
+![](../../.gitbook/assets/page-layout-zoomed-in.png)
 
 Admins can also edit any existing category, move it up or down, or remove it from the layout. 
 

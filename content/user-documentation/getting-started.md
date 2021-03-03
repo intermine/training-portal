@@ -31,10 +31,10 @@ Below is a quick description of different sections and their associated function
 
 ![The BlueGenes UI Homepage](../../.gitbook/assets/homepage%20%282%29.png)
 
-* \*\*\*\*[**Home**](http://bluegenes.apps.intermine.org/humanmine): The homepage of the interface offers a search feature for any term, access to popular queries, documentation, the InterMine blog, external tools, and more.
+* \*\*\*\*[**Home**](http://bluegenes.apps.intermine.org/humanmine): the homepage of the interface offers a search feature for any term, access to popular queries, documentation, the InterMine blog, external tools, and more.
 * \*\*\*\*[**Upload**](lists/upload-a-list.md): to upload a new list as a free text or from an existing file. 
-* \*\*\*\*[**Lists**](lists/): A list in InterMine refers to multiple items of the same type - for example, a list of genes or a list of binding sites. 
-* \*\*\*\*[**Templates**](template-search.md): a pre-defined query which offers a simple form with one or more variables for you to define; defaults are always provided so you can see exactly how the template works.
+* \*\*\*\*[**Lists**](lists/): a list in InterMine refers to multiple items of the same type - for example, a list of genes or a list of binding sites. 
+* \*\*\*\*[**Templates**](template-search.md): a pre-defined query that provides a simple form with one or more variables for you to define; defaults are always provided so you can see exactly how the template works.
 * \*\*\*\*[**Regions**](region-search.md): a tool for looking at genomic regions and the features they contain, allowing you to upload a set of regions and search for features mapped to these regions.
 * \*\*\*\*[**Query Builder**](the-query-builder.md): an advanced query building tool - you can use this to construct your own searches. You can even turn them into your own template searches.
 * \*\*\*\*[**Keyword Search**](keyword-search.md): a search box appears on the menu bar of all pages and the home page. You can search for any identifier, name, symbol or keyword.
@@ -45,8 +45,8 @@ Below is a quick description of different sections and their associated function
 
 * [Keyword Search](keyword-search.md)
 * [Template Searches](template-search.md)
-* [The Query Builder](https://flymine.readthedocs.io/en/latest/query-builder/Documentationquerybuilder.html#querybuilder)
-* [Region Search](https://flymine.readthedocs.io/en/latest/region-search/Documentationregionsearch.html#regionsearch)
+* [The Query Builder](the-query-builder.md)
+* [Regions Search](region-search.md)
 
 ### Viewing search results
 
@@ -57,9 +57,9 @@ To view data resulting from these searches, intermine provides the following int
 * [Results Tables](results-tables.md): results tables are not only for displaying your search results but are also powerful analysis tools, allowing you to summarise, filter, add or remove columns, create lists and download data.
 * [Regions Search Results](region-search.md): regions search provides results in a tabular format. The resulting table displays each of your regions in turn with all features found and their genomic location. 
 
-### How everything links together
+### How everything links together?
 
-Although the above tools and interfaces are described separately; they all interact together in various ways. 
+Although the above tools and interfaces are described separately, they all interact together in various ways. 
 
 For example, you could run [Template Searches](template-search.md) to find all genes regulated by a specific transcription factor. Using the resulting [Results Table](results-tables.md), you could [Upload a list](lists/upload-a-list.md) of these regulated genes. This list could then be analysed using the [List analysis pages](lists/list-analysis-pages.md). You could also run further [Template Searches ](template-search.md)using this list as the input.
 

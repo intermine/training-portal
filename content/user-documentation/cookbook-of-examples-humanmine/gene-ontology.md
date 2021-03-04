@@ -2,11 +2,11 @@
 
 ### How do I find the GO annotations for my set of genes?
 
-This assumes that you have successfully uploaded or created your set of genes. If you require help with this please see [Lists](https://flymine.readthedocs.io/en/latest/lists/overview/Documentationlists.html#lists)
+This assumes that you have successfully uploaded or created your set of genes. If you require help with this, please see [Lists - Upload a list](../lists/upload-a-list.md) section for more details. 
 
-To find the GO term annotations for your genes it is easiest to start with a specially created template search:
+To find the GO term annotations for your genes, it's easiest to start with a specially created template search:
 
-1. From the FlyMine homepage, select the ‘Templates’ tab from the navigation bar.
+1. From the HumanMine homepage, select the **‘Templates’** tab from the top navigation bar.
 2. From the list of templates, we are looking for one called [Gene → GO terms](http://www.flymine.org/query/template.do?name=Gene_GO&scope=all). If you cannot see it immediately enter ‘GO’ into the filter box to narrow the search.
 3. Click on the template name, this will display the template form. Enter the gene or select the list you wish to run the search with and press ‘Show results’.
 

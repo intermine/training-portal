@@ -1,0 +1,2 @@
+# Cookbook of Examples: HumanMine
+

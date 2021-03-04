@@ -54,6 +54,8 @@
     * [Report Pages](content/user-documentation/report-pages.md)
     * [Results Tables](content/user-documentation/results-tables.md)
     * [Data Sources](content/user-documentation/data-sources.md)
+    * [Cookbook of Examples: HumanMine](content/user-documentation/cookbook-of-examples-humanmine/README.md)
+      * [Gene Ontology](content/user-documentation/cookbook-of-examples-humanmine/gene-ontology.md)
     * [Account](content/user-documentation/account.md)
     * [Admin Account](content/user-documentation/admin-account.md)
     * [InterMine Mobile](content/user-documentation/intermine-mobile.md)

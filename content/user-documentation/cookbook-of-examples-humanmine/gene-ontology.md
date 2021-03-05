@@ -13,7 +13,7 @@ To find the GO term annotations for your genes, it's easier to start by creating
 3. Click on the template name or **‘View &gt;&gt;’** at the bottom left corner to expand the template details, including the fillable form. 
 4. Enter a gene or select a list you wish to run the search with, then press **‘View Rows’**. 
 
-{% embed url="https://drive.google.com/file/d/1U1ZSvMJuYasSYedYKi2gLARIkrEGrjmW/view?usp=sharing" %}
+{% embed url="https://drive.google.com/file/d/1BRoubFVurgHFMd7GKSZiXr-Saw7nSsr4/view?usp=sharing" %}
 
 ### Modifying and filtering your search results
 

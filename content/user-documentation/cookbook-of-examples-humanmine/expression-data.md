@@ -6,6 +6,24 @@ For a single gene, the quickest way to view the available expression data is to 
 
 For a list of genes, widgets \(graphs\) are available on the [List analysis pages](https://flymine.readthedocs.io/en/latest/lists/analysis/Documentationlistanalysispages.html#listanalysispage) showing expression in adult fly tissues \(FlyAtlas data\) and across development \(modENCODE RNA\_seq data, BDGP and FlyFish in situ hybridisation\).
 
+### How do I find genes expressed in a particular tissue or at a certain developmental stage?
+
+A number of template searches are available to analyse the various sources of expression data. Due to the widely variant nature of the different expression sources, it is generally necessary to search each one separately - for example data for expression over development is available from BDGP, FlyFish, the modENCODE RNA\_seq data and from the time course data published by Arbeitman et al. Although a template search is available to analyse the BDGP and FlyFish data together, the development stage ranges they used in their studies do not agree exactly.
+
+The following templates searches specifically look for genes expressed at a particular developmental stage\(s\) or in a particular tissue\(s\):
+
+[Tissue \[D. melanogaster\] → FlyAtlas data](http://www.flymine.org/query/template.do?name=Tissue_Flyatlas&scope=all) \(allows optional filtering on FlyAtlas values\)
+
+[Microarray Time Course data from Arbeitman et al \(filter on stage and ratio\) → Genes \(D. melanogaster\)](http://www.flymine.org/query/template.do?name=TimeCourseData_Gene&scope=all).
+
+[BDGP → Genes](http://www.flymine.org/query/template.do?name=BDGP_Gene&scope=all) \(searches for a specified expression term and developmental stage\).
+
+[Stage \[D. melanogaster\] → FlyFish + BDGP in situ data](http://www.flymine.org/query/template.do?name=Stage_FlyFishBDGP&scope=all)
+
+[FlyFish expression term + stage \[D. melanogaster\] → Genes](http://www.flymine.org/query/template.do?name=FlyFish_Genes&scope=all)
+
+To see all template searches for expression data navigate to the [Template Searches](https://flymine.readthedocs.io/en/latest/templates/Documentationtemplatesearches.html#templatesearches) and filter the list for ‘expression’ using the drop-down filter menu \(see [Finding the template search that you want](https://flymine.readthedocs.io/en/latest/templates/Documentationtemplatesearches.html#filtertemplatesearches)\).
+
 ### How do I find genes expressed ONLY in a particular tissue?
 
 This is a three-step process:

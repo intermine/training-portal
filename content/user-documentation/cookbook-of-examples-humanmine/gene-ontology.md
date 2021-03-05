@@ -4,7 +4,7 @@
 
 This assumes that you have successfully uploaded or created your set of genes. If you require help with this, please see [Lists - Upload a list](../lists/upload-a-list.md) section for more details. 
 
-To find the GO term annotations for your genes, it's easiest to start with a specially created template search:
+To find the GO term annotations for your genes, it's easier to start by creating a template search specifically for this purpose. 
 
 1. From the HumanMine homepage, select the **‘Templates’** tab from the top navigation bar.
 2. From the list of templates, we are looking for one called [Gene → GO terms](http://bluegenes-staging.apps.intermine.org/humanmine/templates/Gene_GO). If you cannot see it immediately enter ‘GO’ into the filter box to narrow the search.

@@ -29,20 +29,30 @@ The easiest way to filter your results is by using the filter functions in the r
 
 {% embed url="https://drive.google.com/file/d/1i39eZw1\_TdqhzPLYTc97LoaQ6GwsXwvB/view?usp=sharing" %}
 
-### How do I filter my results to remove those with the IEA \(inferred from electronic annotation\) evidence code? 
+### How do I filter my results to remove those with the IEA - Inferred from Electronic Annotation - evidence code? 
 
-You can do this in two ways: 
+You can accomplish this in three ways:  
 
-* Using the column summary 
+* **Using the column summary**
 
 1. Click on the column summary/graph icon![](../../../.gitbook/assets/bar-chart.png)in the **Code** column header. 
-2. Select all evidence codes except IEA and click Filter.
+2. Select all evidence codes except the **IEA** code.
+3. Click **Filter**.
 
-* Using the filter button
+* **Using the Code column filter icon**
 
-1. Click on ‘Filters’ above the results table. 
-2. Scroll down to the GO Evidence Code field and click ‘Choose’. 
-3. Define your filter and click ‘Add filter:
+1. Click on the filter icon![](../../../.gitbook/assets/screenshot-902-.png)in the Code column header. 
+2. Use the left drop-down menu to choose the **!=** option. 
+3. Use the right drop-down list to select the **IEA** code.
+4. Click **‘Apply’** to add the new filter. 
+
+* **Using the Manage Filters button**
+
+1. Click on the **‘Manage Filters’** button above the results table. 
+2. Using the **‘Add a new filter’** drop-down menu, click the **GO Evidence Code** field. 
+3. Click the blue plus sign to add a new filter, which will show a new drop-down list on the left of the **GO Evidence Code** field.
+4. Choose the **!=** option 
+5. Finally, click **‘Apply Changes’**. 
 
 ### How do I analyse my gene list for GO term enrichment?
 

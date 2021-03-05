@@ -37,9 +37,7 @@ You can accomplish this in three ways:
 
 1. Click on the column summary/graph icon![](../../../.gitbook/assets/bar-chart.png)in the **Code** column header. 
 2. Select all evidence codes except the **IEA** code.
-3. Click **Filter**.
-
-{% embed url="https://drive.google.com/file/d/1YnsIZUnqb6JSPYoggTtxc9PPZij6v7-h/view?usp=sharing" %}
+3. Click **Filter**. 
 
 * **Using the Code column filter icon**
 

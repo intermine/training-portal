@@ -15,9 +15,9 @@ To find the GO term annotations for your genes, it's easier to start by creating
 
 {% embed url="https://drive.google.com/file/d/1U1ZSvMJuYasSYedYKi2gLARIkrEGrjmW/view?usp=sharing" %}
 
-#### Modifications:
+### Modifying and filtering your search results
 
-This template search returns GO term annotations for all three GO ontologies along with other GO attributes, such as evidence code and qualifier. You may wish to further filter your results on some of these attributes or add additional attributes to the search, such as annotation extension or the GO ‘with’ attribute. The following examples illustrate how to do this:
+This template search returns GO term annotations for all three GO ontologies along with other GO attributes, such as evidence code and qualifier. You may wish to further filter your results on some of these attributes or add additional attributes to the search, such as annotation extension or the GO ‘with’ attribute. The following examples illustrate how to do this. 
 
 ### How do I filter my results to show only GO annotations from the ‘biological process’ ontology?
 

@@ -27,11 +27,13 @@ The easiest way to filter your results is by using the filter functions in the r
 2. Then select **‘biological\_process’** using the checkbox to the left, and click the **‘Filter’** button. 
 3. To return to your original results, either remove the filter by clicking on the blue filter icon![](../../../.gitbook/assets/screenshot-902-.png)in the column header or use the **UNDO** button above the results table. 
 
-### How do I filter my results to remove those with the IEA \(inferred from electronic annotation\) evidence code?
+[https://drive.google.com/file/d/1i39eZw1\_TdqhzPLYTc97LoaQ6GwsXwvB/view?usp=sharing](https://drive.google.com/file/d/1i39eZw1_TdqhzPLYTc97LoaQ6GwsXwvB/view?usp=sharing) 
 
-You can do this either through the column summary or the filter’ function:
+### How do I filter my results to remove those with the IEA \(inferred from electronic annotation\) evidence code? 
 
-1. Using the column summary:
+You can do this either through the column summary or the filter’ function: 
+
+1. Using the column summary: 
 
 Click on the column summary icon in the code column. Select all evidence codes except IEA and click filter.
 

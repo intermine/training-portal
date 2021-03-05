@@ -11,7 +11,7 @@ To find the GO term annotations for your genes, it's easier to start by creating
 3. Click on the template name or **‘View &gt;&gt;’** at the bottom left corner to expand the template details, including the fillable form. 
 4. Enter the gene or select the list you wish to run the search with and press **‘View Rows’** at the bottom of the template form.
 
-Modifications:
+#### Modifications:
 
 This template search returns GO term annotations for all three GO ontologies along with other GO attributes, such as evidence code and qualifier. You may wish to further filter your results on some of these attributes or add additional attributes to the search, such as annotation extension or the GO ‘with’ attribute. The following examples illustrate how to do this:
 

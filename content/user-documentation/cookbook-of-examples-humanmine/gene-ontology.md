@@ -31,15 +31,18 @@ The easiest way to filter your results is by using the filter functions in the r
 
 ### How do I filter my results to remove those with the IEA \(inferred from electronic annotation\) evidence code? 
 
-You can do this either through the column summary or the filter’ function: 
+You can do this either through the column summary or the filter function: 
 
-1. Using the column summary: 
+* Using the column summary 
 
-Click on the column summary icon in the code column. Select all evidence codes except IEA and click filter.
+1. Click on the column summary/graph icon![](../../../.gitbook/assets/bar-chart.png)in the **Code** column header. 
+2. Select all evidence codes except IEA and click Filter.
 
-1. Using the filter button:
+* Using the filter button
 
-Click on ‘Filters’ above the results table. Scroll down to the GO Evidence Code field and click ‘Choose’. Define your filter and click ‘Add filter:
+1. Click on ‘Filters’ above the results table. 
+2. Scroll down to the GO Evidence Code field and click ‘Choose’. 
+3. Define your filter and click ‘Add filter:
 
 ### How do I analyse my gene list for GO term enrichment?
 

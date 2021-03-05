@@ -2,7 +2,9 @@
 
 ### How do I find the GO annotations for my set of genes?
 
-This assumes that you have successfully uploaded or created your set of genes. If you require help with this, please see [Lists - Upload a list](../lists/upload-a-list.md) section for more details. 
+{% hint style="info" %}
+This assumes that you have successfully uploaded or created your list of genes. If you require help with this, please see [Lists - Upload a list](../lists/upload-a-list.md) section for more details. 
+{% endhint %}
 
 To find the GO term annotations for your genes, it's easier to start by creating a template search specifically for this purpose. 
 

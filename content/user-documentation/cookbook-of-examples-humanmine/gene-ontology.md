@@ -48,7 +48,9 @@ You can accomplish this in three ways:
 3. Use the right drop-down list to select the **IEA** code.
 4. Click **‘Apply’** to add the new filter. 
 
-* **Using the Manage Filters button**
+{% embed url="https://drive.google.com/file/d/1mYX8NsiRT6NpEA0Bs-w5Ba4OMGRl90O5/view?usp=sharing" %}
+
+* **Using the Manage Filters feature**
 
 1. Click on the **‘Manage Filters’** button above the results table. 
 2. Using the **‘Add a new filter’** drop-down menu, click the **GO Evidence Code** field. 

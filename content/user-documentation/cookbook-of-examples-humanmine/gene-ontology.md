@@ -31,7 +31,7 @@ The easiest way to filter your results is by using the filter functions in the r
 
 ### How do I filter my results to remove those with the IEA \(inferred from electronic annotation\) evidence code? 
 
-You can do this either through the column summary or the filter function: 
+You can do this in two ways: 
 
 * Using the column summary 
 

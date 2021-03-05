@@ -21,7 +21,11 @@ This template search returns GO term annotations for all three GO ontologies alo
 
 ### How do I filter my results to show only GO annotations from the ‘biological process’ ontology?
 
-The easiest way to filter your results is by using the filter functions in the results table. You can accomplish this by clicking on the summary icon of the **Ontology Term Namespace** column. Select ‘biological process’ and click filter. To return to your original results, either remove the filter by clicking on the green ‘filter’ icon in this column header or use the UNDO button above the results table:
+The easiest way to filter your results is by using the filter functions in the results table. 
+
+1. You can accomplish this by clicking on the graph icon![](../../../.gitbook/assets/bar-chart.png)in the **Ontology Term Namespace** column header. 
+2. Then select **‘biological\_process’** using the checkbox to the left, and click the **‘Filter’** button. 
+3. To return to your original results, either remove the filter by clicking on the blue filter icon![](../../../.gitbook/assets/screenshot-902-.png)in the column header or use the **UNDO** button above the results table. 
 
 ### How do I filter my results to remove those with the IEA \(inferred from electronic annotation\) evidence code?
 

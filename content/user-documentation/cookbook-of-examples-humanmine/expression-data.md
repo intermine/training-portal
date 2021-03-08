@@ -2,13 +2,13 @@
 
 ### HumanMine tissue expression datasets
 
-In HumanMine we load a number of data sets that provide information about expression data in different tissues. They use a number of different experimental techniques and measurements making it difficult to compare them directly, but we have a number of queries and visualizations for each data. The table below summarises the data sets:
+In HumanMine, we load several datasets that provide information about expression data in different tissues. These datasets use different experimental techniques and measurements, making it difficult to compare them directly, but we have specific queries and visualizations for each dataset. The table below summarises these datasets
 
 | **Data Set** | Source | **Measurement type** |
 | :--- | :--- | :--- |
 | Affymetrix array  | Array express E-MTAB-62  | T-statistic, p-value, UP, DOWN, notDE |
 | RNA-seq | Array Express Illumina body map E-MTAB-513 | FPKM |
-| RNA-seq | GTex | TPM |
+| RNA-seq | GTEx | TPM |
 | RNA-seq | Protein Atlas | TPM |
 | Protein localisation \(Ab staining\) | Protein Atlas | High, medium, low, not detected |
 

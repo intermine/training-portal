@@ -37,7 +37,7 @@ If a given class doesn't have a previously created layout, one will be autogener
 As an administrator, you can set a homepage notice, which will be displayed at the top of the homepage for all BlueGenes instances that connect to the current mine. This notice is useful for communicating important or urgent information, such as a scheduled downtime. 
 
 {% hint style="info" %}
-Markdown is supported; it is recommended to use a Heading 3 or prepend your notice with \#\#\# for a decent header size.
+Markdown is supported; it is recommended to use a heading 3 or prepend your notice with \#\#\# for a decent header size.
 {% endhint %}
 
 ![](../../.gitbook/assets/homepage-notice.png)

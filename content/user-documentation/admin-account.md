@@ -26,6 +26,10 @@ Once you have added a category, you can click on the category bar to add classes
 
 Admins can also rename any existing category, move it up or down, or remove it from the layout. 
 
+{% hint style="info" %}
+When you're done with your selection, remember to click “Save Changes” at the bottom of the **Report page layout** section to save your changes.  
+{% endhint %}
+
 ![](../../.gitbook/assets/admin-pages-zoomed-in.png)
 
 {% hint style="info" %}

@@ -24,7 +24,7 @@ Once you have added a category, you can click on the category bar to add classes
 
 ![](../../.gitbook/assets/add-category-2.png)
 
-Admins can also edit any existing category, move it up or down, or remove it from the layout. 
+Admins can also rename any existing category, move it up or down, or remove it from the layout. 
 
 ![](../../.gitbook/assets/admin-pages-zoomed-in.png)
 

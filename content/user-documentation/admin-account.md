@@ -18,6 +18,10 @@ To manage a layout, you need to select a class from the drop-down list. Then, yo
 
 ![](../../.gitbook/assets/add-category.png)
 
+Once you have added a category, you can click on the category bar to add classes, templates, and visualisation tools.
+
+![](../../.gitbook/assets/category-menu.png)
+
 Admins can also edit any existing category, move it up or down, or remove it from the layout. 
 
 ![](../../.gitbook/assets/admin-pages-zoomed-in.png)

@@ -1,5 +1,17 @@
 # Expression Data
 
+### HumanMine tissue expression datasets
+
+In HumanMine we load a number of data sets that provide information about expression data in different tissues. They use a number of different experimental techniques and measurements which makes it difficult to compare them directly, but we have a number of queries and visualizations for each data. The table below summarises the data sets:
+
+| **Data Set** | Source | **Measurement type** |
+| :--- | :--- | :--- |
+| Affymetrix array  | Array express E-MTAB-62  | T-statistic, p-value, UP, DOWN, notDE |
+| RNA-seq | Array Express Illumina body map E-MTAB-513 | FPKM |
+| RNA-seq | GTex | TPM |
+| RNA-seq | Protein Atlas | TPM |
+| Protein localisation \(Ab staining\) | Protein Atlas | High, medium, low, not detected |
+
 ### How do I find which tissues my genes are expressed in?
 
 For a single gene, the quickest way to view the available expression data is to look at the [Report Pages](https://flymine.readthedocs.io/en/latest/report-pages/Documentationreportpages.html#reportpages) for that gene. Here you will find graphs showing the expression of the gene across development and the expression in adult fly tissues. In addition, tables showing _in situ_ mRNA expression data from BDGP and FlyFish are available.

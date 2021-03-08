@@ -2,7 +2,7 @@
 
 ### HumanMine tissue expression datasets
 
-In HumanMine, we load several datasets that provide information about expression data in different tissues. These datasets use different experimental techniques and measurements, making it difficult to compare them directly, but we have specific queries and visualizations for each dataset. The table below summarises these datasets
+In HumanMine, we load several datasets that provide information about expression data in different tissues. These datasets use different experimental techniques and measurements, making it difficult to compare them directly, but we have specific queries and visualizations for each dataset. The table below summarises these datasets.
 
 | **Data Set** | Source | **Measurement type** |
 | :--- | :--- | :--- |
@@ -10,9 +10,9 @@ In HumanMine, we load several datasets that provide information about expression
 | RNA-seq | Array Express Illumina body map E-MTAB-513 | FPKM |
 | RNA-seq | GTEx | TPM |
 | RNA-seq | Protein Atlas | TPM |
-| Protein localisation \(Ab staining\) | Protein Atlas | High, medium, low, not detected |
+| Protein localisation \(Ab staining\) | Protein Atlas | High, Medium, Low, Not detected. |
 
-There are a number of templates that allow querying of each data set independently, allowing you to identify genes expressed in a tissue or set of tissues OR allowing you to identify the tissues that a particular gene or list of genes are expressed in. Navigate to the template tab and filter for “expression” to see the full list of templates - all templates provide details of the specific data set.
+Many templates let you query any dataset independently, allowing you to identify genes expressed in a tissue - or set of tissues - or identify the tissues that a particular gene or list of genes are expressed in. Navigate to the template tab and filter for “expression” to see the full list of templates - all templates provide details of the specific data set.
 
 To compare expressions between the different data sets, it is easiest to make use of the list operations. For example, if you want to find all genes expressed in the brain according to all the data sets - query each set independently, create a list of the genes at each step and then use either the list intersect \(to create a stringent, high confidence set\) or the list union \(to create a set of lower stringency which contains a gene even if it only shows expression in tissue x in one dataset\).
 

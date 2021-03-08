@@ -21,7 +21,7 @@ To compare expressions between different datasets, it is easier to make use of t
    1. the list intersection operation to create a stringent, high confidence set
    2. or the list union operation to create a set of lower stringency, which contains a gene even if it only shows expression in tissue x in one dataset.
 
-It is possible to identify genes expressed solely in one tissue \(i.e tissue-specific expression\). For data sets that provide only TPM or FPKM values, you will have to decide on your expression cut-off, while for the E-MTAB-62 and Protein atlas localisation data it is possible to make use of the cut-offs already applied to the data by filtering for UP \(E-MTAB-62\) or High and medium \(protein atlas localisation\).
+It is possible to identify genes expressed solely in one tissue \(i.e. tissue-specific expression\). For data sets that provide only TPM or FPKM values, you will have to decide on your expression cut-off, while for the E-MTAB-62 and Protein atlas localisation data, it is possible to make use of the cut-offs already applied to the data by filtering for UP \(E-MTAB-62\) or High and Medium \(protein atlas localisation\).
 
 ### How do I find which tissues my genes are expressed in?
 

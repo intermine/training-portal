@@ -2,7 +2,7 @@
 
 ### HumanMine tissue expression datasets
 
-In HumanMine we load a number of data sets that provide information about expression data in different tissues. They use a number of different experimental techniques and measurements which makes it difficult to compare them directly, but we have a number of queries and visualizations for each data. The table below summarises the data sets:
+In HumanMine we load a number of data sets that provide information about expression data in different tissues. They use a number of different experimental techniques and measurements making it difficult to compare them directly, but we have a number of queries and visualizations for each data. The table below summarises the data sets:
 
 | **Data Set** | Source | **Measurement type** |
 | :--- | :--- | :--- |

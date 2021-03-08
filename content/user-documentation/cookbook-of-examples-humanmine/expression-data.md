@@ -14,7 +14,12 @@ In HumanMine, we load several datasets that provide information about expression
 
 Many templates let you query any dataset independently, allowing you to identify genes expressed in a tissue - or set of tissues - or identify the tissues that a particular gene or list of genes are expressed in. Navigate to the template tab and filter for “expression” to see the full list of templates - all templates provide details of the specific data set.
 
-To compare expressions between the different data sets, it is easiest to make use of the list operations. For example, if you want to find all genes expressed in the brain according to all the data sets - query each set independently, create a list of the genes at each step and then use either the list intersect \(to create a stringent, high confidence set\) or the list union \(to create a set of lower stringency which contains a gene even if it only shows expression in tissue x in one dataset\).
+To compare expressions between different datasets, it is easier to make use of the list operations. For example, if you want to find all genes expressed in the brain according to all the datasets, you need to:
+
+1. query each set independently and create a list of the genes at each step. 
+2. Then use either
+   1. the list intersection operation to create a stringent, high confidence set
+   2. or the list union operation to create a set of lower stringency, which contains a gene even if it only shows expression in tissue x in one dataset.
 
 It is possible to identify genes expressed solely in one tissue \(i.e tissue-specific expression\). For data sets that provide only TPM or FPKM values, you will have to decide on your expression cut-off, while for the E-MTAB-62 and Protein atlas localisation data it is possible to make use of the cut-offs already applied to the data by filtering for UP \(E-MTAB-62\) or High and medium \(protein atlas localisation\).
 

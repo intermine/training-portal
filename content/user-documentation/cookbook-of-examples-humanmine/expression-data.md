@@ -1,6 +1,6 @@
 # Expression Data
 
-### How do I find which tissues or developmental stages my gene\(s\) is/are expressed in?
+### How do I find which tissues my genes are expressed in?
 
 For a single gene, the quickest way to view the available expression data is to look at the [Report Pages](https://flymine.readthedocs.io/en/latest/report-pages/Documentationreportpages.html#reportpages) for that gene. Here you will find graphs showing the expression of the gene across development and the expression in adult fly tissues. In addition, tables showing _in situ_ mRNA expression data from BDGP and FlyFish are available.
 

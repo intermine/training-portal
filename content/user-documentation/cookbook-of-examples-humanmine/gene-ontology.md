@@ -55,7 +55,7 @@ Video (Example 3 - part 1) Place Holder
 4. Click **‘Apply’** to add the new filter. 
 
 {% hint style="info" %}
-Using the ‘Not like’ or ‘None of’ options yield the same results. 
+Using the ‘Not like’ or ‘None of’ options will yield the same results. 
 {% endhint %}
 
 ```text

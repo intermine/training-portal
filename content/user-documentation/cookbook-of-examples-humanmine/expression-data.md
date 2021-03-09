@@ -25,9 +25,7 @@ It is possible to identify genes expressed solely in one tissue \(i.e. tissue-sp
 
 ### How do I find which tissues my gene or list of genes are expressed in?
 
-For a single gene, the quickest way to view the available expression data is to look at the [Report Pages](https://flymine.readthedocs.io/en/latest/report-pages/Documentationreportpages.html#reportpages) for that gene. Here you will find graphs showing the expression of the gene across development and the expression in adult fly tissues. In addition, tables showing _in situ_ mRNA expression data from BDGP and FlyFish are available.
-
-For a list of genes, widgets \(graphs\) are available on the [List analysis pages](https://flymine.readthedocs.io/en/latest/lists/analysis/Documentationlistanalysispages.html#listanalysispage) showing expression in adult fly tissues \(FlyAtlas data\) and across development \(modENCODE RNA\_seq data, BDGP and FlyFish in situ hybridisation\).
+For a single gene, the easiest way to view the available expression data is to look at the [Report Pages](../report-pages.md) for that gene. Gene report pages display graphs showing the expression of a particular gene in human tissues. For a list of genes, similar graphs are available on the [List analysis pages](../lists/list-analysis-pages.md). 
 
 ### How do I find genes expressed in a particular tissue or at a certain developmental stage?
 

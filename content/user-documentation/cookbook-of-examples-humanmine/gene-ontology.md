@@ -55,7 +55,7 @@ Video (Example 3 - part 1) Place Holder
 4. Click **‘Apply’** to add the new filter. 
 
 {% hint style="info" %}
-Using the ‘Not like’ or ‘None of’ options will yield the same results. 
+Using the **‘Not like’** or **‘None of’** option will yield the same results. 
 {% endhint %}
 
 ```text
@@ -66,9 +66,13 @@ Video (Example 3 - part 2) Place Holder
 
 1. Click on the **‘Manage Filters’** button above the results table. 
 2. Using the **‘Add a new filter’** drop-down menu, click the **GO Evidence Code** field. 
-3. Click the blue plus sign to add a new filter, which will show a new drop-down list on the left of the **GO Evidence Code** field.
-4. Choose the **!=** option 
+3. Click the blue plus sign to add your new filter, which will show a new drop-down list on the left of the **GO Evidence Code** field.
+4. Choose the$$!=$$option 
 5. Finally, click **‘Apply Changes’**. 
+
+{% hint style="info" %}
+Using the **‘Not like’** or **‘None of’** option will yield the same results. 
+{% endhint %}
 
 ```text
 Video (Example 3 - part 3) Place Holder

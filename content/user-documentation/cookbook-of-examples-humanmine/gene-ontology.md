@@ -11,7 +11,7 @@ To find the GO term annotations for your genes, it's easier to start by creating
 1. From the HumanMine homepage, select the **‘Templates’** tab from the top navigation bar.
 2. From the list of templates, we are looking for the [Gene → GO terms](http://bluegenes-staging.apps.intermine.org/humanmine/templates/Gene_GO) template. If you cannot see it immediately, enter the term **‘GO’** into the search box to filter the results. 
 3. Click on the template name or **‘View &gt;&gt;’** at the bottom left corner to expand the template details, including the fillable form. 
-4. Enter a gene or select a list you wish to run the search with, then press **‘View Rows’**. 
+4. Select a list that you wish to run the search with, then press **‘View Rows’**. 
 
 {% embed url="https://drive.google.com/file/d/1BRoubFVurgHFMd7GKSZiXr-Saw7nSsr4/view?usp=sharing" %}
 

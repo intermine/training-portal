@@ -6,7 +6,7 @@ In HumanMine, we load several datasets that provide information about expression
 
 | **Data Set** | Source | **Measurement type** |
 | :--- | :--- | :--- |
-| Affymetrix array  | Array express E-MTAB-62  | T-statistic, p-value, UP, DOWN, notDE |
+| Affymetrix array  | Array express E-MTAB-62  | T-statistic, P-value, UP, DOWN, notDE |
 | RNA-seq | Array Express Illumina body map E-MTAB-513 | FPKM |
 | RNA-seq | GTEx | TPM |
 | RNA-seq | Protein Atlas | TPM |

@@ -13,7 +13,9 @@ To find the GO term annotations for your genes, it's easier to start by creating
 3. Click on the template name or **‘View &gt;&gt;’** at the bottom left corner to expand the template details, including the fillable form. 
 4. Select a list that you wish to run the search with, then press **‘View Rows’**. 
 
-{% embed url="https://drive.google.com/file/d/1BRoubFVurgHFMd7GKSZiXr-Saw7nSsr4/view?usp=sharing" %}
+```text
+Video (Example 1) Place Holder
+```
 
 ### Modifying and filtering your search results
 
@@ -27,7 +29,9 @@ The easiest way to filter your results is by using the filter functions in the r
 2. Then select **‘biological\_process’** using the checkbox to the left, and click the **‘Filter’** button. 
 3. To return to your original results, either remove the filter by clicking on the blue filter icon![](../../../.gitbook/assets/screenshot-902-.png)in the column header or use the **UNDO** button above the results table. 
 
-{% embed url="https://drive.google.com/file/d/1i39eZw1\_TdqhzPLYTc97LoaQ6GwsXwvB/view?usp=sharing" %}
+```text
+Video (Example 2) Place Holder
+```
 
 ### How do I filter my results to remove those with the IEA - Inferred from Electronic Annotation - evidence code? 
 
@@ -39,7 +43,9 @@ You can accomplish this in three ways:
 2. Select all evidence codes except the **IEA** code.
 3. Click **Filter**. 
 
-{% embed url="https://drive.google.com/file/d/1Awuhes1-H7sbhmSly8qXdWNqzMgGqi1J/view?usp=sharing" %}
+```text
+Video (Example 3 - part 1) Place Holder
+```
 
 * **Using the Code column filter icon**
 
@@ -48,7 +54,9 @@ You can accomplish this in three ways:
 3. Use the right drop-down list to select the **IEA** code.
 4. Click **‘Apply’** to add the new filter. 
 
-{% embed url="https://drive.google.com/file/d/1mYX8NsiRT6NpEA0Bs-w5Ba4OMGRl90O5/view?usp=sharing" %}
+```text
+Video (Example 3 - part 2) Place Holder
+```
 
 * **Using the Manage Filters feature**
 
@@ -58,7 +66,9 @@ You can accomplish this in three ways:
 4. Choose the **!=** option 
 5. Finally, click **‘Apply Changes’**. 
 
-{% embed url="https://drive.google.com/file/d/127wUdwEyDWPerN30-ITXEKkIFhq6wt9m/view?usp=sharing" %}
+```text
+Video (Example 3 - part 3) Place Holder
+```
 
 ### How do I analyse my gene list for GO term enrichment?
 

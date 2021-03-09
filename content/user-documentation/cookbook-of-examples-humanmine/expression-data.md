@@ -10,7 +10,7 @@ In HumanMine, we load several datasets that provide information about expression
 | RNA-seq | Array Express Illumina body map E-MTAB-513 | FPKM |
 | RNA-seq | GTEx | TPM |
 | RNA-seq | Protein Atlas | TPM |
-| Protein localisation \(Ab staining\) | Protein Atlas | High, Medium, Low, Not detected. |
+| Protein localisation \(Ab Staining\) | Protein Atlas | High, Medium, Low, Not detected. |
 
 Many templates let you query any dataset independently, allowing you to identify genes expressed in a tissue - or set of tissues - or identify the tissues that a particular gene or list of genes are expressed in. Navigate to the template tab and filter for “expression” to see the full list of templates - all templates provide details of the specific data set.
 

@@ -27,7 +27,7 @@ It is possible to identify genes expressed solely in one tissue \(i.e. tissue-sp
 
 For a single gene, the easiest way to view the available expression data is to look at the [Report Pages](../report-pages.md) for that gene. Gene report pages display graphs showing the expression of a particular gene in human tissues. For a list of genes, similar graphs are available on the [List analysis pages](../lists/list-analysis-pages.md). 
 
-### How do I find genes expressed in a particular tissue or at a certain developmental stage?
+### How do I find genes expressed in a particular tissue?
 
 A number of template searches are available to analyse the various sources of expression data. Due to the widely variant nature of the different expression sources, it is generally necessary to search each one separately - for example data for expression over development is available from BDGP, FlyFish, the modENCODE RNA\_seq data and from the time course data published by Arbeitman et al. Although a template search is available to analyse the BDGP and FlyFish data together, the development stage ranges they used in their studies do not agree exactly.
 

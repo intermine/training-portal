@@ -12,18 +12,18 @@ In HumanMine, we load several datasets that provide information about expression
 | RNA-seq | Protein Atlas | TPM |
 | Protein localisation \(Ab Staining\) | Protein Atlas | High, Medium, Low, Not detected. |
 
+### How do I find which tissues my gene or list of genes are expressed in?
+
+The easiest way to view the available expression data for a single gene is to look at the [Report Pages](../report-pages.md) for that gene. Gene report pages display graphs showing the expression of a particular gene in human tissues. For a list of genes, similar graphs are available on the [List analysis pages](../lists/list-analysis-pages.md). 
+
 To compare expressions between different datasets, it is easier to make use of the list operations. For example, if you want to find all genes expressed in the brain according to all the datasets, you need to:
 
-1. query each set independently and create a list of the genes at each step. 
+1. query each set independently and create a list of genes at each step. 
 2. Then 
    * Use the list intersection operation to create a stringent, high confidence set.
    * Or use the list union operation to create a set of lower stringency, which contains a gene even if it only shows expression in tissue x in one dataset.
 
 It is possible to identify genes expressed solely in one tissue \(i.e. tissue-specific expression\). You will have to decide on your expression cut-off for datasets that provide only TPM or FPKM values. Simultaneously, for the E-MTAB-62 and Protein atlas localisation data, it is possible to make use of the cut-offs already applied to the data by filtering for UP \(E-MTAB-62\) or High and Medium \(protein atlas localisation\).
-
-### How do I find which tissues my gene or list of genes are expressed in?
-
-The easiest way to view the available expression data for a single gene is to look at the [Report Pages](../report-pages.md) for that gene. Gene report pages display graphs showing the expression of a particular gene in human tissues. For a list of genes, similar graphs are available on the [List analysis pages](../lists/list-analysis-pages.md). 
 
 ### How do I find genes expressed in a particular tissue?
 

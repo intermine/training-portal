@@ -50,9 +50,13 @@ Video (Example 3 - part 1) Place Holder
 * **Using the Code column filter icon**
 
 1. Click on the filter icon![](../../../.gitbook/assets/screenshot-902-.png)in the Code column header. 
-2. Use the left drop-down menu to choose the **!=** option. 
+2. Use the left drop-down menu to choose the$$!=$$option. 
 3. Use the right drop-down list to select the **IEA** code.
 4. Click **‘Apply’** to add the new filter. 
+
+{% hint style="info" %}
+Using the ‘Not like’ or ‘None of’ options yield the same results. 
+{% endhint %}
 
 ```text
 Video (Example 3 - part 2) Place Holder

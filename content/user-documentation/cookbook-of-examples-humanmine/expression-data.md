@@ -27,7 +27,7 @@ The easiest way to view the available expression data for a single gene is to lo
 
 ### How do I find genes expressed in a particular tissue?
 
-Many template searches are available to analyse the various sources of expression data. All templates provide details of the specific datase. However, due to the widely variant nature of the different expression sources, it is generally necessary to query any dataset independently to identify genes expressed in a tissue - or set of tissues - or identify the tissues that a particular gene or list of genes are expressed in. 
+Many template searches are available to analyse the various sources of expression data. All templates provide details of the specific dataset. However, due to the widely variant nature of the different expression sources, it is generally necessary to query any dataset independently to identify genes expressed in a tissue - or set of tissues - or identify the tissues that a particular gene or list of genes are expressed in. 
 
 To view the full list, you need to navigate to the Templates tab and then filter for “Expression” to see the full list of templates. 
 

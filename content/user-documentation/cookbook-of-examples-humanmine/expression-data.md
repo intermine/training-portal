@@ -53,7 +53,7 @@ This is a three-step process:
 
 For this, you can use the template [Genes → Expression in a set of tissues](http://www.flymine.org/query/template.do?name=Gene_FlyAtlas_TissueList&scope=all). From the drop-down list of tissues select all tissues except the one you want to find the tissue-specific genes. The operator should be set to **ONE OF**:
 
-Create a list of all the genes returned by your search \(If you are unsure how to save a list of genes see [Save a results set for further analysis](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#makealist)\):
+Create a list of all the genes returned by your search \(If you are unsure how to save a list of genes see [Save a result set for further analysis](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/results-tables#save-a-result-set-for-further-analysis)\):
 
 1. Find the genes expressed in the tissue you are interested in:
 

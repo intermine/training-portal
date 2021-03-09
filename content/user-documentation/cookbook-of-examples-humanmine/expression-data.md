@@ -23,7 +23,7 @@ To compare expressions between different datasets, it is easier to make use of t
 
 It is possible to identify genes expressed solely in one tissue \(i.e. tissue-specific expression\). For data sets that provide only TPM or FPKM values, you will have to decide on your expression cut-off, while for the E-MTAB-62 and Protein atlas localisation data, it is possible to make use of the cut-offs already applied to the data by filtering for UP \(E-MTAB-62\) or High and Medium \(protein atlas localisation\).
 
-### How do I find which tissues my genes are expressed in?
+### How do I find which tissues my gene or list of genes are expressed in?
 
 For a single gene, the quickest way to view the available expression data is to look at the [Report Pages](https://flymine.readthedocs.io/en/latest/report-pages/Documentationreportpages.html#reportpages) for that gene. Here you will find graphs showing the expression of the gene across development and the expression in adult fly tissues. In addition, tables showing _in situ_ mRNA expression data from BDGP and FlyFish are available.
 

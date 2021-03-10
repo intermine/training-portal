@@ -35,18 +35,6 @@ To view all template searches for expression data, you need to navigate to the [
 Place holder for a video (Expression Data 1)
 ```
 
-The following templates searches specifically look for genes expressed in a particular tissue: 
-
-[Tissue → Gene Expression\(Array Express\)](http://bluegenes-staging.apps.intermine.org/humanmine/templates/TissueAtlas_Expression): this template shows expression for a gene - or list of genes - associated with a specific tissue\(s\). Optionally constrain the P-value.
-
-[Microarray Time Course data from Arbeitman et al \(filter on stage and ratio\) → Genes \(D. melanogaster\)](http://www.flymine.org/query/template.do?name=TimeCourseData_Gene&scope=all).
-
-[BDGP → Genes](http://www.flymine.org/query/template.do?name=BDGP_Gene&scope=all) \(searches for a specified expression term and developmental stage\).
-
-[Stage \[D. melanogaster\] → FlyFish + BDGP in situ data](http://www.flymine.org/query/template.do?name=Stage_FlyFishBDGP&scope=all)
-
-[FlyFish expression term + stage \[D. melanogaster\] → Genes](http://www.flymine.org/query/template.do?name=FlyFish_Genes&scope=all)
-
 ### How do I find genes expressed ONLY in a particular tissue?
 
 This is a three-step process:

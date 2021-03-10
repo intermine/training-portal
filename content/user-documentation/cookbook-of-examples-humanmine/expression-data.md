@@ -37,23 +37,11 @@ Place holder for a video (Expression Data 1)
 
 ### How do I find genes expressed ONLY in a particular tissue?
 
-This is a three-step process:
+To accomplish this, you can use the [Tissue → Protein Atlas Expression](http://bluegenes-staging.apps.intermine.org/humanmine/templates/tissue_proteinatlas2) template. 
 
-1. Find and save the genes expressed in all tissues except the one you are interested in.
+1. Use the drop-down list of tissues to select  the one you are interested in, such as Kidney. 
+2. Click View Rows to view the results. 
+3. You can now create a list of all the genes returned by your search. If you are unsure how to save a list of genes, see [Save a result set for further analysis](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/results-tables#save-a-result-set-for-further-analysis). 
 
-For this, you can use the template [Genes → Expression in a set of tissues](http://www.flymine.org/query/template.do?name=Gene_FlyAtlas_TissueList&scope=all). From the drop-down list of tissues, select all tissues except the one you want to find the tissue-specific genes. The operator should be set to **ONE OF**:
-
-Create a list of all the genes returned by your search \(If you are unsure how to save a list of genes, see [Save a result set for further analysis](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/results-tables#save-a-result-set-for-further-analysis)\):
-
-1. Find the genes expressed in the tissue you are interested in:
-
-You can use the same template as above - change the tissue selection to the one you are interested in. Again, save the set of genes returned by the search:
-
-1. Find the genes expressed ONLY in the tissue you are interested in:
-
-To find the genes that are expressed ONLY in the tissue you are interested in, you need to subtract the first list created above from the second list. To do this, navigate to the lists ‘view’ page. The two lists you have just created should be at the top of the list of lists. Select the two lists and then ‘Asymmetric Difference\` \(Note that you need to use Asymmetric difference rather than subtract - the icons on this page illustrate the difference between these two operations\). The Asymmetric difference provides options to subtract the lists either way - you need to select the single tissue list minus the all but one list - enter a name for your new list. The new list should appear at the top of the lists view page. In this example, as we are using the FlyAtlas data, we can check that we have created a tissue-specific expression set by looking at the FlyAtlas widget on the [List analysis pages](https://flymine.readthedocs.io/en/latest/lists/analysis/Documentationlistanalysispages.html#listanalysispage) for the list we have just created.
-
-1. Similar searches.
-
-The same workflow can be applied to finding other unique sets. For example, genes expressed only in a particular developmental stage. The template search [RNA\_seq → genes expressed in a set of tissues](http://www.flymine.org/query/template.do?name=modENCODE_RNA_seq_Tissues&scope=all) can be used to create various lists based on the modENCODE RNA\_seq data \(which includes a developmental stage, tissues and other conditions\).
+ The new list should appear at the top of the lists view page. In this example, as we are using the FlyAtlas data, we can check that we have created a tissue-specific expression set by looking at the FlyAtlas widget on the [List analysis pages](https://flymine.readthedocs.io/en/latest/lists/analysis/Documentationlistanalysispages.html#listanalysispage) for the list we have just created.
 

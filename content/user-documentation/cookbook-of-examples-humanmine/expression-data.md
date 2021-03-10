@@ -43,3 +43,7 @@ To accomplish this, you can use the [Tissue → Protein Atlas Expression](http:/
 2. Click View Rows to view the results. 
 3. You can now create a list of all the genes returned by your search, which should appear at the top of the [Lists view page](../lists/lists.md). If you are unsure how to save a list of genes, see [Save a result set for further analysis](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/results-tables#save-a-result-set-for-further-analysis). 
 
+```text
+Place holder for a video (Expression Data 2)
+```
+

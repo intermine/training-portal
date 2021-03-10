@@ -37,7 +37,7 @@ Place holder for a video (Expression Data 1)
 
 The following templates searches specifically look for genes expressed in a particular tissue: 
 
-[Tissue \[D. melanogaster\] → FlyAtlas data](http://www.flymine.org/query/template.do?name=Tissue_Flyatlas&scope=all) \(allows optional filtering on FlyAtlas values\)
+[Tissue → Gene Expression\(Array Express\)](http://bluegenes-staging.apps.intermine.org/humanmine/templates/TissueAtlas_Expression): this template shows expression for a gene - or list of genes - associated with a specific tissue\(s\). Optionally constrain the P-value.
 
 [Microarray Time Course data from Arbeitman et al \(filter on stage and ratio\) → Genes \(D. melanogaster\)](http://www.flymine.org/query/template.do?name=TimeCourseData_Gene&scope=all).
 

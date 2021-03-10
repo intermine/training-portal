@@ -41,7 +41,5 @@ To accomplish this, you can use the [Tissue → Protein Atlas Expression](http:/
 
 1. Use the drop-down list of tissues to select  the one you are interested in, such as Kidney. 
 2. Click View Rows to view the results. 
-3. You can now create a list of all the genes returned by your search. If you are unsure how to save a list of genes, see [Save a result set for further analysis](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/results-tables#save-a-result-set-for-further-analysis). 
-
-The new list should appear at the top of the lists view page. In this example, as we are using the FlyAtlas data, we can check that we have created a tissue-specific expression set by looking at the FlyAtlas widget on the [List analysis pages](https://flymine.readthedocs.io/en/latest/lists/analysis/Documentationlistanalysispages.html#listanalysispage) for the list we have just created.
+3. You can now create a list of all the genes returned by your search, which should appear at the top of the [Lists view page](../lists/lists.md). If you are unsure how to save a list of genes, see [Save a result set for further analysis](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/results-tables#save-a-result-set-for-further-analysis). 
 

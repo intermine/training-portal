@@ -14,7 +14,9 @@ It is possible to keep a reference to a particular report page by copying its pe
 
 ### Summary
 
-Each report page starts with a summary section providing key details of the object you are viewing, such as primary and secondary identifiers, name, id, and symbol among other information. 
+Each report page starts with a summary section providing key details of the object you are viewing, such as primary and secondary identifiers, name, id, and symbol among other information. Some details may allow you to view and download data as a FASTA file, such as the Sequence Length field. 
+
+![](../../.gitbook/assets/summary.png)
 
 ### Visualizations
 

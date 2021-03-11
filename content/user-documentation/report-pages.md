@@ -56,5 +56,5 @@ Report pages provide two sorts of external links - links to other InterMine data
 
 ### Lists
 
-The report pages also show if the object you are viewing is present in any lists. The lists shown could be lists you have created yourself or public lists that are available to everyone \(see [Lists](https://flymine.readthedocs.io/en/latest/lists/overview/Documentationlists.html#lists)\). In addition, you can add the object to any of your own lists.
+The report pages also show if the object you are viewing is present in any lists. The lists shown could be lists you have created yourself or public lists that are available to everyone - view the [Lists](lists/lists.md) section for more details. In addition, you can add the object to any of your own lists.
 

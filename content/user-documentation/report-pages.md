@@ -4,7 +4,7 @@ Report pages allow you to view all available information for a particular object
 
 ### Report page navigation
 
-The sidebar navigation menu on the left of every report page allows quick navigation to the data you are interested in. You can navigate to a different section by clicking the section name from the list, and you can expand any section by clicking on the chevron down icon![](../../.gitbook/assets/arrow-removebg-preview.png). The following image shows the PPARG gene report page. 
+The sidebar navigation menu on the left of every report page allows quick navigation to the data you are interested in. You can navigate to a different section by clicking the section name from the left sidebar, and you can expand any section by clicking on the chevron down icon![](../../.gitbook/assets/arrow-removebg-preview.png). The following image shows the PPARG gene report page. 
 
 ![](../../.gitbook/assets/report-pages-main.png)
 

@@ -40,11 +40,13 @@ Remember visualization tools apply to all report pages for a specific class, suc
 
 Report pages also include a **Data** section that provides [results tables](results-tables.md) of other classes referenced from the current object's class. For example, the image below shows the **Alleles** class referenced from the PPARG gene - Gene class. 
 
-![](../../.gitbook/assets/data-report-pages.png)
+![](../../.gitbook/assets/data-report-pages-updated.png)
 
 ### Templates
 
 Report pages offer templates under the **Templates** tab on the left sidebar. The results of embedded template searches provide the [Results Tables](results-tables.md) with their full functionality.
+
+![](../../.gitbook/assets/template-report-pages.png)
 
 ### Interacting with report pages
 

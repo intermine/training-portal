@@ -10,7 +10,7 @@ The sidebar navigation menu on the left of every report page allows quick naviga
 
 ### Summary
 
-Each report page starts with a summary section providing key details of the object you are viewing, such as names, identifiers and function:
+Each report page starts with a summary section providing key details of the object you are viewing, such as primary and secondary identifiers, name, id, and symbol among other information. The summary section usually allows you to keep a reference to a particular report page by saving its permanent URL. The URL will continue to work even when new versions of the database are released.
 
 ### Visualizations
 

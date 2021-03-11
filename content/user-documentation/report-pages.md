@@ -14,7 +14,11 @@ It is possible to keep a reference to a particular report page by copying its pe
 
 ### Summary
 
-Each report page starts with a summary section providing key details of the object you are viewing, such as primary and secondary identifiers, name, id, and symbol among other information. Some data fields are interactive, such as the **Sequence Length** field that allows you to view and download data as a FASTA file or the **Name** field that offers a link to perform a [region search](region-search.md). 
+Each report page starts with a summary section providing key details of the object you are viewing, such as primary and secondary identifiers, name, id, and symbol among other information. Some data fields are interactive, such as the **Name** field that offers a link to perform a [region search](region-search.md). 
+
+#### Sequence information
+
+If the object you are viewing has a sequence, you can view or download this data in **FASTA** format.  In the image below, the **Sequence Length** field allows you to view the sequence in a new window by clicking the arrow icon🔽. You can also download the data as a FASTA file by clicking on the **FASTA** button next to the Length.  
 
 ![](../../.gitbook/assets/summary-updated.png)
 
@@ -49,10 +53,6 @@ Report pages provide two sorts of external links - links to other InterMine data
 ### Lists
 
 The report pages also show if the object you are viewing is present in any lists. The lists shown could be lists you have created yourself or public lists that are available to everyone \(see [Lists](https://flymine.readthedocs.io/en/latest/lists/overview/Documentationlists.html#lists)\). In addition, you can add the object to any of your own lists.
-
-### Sequence information
-
-If the object you are viewing has a sequence, you can access this in FASTA format from the summary section of the report page: Click on the **FASTA** button next to the Length. The sequence will open in a new tab.
 
 ### Sharing a report page
 

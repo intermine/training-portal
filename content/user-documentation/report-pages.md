@@ -4,7 +4,9 @@ Report pages allow you to view all available information for a particular object
 
 ### Report page navigation
 
-The tabs at the top of the page allow quick navigation to the data you are interested in. The following image shows the tabs from a FlyMine gene report page:
+The sidebar navigation menu on the left of every report page allows quick navigation to the data you are interested in. You can navigate to a different section by clicking the section name from the list, and you can expand any section by clicking on the arrow icon![](../../.gitbook/assets/arrow.png). The following image shows the PPARG gene report page. 
+
+![](../../.gitbook/assets/report-pages-main.png)
 
 ### Summary
 

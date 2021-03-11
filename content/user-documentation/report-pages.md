@@ -12,6 +12,8 @@ The sidebar navigation menu on the left of every report page allows quick naviga
 
 Each report page starts with a summary section providing key details of the object you are viewing, such as names, identifiers and function:
 
+### Visualizations
+
 ### Data displayers
 
 Report pages provide information in a variety of formats depending on the data. They include summary tables of information, for example:
@@ -19,6 +21,8 @@ Report pages provide information in a variety of formats depending on the data. 
 graphs of data, for example, expression data:
 
 and interactive viewers, for example, protein interaction data:
+
+### Templates
 
 ### Interacting with report pages
 

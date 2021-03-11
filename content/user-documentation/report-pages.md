@@ -24,6 +24,10 @@ Report pages provide information in a variety of formats depending on the data. 
 
 ![](../../.gitbook/assets/visualizations.png)
 
+{% hint style="info" %}
+Please note that visualizations are not the same for different objects and InterMine instances. 
+{% endhint %}
+
 ### Data displayers
 
 Report pages provide information in a variety of formats depending on the data. They include summary tables of information, for example:

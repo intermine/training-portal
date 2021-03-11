@@ -20,7 +20,7 @@ Each report page starts with a summary section providing key details of the obje
 
 ### Visualizations
 
-text
+Report pages provide information in a variety of formats depending on the data. They include several graphs or visualizations of data as shown in the following screenshot. You can view any visualization by clicking on its title or the➕icon. 
 
 ![](../../.gitbook/assets/visualizations.png)
 

@@ -12,6 +12,10 @@ It is possible to keep a reference to a particular report page by copying its pe
 
 ![](../../.gitbook/assets/copy-url.png)
 
+#### Sharing a report page
+
+You can also share a report page with others by copying its permanent URL, which is unique to every object. This provides the URL you should use if you want to create a permanent link to a given page. 
+
 ### Summary
 
 Each report page starts with a summary section providing key details of the object you are viewing, such as primary and secondary identifiers, name, id, and symbol among other information. Some data fields are interactive, such as the **Name** field that offers a link to perform a [region search](region-search.md). 
@@ -36,7 +40,7 @@ Please note that visualizations are not the same for different objects and Inter
 
 Report pages provide information in a variety of formats depending on the data. They include summary tables of information, for example:
 
-graphs of data, for example, expression data:
+
 
 and interactive viewers, for example, protein interaction data:
 
@@ -53,8 +57,4 @@ Report pages provide two sorts of external links - links to other InterMine data
 ### Lists
 
 The report pages also show if the object you are viewing is present in any lists. The lists shown could be lists you have created yourself or public lists that are available to everyone \(see [Lists](https://flymine.readthedocs.io/en/latest/lists/overview/Documentationlists.html#lists)\). In addition, you can add the object to any of your own lists.
-
-### Sharing a report page
-
-Every report page has a **share** button. This provides the URL you should use if you want to create a link to the page. The **share** button is found in the top section of all report pages
 

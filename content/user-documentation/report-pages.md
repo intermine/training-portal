@@ -38,7 +38,7 @@ Remember visualization tools apply to all report pages for a specific class, suc
 
 ### Data 
 
-Report pages also include a Data section that provides results tables of other classes that are referenced from the current object's class. for example
+Report pages also include a Data section that provides results tables of other classes that are referenced from the current object's class. For example, the image below shows the **Alleles** class referenced from the PPARG gene - Gene class. 
 
 
 

@@ -70,5 +70,9 @@ The report pages also show if the object you are viewing is present in any lists
 
 ### **Data sources**
 
+**text**
+
+![](../../.gitbook/assets/report-pages-data-sources.png)
+
 \*\*\*\*
 

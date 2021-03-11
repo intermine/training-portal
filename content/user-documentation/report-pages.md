@@ -8,27 +8,27 @@ The sidebar navigation menu on the left of every report page allows quick naviga
 
 ![](../../.gitbook/assets/report-pages-main.png)
 
-It is possible to keep a reference to a particular report page by copying its permanent URL. Permanent URLs use identifiers unique to the object and need to be resolved to an object ID by InterMine. This makes them less suitable than object IDs for daily use; however, these URLs will stay valid even when new versions of the database are released.
+It is possible to keep a reference to a particular report page by copying its permanent URL. Permanent URLs use identifiers unique to the object and must be resolved to an object ID by InterMine. This makes them less suitable than object IDs for daily use; however, these URLs will stay valid even when new versions of the database are released.
 
 ![](../../.gitbook/assets/copy-url.png)
 
 #### Sharing a report page
 
-You can also share a report page with others by copying its permanent URL, which is unique to every object. This provides the URL you should use if you want to create a persisting link to a given page. 
+You can also share a report page with others by copying its permanent URL, which is unique to every object. This provides the URL you should use to create a persisting link to a given page. 
 
 ### Summary
 
-Each report page starts with a summary section providing key details of the object you are viewing, such as primary and secondary identifiers, name, id, and symbol among other information. Some data fields are interactive, such as the **Name** field that offers a link to perform a [region search](region-search.md). 
+Each report page starts with a summary section providing key details of the object you are viewing, such as primary and secondary identifiers, name, id, and symbol, among other information. Some data fields are interactive, such as the **Name** field that offers a link to perform a [region search](region-search.md). 
 
 #### Sequence information
 
-If the object you are viewing has a sequence, you can view or download this data in **FASTA** format.  In the image below, the **Sequence Length** field allows you to view the sequence in a new window by clicking the arrow icon![](../../.gitbook/assets/iconfinder_icon-arrow-down-b_211614.png). You can also download the data as a FASTA file by clicking on the **FASTA** button next to the Length.  
+If you are viewing an object that has a sequence, you can view or download this data in **FASTA** format.  In the image below, the **Sequence Length** field allows you to view the sequence in a new window by clicking the arrow icon![](../../.gitbook/assets/iconfinder_icon-arrow-down-b_211614.png). You can also download the data as a FASTA file by clicking on the **FASTA** button next to the Length.  
 
 ![](../../.gitbook/assets/summary-updated.png)
 
 ### Visualizations
 
-Report pages provide information in a variety of formats depending on the data. They include several graphs or visualizations of data as shown in the following screenshot. You can view any visualization by clicking on its title or the➕icon. 
+Report pages provide information in a variety of formats depending on the data. They include several graphs or visualizations of data, as shown in the following screenshot. You can view any visualization by clicking on its title or the➕icon. 
 
 ![](../../.gitbook/assets/visualizations.png)
 
@@ -58,7 +58,7 @@ Report pages provide links to other InterMine databases. Links to other InterMin
 
 ### Lists
 
-The report pages also show if the object you are viewing is present in any lists. The lists shown could be lists you have created yourself or public lists that are available to everyone - view the [Lists](lists/lists.md) section for more details. The following image shows that the PPARG gene was found in 13 lists - 12 are public lists and one is private. 
+The report pages also show if the object you are viewing is present in any lists. The lists shown could be lists you have created yourself or public lists that are available to everyone - view the [Lists](lists/lists.md) section for more details. The following image shows that the PPARG gene was found in 13 lists; 12 are public lists, and one is private. 
 
 ![](../../.gitbook/assets/report-pages-lists.png)
 

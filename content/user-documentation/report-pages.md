@@ -50,9 +50,11 @@ and interactive viewers, for example, protein interaction data:
 
 Most of the data displayed on report pages is interactive to some extent. Tables of data provide links to the related objects that they reference \(see image above\), bars on a graph are often links to additional information, and the results of embedded template searches provide the [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables) with their full functionality.
 
-### External links
+### External links to other mines
 
 Report pages provide links to other InterMine databases. Links to other InterMine databases are only available for genes. The link will be created either from the same gene object or the orthologous gene in the database you are linking to. For example, the _PPARG_ gene in HumanMine links to the _Eip75B_ gene in FlyMine - an integrated database for Drosophila genomics. The orthology mapping is determined by the InterMine database you are linking to. The orthology datasets in each InterMine can be from different sources.
+
+![](../../.gitbook/assets/other-mines.png)
 
 ### Lists
 

@@ -44,7 +44,7 @@ Report pages also include a **Data** section that provides [results tables](resu
 
 ### Templates
 
-Report pages offer templates under the **Templates** tab on the left sidebar. The results of embedded template searches provide the [Results Tables](results-tables.md) with their full functionality.
+Report pages offer templates under the **Templates** tab on the left sidebar. The results of embedded template searches provide the [Results Tables](results-tables.md) with their full functionality, as shown in the screenshot. 
 
 ![](../../.gitbook/assets/template-report-pages.png)
 

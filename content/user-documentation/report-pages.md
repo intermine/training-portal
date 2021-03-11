@@ -48,7 +48,7 @@ and interactive viewers, for example, protein interaction data:
 
 ### Interacting with report pages
 
-Most of the data displayed on report pages is interactive to some extent. Some data fields provide links to the related objects that they reference, bars or elements on a graph often link to additional information, and the results of embedded template searches provide the [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables) with their full functionality.
+Most of the data displayed on report pages is interactive to some extent. For example, some data fields provide links to related objects that they reference, bars or elements on a graph often link to additional information, and the results of embedded template searches provide the [Results Tables](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultstables) with their full functionality. 
 
 ![](../../.gitbook/assets/exp-visualizer.png)
 

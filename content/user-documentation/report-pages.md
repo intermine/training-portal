@@ -46,9 +46,11 @@ Report pages also include a Data section that provides results tables of other c
 
 ### Templates
 
+Report pages include templates under the Templates tab on the left sidebar. The results of embedded template searches provide the [Results Tables](results-tables.md) with their full functionality.
+
 ### Interacting with report pages
 
-Most of the data displayed on report pages is interactive to some extent. For example, some data fields provide links to related objects that they reference, bars or elements on a graph often link to additional information \(see image below\), and the results of embedded template searches provide the [Results Tables](results-tables.md) with their full functionality. 
+Most of the data displayed on report pages is interactive to some extent. For example, some data fields provide links to related objects that they reference, and bars or elements on a graph often link to additional information \(see image below\). 
 
 ![](../../.gitbook/assets/exp-visualizer.png)
 

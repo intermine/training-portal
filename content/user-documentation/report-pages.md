@@ -20,6 +20,10 @@ Each report page starts with a summary section providing key details of the obje
 
 ### Visualizations
 
+text
+
+![](../../.gitbook/assets/visualizations.png)
+
 ### Data displayers
 
 Report pages provide information in a variety of formats depending on the data. They include summary tables of information, for example:

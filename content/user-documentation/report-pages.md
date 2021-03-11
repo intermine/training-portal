@@ -33,7 +33,7 @@ Report pages provide information in a variety of formats depending on the data. 
 ![](../../.gitbook/assets/visualizations.png)
 
 {% hint style="info" %}
-Please note that visualizations are not the same for different objects and InterMine instances. 
+Remember visualization tools apply to all report pages for a specific class, such as Gene, and may not be the same for different objects - classes - and InterMine instances. 
 {% endhint %}
 
 ### Data displayers

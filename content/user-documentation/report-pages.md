@@ -38,7 +38,7 @@ Remember visualization tools apply to all report pages for a specific class, suc
 
 ### Data 
 
-Report pages also include a Data section that provides results tables of classes, for example
+Report pages also include a Data section that provides results tables of other classes that are referenced from the current object's class. for example
 
 
 

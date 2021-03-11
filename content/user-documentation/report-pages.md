@@ -14,7 +14,7 @@ It is possible to keep a reference to a particular report page by copying its pe
 
 #### Sharing a report page
 
-You can also share a report page with others by copying its permanent URL, which is unique to every object. This provides the URL you should use if you want to create a permanent link to a given page. 
+You can also share a report page with others by copying its permanent URL, which is unique to every object. This provides the URL you should use if you want to create a persisting link to a given page. 
 
 ### Summary
 

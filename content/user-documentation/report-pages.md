@@ -10,7 +10,7 @@ The sidebar navigation menu on the left of every report page allows quick naviga
 
 ### Summary
 
-Each report page starts with a summary section providing key details of the object you are viewing, such as primary and secondary identifiers, name, id, and symbol among other information. The summary section usually allows you to keep a reference to a particular report page by saving its permanent URL. Permanent URLs use identifiers unique to the object and need to be resolved to an object ID by InterMine. This makes them less suitable than object IDs for daily use; however, these URLs will stay valid even when new versions of the database are released.
+Each report page starts with a summary section providing key details of the object you are viewing, such as primary and secondary identifiers, name, id, and symbol among other information. The summary section usually allows you to keep a reference to a particular report page by copying its permanent URL. Permanent URLs use identifiers unique to the object and need to be resolved to an object ID by InterMine. This makes them less suitable than object IDs for daily use; however, these URLs will stay valid even when new versions of the database are released.
 
 ### Visualizations
 

@@ -56,7 +56,7 @@ Most of the data elements displayed on a given report page are interactive to so
 
 ### External links
 
-Report pages provide two sorts of external links - links to other InterMine databases and links to external sources. Links to other InterMine databases are only available for genes. The link will be created either from the same gene object or the orthologous gene in the database you are linking to. For example, the _PPARG_ gene in HumanMine links to the _Eip75B_ gene in FlyMine - an integrated database for Drosophila genomics. The orthology mapping is determined by the InterMine database you are linking to. The orthology datasets in each InterMine can be from different sources.
+Report pages provide two sorts of external links - links to other InterMine databases and external sources. Links to other InterMine databases are only available for genes. The link will be created either from the same gene object or the orthologous gene in the database you are linking to. For example, the _PPARG_ gene in HumanMine links to the _Eip75B_ gene in FlyMine - an integrated database for Drosophila genomics. The orthology mapping is determined by the InterMine database you are linking to. The orthology datasets in each InterMine can be from different sources.
 
 ![](../../.gitbook/assets/other-mines.png)
 

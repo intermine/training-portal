@@ -1,6 +1,6 @@
 # Report Pages
 
-Report pages allow you to view all available information for a particular object and provide links to related objects. There is a report page for any object so that every gene, protein, binding site, publication etc., has its own report page. 
+Report pages allow you to view all available information on a particular object and provide links to other related objects. There is a report page for any object so that every gene, protein, binding site, publication etc., has its own report page. 
 
 ### Report page navigation
 

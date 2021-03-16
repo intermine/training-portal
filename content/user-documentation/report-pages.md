@@ -72,7 +72,7 @@ The report pages also show if the object you are viewing is present in any lists
 
 ### **Data sources**
 
-Report pages include a list of data sources. Items in the list may offer a link to the data source, which opens in a new window. 
+Report pages include a list of data sources. Some items in this list may offer links to the data source, which opens in a new window. 
 
 ![](../../.gitbook/assets/report-pages-data-sources.png)
 

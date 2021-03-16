@@ -56,7 +56,7 @@ Report pages offer templates under the **Templates** tab on the left sidebar. Th
 
 Most of the data elements displayed on a given report page are interactive to some extent. For example, some data fields provide links to related objects that they reference, and bars or elements on a graph, such as the dots in the image below, often link to additional information.  
 
-![](../../.gitbook/assets/exp-visualizer.png)
+![](../../.gitbook/assets/exp-visualizer-updated.png)
 
 ### External links
 

@@ -30,7 +30,9 @@ If you are viewing an object that has a sequence, you can view or download this 
 
 ![](../../.gitbook/assets/report-pages-summary-pparg-2.png)
 
-### Visualizations
+### Data displayers
+
+#### Visualizations
 
 Report pages provide information in a variety of formats depending on the data. For example, they include several graphs or visualizations of data under some of the [main sections](report-pages.md#report-page-navigation), as shown in the following screenshot. You can view any visualization by clicking on its title or the➕icon. 
 
@@ -40,9 +42,9 @@ Report pages provide information in a variety of formats depending on the data. 
 Remember visualization tools apply to all report pages for a specific class, such as Gene, and are not the same for different objects - classes - nor Intermine instances. 
 {% endhint %}
 
-### Data 
+#### Data 
 
-Report pages also include a **Data** section that provides [results tables](results-tables.md) of other classes referenced from the current object's class. For example, the image below shows the **Alleles** class referenced from the PPARG gene - Gene class. 
+Report pages also include summary tables of information. For example, they provide [results tables](results-tables.md) of other classes referenced from the current object's class. The image below shows the **Alleles** class referenced from the PPARG gene - Gene class. 
 
 ![](../../.gitbook/assets/data-report-pages-updated.png)
 

@@ -9,7 +9,7 @@ The sidebar navigation menu on the left of every report page allows quick naviga
 ![](../../.gitbook/assets/report-pages-pparg-1.png)
 
 {% hint style="info" %}
-The sections of the sidebar navigation menu are not the same for all report pages nor all intermine instances. 
+The sidebar navigation menu sections are not the same for all report pages nor all intermine instances. 
 {% endhint %}
 
 It is possible to keep a reference to a particular report page by copying its permanent URL. Permanent URLs use identifiers unique to the object and must be resolved to an object ID by InterMine. This makes them less suitable than object IDs for daily use; however, these URLs will stay valid even when new versions of the database are released.
@@ -18,7 +18,7 @@ It is possible to keep a reference to a particular report page by copying its pe
 
 #### Sharing a report page
 
-You can also share a report page with others by copying its permanent URL, which is unique to every object. This provides the URL you should use to create a persisting link to a given page. 
+You can also share a report page with others by copying its permanent URL;  this URL is unique to every object. This provides the URL you should use to create a persisting link to a given page. 
 
 ### Summary
 

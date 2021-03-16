@@ -34,7 +34,7 @@ If you are viewing an object that has a sequence, you can view or download this 
 
 #### Visualizations
 
-Report pages provide information in a variety of formats depending on the data. For example, they include several graphs or visualizations of data under some of the [main sections](report-pages.md#report-page-navigation), as shown in the following screenshot. You can view any visualization by clicking on its title or the➕icon. 
+Report pages provide information in a variety of formats depending on the data. For example, they include several graphs or visualizations of data under some of the [main sections](report-pages.md#report-page-navigation). The following screenshot shows available visualization tools under the Expression section. You can view any visualization by clicking on its title or the➕icon. 
 
 ![](../../.gitbook/assets/visualizations-updated.png)
 

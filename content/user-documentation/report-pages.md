@@ -40,9 +40,9 @@ Report pages provide information in a variety of formats depending on the data. 
 Remember visualization tools apply to all report pages for a specific class, such as Gene, and are not the same for different objects - classes - nor Intermine instances. 
 {% endhint %}
 
-Report pages also include summary tables of information. For example, they provide [results tables](results-tables.md) of other classes referenced from the current object's class. The image below shows the **Alleles** class referenced from the PPARG gene - Gene class. 
+Report pages also include [results tables](results-tables.md) of other classes referenced from the current object's class. The image below shows the **Transcripts** class referenced from the PPARG gene - Gene class. 
 
-![](../../.gitbook/assets/data-report-pages-updated.png)
+![](../../.gitbook/assets/transcript-class-updated.png)
 
 ### Templates
 

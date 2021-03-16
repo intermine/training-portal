@@ -34,7 +34,7 @@ If you are viewing an object that has a sequence, you can view or download this 
 
 Report pages provide information in a variety of formats depending on the data. For example, they include several graphs or visualizations of data under some of the [main sections](report-pages.md#report-page-navigation), as shown in the following screenshot. You can view any visualization by clicking on its title or the➕icon. 
 
-![](../../.gitbook/assets/visualizations.png)
+![](../../.gitbook/assets/visualizations-updated.png)
 
 {% hint style="info" %}
 Remember visualization tools apply to all report pages for a specific class, such as Gene, and are not the same for different objects - classes - nor Intermine instances. 

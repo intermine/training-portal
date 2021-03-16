@@ -32,7 +32,7 @@ If you are viewing an object that has a sequence, you can view or download this 
 
 ### Visualizations
 
-Report pages provide information in a variety of formats depending on the data. They include several graphs or visualizations of data, as shown in the following screenshot. You can view any visualization by clicking on its title or the➕icon. 
+Report pages provide information in a variety of formats depending on the data. For example, they include several graphs or visualizations of data under some of the [main sections](report-pages.md#report-page-navigation), as shown in the following screenshot. You can view any visualization by clicking on its title or the➕icon. 
 
 ![](../../.gitbook/assets/visualizations.png)
 

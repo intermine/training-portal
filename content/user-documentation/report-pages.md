@@ -12,6 +12,8 @@ The sidebar navigation menu on the left of every report page allows quick naviga
 Remember that the sidebar navigation sections are not the same for all objects nor all intermine instances.
 {% endhint %}
 
+#### Page URL
+
 It is possible to keep a reference to a particular report page by copying its permanent URL. Permanent URLs use identifiers unique to the object and must be resolved to an object ID by InterMine. This makes them less suitable than object IDs for daily use; however, these URLs will stay valid even when new versions of the database are released.
 
 ![](../../.gitbook/assets/copy-url.png)

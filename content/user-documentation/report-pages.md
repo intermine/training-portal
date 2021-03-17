@@ -26,7 +26,7 @@ Each report page starts with a summary section providing key details of the obje
 
 #### Sequence information
 
-If you are viewing an object that has a sequence, you can view or download this data in **FASTA** format.  In the image below, the **Sequence Length** field allows you to view the sequence in a new window by clicking the arrow icon![](../../.gitbook/assets/iconfinder_icon-arrow-down-b_211614.png). You can also download the data as a FASTA file by clicking on the **FASTA** button next to the Length.  
+If you are viewing an object that has sequence information, you can view or download this data in **FASTA** format.  In the image below, the **Sequence Length** field allows you to view the sequence in a new window by clicking the arrow icon![](../../.gitbook/assets/iconfinder_icon-arrow-down-b_211614.png). You can also download the data as a FASTA file by clicking on the **FASTA** button next to the Length.   
 
 ![](../../.gitbook/assets/report-pages-summary-pparg-2.png)
 

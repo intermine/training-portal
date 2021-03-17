@@ -68,7 +68,7 @@ Report pages also show if the current object is present in any lists. The lists 
 
 ### **Data sources**
 
-Report pages include a list of data sources. Some items in this list may offer links to the data source, which opens in a new window. 
+Report pages include a list of data sources. Some items in this list may offer links to a given data source, which opens in a new window. 
 
 ![](../../.gitbook/assets/report-pages-data-sources.png)
 

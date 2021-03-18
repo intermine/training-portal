@@ -17,8 +17,8 @@ If you still can't find what you're looking for, you can contact us in several w
 
 Please note that some InterMine databases will have their own help support emails. 
 
-* For FlyMine, please use [support@flymine.org](mailto:support%40flymine.org)
-* For MetabolicMine/HumanMine, please use [support@metabolicmine.org](mailto:support%40metabolicmine.org) 
+* For FlyMine, please use [support@flymine.org](mailto:support%40flymine.org).
+* For MetabolicMine/HumanMine, please use [support@metabolicmine.org](mailto:support%40metabolicmine.org).
 
 ### Chat 💬 
 

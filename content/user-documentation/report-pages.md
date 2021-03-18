@@ -46,9 +46,9 @@ Report pages also include [results tables](results-tables.md) of other classes r
 
 ![](../../.gitbook/assets/transcript-class-updated.png)
 
-Report pages offer templates under some of the left sidebar ****[sections](report-pages.md#report-page-navigation). The results of embedded template searches provide [results tables](results-tables.md) with their full functionality, as shown in the screenshot. 
+Report pages offer templates under some of the left sidebar ****[sections](report-pages.md#report-page-navigation). The results of embedded template searches provide [results tables](results-tables.md) with their full functionality, as shown in the screenshot. Use the **“Options”** button in the template header to expand the full result table options.
 
-![](../../.gitbook/assets/go-template.png)
+![](../../.gitbook/assets/go-template%20%281%29.png)
 
 ### Interacting with report pages
 

@@ -10,10 +10,10 @@ The regions search allows you to search for features that overlap a list of geno
 
 To conduct a regions search, you need to follow a few easy steps: 
 
-1. First, type in chromosome coordinates in the box with each input coordinates or genomic region needs to be on a separate line. The following formats are accepted:  
+1. First, type in chromosome coordinates in the box with each input coordinates - or genomic region - on a separate line. The following formats are accepted:  
    * chromosome:start..end, e.g. 2:14615455..14619002 
    * chromosome:start-end, e.g. 4:5866646-5868384
-2. Select the organism for which your regions are from. By default, all organisms are selected. 
+2. Select the organism that your regions are from. By default, all organisms are selected. 
 3. Select which features you are interested in to include. By default, all are features are included.
 4. If you are unsure, click **Show Example** for sample coordinates or click **Search** to run your query. 
 
@@ -43,7 +43,7 @@ Check the [Report Pages](report-pages.md) section to understand the results of a
 
 ### Troubleshooting
 
-### I have saved my genomic regions from a query - how do I upload them to the region search?
+#### I have saved my genomic regions from a query - how do I upload them to the region search?
 
-BlueGenes does not support uploading genomic regions directly from the results of an InterMine search into regions search. You first need to download the regions, and then reformat them to one of the accepted formats. 
+BlueGenes does not support uploading genomic regions directly from the results of an InterMine search into regions search. You first need to download the regions and then reformat them to one of the accepted formats. 
 

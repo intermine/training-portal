@@ -19,7 +19,7 @@ All templates should return results with the default values provided. Please [Co
 
 ### 1. I have saved my genomic regions from a query - how do I upload them to the region search?
 
-BlueGenes does not support uploading genomic regions directly from the results of an InterMine search into regions search. You first need to download the regions, and then reformat them to one of the accepted formats. 
+BlueGenes does not support uploading genomic regions directly from the results of an InterMine search into regions search. You first need to download the regions and then reformat them to one of the accepted formats. 
 
 ## [Lists](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/lists/lists#troubleshooting)
 
@@ -31,7 +31,7 @@ A message appears at the top of any page informing you that you have lists that 
 
 ### 1. I have saved my genomic regions from a query - how do I upload them to the region search?
 
-BlueGenes does not support uploading genomic regions directly from the results of an InterMine search into regions search. You first need to download the regions, and then reformat them to one of the accepted formats. 
+BlueGenes does not support uploading genomic regions directly from the results of an InterMine search into regions search. You first need to download the regions and then reformat them to one of the accepted formats. 
 
 ## [The Query Builder](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/~/drafts/-MSmZhKGwlzd16Z8Ca73/content/user-documentation/the-query-builder#troubleshooting)
 
@@ -51,9 +51,9 @@ The data browser is based on the sequence ontology and follows the logical relat
 
 ### 4. I don’t understand what a field/class means.
 
-Some fields have an information icon which provides an additional description of those fields. If you are unsure of a field’s contents, you can add it to your results and run the query. Most queries give results immediately, which allows you to adjust the columns you want to include in your results and fine-tune your query. It is also possible to do this from within the **Results Tables**. If you need additional help, please [Contact Us](contact-us.md). 
+Some fields have an information icon that provides an additional description of those fields. If you are unsure of a field’s contents, you can add it to your results and run the query. Most queries give results immediately, which allows you to adjust the columns you want to include in your results and fine-tune your query. It is also possible to do this from within the **Results Tables**. If you need additional help, please [Contact Us](contact-us.md). 
 
-### 5. How do I navigate to a class I have constrained without having to go through the model browser again?
+### 5. How do I navigate a class I have constrained without going through the model browser again?
 
 Clicking on a class name in the right-hand Summary pane will open the model browser at that class.
 

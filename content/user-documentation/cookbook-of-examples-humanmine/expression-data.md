@@ -39,8 +39,12 @@ Place holder for a video (Expression Data 1)
 
 This is a three step process:
 
-1. Find and save the genes expressed in all tissues except the one you are interested in. To accomplish this, you can use the [Tissue → Protein Atlas Expression](http://bluegenes-staging.apps.intermine.org/humanmine/templates/tissue_proteinatlas2) template, which returns a list of genes that are localised in a given human tissue. The template also provides optional filters, such as the expression level and experimental confidence, that you can keep as is. Use the drop-down list to select all tissues except the one you want to find the tissue-specific genes, for example the Adipose tissue. The operator should be set to **“One of”** as shown in the screenshot. 
-
+1. Find and save the genes expressed in all tissues except the one you are interested in. 
+   * To accomplish this, you can use the [Tissue → Protein Atlas Expression](http://bluegenes-staging.apps.intermine.org/humanmine/templates/tissue_proteinatlas2) template, which returns a list of genes that are localised in a given human tissue. Use the drop-down list to select all tissues one at a time except the one you want to find the tissue-specific genes, for example the Adipose tissue. The operator should be set to **“One of”** as shown in the screenshot.
+   * The template also offers two other filters, the **expression level** and **experimental confidence**/**reliability**. First remove the **“not detected”** and **“low”** options from the level constraint. 
+   * Then remove the **“uncertain”** option from the reliability constraint.
+   * You can now create a list of all the genes returned by your search, which should appear at the top of the [Lists view page](../lists/lists.md). If you are unsure how to save a list of genes, see [Save a result set for further analysis](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/results-tables#save-a-result-set-for-further-analysis). 
+2. 
 To accomplish this, you can use the [Tissue → Protein Atlas Expression](http://bluegenes-staging.apps.intermine.org/humanmine/templates/tissue_proteinatlas2) template, which returns a list of genes that are localised in a given human tissue. The template provides optional filters, such as the expression level and experimental confidence.
 
 1. Use the drop-down list of tissues to select all tissues except the one you are interested in, such as the Adipose tissue. 

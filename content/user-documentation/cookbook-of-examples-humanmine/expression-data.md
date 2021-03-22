@@ -19,7 +19,7 @@ To compare expressions between different datasets, it is easier to make use of t
    * Use the list intersection operation to create a stringent, high confidence set.
    * Or use the list union operation to create a set of lower stringency, which contains a gene even if it only shows expression in tissue x in one dataset.
 
-It is possible to identify genes expressed solely in one tissue \(i.e. tissue-specific expression\). You will have to decide on your expression cut-off for datasets that provide only TPM or FPKM values. Simultaneously, for the E-MTAB-62 and Protein atlas localisation data, it is possible to make use of the cut-offs already applied to the data by filtering for UP \(E-MTAB-62\) or High and Medium \(protein atlas localisation\).
+It is possible to identify genes expressed solely in one tissue \(i.e. tissue-specific expression\). You will have to decide on your expression cut-off for datasets that provide only TPM or FPKM values. Simultaneously, for the E-MTAB-62 and Protein atlas localisation data, it is possible to use the cut-offs already applied to the data by filtering for UP \(E-MTAB-62\) or High and Medium \(protein atlas localisation\).
 
 ### How do I find which tissues my gene or list of genes are expressed in?
 
@@ -40,17 +40,25 @@ Place holder for a video (Expression Data 1)
 This is a three step process:
 
 1. Find and save the genes expressed in all tissues except the one you are interested in. 
-   * To accomplish this, you can use the [Tissue → Protein Atlas Expression](http://bluegenes-staging.apps.intermine.org/humanmine/templates/tissue_proteinatlas2) template, which returns a list of genes that are localised in a given human tissue. Use the drop-down list to select all tissues one at a time except the one you want to find the tissue-specific genes, for example the Adipose tissue. The operator should be set to **“One of”** as shown in the screenshot.
+
+   * To accomplish this, you can use the [Tissue → Protein Atlas Expression](http://bluegenes-staging.apps.intermine.org/humanmine/templates/tissue_proteinatlas2) template, which returns a list of genes that are localised in a given human tissue. Use the drop-down list to select all tissues one at a time except the one you want to find the tissue-specific genes, for example the **Adipose** tissue. The operator should be set to **“One of”** as shown in the screenshot.
    * The template also offers two other filters, the **expression level** and **experimental confidence**/**reliability**. First remove the **“not detected”** and **“low”** options from the level constraint. 
    * Then remove the **“uncertain”** option from the reliability constraint.
    * You can now create a list of all the genes returned by your search, which should appear at the top of the [Lists view page](../lists/lists.md). If you are unsure how to save a list of genes, see [Save a result set for further analysis](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/results-tables#save-a-result-set-for-further-analysis). 
-2. 
-To accomplish this, you can use the [Tissue → Protein Atlas Expression](http://bluegenes-staging.apps.intermine.org/humanmine/templates/tissue_proteinatlas2) template, which returns a list of genes that are localised in a given human tissue. The template provides optional filters, such as the expression level and experimental confidence.
 
-1. Use the drop-down list of tissues to select all tissues except the one you are interested in, such as the Adipose tissue. 
-2. You can edit the default filters to fit your needs.  
-3. Click View Rows to view the results. 
-4. You can now create a list of all the genes returned by your search, which should appear at the top of the [Lists view page](../lists/lists.md). If you are unsure how to save a list of genes, see [Save a result set for further analysis](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/results-tables#save-a-result-set-for-further-analysis). 
+2. Find the genes expressed in the tissue you are interested in
+
+   * You can use the same template as above - just change the tissue selection to the one you are interested in. 
+   * Again, save the set of genes returned by your search
+
+3. Find the genes expressed ONLY in the tissue you are interested in. To find the genes that are expressed ONLY in the tissue you are interested in you need to subtract the first list created above from the second list. 
+
+   * To do this, navigate to your saved lists under the [Lists](../lists/lists.md) tab;  
+
+     new lists appear at the top of the [Lists view page](../lists/lists.md). 
+
+   * Select the two lists and then use the **“Asymmetric Difference”** operation, which provides options to subtract the lists either way. You need to select the single tissue list , i.e. the **Adipose** tissue list, minus the all but one list. 
+   * Enter a name for your new list, which should appear at the top of the [Lists view page](../lists/lists.md). 
 
 ```text
 Place holder for a video (Expression Data 2)

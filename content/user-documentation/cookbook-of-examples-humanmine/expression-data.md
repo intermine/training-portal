@@ -37,9 +37,9 @@ Place holder for a video (Expression Data 1)
 
 ### How do I find genes expressed ONLY in a particular tissue?
 
-To accomplish this, you can use the [Tissue → Protein Atlas Expression](http://bluegenes-staging.apps.intermine.org/humanmine/templates/tissue_proteinatlas2) template, which returns a list of genes which are localised in a given human tissue. The template provide optional filters, such as the expression level and experimental confidence.
+To accomplish this, you can use the [Tissue → Protein Atlas Expression](http://bluegenes-staging.apps.intermine.org/humanmine/templates/tissue_proteinatlas2) template, which returns a list of genes that are localised in a given human tissue. The template provides optional filters, such as the expression level and experimental confidence.
 
-1. Use the drop-down list of tissues to select  the one you are interested in, such as Kidney. 
+1. Use the drop-down list of tissues to select the one you are interested in, such as the Kidney. 
 2. You can edit the default filters to fit your needs.  
 3. Click View Rows to view the results. 
 4. You can now create a list of all the genes returned by your search, which should appear at the top of the [Lists view page](../lists/lists.md). If you are unsure how to save a list of genes, see [Save a result set for further analysis](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/results-tables#save-a-result-set-for-further-analysis). 

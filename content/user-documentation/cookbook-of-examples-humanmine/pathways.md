@@ -18,11 +18,11 @@ Use the following template search:
 
 ### I am not sure of the exact name of the pathway that I am interested in; how I can find this?
 
-Under the Templates tab, start typing in the "**Filter by description**" box; matching pathways will automatically be shown. You can also use the "**pathway**" keyword to view all available pathways. 
+Under the **Templates** tab, start typing in the "**Filter by description**" box; matching pathways will automatically be shown. You can also use the "**pathway**" keyword to view all available pathways. 
 
 ### Can I visualize this pathway data in InterMine?
 
-We do currently have pathway visualization within HumanMine. In addition, provided links will enable you to also view the pathways in either **Reactome** or **KEGG**.
+We do have pathway visualizations within HumanMine at the bottom of every pathway-related template. In addition, provided links will enable you to also view the pathways in either **Reactome** or **KEGG**.
 
 ### How do I find out if my genes or lists of genes have any pathways in common?
 

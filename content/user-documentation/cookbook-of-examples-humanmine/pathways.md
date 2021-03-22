@@ -30,3 +30,18 @@ The underlying data model makes it possible to construct queries which effective
 
 [Gene A → Pathways ← Gene B](http://www.flymine.org/query/template.do?name=ListPathway&scope=all)
 
+### How do I find whether orthologues of my gene\(s\) share similar or have additional pathways?
+
+For a single gene, use the report page pathways viewer:
+
+Each gene report page in FlyMine \(and in other MOD-InterMines\) includes a table displaying pathways for the orthologues of the gene you are viewing. The table is created by searching the other InterMine databases for orthologous genes and the pathways they are involved in:
+
+For a list of genes:
+
+1. Send your list of genes to the relevant organisms Mine:
+
+see [Open another organisms MOD-intermine via the orthologues of your list](https://flymine.readthedocs.io/en/latest/lists/analysis/Documentationlistanalysispages.html#listanalysisjumptomine)
+
+1. Once in the other Mine, search the templates for a search that will provide you with the pathway data for your genes.
+2. At present we do not have a tool that will directly compare the pathways for your list of genes. However, if you download your pathway list \(see [Download a set of results](https://flymine.readthedocs.io/en/latest/results-tables/Documentationresultstables.html#resultsdownload)\) and upload it back into your original mine \(see [Upload a list](https://flymine.readthedocs.io/en/latest/lists/upload/Documentationlistupload.html#listupload)\) you can use the [List Set operations:](https://flymine.readthedocs.io/en/latest/lists/overview/Documentationlists.html#listsetoperations) to carry out an intersection on the two pathway lists.
+

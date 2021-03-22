@@ -2,7 +2,7 @@
 
 ### Where does the pathway data come from?
 
-In HumanMine, we load pathway data from both [Reactome](http://www.reactome.org/) and [KEGG](http://www.genome.jp/kegg/). 
+In HumanMine, we load pathway data from both [Reactome](http://www.reactome.org/) and [KEGG](http://www.genome.jp/kegg/). However, note that the KEGG data has not been updated since May 2011 due to the current KEGG licensing requirements.
 
 ### How do I find which pathways my gene or list of genes are involved in?
 
@@ -22,7 +22,7 @@ Under the Templates tab, start typing in the "**Filter by description**" box; ma
 
 ### Can I visualize this pathway data in InterMine?
 
-We do currently have pathway visualization within HumanMine. In addition, provided links will enable you to also view the pathways in either Reactome or Kegg.
+We do currently have pathway visualization within HumanMine. In addition, provided links will enable you to also view the pathways in either **Reactome** or **Kegg**.
 
 ### How do I find out if my genes or lists of genes have any pathways in common?
 

@@ -4,17 +4,17 @@
 
 In HumanMine we load pathway data from both [Reactome](http://www.reactome.org/) and [KEGG](http://www.genome.jp/kegg/). 
 
-### How do I find which pathways my gene\(s\) is/are involved in?
+### How do I find which pathways my gene or list of genes are involved in?
 
 Use the following template search:
 
-[Gene → Pathway](http://www.flymine.org/query/template.do?name=Gene_Pathway&scope=alll)
+[Gene → Pathway](http://bluegenes-alpha.apps.intermine.org/humanmine/templates/Gene_Pathway)
 
 ### My gene is in pathway X, how can I find other genes involved in this pathway?
 
 Use the following template search:
 
-[Pathway → Genes](http://www.flymine.org/query/template.do?name=Pathway_Genes&scope=all)
+[Pathway → Genes](http://bluegenes-alpha.apps.intermine.org/humanmine/templates/PathwayGenes)
 
 ### I am not sure of the exact name of the pathway, how can I find this?
 

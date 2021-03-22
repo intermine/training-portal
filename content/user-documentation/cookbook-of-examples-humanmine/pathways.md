@@ -2,7 +2,7 @@
 
 ### Where does the pathway data come from?
 
-In FlyMine we load pathway data from both [Reactome](http://www.reactome.org/) and [KEGG](http://www.genome.jp/kegg/) . However, note that the KEGG data has not been updated since May 2011 due the current KEGG licensing requirement.
+In HumanMine we load pathway data from both [Reactome](http://www.reactome.org/) and [KEGG](http://www.genome.jp/kegg/). 
 
 ### How do I find which pathways my gene\(s\) is/are involved in?
 

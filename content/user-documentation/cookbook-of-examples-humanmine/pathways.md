@@ -22,7 +22,7 @@ Under the Templates tab, start typing in the "**Filter by description**" box; ma
 
 ### Can I visualize this pathway data in InterMine?
 
-We do not currently have any pathway visualization within FlyMine. However, linkouts enable you to view the pathways in either Reactome or Kegg.
+We do not currently have any pathway visualization within HumanMine. However, links enable you to view the pathways in either Reactome or Kegg.
 
 ### How do I find out if my genes or lists of genes have any pathways in common?
 

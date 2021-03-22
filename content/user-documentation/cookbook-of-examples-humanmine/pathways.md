@@ -22,7 +22,7 @@ Under the Templates tab, start typing in the "**Filter by description**" box; ma
 
 ### Can I visualize this pathway data in InterMine?
 
-We do currently have pathway visualization within HumanMine. In addition, provided links will enable you to also view the pathways in either **Reactome** or **Kegg**.
+We do currently have pathway visualization within HumanMine. In addition, provided links will enable you to also view the pathways in either **Reactome** or **KEGG**.
 
 ### How do I find out if my genes or lists of genes have any pathways in common?
 

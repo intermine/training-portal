@@ -57,6 +57,7 @@
     * [Cookbook of Examples: HumanMine](content/user-documentation/cookbook-of-examples-humanmine/README.md)
       * [Gene Ontology Data](content/user-documentation/cookbook-of-examples-humanmine/gene-ontology.md)
       * [Expression Data](content/user-documentation/cookbook-of-examples-humanmine/expression-data.md)
+      * [Pathways](content/user-documentation/cookbook-of-examples-humanmine/pathways.md)
     * [Account](content/user-documentation/account.md)
     * [Admin Account](content/user-documentation/admin-account.md)
     * [InterMine Mobile](content/user-documentation/intermine-mobile.md)

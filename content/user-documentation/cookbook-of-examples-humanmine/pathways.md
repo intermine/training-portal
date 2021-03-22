@@ -32,9 +32,9 @@ The underlying data model makes it possible to construct queries that effectivel
 
 ### How do I find whether orthologues of my gene\(s\) share similar or have additional pathways?
 
-For a single gene, use the report page pathways viewer:
+For a single gene, use the report page pathways viewer. 
 
-Each gene report page in FlyMine \(and in other MOD-InterMines\) includes a table displaying pathways for the orthologues of the gene you are viewing. The table is created by searching the other InterMine databases for orthologous genes and the pathways they are involved in:
+Each gene report page in HumanMine - and other MOD-InterMines - includes a table displaying pathways for the orthologues of the gene you are viewing. The table is created by searching the other InterMine databases for orthologous genes and the pathways they are involved in:
 
 For a list of genes:
 

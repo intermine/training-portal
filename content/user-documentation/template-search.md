@@ -46,7 +46,7 @@ If you have a private list of the correct type \(e.g. a list of genes\) or a pub
 
 ![](../../.gitbook/assets/in-list-2%20%281%29.png)
 
-There is also a “**Not in list**” option that you can use to exclude items \(e.g. genes\) from your search. This will search the database for all items except those in the list specified. 
+There is also a “Not in list” option that you can use to exclude items \(e.g. genes\) from your search. This will search the database for all items except those in the list specified. 
 
 ![](../../.gitbook/assets/not-in-list%20%281%29.png)
 

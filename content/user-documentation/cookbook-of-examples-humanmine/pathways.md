@@ -18,7 +18,7 @@ Use the following template search:
 
 ### I am not sure of the exact name of the pathway that I am interested in; how I can find this?
 
-Just start typing in the pathway name box - the type-ahead function will automatically show you matching pathways.
+Under the Templates tab, start typing in the "**Filter by description**" box; matching pathways will automatically be shown. You can also use the "**pathway**" keyword to view all available pathways. 
 
 ### Can I visualize this pathway data in InterMine?
 
@@ -26,7 +26,7 @@ We do not currently have any pathway visualization within FlyMine. However, link
 
 ### How do I find out if my genes or lists of genes have any pathways in common?
 
-The underlying data model makes it possible to construct queries which effectively compare two lists for a specified attribute. Such a query is available as a template for comparing the pathways for two genes or two sets of genes. For two genes, the query will return any pathways that are shared by the two genes. Similarly, if two lists are provided, any pathways shared between any two genes in the lists are returned. The template is:
+The underlying data model makes it possible to construct queries that effectively compare two lists for a specified attribute. Such a query is available as a template for comparing the pathways for two genes or two sets of genes. For two genes, the query will return any pathways that are shared by the two genes. Similarly, if two lists are provided, any pathways shared between any two genes in the lists are returned. The template is:
 
 [Gene A → Pathways ← Gene B](http://www.flymine.org/query/template.do?name=ListPathway&scope=all)
 

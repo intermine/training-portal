@@ -57,7 +57,7 @@ This is a three step process:
 
      new lists appear at the top of the [Lists view page](../lists/lists.md). 
 
-   * Select the two lists and then use the **“Asymmetric Difference”** operation, which provides options to subtract the lists either way. You need to select the single tissue list - the **“Adipose tissue”** list - minus the all **“tissues but one”** list. 
+   * Select the two lists and then use the **“Subtract lists”** operation, which provides options to subtract the lists either way. You need to select the single tissue list - the **“Adipose tissue”** list - minus the all **“tissues but one”** list. 
    * Enter a name for your new list, which should appear at the top of the [Lists view page](../lists/lists.md). 
 
 ```text

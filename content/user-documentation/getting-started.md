@@ -9,7 +9,7 @@ You can use this guide to:
 * Understand the basics of using InterMine and its main sections 
 
 {% hint style="info" %}
-This concise overview is geared mainly for new users. For more information about a particular topic, see the relevant section in the documentation. 
+This concise overview is geared mainly for new users. For more information about a particular topic, view its relevant section in the documentation. 
 {% endhint %}
 
 ### The Basics

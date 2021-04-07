@@ -16,8 +16,11 @@ To verify your install, run this command:
 ```
 hugo version
 ```
+To install hugo for Windows visit this [link](https://gohugo.io/getting-started/installing) and follow the installation instructions.
 
 If you already have Hugo, skip step 1 and go straight to step 2
+
+
 
 ## Step 2: Run hugo server in the repository
 

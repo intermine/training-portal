@@ -7,7 +7,7 @@ weight = 1
 {{< lead >}}
 
 
-This part gives **text** and **video** tutorials of Python on how to interact with InterMine registry. 
+This part gives **text** and **video** tutorials on using the Python client to interact with the InterMine API.
 <br/>
 
 

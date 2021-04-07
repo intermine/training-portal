@@ -7,6 +7,9 @@ description = ""
 InterMine Training Portal is developed for users of <a href="http://intermine.org/">InterMine</a>, which integrates biological data sources, making it easy to query and analyse data.
 {{< /lead >}}
 
+## Python Tutorial
+We have **video** and **text** tutorials on how to query the InterMine API with the Python client. [Click here]({{< relref "python-tutorial" >}} "Python Tutorial") to see them.
+
 ## Training Workshops
 
 We typically carry out a few training workshops each year - keep your eye on our [calendar](https://intermineorg.wordpress.com/events/) or [twitter feed](https://twitter.com/intermineorg) to find out when registration is open. 

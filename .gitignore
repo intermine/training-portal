@@ -1,3 +1,6 @@
+# There is no reason to commit the built website.
+/docs/
+
 # Binaries for programs and plugins
 *.exe
 *.exe~

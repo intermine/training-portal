@@ -1,6 +1,5 @@
-intermine-training-portal
+InterMine Training Portal
 ===
-https://persdre.github.io/intermine-training-portal/
 
 If you want to run this repository locally - First clone or download this repo.
 
@@ -29,7 +28,7 @@ In the root folder of this repo you downloaded just now, run this command:
 ```
 hugo server
 ```
-Then the whole content will be displayed on http://localhost:1313/intermine-training-portal/, all you have to do is open your browser and paste the given link.
+Then the whole content will be displayed on http://localhost:1313/training-portal/, all you have to do is open your browser and paste the given link.
 
 ## Appendix 
 
@@ -37,6 +36,9 @@ For more tutorials of Hugo, you can visit https://gohugo.io/.
 
 Have some suggestions or questions? Welcome to open an issue!
 
+### Deployment
+
+This repository uses GitHub Actions to automatically deploy any changes pushed to the master branch to GitHub Pages. The website is deployed to: http://intermine.org/training-portal/
 
 ## License
 

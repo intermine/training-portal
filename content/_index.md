@@ -49,6 +49,7 @@ We typically carry out a few training workshops each year - keep your eye on our
 
 Here's a short list of video tutorials produced by community members. If you'd like yours added to the list please [contact us](http://intermine.org/contact/)!
 
+- [Humanmine tutorials](http://intermine.org/intermine-user-docs/docs/videos) - using the new BlueGenes interface
 - [FlyMine intro videos](http://intermine.readthedocs.io/en/latest/help/) - for the Drosophila-minded among us.
 - [TargetMine tutorials](http://targetmine.mizuguchilab.org/tutorials) Tutorials for an InterMine designed to help identify drug targets.
 - [YeastMine videos](https://www.youtube.com/watch?v=fnWv6qRl_DA&list=PL0VHJdmmIuj-b00aNRfqwMe9TvkfWWcyZ) - SGD has quite a broad range of tutorials based on S. Cerevisiae data.
